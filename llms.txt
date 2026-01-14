@@ -1,0 +1,1357 @@
+# Source: https://agentskills.io/llms.txt
+
+# Agent Skills
+
+## Docs
+
+- [Overview](https://agentskills.io/home.md): A simple, open format for giving agents new capabilities and expertise.
+- [Integrate skills into your agent](https://agentskills.io/integrate-skills.md): How to add Agent Skills support to your agent or tool.
+- [Specification](https://agentskills.io/specification.md): The complete format specification for Agent Skills.
+- [What are skills?](https://agentskills.io/what-are-skills.md): Agent Skills are a lightweight, open format for extending AI agent capabilities with specialized knowledge and workflows.
+
+
+# Source: https://code.claude.com/docs/llms.txt
+
+# Claude Code Docs
+
+## Docs
+
+- [Claude Code on Amazon Bedrock](https://code.claude.com/docs/en/amazon-bedrock.md): Learn about configuring Claude Code through Amazon Bedrock, including setup, IAM configuration, and troubleshooting.
+- [Analytics](https://code.claude.com/docs/en/analytics.md): View detailed usage insights and productivity metrics for your organization's Claude Code deployment.
+- [Changelog](https://code.claude.com/docs/en/changelog.md)
+- [Checkpointing](https://code.claude.com/docs/en/checkpointing.md): Automatically track and rewind Claude's edits to quickly recover from unwanted changes.
+- [Use Claude Code with Chrome (beta)](https://code.claude.com/docs/en/chrome.md): Connect Claude Code to your browser to test web apps, debug with console logs, and automate browser tasks.
+- [Claude Code on the web](https://code.claude.com/docs/en/claude-code-on-the-web.md): Run Claude Code tasks asynchronously on secure cloud infrastructure
+- [CLI reference](https://code.claude.com/docs/en/cli-reference.md): Complete reference for Claude Code command-line interface, including commands and flags.
+- [Common workflows](https://code.claude.com/docs/en/common-workflows.md): Learn about common workflows with Claude Code.
+- [Manage costs effectively](https://code.claude.com/docs/en/costs.md): Learn how to track and optimize token usage and costs when using Claude Code.
+- [Data usage](https://code.claude.com/docs/en/data-usage.md): Learn about Anthropic's data usage policies for Claude
+- [Claude Code on desktop](https://code.claude.com/docs/en/desktop.md): Run Claude Code tasks locally or on secure cloud infrastructure with the Claude desktop app
+- [Development containers](https://code.claude.com/docs/en/devcontainer.md): Learn about the Claude Code development container for teams that need consistent, secure environments.
+- [Discover and install prebuilt plugins through marketplaces](https://code.claude.com/docs/en/discover-plugins.md): Find and install plugins from marketplaces to extend Claude Code with new commands, agents, and capabilities.
+- [Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions.md): Learn about integrating Claude Code into your development workflow with Claude Code GitHub Actions
+- [Claude Code GitLab CI/CD](https://code.claude.com/docs/en/gitlab-ci-cd.md): Learn about integrating Claude Code into your development workflow with GitLab CI/CD
+- [Claude Code on Google Vertex AI](https://code.claude.com/docs/en/google-vertex-ai.md): Learn about configuring Claude Code through Google Vertex AI, including setup, IAM configuration, and troubleshooting.
+- [Run Claude Code programmatically](https://code.claude.com/docs/en/headless.md): Use the Agent SDK to run Claude Code programmatically from the CLI, Python, or TypeScript.
+- [Hooks reference](https://code.claude.com/docs/en/hooks.md): This page provides reference documentation for implementing hooks in Claude Code.
+- [Get started with Claude Code hooks](https://code.claude.com/docs/en/hooks-guide.md): Learn how to customize and extend Claude Code's behavior by registering shell commands
+- [Identity and Access Management](https://code.claude.com/docs/en/iam.md): Learn how to configure user authentication, authorization, and access controls for Claude Code in your organization.
+- [Interactive mode](https://code.claude.com/docs/en/interactive-mode.md): Complete reference for keyboard shortcuts, input modes, and interactive features in Claude Code sessions.
+- [JetBrains IDEs](https://code.claude.com/docs/en/jetbrains.md): Use Claude Code with JetBrains IDEs including IntelliJ, PyCharm, WebStorm, and more
+- [Legal and compliance](https://code.claude.com/docs/en/legal-and-compliance.md): Legal agreements, compliance certifications, and security information for Claude Code.
+- [LLM gateway configuration](https://code.claude.com/docs/en/llm-gateway.md): Learn how to configure Claude Code to work with LLM gateway solutions. Covers gateway requirements, authentication configuration, model selection, and provider-specific endpoint setup.
+- [Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp.md): Learn how to connect Claude Code to your tools with the Model Context Protocol.
+- [Manage Claude's memory](https://code.claude.com/docs/en/memory.md): Learn how to manage Claude Code's memory across sessions with different memory locations and best practices.
+- [Claude Code on Microsoft Foundry](https://code.claude.com/docs/en/microsoft-foundry.md): Learn about configuring Claude Code through Microsoft Foundry, including setup, configuration, and troubleshooting.
+- [Model configuration](https://code.claude.com/docs/en/model-config.md): Learn about the Claude Code model configuration, including model aliases like `opusplan`
+- [Monitoring](https://code.claude.com/docs/en/monitoring-usage.md): Learn how to enable and configure OpenTelemetry for Claude Code.
+- [Enterprise network configuration](https://code.claude.com/docs/en/network-config.md): Configure Claude Code for enterprise environments with proxy servers, custom Certificate Authorities (CA), and mutual Transport Layer Security (mTLS) authentication.
+- [Output styles](https://code.claude.com/docs/en/output-styles.md): Adapt Claude Code for uses beyond software engineering
+- [Claude Code overview](https://code.claude.com/docs/en/overview.md): Learn about Claude Code, Anthropic's agentic coding tool that lives in your terminal and helps you turn ideas into code faster than ever before.
+- [Create and distribute a plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces.md): Build and host plugin marketplaces to distribute Claude Code extensions across teams and communities.
+- [Create plugins](https://code.claude.com/docs/en/plugins.md): Create custom plugins to extend Claude Code with slash commands, agents, hooks, Skills, and MCP servers.
+- [Plugins reference](https://code.claude.com/docs/en/plugins-reference.md): Complete technical reference for Claude Code plugin system, including schemas, CLI commands, and component specifications.
+- [Quickstart](https://code.claude.com/docs/en/quickstart.md): Welcome to Claude Code!
+- [Sandboxing](https://code.claude.com/docs/en/sandboxing.md): Learn how Claude Code's sandboxed bash tool provides filesystem and network isolation for safer, more autonomous agent execution.
+- [Security](https://code.claude.com/docs/en/security.md): Learn about Claude Code's security safeguards and best practices for safe usage.
+- [Claude Code settings](https://code.claude.com/docs/en/settings.md): Configure Claude Code with global and project-level settings, and environment variables.
+- [Set up Claude Code](https://code.claude.com/docs/en/setup.md): Install, authenticate, and start using Claude Code on your development machine.
+- [Agent Skills](https://code.claude.com/docs/en/skills.md): Create, manage, and share Skills to extend Claude's capabilities in Claude Code.
+- [Claude Code in Slack](https://code.claude.com/docs/en/slack.md): Delegate coding tasks directly from your Slack workspace
+- [Slash commands](https://code.claude.com/docs/en/slash-commands.md): Control Claude's behavior during an interactive session with slash commands.
+- [Status line configuration](https://code.claude.com/docs/en/statusline.md): Create a custom status line for Claude Code to display contextual information
+- [Create custom subagents](https://code.claude.com/docs/en/sub-agents.md): Create and use specialized AI subagents in Claude Code for task-specific workflows and improved context management.
+- [Optimize your terminal setup](https://code.claude.com/docs/en/terminal-config.md): Claude Code works best when your terminal is properly configured. Follow these guidelines to optimize your experience.
+- [Enterprise deployment overview](https://code.claude.com/docs/en/third-party-integrations.md): Learn how Claude Code can integrate with various third-party services and infrastructure to meet enterprise deployment requirements.
+- [Troubleshooting](https://code.claude.com/docs/en/troubleshooting.md): Discover solutions to common issues with Claude Code installation and usage.
+- [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code.md): Install and configure the Claude Code extension for VS Code. Get AI coding assistance with inline diffs, @-mentions, plan review, and keyboard shortcuts.
+
+
+# Source: https://platform.claude.com/llms.txt
+
+# Anthropic Developer Documentation
+
+This file provides an overview of the Anthropic API documentation and developer resources.
+
+## Root URL
+
+Claude Developer Platform Console (Requires login)
+
+https://platform.claude.com
+
+## Available Languages on Website
+
+The full documentation is available in the following languages on https://platform.claude.com/docs:
+
+- English (en) - 532 pages - /docs - Content included below
+- German (Deutsch) (de) - 181 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 181 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 181 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 181 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 181 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 181 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 181 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 181 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 181 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 181 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 181 pages - /docs/id - Visit website for content
+
+---
+
+## English
+
+### Developer Guide
+
+- [Overview](https://platform.claude.com/docs/en/agent-sdk/overview.md) - Agent SDK overview
+- [Overview](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview.md) - Agent Skills
+- [Features overview](https://platform.claude.com/docs/en/build-with-claude/overview.md)
+- [Quickstart](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart.md) - Get started with Agent Skills in the API
+- [Quickstart](https://platform.claude.com/docs/en/get-started.md) - Get started with Claude
+- [Intro to Claude](https://platform.claude.com/docs/en/intro.md)
+- [Models overview](https://platform.claude.com/docs/en/about-claude/models/overview.md)
+- [Overview](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview.md) - Prompt engineering overview
+- [Quickstart](https://platform.claude.com/docs/en/agent-sdk/quickstart.md)
+- [Overview](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview.md) - Tool use with Claude
+- [Admin API overview](https://platform.claude.com/docs/en/build-with-claude/administration-api.md)
+- [Python SDK](https://platform.claude.com/docs/en/agent-sdk/python.md) - Agent SDK reference - Python
+- [TypeScript SDK](https://platform.claude.com/docs/en/agent-sdk/typescript.md) - Agent SDK reference - TypeScript
+- [Agent Skills in the SDK](https://platform.claude.com/docs/en/agent-sdk/skills.md)
+- [Prompt generator](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-generator.md) - Automatically generate first draft prompt templates
+- [Bash tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool.md)
+- [Batch processing](https://platform.claude.com/docs/en/build-with-claude/batch-processing.md)
+- [Be clear and direct](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/be-clear-and-direct.md) - Be clear, direct, and detailed
+- [Extended thinking](https://platform.claude.com/docs/en/build-with-claude/extended-thinking.md) - Building with extended thinking
+- [Chain complex prompts](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-prompts.md) - Chain complex prompts for stronger performance
+- [Choosing a model](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model.md) - Choosing the right model
+- [Citations](https://platform.claude.com/docs/en/build-with-claude/citations.md)
+- [Claude Code Analytics API](https://platform.claude.com/docs/en/build-with-claude/claude-code-analytics-api.md)
+- [Microsoft Foundry](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry.md) - Claude in Microsoft Foundry
+- [Amazon Bedrock](https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock.md) - Claude on Amazon Bedrock
+- [Vertex AI](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai.md) - Claude on Vertex AI
+- [Code execution tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool.md)
+- [Computer use tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool.md)
+- [Handling Permissions](https://platform.claude.com/docs/en/agent-sdk/permissions.md) - Configure permissions
+- [Context editing](https://platform.claude.com/docs/en/build-with-claude/context-editing.md)
+- [Context windows](https://platform.claude.com/docs/en/build-with-claude/context-windows.md)
+- [Develop test cases](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md) - Create strong empirical evaluations
+- [Custom Tools](https://platform.claude.com/docs/en/agent-sdk/custom-tools.md)
+- [Define success criteria](https://platform.claude.com/docs/en/test-and-evaluate/define-success.md) - Define your success criteria
+- [Effort](https://platform.claude.com/docs/en/build-with-claude/effort.md)
+- [Embeddings](https://platform.claude.com/docs/en/build-with-claude/embeddings.md)
+- [Extended thinking tips](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/extended-thinking-tips.md)
+- [Files API](https://platform.claude.com/docs/en/build-with-claude/files.md)
+- [Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md)
+- [Give Claude a role (system prompts)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/system-prompts.md) - Giving Claude a role with a system prompt
+- [User approvals and input](https://platform.claude.com/docs/en/agent-sdk/user-input.md) - Handle approvals and user input
+- [Hosting the Agent SDK](https://platform.claude.com/docs/en/agent-sdk/hosting.md)
+- [How to implement tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use.md)
+- [Increase output consistency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency.md)
+- [Control execution with hooks](https://platform.claude.com/docs/en/agent-sdk/hooks.md) - Intercept and control agent behavior with hooks
+- [Keep Claude in character](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/keep-claude-in-character.md) - Keep Claude in character with role prompting and prefilling
+- [Let Claude think (CoT)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought.md) - Let Claude think (chain of thought prompting) to increase performance
+- [Long context tips](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/long-context-tips.md) - Long context prompting tips
+- [MCP connector](https://platform.claude.com/docs/en/agents-and-tools/mcp-connector.md)
+- [MCP in the SDK](https://platform.claude.com/docs/en/agent-sdk/mcp.md)
+- [Memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool.md)
+- [Migration Guide](https://platform.claude.com/docs/en/agent-sdk/migration-guide.md) - Migrate to Claude Agent SDK
+- [Migrating to Claude 4.5](https://platform.claude.com/docs/en/about-claude/models/migrating-to-claude-4.md)
+- [Mitigate jailbreaks](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks.md) - Mitigate jailbreaks and prompt injections
+- [Model deprecations](https://platform.claude.com/docs/en/about-claude/model-deprecations.md)
+- [Modifying system prompts](https://platform.claude.com/docs/en/agent-sdk/modifying-system-prompts.md)
+- [Multilingual support](https://platform.claude.com/docs/en/build-with-claude/multilingual-support.md)
+- [PDF support](https://platform.claude.com/docs/en/build-with-claude/pdf-support.md)
+- [Plugins in the SDK](https://platform.claude.com/docs/en/agent-sdk/plugins.md)
+- [Prefill Claude's response](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prefill-claudes-response.md) - Prefill Claude's response for greater output control
+- [Pricing](https://platform.claude.com/docs/en/about-claude/pricing.md)
+- [Programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling.md)
+- [Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching.md)
+- [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices.md)
+- [Reduce hallucinations](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations.md)
+- [Reduce prompt leak](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak.md)
+- [Reducing latency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency.md)
+- [Remote MCP servers](https://platform.claude.com/docs/en/agents-and-tools/remote-mcp-servers.md)
+- [File checkpointing](https://platform.claude.com/docs/en/agent-sdk/file-checkpointing.md) - Rewind file changes with checkpointing
+- [Search results](https://platform.claude.com/docs/en/build-with-claude/search-results.md)
+- [Securely deploying AI agents](https://platform.claude.com/docs/en/agent-sdk/secure-deployment.md)
+- [Session Management](https://platform.claude.com/docs/en/agent-sdk/sessions.md)
+- [Best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices.md) - Skill authoring best practices
+- [Slash Commands in the SDK](https://platform.claude.com/docs/en/agent-sdk/slash-commands.md)
+- [Streaming Input](https://platform.claude.com/docs/en/agent-sdk/streaming-vs-single-mode.md)
+- [Streaming Messages](https://platform.claude.com/docs/en/build-with-claude/streaming.md)
+- [Streaming refusals](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals.md)
+- [Structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs.md)
+- [Structured outputs in the SDK](https://platform.claude.com/docs/en/agent-sdk/structured-outputs.md)
+- [Subagents in the SDK](https://platform.claude.com/docs/en/agent-sdk/subagents.md)
+- [Text editor tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool.md)
+- [Todo Lists](https://platform.claude.com/docs/en/agent-sdk/todo-tracking.md)
+- [Token counting](https://platform.claude.com/docs/en/build-with-claude/token-counting.md)
+- [Tool search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool.md)
+- [Tracking Costs and Usage](https://platform.claude.com/docs/en/agent-sdk/cost-tracking.md)
+- [TypeScript V2 (preview)](https://platform.claude.com/docs/en/agent-sdk/typescript-v2-preview.md) - TypeScript SDK V2 interface (preview)
+- [Usage and Cost API](https://platform.claude.com/docs/en/build-with-claude/usage-cost-api.md)
+- [Use examples (multishot prompting)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/multishot-prompting.md) - Use examples (multishot prompting) to guide Claude's behavior
+- [Prompt improver](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-improver.md) - Use our prompt improver to optimize your prompts
+- [Use prompt templates](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-templates-and-variables.md) - Use prompt templates and variables
+- [Use XML tags](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/use-xml-tags.md) - Use XML tags to structure your prompts
+- [Using Skills with the API](https://platform.claude.com/docs/en/build-with-claude/skills-guide.md) - Using Agent Skills with the API
+- [Using the Evaluation Tool](https://platform.claude.com/docs/en/test-and-evaluate/eval-tool.md)
+- [Using the Messages API](https://platform.claude.com/docs/en/build-with-claude/working-with-messages.md)
+- [Vision](https://platform.claude.com/docs/en/build-with-claude/vision.md)
+- [Web fetch tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool.md)
+- [Web search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool.md)
+- [What's new in Claude 4.5](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-5.md)
+- [Workspaces](https://platform.claude.com/docs/en/build-with-claude/workspaces.md)
+
+### API Reference
+
+- [Features overview](https://platform.claude.com/docs/en/api/overview.md) - API Overview
+- [Admin](https://platform.claude.com/docs/en/api/admin.md)
+- [API Keys](https://platform.claude.com/docs/en/api/admin/api_keys.md)
+- [Archive Workspace](https://platform.claude.com/docs/en/api/admin/workspaces/archive.md)
+- [Batches](https://platform.claude.com/docs/en/api/messages/batches.md)
+- [Batches (Beta)](https://platform.claude.com/docs/en/api/beta/messages/batches.md)
+- [Batches (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/messages/batches.md)
+- [Batches (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/messages/batches.md)
+- [Batches (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/messages/batches.md)
+- [Batches (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/messages/batches.md)
+- [Batches (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/messages/batches.md)
+- [Batches (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/messages/batches.md)
+- [Batches (Go)](https://platform.claude.com/docs/en/api/go/messages/batches.md)
+- [Batches (Java)](https://platform.claude.com/docs/en/api/java/messages/batches.md)
+- [Batches (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/messages/batches.md)
+- [Batches (Python)](https://platform.claude.com/docs/en/api/python/messages/batches.md)
+- [Batches (Ruby)](https://platform.claude.com/docs/en/api/ruby/messages/batches.md)
+- [Batches (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/batches.md)
+- [Beta (Beta)](https://platform.claude.com/docs/en/api/beta.md)
+- [Beta (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta.md)
+- [Beta (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta.md)
+- [Beta (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta.md)
+- [Beta (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta.md)
+- [Beta (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta.md)
+- [Beta (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta.md)
+- [Cancel a Message Batch](https://platform.claude.com/docs/en/api/messages/batches/cancel.md)
+- [Cancel a Message Batch (Beta)](https://platform.claude.com/docs/en/api/beta/messages/batches/cancel.md)
+- [Cancel a Message Batch (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/messages/batches/cancel.md)
+- [Cancel a Message Batch (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/messages/batches/cancel.md)
+- [Cancel a Message Batch (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/messages/batches/cancel.md)
+- [Cancel a Message Batch (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/messages/batches/cancel.md)
+- [Cancel a Message Batch (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/messages/batches/cancel.md)
+- [Cancel a Message Batch (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/messages/batches/cancel.md)
+- [Cancel a Message Batch (Go)](https://platform.claude.com/docs/en/api/go/messages/batches/cancel.md)
+- [Cancel a Message Batch (Java)](https://platform.claude.com/docs/en/api/java/messages/batches/cancel.md)
+- [Cancel a Message Batch (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/messages/batches/cancel.md)
+- [Cancel a Message Batch (Python)](https://platform.claude.com/docs/en/api/python/messages/batches/cancel.md)
+- [Cancel a Message Batch (Ruby)](https://platform.claude.com/docs/en/api/ruby/messages/batches/cancel.md)
+- [Cancel a Message Batch (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/batches/cancel.md)
+- [Completions](https://platform.claude.com/docs/en/api/completions.md)
+- [Completions (Go)](https://platform.claude.com/docs/en/api/go/completions.md)
+- [Completions (Java)](https://platform.claude.com/docs/en/api/java/completions.md)
+- [Completions (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/completions.md)
+- [Completions (Python)](https://platform.claude.com/docs/en/api/python/completions.md)
+- [Completions (Ruby)](https://platform.claude.com/docs/en/api/ruby/completions.md)
+- [Completions (TypeScript)](https://platform.claude.com/docs/en/api/typescript/completions.md)
+- [Cost Report](https://platform.claude.com/docs/en/api/admin/cost_report.md)
+- [Count tokens in a Message](https://platform.claude.com/docs/en/api/messages/count_tokens.md)
+- [Count tokens in a Message (Beta)](https://platform.claude.com/docs/en/api/beta/messages/count_tokens.md)
+- [Count tokens in a Message (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/messages/count_tokens.md)
+- [Count tokens in a Message (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/messages/count_tokens.md)
+- [Count tokens in a Message (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/messages/count_tokens.md)
+- [Count tokens in a Message (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/messages/count_tokens.md)
+- [Count tokens in a Message (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/messages/count_tokens.md)
+- [Count tokens in a Message (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/messages/count_tokens.md)
+- [Count tokens in a Message (Go)](https://platform.claude.com/docs/en/api/go/messages/count_tokens.md)
+- [Count tokens in a Message (Java)](https://platform.claude.com/docs/en/api/java/messages/count_tokens.md)
+- [Count tokens in a Message (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/messages/count_tokens.md)
+- [Count tokens in a Message (Python)](https://platform.claude.com/docs/en/api/python/messages/count_tokens.md)
+- [Count tokens in a Message (Ruby)](https://platform.claude.com/docs/en/api/ruby/messages/count_tokens.md)
+- [Count tokens in a Message (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/count_tokens.md)
+- [Create a Message](https://platform.claude.com/docs/en/api/messages/create.md)
+- [Create a Message (Beta)](https://platform.claude.com/docs/en/api/beta/messages/create.md)
+- [Create a Message (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/messages/create.md)
+- [Create a Message (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/messages/create.md)
+- [Create a Message (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/messages/create.md)
+- [Create a Message (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/messages/create.md)
+- [Create a Message (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/messages/create.md)
+- [Create a Message (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/messages/create.md)
+- [Create a Message (Go)](https://platform.claude.com/docs/en/api/go/messages/create.md)
+- [Create a Message (Java)](https://platform.claude.com/docs/en/api/java/messages/create.md)
+- [Create a Message (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/messages/create.md)
+- [Create a Message (Python)](https://platform.claude.com/docs/en/api/python/messages/create.md)
+- [Create a Message (Ruby)](https://platform.claude.com/docs/en/api/ruby/messages/create.md)
+- [Create a Message (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/create.md)
+- [Create a Message Batch](https://platform.claude.com/docs/en/api/messages/batches/create.md)
+- [Create a Message Batch (Beta)](https://platform.claude.com/docs/en/api/beta/messages/batches/create.md)
+- [Create a Message Batch (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/messages/batches/create.md)
+- [Create a Message Batch (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/messages/batches/create.md)
+- [Create a Message Batch (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/messages/batches/create.md)
+- [Create a Message Batch (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/messages/batches/create.md)
+- [Create a Message Batch (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/messages/batches/create.md)
+- [Create a Message Batch (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/messages/batches/create.md)
+- [Create a Message Batch (Go)](https://platform.claude.com/docs/en/api/go/messages/batches/create.md)
+- [Create a Message Batch (Java)](https://platform.claude.com/docs/en/api/java/messages/batches/create.md)
+- [Create a Message Batch (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/messages/batches/create.md)
+- [Create a Message Batch (Python)](https://platform.claude.com/docs/en/api/python/messages/batches/create.md)
+- [Create a Message Batch (Ruby)](https://platform.claude.com/docs/en/api/ruby/messages/batches/create.md)
+- [Create a Message Batch (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/batches/create.md)
+- [Create a Text Completion](https://platform.claude.com/docs/en/api/completions/create.md)
+- [Create a Text Completion (Go)](https://platform.claude.com/docs/en/api/go/completions/create.md)
+- [Create a Text Completion (Java)](https://platform.claude.com/docs/en/api/java/completions/create.md)
+- [Create a Text Completion (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/completions/create.md)
+- [Create a Text Completion (Python)](https://platform.claude.com/docs/en/api/python/completions/create.md)
+- [Create a Text Completion (Ruby)](https://platform.claude.com/docs/en/api/ruby/completions/create.md)
+- [Create a Text Completion (TypeScript)](https://platform.claude.com/docs/en/api/typescript/completions/create.md)
+- [Create Invite](https://platform.claude.com/docs/en/api/admin/invites/create.md)
+- [Create Skill (Beta)](https://platform.claude.com/docs/en/api/beta/skills/create.md)
+- [Create Skill (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/skills/create.md)
+- [Create Skill (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/skills/create.md)
+- [Create Skill (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/skills/create.md)
+- [Create Skill (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills/create.md)
+- [Create Skill (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills/create.md)
+- [Create Skill (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills/create.md)
+- [Create Skill Version (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions/create.md)
+- [Create Skill Version (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/skills/versions/create.md)
+- [Create Skill Version (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/skills/versions/create.md)
+- [Create Skill Version (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/skills/versions/create.md)
+- [Create Skill Version (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills/versions/create.md)
+- [Create Skill Version (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills/versions/create.md)
+- [Create Skill Version (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills/versions/create.md)
+- [Create Workspace](https://platform.claude.com/docs/en/api/admin/workspaces/create.md)
+- [Create Workspace Member](https://platform.claude.com/docs/en/api/admin/workspaces/members/create.md)
+- [Delete a Message Batch](https://platform.claude.com/docs/en/api/messages/batches/delete.md)
+- [Delete a Message Batch (Beta)](https://platform.claude.com/docs/en/api/beta/messages/batches/delete.md)
+- [Delete a Message Batch (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/messages/batches/delete.md)
+- [Delete a Message Batch (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/messages/batches/delete.md)
+- [Delete a Message Batch (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/messages/batches/delete.md)
+- [Delete a Message Batch (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/messages/batches/delete.md)
+- [Delete a Message Batch (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/messages/batches/delete.md)
+- [Delete a Message Batch (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/messages/batches/delete.md)
+- [Delete a Message Batch (Go)](https://platform.claude.com/docs/en/api/go/messages/batches/delete.md)
+- [Delete a Message Batch (Java)](https://platform.claude.com/docs/en/api/java/messages/batches/delete.md)
+- [Delete a Message Batch (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/messages/batches/delete.md)
+- [Delete a Message Batch (Python)](https://platform.claude.com/docs/en/api/python/messages/batches/delete.md)
+- [Delete a Message Batch (Ruby)](https://platform.claude.com/docs/en/api/ruby/messages/batches/delete.md)
+- [Delete a Message Batch (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/batches/delete.md)
+- [Delete File (Beta)](https://platform.claude.com/docs/en/api/beta/files/delete.md)
+- [Delete File (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/files/delete.md)
+- [Delete File (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/files/delete.md)
+- [Delete File (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/files/delete.md)
+- [Delete File (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/files/delete.md)
+- [Delete File (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/files/delete.md)
+- [Delete File (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/files/delete.md)
+- [Delete Invite](https://platform.claude.com/docs/en/api/admin/invites/delete.md)
+- [Delete Skill (Beta)](https://platform.claude.com/docs/en/api/beta/skills/delete.md)
+- [Delete Skill (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/skills/delete.md)
+- [Delete Skill (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/skills/delete.md)
+- [Delete Skill (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/skills/delete.md)
+- [Delete Skill (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills/delete.md)
+- [Delete Skill (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills/delete.md)
+- [Delete Skill (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills/delete.md)
+- [Delete Skill Version (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions/delete.md)
+- [Delete Skill Version (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/skills/versions/delete.md)
+- [Delete Skill Version (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/skills/versions/delete.md)
+- [Delete Skill Version (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/skills/versions/delete.md)
+- [Delete Skill Version (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills/versions/delete.md)
+- [Delete Skill Version (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills/versions/delete.md)
+- [Delete Skill Version (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills/versions/delete.md)
+- [Delete Workspace Member](https://platform.claude.com/docs/en/api/admin/workspaces/members/delete.md)
+- [Download File (Beta)](https://platform.claude.com/docs/en/api/beta/files/download.md)
+- [Download File (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/files/download.md)
+- [Download File (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/files/download.md)
+- [Download File (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/files/download.md)
+- [Download File (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/files/download.md)
+- [Download File (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/files/download.md)
+- [Download File (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/files/download.md)
+- [Files (Beta)](https://platform.claude.com/docs/en/api/beta/files.md)
+- [Files (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/files.md)
+- [Files (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/files.md)
+- [Files (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/files.md)
+- [Files (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/files.md)
+- [Files (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/files.md)
+- [Files (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/files.md)
+- [Get a Model](https://platform.claude.com/docs/en/api/models/retrieve.md)
+- [Get a Model (Beta)](https://platform.claude.com/docs/en/api/beta/models/retrieve.md)
+- [Get a Model (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/models/retrieve.md)
+- [Get a Model (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/models/retrieve.md)
+- [Get a Model (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/models/retrieve.md)
+- [Get a Model (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/models/retrieve.md)
+- [Get a Model (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/models/retrieve.md)
+- [Get a Model (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/models/retrieve.md)
+- [Get a Model (Go)](https://platform.claude.com/docs/en/api/go/models/retrieve.md)
+- [Get a Model (Java)](https://platform.claude.com/docs/en/api/java/models/retrieve.md)
+- [Get a Model (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/models/retrieve.md)
+- [Get a Model (Python)](https://platform.claude.com/docs/en/api/python/models/retrieve.md)
+- [Get a Model (Ruby)](https://platform.claude.com/docs/en/api/ruby/models/retrieve.md)
+- [Get a Model (TypeScript)](https://platform.claude.com/docs/en/api/typescript/models/retrieve.md)
+- [Get Api Key](https://platform.claude.com/docs/en/api/admin/api_keys/retrieve.md)
+- [Get Claude Code Usage Report](https://platform.claude.com/docs/en/api/admin/usage_report/retrieve_claude_code.md)
+- [Get Cost Report](https://platform.claude.com/docs/en/api/admin/cost_report/retrieve.md)
+- [Get Current Organization](https://platform.claude.com/docs/en/api/admin/organizations/me.md)
+- [Get File Metadata (Beta)](https://platform.claude.com/docs/en/api/beta/files/retrieve_metadata.md)
+- [Get File Metadata (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/files/retrieve_metadata.md)
+- [Get File Metadata (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/files/retrieve_metadata.md)
+- [Get File Metadata (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/files/retrieve_metadata.md)
+- [Get File Metadata (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/files/retrieve_metadata.md)
+- [Get File Metadata (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/files/retrieve_metadata.md)
+- [Get File Metadata (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/files/retrieve_metadata.md)
+- [Get Invite](https://platform.claude.com/docs/en/api/admin/invites/retrieve.md)
+- [Get Messages Usage Report](https://platform.claude.com/docs/en/api/admin/usage_report/retrieve_messages.md)
+- [Get Skill (Beta)](https://platform.claude.com/docs/en/api/beta/skills/retrieve.md)
+- [Get Skill (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/skills/retrieve.md)
+- [Get Skill (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/skills/retrieve.md)
+- [Get Skill (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/skills/retrieve.md)
+- [Get Skill (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills/retrieve.md)
+- [Get Skill (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills/retrieve.md)
+- [Get Skill (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills/retrieve.md)
+- [Get Skill Version (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions/retrieve.md)
+- [Get Skill Version (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/skills/versions/retrieve.md)
+- [Get Skill Version (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/skills/versions/retrieve.md)
+- [Get Skill Version (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/skills/versions/retrieve.md)
+- [Get Skill Version (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills/versions/retrieve.md)
+- [Get Skill Version (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills/versions/retrieve.md)
+- [Get Skill Version (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills/versions/retrieve.md)
+- [Get User](https://platform.claude.com/docs/en/api/admin/users/retrieve.md)
+- [Get Workspace](https://platform.claude.com/docs/en/api/admin/workspaces/retrieve.md)
+- [Get Workspace Member](https://platform.claude.com/docs/en/api/admin/workspaces/members/retrieve.md)
+- [Invites](https://platform.claude.com/docs/en/api/admin/invites.md)
+- [List Api Keys](https://platform.claude.com/docs/en/api/admin/api_keys/list.md)
+- [List Files (Beta)](https://platform.claude.com/docs/en/api/beta/files/list.md)
+- [List Files (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/files/list.md)
+- [List Files (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/files/list.md)
+- [List Files (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/files/list.md)
+- [List Files (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/files/list.md)
+- [List Files (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/files/list.md)
+- [List Files (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/files/list.md)
+- [List Invites](https://platform.claude.com/docs/en/api/admin/invites/list.md)
+- [List Message Batches](https://platform.claude.com/docs/en/api/messages/batches/list.md)
+- [List Message Batches (Beta)](https://platform.claude.com/docs/en/api/beta/messages/batches/list.md)
+- [List Message Batches (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/messages/batches/list.md)
+- [List Message Batches (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/messages/batches/list.md)
+- [List Message Batches (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/messages/batches/list.md)
+- [List Message Batches (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/messages/batches/list.md)
+- [List Message Batches (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/messages/batches/list.md)
+- [List Message Batches (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/messages/batches/list.md)
+- [List Message Batches (Go)](https://platform.claude.com/docs/en/api/go/messages/batches/list.md)
+- [List Message Batches (Java)](https://platform.claude.com/docs/en/api/java/messages/batches/list.md)
+- [List Message Batches (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/messages/batches/list.md)
+- [List Message Batches (Python)](https://platform.claude.com/docs/en/api/python/messages/batches/list.md)
+- [List Message Batches (Ruby)](https://platform.claude.com/docs/en/api/ruby/messages/batches/list.md)
+- [List Message Batches (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/batches/list.md)
+- [List Models](https://platform.claude.com/docs/en/api/models/list.md)
+- [List Models (Beta)](https://platform.claude.com/docs/en/api/beta/models/list.md)
+- [List Models (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/models/list.md)
+- [List Models (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/models/list.md)
+- [List Models (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/models/list.md)
+- [List Models (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/models/list.md)
+- [List Models (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/models/list.md)
+- [List Models (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/models/list.md)
+- [List Models (Go)](https://platform.claude.com/docs/en/api/go/models/list.md)
+- [List Models (Java)](https://platform.claude.com/docs/en/api/java/models/list.md)
+- [List Models (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/models/list.md)
+- [List Models (Python)](https://platform.claude.com/docs/en/api/python/models/list.md)
+- [List Models (Ruby)](https://platform.claude.com/docs/en/api/ruby/models/list.md)
+- [List Models (TypeScript)](https://platform.claude.com/docs/en/api/typescript/models/list.md)
+- [List Skill Versions (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions/list.md)
+- [List Skill Versions (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/skills/versions/list.md)
+- [List Skill Versions (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/skills/versions/list.md)
+- [List Skill Versions (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/skills/versions/list.md)
+- [List Skill Versions (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills/versions/list.md)
+- [List Skill Versions (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills/versions/list.md)
+- [List Skill Versions (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills/versions/list.md)
+- [List Skills (Beta)](https://platform.claude.com/docs/en/api/beta/skills/list.md)
+- [List Skills (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/skills/list.md)
+- [List Skills (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/skills/list.md)
+- [List Skills (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/skills/list.md)
+- [List Skills (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills/list.md)
+- [List Skills (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills/list.md)
+- [List Skills (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills/list.md)
+- [List Users](https://platform.claude.com/docs/en/api/admin/users/list.md)
+- [List Workspace Members](https://platform.claude.com/docs/en/api/admin/workspaces/members/list.md)
+- [List Workspaces](https://platform.claude.com/docs/en/api/admin/workspaces/list.md)
+- [Members](https://platform.claude.com/docs/en/api/admin/workspaces/members.md)
+- [Messages](https://platform.claude.com/docs/en/api/messages.md)
+- [Messages (Beta)](https://platform.claude.com/docs/en/api/beta/messages.md)
+- [Messages (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/messages.md)
+- [Messages (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/messages.md)
+- [Messages (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/messages.md)
+- [Messages (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/messages.md)
+- [Messages (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/messages.md)
+- [Messages (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/messages.md)
+- [Messages (Go)](https://platform.claude.com/docs/en/api/go/messages.md)
+- [Messages (Java)](https://platform.claude.com/docs/en/api/java/messages.md)
+- [Messages (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/messages.md)
+- [Messages (Python)](https://platform.claude.com/docs/en/api/python/messages.md)
+- [Messages (Ruby)](https://platform.claude.com/docs/en/api/ruby/messages.md)
+- [Messages (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages.md)
+- [Models](https://platform.claude.com/docs/en/api/models.md)
+- [Models (Beta)](https://platform.claude.com/docs/en/api/beta/models.md)
+- [Models (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/models.md)
+- [Models (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/models.md)
+- [Models (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/models.md)
+- [Models (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/models.md)
+- [Models (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/models.md)
+- [Models (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/models.md)
+- [Models (Go)](https://platform.claude.com/docs/en/api/go/models.md)
+- [Models (Java)](https://platform.claude.com/docs/en/api/java/models.md)
+- [Models (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/models.md)
+- [Models (Python)](https://platform.claude.com/docs/en/api/python/models.md)
+- [Models (Ruby)](https://platform.claude.com/docs/en/api/ruby/models.md)
+- [Models (TypeScript)](https://platform.claude.com/docs/en/api/typescript/models.md)
+- [Organizations](https://platform.claude.com/docs/en/api/admin/organizations.md)
+- [Remove User](https://platform.claude.com/docs/en/api/admin/users/delete.md)
+- [Retrieve a Message Batch](https://platform.claude.com/docs/en/api/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Beta)](https://platform.claude.com/docs/en/api/beta/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Go)](https://platform.claude.com/docs/en/api/go/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Java)](https://platform.claude.com/docs/en/api/java/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Python)](https://platform.claude.com/docs/en/api/python/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (Ruby)](https://platform.claude.com/docs/en/api/ruby/messages/batches/retrieve.md)
+- [Retrieve a Message Batch (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/batches/retrieve.md)
+- [Retrieve Message Batch results](https://platform.claude.com/docs/en/api/messages/batches/results.md)
+- [Retrieve Message Batch results (Beta)](https://platform.claude.com/docs/en/api/beta/messages/batches/results.md)
+- [Retrieve Message Batch results (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/messages/batches/results.md)
+- [Retrieve Message Batch results (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/messages/batches/results.md)
+- [Retrieve Message Batch results (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/messages/batches/results.md)
+- [Retrieve Message Batch results (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/messages/batches/results.md)
+- [Retrieve Message Batch results (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/messages/batches/results.md)
+- [Retrieve Message Batch results (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/messages/batches/results.md)
+- [Retrieve Message Batch results (Go)](https://platform.claude.com/docs/en/api/go/messages/batches/results.md)
+- [Retrieve Message Batch results (Java)](https://platform.claude.com/docs/en/api/java/messages/batches/results.md)
+- [Retrieve Message Batch results (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/messages/batches/results.md)
+- [Retrieve Message Batch results (Python)](https://platform.claude.com/docs/en/api/python/messages/batches/results.md)
+- [Retrieve Message Batch results (Ruby)](https://platform.claude.com/docs/en/api/ruby/messages/batches/results.md)
+- [Retrieve Message Batch results (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/batches/results.md)
+- [Skills (Beta)](https://platform.claude.com/docs/en/api/beta/skills.md)
+- [Skills (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/skills.md)
+- [Skills (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/skills.md)
+- [Skills (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/skills.md)
+- [Skills (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills.md)
+- [Skills (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills.md)
+- [Skills (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills.md)
+- [Update Api Key](https://platform.claude.com/docs/en/api/admin/api_keys/update.md)
+- [Update User](https://platform.claude.com/docs/en/api/admin/users/update.md)
+- [Update Workspace](https://platform.claude.com/docs/en/api/admin/workspaces/update.md)
+- [Update Workspace Member](https://platform.claude.com/docs/en/api/admin/workspaces/members/update.md)
+- [Upload File (Beta)](https://platform.claude.com/docs/en/api/beta/files/upload.md)
+- [Upload File (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/files/upload.md)
+- [Upload File (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/files/upload.md)
+- [Upload File (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/files/upload.md)
+- [Upload File (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/files/upload.md)
+- [Upload File (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/files/upload.md)
+- [Upload File (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/files/upload.md)
+- [Usage Report](https://platform.claude.com/docs/en/api/admin/usage_report.md)
+- [Users](https://platform.claude.com/docs/en/api/admin/users.md)
+- [Versions (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions.md)
+- [Versions (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/skills/versions.md)
+- [Versions (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/skills/versions.md)
+- [Versions (Beta) (Kotlin)](https://platform.claude.com/docs/en/api/kotlin/beta/skills/versions.md)
+- [Versions (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills/versions.md)
+- [Versions (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills/versions.md)
+- [Versions (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills/versions.md)
+- [Workspaces](https://platform.claude.com/docs/en/api/admin/workspaces.md)
+- [Beta headers](https://platform.claude.com/docs/en/api/beta-headers.md)
+- [Client SDKs](https://platform.claude.com/docs/en/api/client-sdks.md)
+- [Errors](https://platform.claude.com/docs/en/api/errors.md)
+- [IP addresses](https://platform.claude.com/docs/en/api/ip-addresses.md)
+- [OpenAI SDK compatibility](https://platform.claude.com/docs/en/api/openai-sdk.md)
+- [Rate limits](https://platform.claude.com/docs/en/api/rate-limits.md)
+- [Service tiers](https://platform.claude.com/docs/en/api/service-tiers.md)
+- [Supported regions](https://platform.claude.com/docs/en/api/supported-regions.md)
+- [Versions](https://platform.claude.com/docs/en/api/versioning.md)
+
+### Resources
+
+- [Overview](https://platform.claude.com/docs/en/about-claude/use-case-guides/overview.md) - Guides to common use cases
+- [Overview](https://platform.claude.com/docs/en/resources/overview.md)
+- [Adaptive editor](https://platform.claude.com/docs/en/resources/prompt-library/adaptive-editor.md)
+- [Airport code analyst](https://platform.claude.com/docs/en/resources/prompt-library/airport-code-analyst.md)
+- [Alien anthropologist](https://platform.claude.com/docs/en/resources/prompt-library/alien-anthropologist.md)
+- [Alliteration alchemist](https://platform.claude.com/docs/en/resources/prompt-library/alliteration-alchemist.md)
+- [Babel's broadcasts](https://platform.claude.com/docs/en/resources/prompt-library/babels-broadcasts.md)
+- [Brand builder](https://platform.claude.com/docs/en/resources/prompt-library/brand-builder.md)
+- [Career coach](https://platform.claude.com/docs/en/resources/prompt-library/career-coach.md)
+- [Cite your sources](https://platform.claude.com/docs/en/resources/prompt-library/cite-your-sources.md)
+- [Code clarifier](https://platform.claude.com/docs/en/resources/prompt-library/code-clarifier.md)
+- [Code consultant](https://platform.claude.com/docs/en/resources/prompt-library/code-consultant.md)
+- [Content moderation](https://platform.claude.com/docs/en/about-claude/use-case-guides/content-moderation.md)
+- [Corporate clairvoyant](https://platform.claude.com/docs/en/resources/prompt-library/corporate-clairvoyant.md)
+- [Cosmic Keystrokes](https://platform.claude.com/docs/en/resources/prompt-library/cosmic-keystrokes.md)
+- [CSV converter](https://platform.claude.com/docs/en/resources/prompt-library/csv-converter.md)
+- [Culinary creator](https://platform.claude.com/docs/en/resources/prompt-library/culinary-creator.md)
+- [Customer support agent](https://platform.claude.com/docs/en/about-claude/use-case-guides/customer-support-chat.md)
+- [Data organizer](https://platform.claude.com/docs/en/resources/prompt-library/data-organizer.md)
+- [Direction decoder](https://platform.claude.com/docs/en/resources/prompt-library/direction-decoder.md)
+- [Dream interpreter](https://platform.claude.com/docs/en/resources/prompt-library/dream-interpreter.md)
+- [Efficiency estimator](https://platform.claude.com/docs/en/resources/prompt-library/efficiency-estimator.md)
+- [Email extractor](https://platform.claude.com/docs/en/resources/prompt-library/email-extractor.md)
+- [Emoji encoder](https://platform.claude.com/docs/en/resources/prompt-library/emoji-encoder.md)
+- [Ethical dilemma navigator](https://platform.claude.com/docs/en/resources/prompt-library/ethical-dilemma-navigator.md)
+- [Excel formula expert](https://platform.claude.com/docs/en/resources/prompt-library/excel-formula-expert.md)
+- [Function fabricator](https://platform.claude.com/docs/en/resources/prompt-library/function-fabricator.md)
+- [Futuristic fashion advisor](https://platform.claude.com/docs/en/resources/prompt-library/futuristic-fashion-advisor.md)
+- [Git gud](https://platform.claude.com/docs/en/resources/prompt-library/git-gud.md)
+- [Glossary](https://platform.claude.com/docs/en/about-claude/glossary.md)
+- [Google apps scripter](https://platform.claude.com/docs/en/resources/prompt-library/google-apps-scripter.md)
+- [Grading guru](https://platform.claude.com/docs/en/resources/prompt-library/grading-guru.md)
+- [Grammar genie](https://platform.claude.com/docs/en/resources/prompt-library/grammar-genie.md)
+- [Hal the humorous helper](https://platform.claude.com/docs/en/resources/prompt-library/hal-the-humorous-helper.md)
+- [Idiom illuminator](https://platform.claude.com/docs/en/resources/prompt-library/idiom-illuminator.md)
+- [Interview question crafter](https://platform.claude.com/docs/en/resources/prompt-library/interview-question-crafter.md)
+- [LaTeX legend](https://platform.claude.com/docs/en/resources/prompt-library/latex-legend.md)
+- [Legal summarization](https://platform.claude.com/docs/en/about-claude/use-case-guides/legal-summarization.md)
+- [Lesson planner](https://platform.claude.com/docs/en/resources/prompt-library/lesson-planner.md)
+- [Master moderator](https://platform.claude.com/docs/en/resources/prompt-library/master-moderator.md)
+- [Meeting scribe](https://platform.claude.com/docs/en/resources/prompt-library/meeting-scribe.md)
+- [Memo maestro](https://platform.claude.com/docs/en/resources/prompt-library/memo-maestro.md)
+- [Mindfulness mentor](https://platform.claude.com/docs/en/resources/prompt-library/mindfulness-mentor.md)
+- [Mood colorizer](https://platform.claude.com/docs/en/resources/prompt-library/mood-colorizer.md)
+- [Motivational muse](https://platform.claude.com/docs/en/resources/prompt-library/motivational-muse.md)
+- [Neologism creator](https://platform.claude.com/docs/en/resources/prompt-library/neologism-creator.md)
+- [Perspectives ponderer](https://platform.claude.com/docs/en/resources/prompt-library/perspectives-ponderer.md)
+- [Philosophical musings](https://platform.claude.com/docs/en/resources/prompt-library/philosophical-musings.md)
+- [PII purifier](https://platform.claude.com/docs/en/resources/prompt-library/pii-purifier.md)
+- [Polyglot superpowers](https://platform.claude.com/docs/en/resources/prompt-library/polyglot-superpowers.md)
+- [Portmanteau poet](https://platform.claude.com/docs/en/resources/prompt-library/portmanteau-poet.md)
+- [Product naming pro](https://platform.claude.com/docs/en/resources/prompt-library/product-naming-pro.md)
+- [Prompt Library](https://platform.claude.com/docs/en/resources/prompt-library/library.md)
+- [Prose polisher](https://platform.claude.com/docs/en/resources/prompt-library/prose-polisher.md)
+- [Pun-dit](https://platform.claude.com/docs/en/resources/prompt-library/pun-dit.md)
+- [Python bug buster](https://platform.claude.com/docs/en/resources/prompt-library/python-bug-buster.md)
+- [Review classifier](https://platform.claude.com/docs/en/resources/prompt-library/review-classifier.md)
+- [Riddle me this](https://platform.claude.com/docs/en/resources/prompt-library/riddle-me-this.md)
+- [Sci-fi scenario simulator](https://platform.claude.com/docs/en/resources/prompt-library/sci-fi-scenario-simulator.md)
+- [Second-grade simplifier](https://platform.claude.com/docs/en/resources/prompt-library/second-grade-simplifier.md)
+- [Simile savant](https://platform.claude.com/docs/en/resources/prompt-library/simile-savant.md)
+- [Socratic sage](https://platform.claude.com/docs/en/resources/prompt-library/socratic-sage.md)
+- [Spreadsheet sorcerer](https://platform.claude.com/docs/en/resources/prompt-library/spreadsheet-sorcerer.md)
+- [SQL sorcerer](https://platform.claude.com/docs/en/resources/prompt-library/sql-sorcerer.md)
+- [Storytelling sidekick](https://platform.claude.com/docs/en/resources/prompt-library/storytelling-sidekick.md)
+- [System Prompts](https://platform.claude.com/docs/en/release-notes/system-prompts.md)
+- [Ticket routing](https://platform.claude.com/docs/en/about-claude/use-case-guides/ticket-routing.md)
+- [Time travel consultant](https://platform.claude.com/docs/en/resources/prompt-library/time-travel-consultant.md)
+- [Tongue twister](https://platform.claude.com/docs/en/resources/prompt-library/tongue-twister.md)
+- [Trivia generator](https://platform.claude.com/docs/en/resources/prompt-library/trivia-generator.md)
+- [Tweet tone detector](https://platform.claude.com/docs/en/resources/prompt-library/tweet-tone-detector.md)
+- [VR fitness innovator](https://platform.claude.com/docs/en/resources/prompt-library/vr-fitness-innovator.md)
+- [Website wizard](https://platform.claude.com/docs/en/resources/prompt-library/website-wizard.md)
+
+### Release Notes
+
+- [Claude Developer Platform](https://platform.claude.com/docs/en/release-notes/overview.md)
+
+---
+
+For more comprehensive documentation, see [llms-full.txt](https://platform.claude.com/llms-full.txt)
+
+
+# Source: https://cursor.com/llms.txt
+
+# Cursor Documentation
+
+## Get Started
+
+- https://cursor.com/docs.md
+- https://cursor.com/docs/get-started/quickstart.md
+- https://cursor.com/docs/get-started/concepts.md
+- https://cursor.com/docs/models.md
+- https://cursor.com/docs/account/pricing.md
+
+## agent
+
+- https://cursor.com/docs/agent/overview.md
+- https://cursor.com/docs/agent/modes.md
+- https://cursor.com/docs/agent/review.md
+- https://cursor.com/docs/agent/terminal.md
+- https://cursor.com/docs/agent/browser.md
+- https://cursor.com/docs/agent/security.md
+- https://cursor.com/docs/agent/hooks.md
+
+## Context
+
+- https://cursor.com/docs/context/rules.md
+- https://cursor.com/docs/context/commands.md
+- https://cursor.com/docs/context/skills.md
+- https://cursor.com/docs/context/subagents.md
+- https://cursor.com/docs/context/semantic-search.md
+- https://cursor.com/docs/context/mentions.md
+- https://cursor.com/docs/context/mcp.md
+  - https://cursor.com/docs/context/mcp.md
+  - https://cursor.com/docs/context/mcp/directory.md
+  - https://cursor.com/docs/context/mcp/install-links.md
+
+## features
+
+- https://cursor.com/docs/tab/overview.md
+- https://cursor.com/docs/cloud-agent.md
+  - https://cursor.com/docs/cloud-agent.md
+  - https://cursor.com/docs/cloud-agent/web-and-mobile.md
+  - https://cursor.com/docs/cloud-agent/egress-ip-ranges.md
+  - https://cursor.com/docs/cloud-agent/api/endpoints.md
+- https://cursor.com/docs/cli/overview.md
+  - https://cursor.com/docs/cli/overview.md
+  - https://cursor.com/docs/cli/installation.md
+  - https://cursor.com/docs/cli/using.md
+  - https://cursor.com/docs/cli/shell-mode.md
+  - https://cursor.com/docs/cli/mcp.md
+  - https://cursor.com/docs/cli/headless.md
+    - https://cursor.com/docs/cli/headless.md
+    - https://cursor.com/docs/cli/github-actions.md
+    - https://cursor.com/docs/cli/cookbook/code-review.md
+  - https://cursor.com/docs/cli/reference/slash-commands.md
+    - https://cursor.com/docs/cli/reference/slash-commands.md
+    - https://cursor.com/docs/cli/reference/parameters.md
+    - https://cursor.com/docs/cli/reference/authentication.md
+    - https://cursor.com/docs/cli/reference/permissions.md
+    - https://cursor.com/docs/cli/reference/configuration.md
+    - https://cursor.com/docs/cli/reference/output-format.md
+- https://cursor.com/docs/inline-edit/overview.md
+  - https://cursor.com/docs/inline-edit/overview.md
+  - https://cursor.com/docs/inline-edit/terminal.md
+- https://cursor.com/docs/bugbot.md
+
+## Integrations
+
+- https://cursor.com/docs/integrations/slack.md
+- https://cursor.com/docs/integrations/linear.md
+- https://cursor.com/docs/integrations/github.md
+- https://cursor.com/docs/integrations/git.md
+- https://cursor.com/docs/integrations/gitlab.md
+- https://cursor.com/docs/integrations/deeplinks.md
+
+## Configuration
+
+- https://cursor.com/docs/context/ignore-files.md
+- https://cursor.com/docs/configuration/extensions.md
+- https://cursor.com/docs/configuration/kbd.md
+- https://cursor.com/docs/configuration/themes.md
+- https://cursor.com/docs/configuration/shell.md
+- https://cursor.com/docs/configuration/worktrees.md
+- https://cursor.com/docs/settings/api-keys.md
+  - https://cursor.com/docs/settings/api-keys.md
+  - https://cursor.com/docs/settings/aws-bedrock.md
+- https://cursor.com/docs/configuration/languages.md
+  - https://cursor.com/docs/configuration/languages/python.md
+  - https://cursor.com/docs/configuration/languages/javascript-typescript.md
+  - https://cursor.com/docs/configuration/languages/ios-macos-swift.md
+  - https://cursor.com/docs/configuration/languages/java.md
+- https://cursor.com/docs/configuration/migrations.md
+  - https://cursor.com/docs/configuration/migrations/vscode.md
+  - https://cursor.com/docs/configuration/migrations/jetbrains.md
+
+## Account
+
+- https://cursor.com/docs/account/billing.md
+  - https://cursor.com/docs/account/billing.md
+  - https://cursor.com/docs/account/billing/spend-alerts.md
+  - https://cursor.com/docs/account/billing/spend-limits.md
+- https://cursor.com/docs/account/update-access.md
+- https://cursor.com/docs/account/teams/setup.md
+  - https://cursor.com/docs/account/teams/setup.md
+  - https://cursor.com/docs/account/teams/pricing.md
+  - https://cursor.com/docs/account/teams/members.md
+  - https://cursor.com/docs/account/teams/sso.md
+  - https://cursor.com/docs/account/teams/dashboard.md
+  - https://cursor.com/docs/account/teams/analytics.md
+- https://cursor.com/docs/enterprise.md
+  - https://cursor.com/docs/enterprise.md
+  - https://cursor.com/docs/enterprise/identity-and-access-management.md
+    - https://cursor.com/docs/enterprise/identity-and-access-management.md
+    - https://cursor.com/docs/account/teams/scim.md
+  - https://cursor.com/docs/enterprise/privacy-and-data-governance.md
+  - https://cursor.com/docs/enterprise/network-configuration.md
+  - https://cursor.com/docs/enterprise/llm-safety-and-controls.md
+  - https://cursor.com/docs/enterprise/model-and-integration-management.md
+  - https://cursor.com/docs/enterprise/compliance-and-monitoring.md
+  - https://cursor.com/docs/enterprise/deployment-patterns.md
+  - https://cursor.com/docs/account/enterprise/service-accounts.md
+  - https://cursor.com/docs/account/enterprise/billing-groups.md
+
+## cookbook
+
+- https://cursor.com/docs/cookbook/agent-workflows.md
+- https://cursor.com/docs/cookbook/building-mcp-server.md
+- https://cursor.com/docs/cookbook/web-development.md
+- https://cursor.com/docs/cookbook/data-science.md
+- https://cursor.com/docs/cookbook/large-codebases.md
+- https://cursor.com/docs/cookbook/mermaid-diagrams.md
+- https://cursor.com/docs/cookbook/bugbot-rules.md
+
+## Troubleshooting
+
+- https://cursor.com/docs/troubleshooting/common-issues.md
+- https://cursor.com/docs/troubleshooting/request-reporting.md
+- https://cursor.com/docs/troubleshooting/troubleshooting-guide.md
+- https://cursor.com/docs/downloads.md
+
+# CLI Documentation
+
+## Get Started
+
+- https://cursor.com/docs/cli/overview.md
+- https://cursor.com/docs/cli/installation.md
+- https://cursor.com/docs/cli/using.md
+- https://cursor.com/docs/cli/shell-mode.md
+- https://cursor.com/docs/cli/mcp.md
+
+## Headless
+
+- https://cursor.com/docs/cli/headless.md
+- https://cursor.com/docs/cli/github-actions.md
+- https://cursor.com/docs/cli/cookbook/code-review.md
+  - https://cursor.com/docs/cli/cookbook/code-review.md
+  - https://cursor.com/docs/cli/cookbook/update-docs.md
+  - https://cursor.com/docs/cli/cookbook/fix-ci.md
+  - https://cursor.com/docs/cli/cookbook/secret-audit.md
+  - https://cursor.com/docs/cli/cookbook/translate-keys.md
+
+## Reference
+
+- https://cursor.com/docs/cli/reference/slash-commands.md
+- https://cursor.com/docs/cli/reference/parameters.md
+- https://cursor.com/docs/cli/reference/authentication.md
+- https://cursor.com/docs/cli/reference/permissions.md
+- https://cursor.com/docs/cli/reference/configuration.md
+- https://cursor.com/docs/cli/reference/output-format.md
+
+## Internationalization
+
+All documentation is available in multiple languages. To access a specific language version, prepend the language code to the path. For example:
+
+- Spanish: `https://cursor.com/es/docs/bugbot.md`
+- Japanese: `https://cursor.com/ja/docs/bugbot.md`
+- French: `https://cursor.com/fr/docs/bugbot.md`
+- And more...
+
+Available languages: cn, ja, zh-Hant, es, fr, pt-BR, ko, ru, tr, id, de
+
+
+# Source: https://developers.openai.com/llms.txt
+
+# OpenAI Developers
+
+> Documentation hub for Apps SDK, Codex, and Agentic Commerce.
+
+Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<slug>.md`).
+
+## Documentation sets
+- [Apps SDK index](https://developers.openai.com/apps-sdk/llms.txt)
+- [Apps SDK full docs](https://developers.openai.com/apps-sdk/llms-full.txt)
+- [Codex index](https://developers.openai.com/codex/llms.txt)
+- [Codex full docs](https://developers.openai.com/codex/llms-full.txt)
+- [Commerce index](https://developers.openai.com/commerce/llms.txt)
+- [Commerce full docs](https://developers.openai.com/commerce/llms-full.txt)
+- [Apps SDK reference (Markdown)](https://developers.openai.com/apps-sdk/reference.md): Schema and API fields for tools, resources, and components.
+
+## Apps SDK — App Submission Guidelines
+- [App submission guidelines](https://developers.openai.com/apps-sdk/app-submission-guidelines.md): Guidelines for submitting ChatGPT apps for publishing.
+
+## Apps SDK — Build
+- [Authentication](https://developers.openai.com/apps-sdk/build/auth.md): Authentication patterns for Apps SDK apps.
+- [Build your ChatGPT UI](https://developers.openai.com/apps-sdk/build/chatgpt-ui.md): Build custom UI components for your ChatGPT app.
+- [Build your MCP server](https://developers.openai.com/apps-sdk/build/mcp-server.md): Wire tools, templates, and the widget runtime that powers ChatGPT Apps.
+- [Examples](https://developers.openai.com/apps-sdk/build/examples.md): End-to-end Apps SDK examples.
+- [Managing State](https://developers.openai.com/apps-sdk/build/state-management.md): How to manage business data, UI state, and cross-session state in ChatGPT apps using the Apps SDK and an MCP server.
+- [Monetization](https://developers.openai.com/apps-sdk/build/monetization.md): Monetize your ChatGPT app.
+
+## Apps SDK — Concepts
+- [MCP](https://developers.openai.com/apps-sdk/concepts/mcp-server.md): Understand how the Model Context Protocol works with Apps SDK.
+- [UI guidelines](https://developers.openai.com/apps-sdk/concepts/ui-guidelines.md): Guidelines for designing beautiful ChatGPT apps.
+- [User Interaction](https://developers.openai.com/apps-sdk/concepts/user-interaction.md): How users find, engage with, activate and manage apps that are available in ChatGPT.
+- [UX principles](https://developers.openai.com/apps-sdk/concepts/ux-principles.md): Principles for building great ChatGPT apps.
+
+## Apps SDK — Deploy
+- [Deploy your app](https://developers.openai.com/apps-sdk/deploy.md): Learn how to deploy your MCP server
+- [Connect from ChatGPT](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt.md): Connect your app to ChatGPT clients.
+- [Submit your app](https://developers.openai.com/apps-sdk/deploy/submission.md): Learn how to submit your app to the ChatGPT Apps Directory.
+- [Test your integration](https://developers.openai.com/apps-sdk/deploy/testing.md): Testing strategies for Apps SDK apps.
+- [Troubleshooting](https://developers.openai.com/apps-sdk/deploy/troubleshooting.md): Troubleshoot issues in Apps SDK apps.
+
+## Apps SDK — Guides
+- [Optimize Metadata](https://developers.openai.com/apps-sdk/guides/optimize-metadata.md): Improve discovery and behavior with rich metadata.
+- [Security & Privacy](https://developers.openai.com/apps-sdk/guides/security-privacy.md): Security and privacy considerations for Apps SDK.
+
+## Apps SDK — Plan
+- [Define tools](https://developers.openai.com/apps-sdk/plan/tools.md): Plan and define tools for your assistant.
+- [Design components](https://developers.openai.com/apps-sdk/plan/components.md): Plan and design UI components that users can interact with.
+- [Research use cases](https://developers.openai.com/apps-sdk/plan/use-case.md): Identify and prioritize Apps SDK use cases.
+
+## Apps SDK — Quickstart
+- [Quickstart](https://developers.openai.com/apps-sdk/quickstart.md): Build and connect your first app to ChatGPT.
+
+## Apps SDK — Reference
+- [Reference](https://developers.openai.com/apps-sdk/reference.md): API and SDK reference for Apps SDK.
+
+## Codex — Auth
+- [Authentication](https://developers.openai.com/codex/auth.md): Sign-in methods for Codex
+
+## Codex — Cli
+- [Codex CLI](https://developers.openai.com/codex/cli.md): Pair with Codex in your terminal
+- [Codex CLI features](https://developers.openai.com/codex/cli/features.md): Overview of functionality in the Codex terminal client
+- [Command line options](https://developers.openai.com/codex/cli/reference.md): Options and flags for the Codex terminal client
+- [Slash commands in Codex CLI](https://developers.openai.com/codex/cli/slash-commands.md): Control Codex during interactive sessions
+
+## Codex — Cloud
+- [Codex web](https://developers.openai.com/codex/cloud.md): Delegate to Codex in the cloud
+- [Agent internet access](https://developers.openai.com/codex/cloud/internet-access.md): Control internet access for Codex cloud tasks
+- [Cloud environments](https://developers.openai.com/codex/cloud/environments.md): Customize dependencies and tools for Codex
+
+## Codex — Config Advanced
+- [Advanced Configuration](https://developers.openai.com/codex/config-advanced.md): More advanced configuration options for Codex local clients
+
+## Codex — Config Basic
+- [Basic Configuration](https://developers.openai.com/codex/config-basic.md): Learn the basics of configuring your local Codex client
+
+## Codex — Config Reference
+- [Configuration Reference](https://developers.openai.com/codex/config-reference.md): Complete reference for Codex config.toml and requirements.toml
+
+## Codex — Config Sample
+- [Sample Configuration](https://developers.openai.com/codex/config-sample.md): A complete example config.toml you can copy and adapt
+
+## Codex — Custom Prompts
+- [Custom Prompts](https://developers.openai.com/codex/custom-prompts.md): Define reusable prompts that behave like slash commands
+
+## Codex — Enterprise
+- [Enterprise administration](https://developers.openai.com/codex/enterprise.md): Learn how to configure Codex for your ChatGPT Enterprise workspace
+
+## Codex — Feature Maturity
+- [Feature Maturity](https://developers.openai.com/codex/feature-maturity.md): How to interpret feature maturity levels in Codex docs and releases
+
+## Codex — Github Action
+- [Codex GitHub Action](https://developers.openai.com/codex/github-action.md): Trigger Codex actions from GitHub Events
+
+## Codex — Guides
+- [Building an AI-Native Engineering Team](https://developers.openai.com/codex/guides/build-ai-native-engineering-team.md): How coding agents speed up the software development lifecycle
+- [Custom instructions with AGENTS.md](https://developers.openai.com/codex/guides/agents-md.md): Give Codex extra instructions and context for your project
+- [Use Codex with the Agents SDK](https://developers.openai.com/codex/guides/agents-sdk.md): Invoke Codex as an MCP server to build multi-agent development workflows
+
+## Codex — Ide
+- [Codex IDE extension](https://developers.openai.com/codex/ide.md): Pair with Codex in your IDE
+- [Codex IDE extension commands](https://developers.openai.com/codex/ide/commands.md): Reference for Codex IDE extension commands and keyboard shortcuts
+- [Codex IDE extension features](https://developers.openai.com/codex/ide/features.md): What you can do with the Codex IDE extension
+- [Codex IDE extension settings](https://developers.openai.com/codex/ide/settings.md): Reference for Codex IDE extension settings
+- [Codex IDE extension slash commands](https://developers.openai.com/codex/ide/slash-commands.md): Reference for slash commands in the Codex IDE extension
+
+## Codex — Integrations
+- [Use Codex in GitHub](https://developers.openai.com/codex/integrations/github.md): Run Codex code review in pull requests
+- [Use Codex in Linear](https://developers.openai.com/codex/integrations/linear.md): Run Codex tasks from Linear issues
+- [Use Codex in Slack](https://developers.openai.com/codex/integrations/slack.md): Ask Codex to run tasks from channels and threads
+
+## Codex — Mcp
+- [Model Context Protocol](https://developers.openai.com/codex/mcp.md): Give Codex access to third-party tools and context
+
+## Codex — Models
+- [Codex Models](https://developers.openai.com/codex/models.md): Meet the AI models that power Codex
+
+## Codex — Noninteractive
+- [Non-interactive mode](https://developers.openai.com/codex/noninteractive.md): Use `codex exec` to run Codex in scripts and CI
+
+## Codex — Open Source
+- [Open Source](https://developers.openai.com/codex/open-source.md): Open-source components of Codex and where to collaborate
+
+## Codex — Overview
+- [Codex](https://developers.openai.com/codex/overview.md): One agent for everywhere you code
+
+## Codex — Pricing
+- [Codex Pricing](https://developers.openai.com/codex/pricing.md): Codex is included in your ChatGPT Plus, Pro, Business, Edu, or Enterprise plan
+
+## Codex — Prompting
+- [Prompting](https://developers.openai.com/codex/prompting.md): Interacting with the Codex agent
+
+## Codex — Quickstart
+- [Quickstart](https://developers.openai.com/codex/quickstart.md): Start using Codex in your IDE, CLI, or the cloud
+
+## Codex — Rules
+- [Rules](https://developers.openai.com/codex/rules.md): Control which commands Codex can run outside the sandbox
+
+## Codex — Sdk
+- [Codex SDK](https://developers.openai.com/codex/sdk.md): Programmatically control local Codex agents
+
+## Codex — Security
+- [Security](https://developers.openai.com/codex/security.md): How to securely operate and manage Codex agents
+
+## Codex — Skills
+- [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
+- [Create skills](https://developers.openai.com/codex/skills/create-skill.md): Create custom workflows and enforce best practices across projects with Codex
+
+## Codex — Windows
+- [Windows](https://developers.openai.com/codex/windows.md): Tips for running Codex on Windows
+
+## Codex — Workflows
+- [Workflows](https://developers.openai.com/codex/workflows.md): Development usage patterns with Codex
+
+## Agentic Commerce — Guides
+- [Agentic commerce in production](https://developers.openai.com/commerce/guides/production.md): Checklist for launching in production and FAQs
+- [Agentic Commerce Protocol](https://developers.openai.com/commerce/guides/get-started.md): An open standard that enables a conversation between buyers, their AI agents, and businesses to complete a purchase
+- [Key concepts](https://developers.openai.com/commerce/guides/key-concepts.md): Understand the concepts of the Agentic Commerce Protocol
+
+## Agentic Commerce — Specs
+- [Agentic Checkout Spec](https://developers.openai.com/commerce/specs/checkout.md): Merchants integrate with OpenAI’s checkout flow by implementing the Agentic Checkout Spec
+- [Delegated Payment Spec](https://developers.openai.com/commerce/specs/payment.md): Payment Service Providers implement the Delegated Payment Spec to handle and secure Agentic Commerce transactions
+- [Product Feed Spec](https://developers.openai.com/commerce/specs/feed.md): Provide a structured product feed so ChatGPT accurately indexes and displays your products with up-to-date price and availability.
+
+
+# Source: https://developers.openai.com/codex/llms.txt
+
+# Codex
+
+> Build with the Codex CLI, IDE extension, and cloud automation to speed up development.
+
+Use this as a compact map of Codex docs. Each page has a Markdown twin at `/codex/<slug>.md` for direct ingestion.
+
+## Documentation sets
+- [Combined Codex docs](https://developers.openai.com/codex/llms-full.txt): Single-file Markdown export of Codex guides and references.
+
+## Auth
+- [Authentication](https://developers.openai.com/codex/auth.md): Sign-in methods for Codex
+
+## Cli
+- [Codex CLI](https://developers.openai.com/codex/cli.md): Pair with Codex in your terminal
+- [Codex CLI features](https://developers.openai.com/codex/cli/features.md): Overview of functionality in the Codex terminal client
+- [Command line options](https://developers.openai.com/codex/cli/reference.md): Options and flags for the Codex terminal client
+- [Slash commands in Codex CLI](https://developers.openai.com/codex/cli/slash-commands.md): Control Codex during interactive sessions
+
+## Cloud
+- [Codex web](https://developers.openai.com/codex/cloud.md): Delegate to Codex in the cloud
+- [Agent internet access](https://developers.openai.com/codex/cloud/internet-access.md): Control internet access for Codex cloud tasks
+- [Cloud environments](https://developers.openai.com/codex/cloud/environments.md): Customize dependencies and tools for Codex
+
+## Config Advanced
+- [Advanced Configuration](https://developers.openai.com/codex/config-advanced.md): More advanced configuration options for Codex local clients
+
+## Config Basic
+- [Basic Configuration](https://developers.openai.com/codex/config-basic.md): Learn the basics of configuring your local Codex client
+
+## Config Reference
+- [Configuration Reference](https://developers.openai.com/codex/config-reference.md): Complete reference for Codex config.toml and requirements.toml
+
+## Config Sample
+- [Sample Configuration](https://developers.openai.com/codex/config-sample.md): A complete example config.toml you can copy and adapt
+
+## Custom Prompts
+- [Custom Prompts](https://developers.openai.com/codex/custom-prompts.md): Define reusable prompts that behave like slash commands
+
+## Enterprise
+- [Enterprise administration](https://developers.openai.com/codex/enterprise.md): Learn how to configure Codex for your ChatGPT Enterprise workspace
+
+## Feature Maturity
+- [Feature Maturity](https://developers.openai.com/codex/feature-maturity.md): How to interpret feature maturity levels in Codex docs and releases
+
+## Github Action
+- [Codex GitHub Action](https://developers.openai.com/codex/github-action.md): Trigger Codex actions from GitHub Events
+
+## Guides
+- [Building an AI-Native Engineering Team](https://developers.openai.com/codex/guides/build-ai-native-engineering-team.md): How coding agents speed up the software development lifecycle
+- [Custom instructions with AGENTS.md](https://developers.openai.com/codex/guides/agents-md.md): Give Codex extra instructions and context for your project
+- [Use Codex with the Agents SDK](https://developers.openai.com/codex/guides/agents-sdk.md): Invoke Codex as an MCP server to build multi-agent development workflows
+
+## Ide
+- [Codex IDE extension](https://developers.openai.com/codex/ide.md): Pair with Codex in your IDE
+- [Codex IDE extension commands](https://developers.openai.com/codex/ide/commands.md): Reference for Codex IDE extension commands and keyboard shortcuts
+- [Codex IDE extension features](https://developers.openai.com/codex/ide/features.md): What you can do with the Codex IDE extension
+- [Codex IDE extension settings](https://developers.openai.com/codex/ide/settings.md): Reference for Codex IDE extension settings
+- [Codex IDE extension slash commands](https://developers.openai.com/codex/ide/slash-commands.md): Reference for slash commands in the Codex IDE extension
+
+## Integrations
+- [Use Codex in GitHub](https://developers.openai.com/codex/integrations/github.md): Run Codex code review in pull requests
+- [Use Codex in Linear](https://developers.openai.com/codex/integrations/linear.md): Run Codex tasks from Linear issues
+- [Use Codex in Slack](https://developers.openai.com/codex/integrations/slack.md): Ask Codex to run tasks from channels and threads
+
+## Mcp
+- [Model Context Protocol](https://developers.openai.com/codex/mcp.md): Give Codex access to third-party tools and context
+
+## Models
+- [Codex Models](https://developers.openai.com/codex/models.md): Meet the AI models that power Codex
+
+## Noninteractive
+- [Non-interactive mode](https://developers.openai.com/codex/noninteractive.md): Use `codex exec` to run Codex in scripts and CI
+
+## Open Source
+- [Open Source](https://developers.openai.com/codex/open-source.md): Open-source components of Codex and where to collaborate
+
+## Overview
+- [Codex](https://developers.openai.com/codex/overview.md): One agent for everywhere you code
+
+## Pricing
+- [Codex Pricing](https://developers.openai.com/codex/pricing.md): Codex is included in your ChatGPT Plus, Pro, Business, Edu, or Enterprise plan
+
+## Prompting
+- [Prompting](https://developers.openai.com/codex/prompting.md): Interacting with the Codex agent
+
+## Quickstart
+- [Quickstart](https://developers.openai.com/codex/quickstart.md): Start using Codex in your IDE, CLI, or the cloud
+
+## Rules
+- [Rules](https://developers.openai.com/codex/rules.md): Control which commands Codex can run outside the sandbox
+
+## Sdk
+- [Codex SDK](https://developers.openai.com/codex/sdk.md): Programmatically control local Codex agents
+
+## Security
+- [Security](https://developers.openai.com/codex/security.md): How to securely operate and manage Codex agents
+
+## Skills
+- [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
+- [Create skills](https://developers.openai.com/codex/skills/create-skill.md): Create custom workflows and enforce best practices across projects with Codex
+
+## Windows
+- [Windows](https://developers.openai.com/codex/windows.md): Tips for running Codex on Windows
+
+## Workflows
+- [Workflows](https://developers.openai.com/codex/workflows.md): Development usage patterns with Codex
+
+
+# Source: https://docs.cline.bot/llms.txt
+
+# Cline
+
+## Docs
+
+- [CLI Reference](https://docs.cline.bot/cline-cli/cli-reference.md): Complete command reference for Cline CLI including configuration, instance management, and task commands
+- [Installation](https://docs.cline.bot/cline-cli/installation.md): Install Cline CLI and authenticate with your account
+- [Overview](https://docs.cline.bot/cline-cli/overview.md): Install the CLI, run your first task, and learn to automate code reviews and integrate AI agents into your development workflow
+- [GitHub Actions Integration](https://docs.cline.bot/cline-cli/samples/github-integration.md): Automatically respond to GitHub issues by mentioning @cline in comments using Cline CLI in GitHub Actions.
+- [GitHub Issue RCA Sample](https://docs.cline.bot/cline-cli/samples/github-issue-rca.md): Automated GitHub issue analysis using Cline CLI to identify root causes.
+- [Samples Overview](https://docs.cline.bot/cline-cli/samples/overview.md): Example implementations demonstrating Cline CLI capabilities
+- [Three Core Flows](https://docs.cline.bot/cline-cli/three-core-flows.md): Learn the three ways to use Cline CLI: interactive mode, headless automation, and multi-instance parallelization
+- [Model Selection Guide](https://docs.cline.bot/core-features/model-selection-guide.md): Last updated: August 20, 2025.
+- [YOLO Mode](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/yolo-mode.md): Enterprise controls for YOLO Mode autonomous operation
+- [Configure AWS Bedrock Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/aws-bedrock/admin-configuration.md): This guide explains how administrators configure AWS Bedrock as the organization-wide LLM provider for Cline.
+- [Configure AWS Bedrock in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/aws-bedrock/member-configuration.md): Guide for engineers configuring AWS Bedrock credentials in VS Code after admin setup
+- [Configure Google Vertex AI Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/google-vertex/admin-configuration.md): This guide explains how administrators configure Google Vertex AI as the organization-wide LLM provider for Cline.
+- [Configure Google Vertex AI in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/google-vertex/member-configuration.md): Guide for engineers connecting to their organization's Google Vertex AI setup through VS Code after admin setup
+- [Configure LiteLLM Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/litellm/admin-configuration.md): This guide explains how administrators configure LiteLLM as the organization-wide LLM provider for Cline.
+- [Configure LiteLLM in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/litellm/member-configuration.md): Guide for engineers connecting to their organization's LiteLLM proxy through VS Code after admin setup
+- [SaaS Provider Configuration](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/overview.md): Configure inference providers through the Cline hosted admin console for centralized organization management
+- [OpenTelemetry Integration](https://docs.cline.bot/enterprise-solutions/monitoring/opentelemetry.md): Export Cline telemetry to your observability platform using OpenTelemetry Protocol (OTLP)
+- [OpenTelemetry Integration Override](https://docs.cline.bot/enterprise-solutions/monitoring/opentelemetry_override.md): Export Cline telemetry to your observability platform using OpenTelemetry Protocol (OTLP)
+- [Enterprise Monitoring](https://docs.cline.bot/enterprise-solutions/monitoring/overview.md): Optional telemetry and observability for your Cline deployment
+- [Cline Telemetry](https://docs.cline.bot/enterprise-solutions/monitoring/telemetry.md): Configure usage analytics and event tracking
+- [Onboarding](https://docs.cline.bot/enterprise-solutions/onboarding.md): This guide explains how administrators configure SSO provisioning and user management in Cline Enterprise.
+- [Cline Enterprise](https://docs.cline.bot/enterprise-solutions/overview.md): Enterprise security, governance, and observability for the coding agent millions of developers trust
+- [SSO Setup](https://docs.cline.bot/enterprise-solutions/sso-setup.md): Configure Single Sign-On (SSO) for Cline Enterprise via WorkOS AuthKit.
+- [Managing Members](https://docs.cline.bot/enterprise-solutions/team-management/managing-members.md): Complete guide to managing team members, roles, and permissions in your Cline Enterprise organization
+- [Cline Tools Reference Guide](https://docs.cline.bot/exploring-clines-tools/cline-tools-guide.md)
+- [New Task Tool](https://docs.cline.bot/exploring-clines-tools/new-task-tool.md)
+- [Remote Browser Support](https://docs.cline.bot/exploring-clines-tools/remote-browser-support.md): Remote browser support allows Cline to utilize a remote Chrome instance, leveraging authentication tokens and session cookies relevant to certain web development test cases.
+- [File Mentions](https://docs.cline.bot/features/at-mentions/file-mentions.md)
+- [Git Mentions](https://docs.cline.bot/features/at-mentions/git-mentions.md)
+- [@ Mentions Overview](https://docs.cline.bot/features/at-mentions/overview.md)
+- [Problem Mentions](https://docs.cline.bot/features/at-mentions/problem-mentions.md)
+- [Terminal Mentions](https://docs.cline.bot/features/at-mentions/terminal-mentions.md)
+- [URL Mentions](https://docs.cline.bot/features/at-mentions/url-mentions.md)
+- [Auto Approve](https://docs.cline.bot/features/auto-approve.md): Let Cline take specific actions without asking for approval every time.
+- [Automatic Context Summarization](https://docs.cline.bot/features/auto-compact.md)
+- [Background Edit](https://docs.cline.bot/features/background-edit.md)
+- [Checkpoints](https://docs.cline.bot/features/checkpoints.md)
+- [null](https://docs.cline.bot/features/cline-rules.md)
+- [Code Commands](https://docs.cline.bot/features/commands-and-shortcuts/code-commands.md)
+- [Generate Commit Message](https://docs.cline.bot/features/commands-and-shortcuts/git-integration.md)
+- [Keyboard Shortcuts](https://docs.cline.bot/features/commands-and-shortcuts/keyboard-shortcuts.md)
+- [Commands & Shortcuts Overview](https://docs.cline.bot/features/commands-and-shortcuts/overview.md)
+- [Terminal Integration](https://docs.cline.bot/features/commands-and-shortcuts/terminal-integration.md)
+- [Disable Terminal Pagers During Cline Sessions](https://docs.cline.bot/features/customization/disable-terminal-pagers.md): Make CLI output non-interactive when Cline runs commands by detecting the CLINE_ACTIVE environment variable and disabling pagers like less.
+- [Opening Cline in the Right Sidebar](https://docs.cline.bot/features/customization/opening-cline-in-sidebar.md): Learn how to open Cline in the right sidebar in VS Code and Cursor
+- [Dictation](https://docs.cline.bot/features/dictation.md): Communicate with Cline using your voice for faster, more natural AI collaboration
+- [Drag & Drop](https://docs.cline.bot/features/drag-and-drop.md)
+- [Editing Messages](https://docs.cline.bot/features/editing-messages.md)
+- [Explain Changes](https://docs.cline.bot/features/explain-changes.md)
+- [Focus Chain](https://docs.cline.bot/features/focus-chain.md)
+- [Hook Reference](https://docs.cline.bot/features/hooks/hook-reference.md): Complete API reference for all Cline hook types, JSON schemas, and field documentation
+- [Hooks Overview](https://docs.cline.bot/features/hooks/index.md): Inject custom logic into Cline's workflow to validate operations, monitor tool usage, and shape AI decisions
+- [Samples](https://docs.cline.bot/features/hooks/samples.md): Practical hook examples organized by complexity level - from beginner to advanced patterns
+- [Multi-Root Workspaces](https://docs.cline.bot/features/multiroot-workspace.md)
+- [Plan & Act](https://docs.cline.bot/features/plan-and-act.md)
+- [Skills](https://docs.cline.bot/features/skills.md): Extend Cline with reusable, on-demand instruction sets for specialized tasks
+- [Deep Planning Command](https://docs.cline.bot/features/slash-commands/deep-planning.md)
+- [Explain Changes Command](https://docs.cline.bot/features/slash-commands/explain-changes.md)
+- [New Rule Command](https://docs.cline.bot/features/slash-commands/new-rule.md)
+- [New Task Command](https://docs.cline.bot/features/slash-commands/new-task.md)
+- [Report Bug Command](https://docs.cline.bot/features/slash-commands/report-bug.md)
+- [Smol Command](https://docs.cline.bot/features/slash-commands/smol.md)
+- [Workflows Best Practices](https://docs.cline.bot/features/slash-commands/workflows/best-practices.md): Tips and strategies for creating effective and reliable Cline workflows.
+- [Workflows Overview](https://docs.cline.bot/features/slash-commands/workflows/index.md): Learn what Cline workflows are, why they are useful, and how to structure them.
+- [Workflows Quick Start](https://docs.cline.bot/features/slash-commands/workflows/quickstart.md): A step-by-step guide to creating your first Cline workflow.
+- [Task Management](https://docs.cline.bot/features/tasks/task-management.md): Learn how to organize, search, and manage your task history in Cline.
+- [Understanding Tasks](https://docs.cline.bot/features/tasks/understanding-tasks.md): Learn what tasks are in Cline, how they work, and how to create effective prompts for better results.
+- [YOLO Mode](https://docs.cline.bot/features/yolo-mode.md)
+- [Installing Cline](https://docs.cline.bot/getting-started/installing-cline.md): Get Cline up and running in your favorite IDE with these simple installation steps
+- [Selecting Your Model](https://docs.cline.bot/getting-started/selecting-your-model.md): Get started with your first AI model in Cline
+- [Build Your First Project](https://docs.cline.bot/getting-started/your-first-project.md): Build your first project with Cline in under a minute.
+- [Overview](https://docs.cline.bot/introduction/overview.md): An introduction to Cline, your AI-powered coding agent for modern development.
+- [Welcome to Cline](https://docs.cline.bot/introduction/welcome.md): Your guide to AI-powered development with complete transparency and control
+- [Adding MCP Servers from GitHub](https://docs.cline.bot/mcp/adding-mcp-servers-from-github.md)
+- [Configuring MCP Servers](https://docs.cline.bot/mcp/configuring-mcp-servers.md)
+- [Connecting to a Remote Server](https://docs.cline.bot/mcp/connecting-to-a-remote-server.md): The Model Context Protocol (MCP) allows Cline to communicate with external servers that provide additional tools and resources to extend its capabilities. This guide explains how to add and connect to remote MCP servers through the MCP Servers interface.
+- [MCP Made Easy](https://docs.cline.bot/mcp/mcp-marketplace.md): Learn how to use the MCP Marketplace to discover, install, and configure MCP servers that enhance Cline's capabilities with additional tools and resources.
+- [MCP Overview](https://docs.cline.bot/mcp/mcp-overview.md): Learn about Model Context Protocol (MCP) servers, their capabilities, and how Cline can help build and use them. MCP standardizes how applications provide context to LLMs, acting like a USB-C port for AI applications.
+- [MCP Server Development Protocol](https://docs.cline.bot/mcp/mcp-server-development-protocol.md): This protocol is designed to streamline the development process of building MCP servers with Cline.
+- [MCP Transport Mechanisms](https://docs.cline.bot/mcp/mcp-transport-mechanisms.md): Learn about the two primary transport mechanisms for communication between Cline and MCP servers: Standard Input/Output (STDIO) and Server-Sent Events (SSE). Each has distinct characteristics, advantages, and use cases.
+- [Context Window Guide](https://docs.cline.bot/model-config/context-windows.md): Understanding and managing AI model context windows
+- [Model Comparison & Pricing](https://docs.cline.bot/model-config/model-comparison.md): Compare AI models by performance, features, and pricing
+- [Telemetry](https://docs.cline.bot/more-info/telemetry.md)
+- [Cline Memory Bank](https://docs.cline.bot/prompting/cline-memory-bank.md)
+- [Prompt Engineering Guide](https://docs.cline.bot/prompting/prompt-engineering-guide.md)
+- [Context Management](https://docs.cline.bot/prompting/understanding-context-management.md): Master context management to unlock Cline's full potential
+- [Anthropic](https://docs.cline.bot/provider-config/anthropic.md): Learn how to configure and use Anthropic Claude models with Cline. Covers API key setup, model selection, and advanced features like prompt caching.
+- [API Key (Simple Setup)](https://docs.cline.bot/provider-config/aws-bedrock/api-key.md): Set up AWS Bedrock with Cline using Bedrock API Keys. Simplest setup for individual developers to access frontier models.
+- [CLI Profile (SSO)](https://docs.cline.bot/provider-config/aws-bedrock/cli-profile.md): Configure AWS Bedrock to use AWS CLI profiles for authentication with Cline. Best for SSO/federated roles and secure enterprise access.
+- [IAM Credentials](https://docs.cline.bot/provider-config/aws-bedrock/iam-credentials.md): Set up AWS Bedrock with Cline using IAM Access Key and Secret Key credentials. Best for enterprise environments with established IAM policies.
+- [Baseten](https://docs.cline.bot/provider-config/baseten.md): Learn how to configure and use Baseten's Model APIs with Cline. Access frontier open-source models with enterprise-grade performance, reliability, and competitive pricing.
+- [Cerebras](https://docs.cline.bot/provider-config/cerebras.md): Learn how to configure and use Cerebras's ultra-fast inference with Cline. Experience up to 2,600 tokens per second with wafer-scale chip architecture and real-time reasoning models.
+- [Claude Code](https://docs.cline.bot/provider-config/claude-code.md): Use your Claude Max or Pro subscription with Cline instead of paying per token. Learn how to set up and configure the Claude Code provider.
+- [DeepSeek](https://docs.cline.bot/provider-config/deepseek.md): Learn how to configure and use DeepSeek models like deepseek-chat and deepseek-reasoner with Cline.
+- [Doubao](https://docs.cline.bot/provider-config/doubao.md): Learn how to configure and use ByteDance's Doubao AI models with Cline. Experience advanced reasoning, multimodal capabilities, and cost-effective inference with Chinese language optimization.
+- [Fireworks AI](https://docs.cline.bot/provider-config/fireworks.md): Learn how to configure and use Fireworks AI's lightning-fast inference platform with Cline. Experience up to 4x faster inference speeds with optimized models and competitive pricing.
+- [GCP Vertex AI](https://docs.cline.bot/provider-config/gcp-vertex-ai.md): Configure GCP Vertex AI with Cline to access leading generative AI models like Claude 3.5 Sonnet v2. This guide covers GCP environment setup, authentication, and secure integration for enterprise teams.
+- [Groq](https://docs.cline.bot/provider-config/groq.md): Learn how to configure and use Groq's lightning-fast inference with Cline. Access models from OpenAI, Meta, DeepSeek, and more on Groq's purpose-built LPU architecture.
+- [LiteLLM & Cline (using Codestral)](https://docs.cline.bot/provider-config/litellm-and-cline-using-codestral.md): Learn how to set up and run LiteLLM with Cline using the Codestral model. This guide covers Docker setup, configuration, and integration with Cline.
+- [Mistral](https://docs.cline.bot/provider-config/mistral-ai.md): Learn how to configure and use Mistral AI models, including Codestral, with Cline. Covers API key setup and model selection.
+- [OpenAI](https://docs.cline.bot/provider-config/openai.md): Learn how to configure and use official OpenAI models with Cline.
+- [OpenAI Compatible](https://docs.cline.bot/provider-config/openai-compatible.md): Learn how to configure Cline with various AI model providers that offer OpenAI-compatible APIs.
+- [OpenRouter](https://docs.cline.bot/provider-config/openrouter.md): Learn how to use OpenRouter with Cline to access a wide variety of language models through a single API.
+- [Requesty](https://docs.cline.bot/provider-config/requesty.md): Learn how to use Requesty with Cline to access and optimize over 150 large language models.
+- [SAP AI Core](https://docs.cline.bot/provider-config/sap-aicore.md): Learn how to configure and use LLM models from Generative AI Hub in SAP AI Core with Cline.
+- [Vercel AI Gateway](https://docs.cline.bot/provider-config/vercel-ai-gateway.md): Use Vercel AI Gateway in Cline to reach 100+ models from one endpoint with routing, retries, and spend observability.
+- [VS Code Language Model API](https://docs.cline.bot/provider-config/vscode-language-model-api.md): Learn how to use Cline with the experimental VS Code Language Model API, enabling access to models from GitHub Copilot and other compatible extensions.
+- [xAI (Grok)](https://docs.cline.bot/provider-config/xai-grok.md): Learn how to configure and use xAI's Grok models with Cline, including API key setup, supported models, and reasoning capabilities.
+- [Z AI (Zhipu AI)](https://docs.cline.bot/provider-config/zai.md): Learn how to configure and use Z AI's GLM-4.5 models with Cline. Experience advanced hybrid reasoning, agentic capabilities, and open-source excellence with regional optimization.
+- [LM Studio](https://docs.cline.bot/running-models-locally/lm-studio.md): A quick guide to setting up LM Studio for local AI model execution with Cline.
+- [Ollama](https://docs.cline.bot/running-models-locally/ollama.md): A quick guide to setting up Ollama for local AI model execution with Cline.
+- [Local Models Overview](https://docs.cline.bot/running-models-locally/overview.md)
+- [Networking and Proxies](https://docs.cline.bot/troubleshooting/networking-and-proxies.md): Configure Cline to work behind firewalls and proxies
+- [Task History Recovery Guide](https://docs.cline.bot/troubleshooting/task-history-recovery.md): How to recover and reconstruct your Cline task history
+- [Terminal Integration Troubleshooting Guide](https://docs.cline.bot/troubleshooting/terminal-integration-guide.md): Complete guide to resolving terminal integration issues in Cline
+- [Terminal Quick Fixes](https://docs.cline.bot/troubleshooting/terminal-quick-fixes.md): Quick solutions for common terminal issues
+
+
+## Optional
+
+- [Learn](https://cline.bot/learn)
+
+
+# Source: https://docs.windsurf.com/llms.txt
+
+# Windsurf Docs
+
+## Docs
+
+- [Autocomplete Overview](https://docs.windsurf.com/autocomplete/overview.md): AI-powered code autocomplete with single-line and multi-line suggestions, keyboard shortcuts, and customizable speed settings.
+- [Autocomplete Tips](https://docs.windsurf.com/autocomplete/tips.md): Tips for getting the most out of Windsurf Autocomplete including inline comments, Fill In The Middle (FIM), and snooze functionality.
+- [Prompt Engineering](https://docs.windsurf.com/best-practices/prompt-engineering.md): Best practices for crafting effective prompts to get high-quality code from Windsurf, including clear objectives, context, and constraints.
+- [Common Use Cases](https://docs.windsurf.com/best-practices/use-cases.md): Common use cases for Windsurf including code generation, unit test generation, code documentation, API integration, and code refactoring.
+- [Chat Models](https://docs.windsurf.com/chat/models.md): Available AI models for Windsurf Chat including Base Model, Windsurf Premier, GPT-4o, and Claude 3.5 Sonnet with different access levels.
+- [Chat Overview](https://docs.windsurf.com/chat/overview.md): Chat with your codebase using Windsurf Chat in VS Code and JetBrains. Use @-mentions, persistent context, pinned files, and inline citations.
+- [Command Overview](https://docs.windsurf.com/command/plugins-overview.md): Use Windsurf Command for AI-powered inline code edits in VS Code and JetBrains. Generate or edit code with natural language prompts using Cmd/Ctrl+I.
+- [Refactors, Docstrings, and More](https://docs.windsurf.com/command/related-features.md): Use Command-powered features like code lenses for refactoring, docstring generation, and Smart Paste for cross-language code translation.
+- [Command](https://docs.windsurf.com/command/windsurf-overview.md): Use Windsurf Command (Cmd/Ctrl+I) for inline code generation and edits with natural language. No premium credits required.
+- [Code Lenses](https://docs.windsurf.com/command/windsurf-related-features.md): Use Windsurf code lenses for quick Explain, Refactor, and Docstring operations on functions and classes directly in the editor.
+- [Fast Context](https://docs.windsurf.com/context-awareness/fast-context.md): Fast Context is a specialized subagent that retrieves relevant code from your codebase up to 20x faster using SWE-grep models for rapid code retrieval.
+- [Context Awareness Overview](https://docs.windsurf.com/context-awareness/overview.md): Windsurf's RAG-based context engine indexes your codebase for intelligent suggestions. Learn about context pinning, knowledge base, and M-Query retrieval.
+- [Remote Indexing](https://docs.windsurf.com/context-awareness/remote-indexing.md): Index remote repositories from GitHub, GitLab, and BitBucket for enterprise teams without storing code locally.
+- [Windsurf Ignore](https://docs.windsurf.com/context-awareness/windsurf-ignore.md): Configure which files and directories Windsurf should ignore during indexing using .codeiumignore files with gitignore-style syntax.
+- [Context Awareness for Windsurf](https://docs.windsurf.com/context-awareness/windsurf-overview.md): Windsurf's RAG-based context engine indexes your codebase for intelligent code suggestions. Supports remote repositories for Teams and Enterprise.
+- [Analytics](https://docs.windsurf.com/plugins/accounts/analytics.md): View individual user analytics, team analytics, usage patterns, and metrics for your Windsurf usage including code completion stats and AI-written code percentage.
+- [Analytics API](https://docs.windsurf.com/plugins/accounts/api-reference/analytics-api-introduction.md): Enterprise analytics API for querying Windsurf usage data including autocomplete, chat, command, and Cascade metrics.
+- [API Reference](https://docs.windsurf.com/plugins/accounts/api-reference/api-introduction.md): Enterprise API for querying Windsurf usage data and managing configurations with service key authentication.
+- [Get Cascade Analytics](https://docs.windsurf.com/plugins/accounts/api-reference/cascade-analytics.md): Query Cascade-specific usage metrics including lines suggested/accepted, model usage, credit consumption, and tool usage statistics.
+- [Custom Analytics Query](https://docs.windsurf.com/plugins/accounts/api-reference/custom-analytics.md): Flexible analytics querying with custom selections, filters, and aggregations for autocomplete, chat, command, and PCW data.
+- [Error Handling](https://docs.windsurf.com/plugins/accounts/api-reference/errors.md): Common error messages and debugging tips for the Analytics API including authentication, query structure, and rate limiting errors.
+- [Get Usage Configuration](https://docs.windsurf.com/plugins/accounts/api-reference/get-usage-config.md): Retrieve add-on credit cap configuration at team, group, or user level for enterprise billing management.
+- [Set Usage Configuration](https://docs.windsurf.com/plugins/accounts/api-reference/usage-config.md): Set or clear add-on credit caps at team, group, or user level for enterprise billing management.
+- [Get User Page Analytics](https://docs.windsurf.com/plugins/accounts/api-reference/user-page-analytics.md): Retrieve user activity statistics including names, emails, last activity times, and active days from the teams page.
+- [Role Based Access & Management](https://docs.windsurf.com/plugins/accounts/rbac-role-management.md): Configure RBAC permissions, create custom roles, and manage user access for Windsurf Teams and Enterprise plans.
+- [Setting up SSO & SCIM](https://docs.windsurf.com/plugins/accounts/sso-scim.md): Configure Single Sign-On (SSO) and SCIM provisioning for your organization using Google Workspace, Microsoft Azure AD, Okta, or other SAML identity providers.
+- [Getting started with Teams and Enterprise](https://docs.windsurf.com/plugins/accounts/teams-getting-started.md): Set up Teams and Enterprise plans with team management, SSO, analytics, user groups, and priority support for your organization.
+- [Plans and Credit Usage](https://docs.windsurf.com/plugins/accounts/usage.md): Understand Windsurf pricing plans, prompt credits, usage tracking, automatic refills, and how to upgrade from Free to Pro, Teams, or Enterprise.
+- [Cascade Overview](https://docs.windsurf.com/plugins/cascade/cascade-overview.md): Cascade brings agentic AI coding to JetBrains with Write/Chat modes, voice input, tool access, turbo mode, and real-time collaboration.
+- [Model Context Protocol (MCP)](https://docs.windsurf.com/plugins/cascade/mcp.md): Configure MCP servers to extend Cascade with custom tools and services using stdio, HTTP, or SSE transports with admin controls for Teams and Enterprise.
+- [Memories & Rules](https://docs.windsurf.com/plugins/cascade/memories.md): Configure Cascade memories and rules to persist context across conversations with global rules, workspace rules, and system-level rules for enterprise.
+- [Cascade Models](https://docs.windsurf.com/plugins/cascade/models.md): Available AI models in Cascade including SWE-1.5, SWE-1, Claude, GPT, and bring-your-own-key (BYOK) options with credit costs.
+- [Web and Docs Search](https://docs.windsurf.com/plugins/cascade/web-search.md): Enable Cascade to search the web and read documentation pages in real-time using @web and @docs mentions for up-to-date context.
+- [Workflows](https://docs.windsurf.com/plugins/cascade/workflows.md): Create reusable Cascade workflows as markdown files to automate repetitive tasks like deployments, PR reviews, and code formatting with slash commands.
+- [IDE Compatibility](https://docs.windsurf.com/plugins/compatibility.md): Supported IDEs and version requirements for Windsurf Plugins including VS Code, JetBrains, Visual Studio, NeoVim, Vim, Emacs, Xcode, Sublime Text, and Eclipse.
+- [Welcome to Windsurf Plugins](https://docs.windsurf.com/plugins/getting-started.md): Install and set up Windsurf Plugins for JetBrains, VS Code, Visual Studio, Vim, NeoVim, Jupyter, Chrome, and other IDEs with AI-powered coding assistance.
+- [Guide for Admins](https://docs.windsurf.com/plugins/guide-for-admins.md): Enterprise admin guide for deploying Windsurf at scale. Configure SSO, SCIM, RBAC, analytics, and team management for large organizations.
+- [Reporting Security Concerns](https://docs.windsurf.com/security/reporting.md): Report security vulnerabilities to Windsurf securely via email with GPG encryption. Learn about our coordinated disclosure policy and safe harbor.
+- [Windsurf Tab](https://docs.windsurf.com/tab/overview.md): Windsurf Tab provides AI-powered code suggestions with Tab to Jump, Tab to Import, and Fill In The Middle (FIM). Powered by SWE-1-mini.
+- [General Issues](https://docs.windsurf.com/troubleshooting/plugins-common-issues.md): Common Windsurf plugin issues including subscription problems, cancellation, telemetry settings, account deletion, and chat panel troubleshooting.
+- [Eclipse Troubleshooting](https://docs.windsurf.com/troubleshooting/plugins-enterprise/eclipse.md): Troubleshoot Eclipse plugin issues including startup problems, empty chat screen, WebView2, and certificate errors with Java keystore solutions.
+- [JetBrains Troubleshooting](https://docs.windsurf.com/troubleshooting/plugins-enterprise/jetbrains.md): Troubleshoot JetBrains plugin issues including JCEF errors, certificate problems, custom workspaces, and extension diagnostics.
+- [Proxy Configuration for Windsurf in JetBrains IDEs](https://docs.windsurf.com/troubleshooting/plugins-enterprise/jetbrains-proxy.md): Configure HTTP/HTTPS proxy settings for Windsurf plugin in JetBrains IDEs including remote development and Gateway environments.
+- [Visual Studio Troubleshooting](https://docs.windsurf.com/troubleshooting/plugins-enterprise/visualstudio.md): Troubleshoot Visual Studio plugin issues including IntelliCode conflicts, Tab key bindings, and marketplace visibility problems.
+- [Visual Studio Code (VSCode) Troubleshooting](https://docs.windsurf.com/troubleshooting/plugins-enterprise/vscode.md): Troubleshoot VS Code extension issues including proxy settings, certificate errors, API server configuration, and chat response problems.
+- [Gathering Plugin Logs](https://docs.windsurf.com/troubleshooting/plugins-gathering-logs.md): How to collect diagnostic logs from JetBrains, VS Code, Eclipse, Visual Studio, and NeoVim for troubleshooting Windsurf plugin issues.
+- [Common Windsurf Issues](https://docs.windsurf.com/troubleshooting/windsurf-common-issues.md): Troubleshoot common Windsurf Editor issues including rate limiting, MacOS security warnings, Windows updates, Linux crashes, and terminal problems.
+- [Gathering Windsurf Logs](https://docs.windsurf.com/troubleshooting/windsurf-gathering-logs.md): How to download diagnostic logs from Windsurf Editor using the Command Palette or Cascade panel for troubleshooting support.
+- [Proxy Configuration in Windsurf Editor](https://docs.windsurf.com/troubleshooting/windsurf-proxy-configuration.md): Configure HTTP/HTTPS proxy settings for Windsurf Editor in corporate networks. Includes auto-detect, manual configuration, and SSH remote proxy setup.
+- [Windsurf PR Reviews](https://docs.windsurf.com/windsurf-reviews/windsurf-reviews.md): AI-powered GitHub pull request reviews for Teams and Enterprise. Automatically review PRs, edit titles, and provide feedback as GitHub comments.
+- [Analytics](https://docs.windsurf.com/windsurf/accounts/analytics.md): View individual user analytics, team analytics, usage patterns, and metrics for your Windsurf usage including code completion stats and AI-written code percentage.
+- [Analytics API](https://docs.windsurf.com/windsurf/accounts/api-reference/analytics-api-introduction.md): Enterprise analytics API for querying Windsurf usage data including autocomplete, chat, command, and Cascade metrics.
+- [API Reference](https://docs.windsurf.com/windsurf/accounts/api-reference/api-introduction.md): Enterprise API for querying Windsurf usage data and managing configurations with service key authentication.
+- [Get Cascade Analytics](https://docs.windsurf.com/windsurf/accounts/api-reference/cascade-analytics.md): Query Cascade-specific usage metrics including lines suggested/accepted, model usage, credit consumption, and tool usage statistics.
+- [Custom Analytics Query](https://docs.windsurf.com/windsurf/accounts/api-reference/custom-analytics.md): Flexible analytics querying with custom selections, filters, and aggregations for autocomplete, chat, command, and PCW data.
+- [Error Handling](https://docs.windsurf.com/windsurf/accounts/api-reference/errors.md): Common error messages and debugging tips for the Analytics API including authentication, query structure, and rate limiting errors.
+- [Get Usage Configuration](https://docs.windsurf.com/windsurf/accounts/api-reference/get-usage-config.md): Retrieve add-on credit cap configuration at team, group, or user level for enterprise billing management.
+- [Set Usage Configuration](https://docs.windsurf.com/windsurf/accounts/api-reference/usage-config.md): Set or clear add-on credit caps at team, group, or user level for enterprise billing management.
+- [Get User Page Analytics](https://docs.windsurf.com/windsurf/accounts/api-reference/user-page-analytics.md): Retrieve user activity statistics including names, emails, last activity times, and active days from the teams page.
+- [Domain Verification](https://docs.windsurf.com/windsurf/accounts/domain-verification.md): Verify your organization's domain ownership with DNS TXT records to enable SSO, user management, and automatic team invitations in Windsurf.
+- [Role Based Access & Management](https://docs.windsurf.com/windsurf/accounts/rbac-role-management.md): Configure RBAC permissions, create custom roles, and manage user access for Windsurf Teams and Enterprise plans.
+- [Setting up SSO & SCIM](https://docs.windsurf.com/windsurf/accounts/sso-scim.md): Configure Single Sign-On (SSO) and SCIM provisioning for your organization using Google Workspace, Microsoft Azure AD, Okta, or other SAML identity providers.
+- [Getting started with Teams and Enterprise](https://docs.windsurf.com/windsurf/accounts/teams-getting-started.md): Set up Windsurf Teams and Enterprise plans with team management, SSO, analytics, user groups, and priority support for your organization.
+- [Plans and Credit Usage](https://docs.windsurf.com/windsurf/accounts/usage.md): Understand Windsurf pricing plans, prompt credits, usage tracking, automatic refills, and how to upgrade from Free to Pro, Teams, or Enterprise.
+- [Advanced Configuration](https://docs.windsurf.com/windsurf/advanced.md): Advanced Windsurf configurations including SSH support, Dev Containers, WSL, extension marketplace settings, and gitignore access for Cascade.
+- [AI Commit Messages](https://docs.windsurf.com/windsurf/ai-commit-message.md): Generate meaningful git commit messages automatically with AI by analyzing your code changes with a single click in Windsurf.
+- [AGENTS.md](https://docs.windsurf.com/windsurf/cascade/agents-md.md): Create AGENTS.md files to provide directory-scoped instructions to Cascade. Instructions automatically apply based on file location in your project.
+- [App Deploys](https://docs.windsurf.com/windsurf/cascade/app-deploys.md): Deploy web applications directly from Windsurf to Netlify with public URLs, automatic builds, and project claiming for Next.js, React, Vue, and Svelte.
+- [Cascade Overview](https://docs.windsurf.com/windsurf/cascade/cascade.md): Cascade is Windsurf's agentic AI assistant with Code/Chat modes, tool calling, voice input, checkpoints, real-time awareness, and linter integration.
+- [Cascade Hooks](https://docs.windsurf.com/windsurf/cascade/hooks.md): Execute custom shell commands at key points in Cascade's workflow for logging, security controls, validation, and enterprise governance with pre and post hooks.
+- [Model Context Protocol (MCP)](https://docs.windsurf.com/windsurf/cascade/mcp.md): Integrate MCP servers with Cascade to access custom tools like GitHub, databases, and APIs. Configure stdio, HTTP, and SSE transports with admin controls for Teams.
+- [Memories & Rules](https://docs.windsurf.com/windsurf/cascade/memories.md): Persist context across Cascade conversations with auto-generated memories and user-defined rules at global, workspace, and system levels for enterprise teams.
+- [Skills](https://docs.windsurf.com/windsurf/cascade/skills.md): Skills help Cascade handle complex, multi-step tasks.
+- [Web and Docs Search](https://docs.windsurf.com/windsurf/cascade/web-search.md): Search the web and documentation directly from Cascade using @web and @docs mentions, URL parsing, and real-time context from web pages.
+- [Workflows](https://docs.windsurf.com/windsurf/cascade/workflows.md): Automate repetitive tasks in Cascade with reusable workflows defined as markdown files. Create PR review, deployment, testing, and code formatting workflows.
+- [Codemaps (Beta)](https://docs.windsurf.com/windsurf/codemaps.md): Create shareable hierarchical maps of your codebase to visualize code execution flow and component relationships. Navigate and share with teammates.
+- [C#, .NET, and CPP](https://docs.windsurf.com/windsurf/csharp-cpp.md): Setup guide for C#, .NET Core, .NET Framework (Mono), and C++ development in Windsurf using open-source tooling like OmniSharp, clangd, and LLDB.
+- [DeepWiki](https://docs.windsurf.com/windsurf/deepwiki.md): Get AI-powered explanations of code symbols with DeepWiki. Hover over functions, variables, and classes to understand unfamiliar code in your codebase.
+- [Welcome to Windsurf](https://docs.windsurf.com/windsurf/getting-started.md): Download and install Windsurf IDE for Mac, Windows, or Linux. Import VS Code or Cursor settings, configure themes, and start coding with AI-powered assistance.
+- [Guide for Admins](https://docs.windsurf.com/windsurf/guide-for-admins.md): Enterprise admin guide for deploying Windsurf at scale. Configure SSO, SCIM, RBAC, analytics, and team management for large organizations.
+- [AI Models](https://docs.windsurf.com/windsurf/models.md): Available AI models in Windsurf Cascade including SWE-1.5, Claude, GPT, and BYOK options. Compare model capabilities, credit costs, and performance.
+- [Windsurf Previews](https://docs.windsurf.com/windsurf/previews.md): Preview your web app locally in Windsurf IDE or browser with element selection, error capture, and direct integration with Cascade for rapid iteration.
+- [Recommended Extensions](https://docs.windsurf.com/windsurf/recommended-extensions.md): Popular Open VSX extensions for Windsurf including Python, Java, C#, GitLens, and more. Replicate familiar IDE experiences from VS Code, Eclipse, or Visual Studio.
+- [Terminal](https://docs.windsurf.com/windsurf/terminal.md): Use Windsurf's enhanced terminal with Command mode, Cascade integration, Turbo mode for auto-execution, and allow/deny lists for command control.
+- [Vibe and Replace](https://docs.windsurf.com/windsurf/vibe-and-replace.md): AI-powered find and replace that applies natural language prompts to each match. Use Smart mode for careful changes or Fast mode for quick transformations.
+
+
+## Optional
+
+- [Discord Community](https://discord.com/invite/3XFf78nAx5)
+- [Windsurf Blog](https://windsurf.com/blog)
+- [Support](https://windsurf.com/support)
+- [Communauté Discord](https://discord.com/invite/3XFf78nAx5)
+- [Blog Windsurf](https://windsurf.com/blog)
+- [Assistance](https://windsurf.com/support)
+- [Comunidad en Discord](https://discord.com/invite/3XFf78nAx5)
+- [Blog de Windsurf](https://windsurf.com/blog)
+- [Soporte](https://windsurf.com/support)
+- [Discord-Community](https://discord.com/invite/3XFf78nAx5)
+- [Windsurf-Blog](https://windsurf.com/blog)
+- [Support](https://windsurf.com/support)
+- [Comunidade no Discord](https://discord.com/invite/3XFf78nAx5)
+- [Blog do Windsurf](https://windsurf.com/blog)
+- [Suporte](https://windsurf.com/support)
+- [Discord 社区](https://discord.com/invite/3XFf78nAx5)
+- [Windsurf 博客](https://windsurf.com/blog)
+- [支持](https://windsurf.com/support)
+- [Discord コミュニティ](https://discord.com/invite/3XFf78nAx5)
+- [Windsurf ブログ](https://windsurf.com/blog)
+- [サポート](https://windsurf.com/support)
+- [Comunitatea Discord](https://discord.com/invite/3XFf78nAx5)
+- [Blogul Windsurf](https://windsurf.com/blog)
+- [Asistență](https://windsurf.com/support)
+
+

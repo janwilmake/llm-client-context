@@ -1,0 +1,1 @@
+Consider the major llm clients in `README.md` and do a web-search using `MCP:Parallel-Search-MCP`. Are there any missing LLM-clients that are built by major companies? We need the top 10 at any given time. If so, make a PR for adding it into the `README.md`
