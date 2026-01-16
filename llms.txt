@@ -141,6 +141,7 @@ The full documentation is available in the following languages on https://platfo
 - [Extended thinking tips](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/extended-thinking-tips.md)
 - [Files API](https://platform.claude.com/docs/en/build-with-claude/files.md)
 - [Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md)
+- [Structured outputs in the SDK](https://platform.claude.com/docs/en/agent-sdk/structured-outputs.md) - Get structured output from agents
 - [Give Claude a role (system prompts)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/system-prompts.md) - Giving Claude a role with a system prompt
 - [User approvals and input](https://platform.claude.com/docs/en/agent-sdk/user-input.md) - Handle approvals and user input
 - [Hosting the Agent SDK](https://platform.claude.com/docs/en/agent-sdk/hosting.md)
@@ -180,7 +181,6 @@ The full documentation is available in the following languages on https://platfo
 - [Streaming Messages](https://platform.claude.com/docs/en/build-with-claude/streaming.md)
 - [Streaming refusals](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals.md)
 - [Structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs.md)
-- [Structured outputs in the SDK](https://platform.claude.com/docs/en/agent-sdk/structured-outputs.md)
 - [Subagents in the SDK](https://platform.claude.com/docs/en/agent-sdk/subagents.md)
 - [Text editor tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool.md)
 - [Todo Lists](https://platform.claude.com/docs/en/agent-sdk/todo-tracking.md)
