@@ -131,6 +131,7 @@ The full documentation is available in the following languages on https://platfo
 - [Code execution tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool.md)
 - [Computer use tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool.md)
 - [Handling Permissions](https://platform.claude.com/docs/en/agent-sdk/permissions.md) - Configure permissions
+- [MCP in the SDK](https://platform.claude.com/docs/en/agent-sdk/mcp.md) - Connect to external tools with MCP
 - [Context editing](https://platform.claude.com/docs/en/build-with-claude/context-editing.md)
 - [Context windows](https://platform.claude.com/docs/en/build-with-claude/context-windows.md)
 - [Develop test cases](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md) - Create strong empirical evaluations
@@ -152,7 +153,6 @@ The full documentation is available in the following languages on https://platfo
 - [Let Claude think (CoT)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought.md) - Let Claude think (chain of thought prompting) to increase performance
 - [Long context tips](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/long-context-tips.md) - Long context prompting tips
 - [MCP connector](https://platform.claude.com/docs/en/agents-and-tools/mcp-connector.md)
-- [MCP in the SDK](https://platform.claude.com/docs/en/agent-sdk/mcp.md)
 - [Memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool.md)
 - [Migration Guide](https://platform.claude.com/docs/en/agent-sdk/migration-guide.md) - Migrate to Claude Agent SDK
 - [Migrating to Claude 4.5](https://platform.claude.com/docs/en/about-claude/models/migrating-to-claude-4.md)
@@ -1315,6 +1315,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Skills](https://docs.windsurf.com/windsurf/cascade/skills.md): Skills help Cascade handle complex, multi-step tasks.
 - [Web and Docs Search](https://docs.windsurf.com/windsurf/cascade/web-search.md): Search the web and documentation directly from Cascade using @web and @docs mentions, URL parsing, and real-time context from web pages.
 - [Workflows](https://docs.windsurf.com/windsurf/cascade/workflows.md): Automate repetitive tasks in Cascade with reusable workflows defined as markdown files. Create PR review, deployment, testing, and code formatting workflows.
+- [Worktrees](https://docs.windsurf.com/windsurf/cascade/worktrees.md): Automatically set up git worktrees for parallel Cascade tasks
 - [Codemaps (Beta)](https://docs.windsurf.com/windsurf/codemaps.md): Create shareable hierarchical maps of your codebase to visualize code execution flow and component relationships. Navigate and share with teammates.
 - [C#, .NET, and CPP](https://docs.windsurf.com/windsurf/csharp-cpp.md): Setup guide for C#, .NET Core, .NET Framework (Mono), and C++ development in Windsurf using open-source tooling like OmniSharp, clangd, and LLDB.
 - [DeepWiki](https://docs.windsurf.com/windsurf/deepwiki.md): Get AI-powered explanations of code symbols with DeepWiki. Hover over functions, variables, and classes to understand unfamiliar code in your codebase.
