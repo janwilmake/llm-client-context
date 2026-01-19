@@ -1178,6 +1178,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Workflows Quick Start](https://docs.cline.bot/features/slash-commands/workflows/quickstart.md): A step-by-step guide to creating your first Cline workflow.
 - [Task Management](https://docs.cline.bot/features/tasks/task-management.md): Learn how to organize, search, and manage your task history in Cline.
 - [Understanding Tasks](https://docs.cline.bot/features/tasks/understanding-tasks.md): Learn what tasks are in Cline, how they work, and how to create effective prompts for better results.
+- [Worktrees](https://docs.cline.bot/features/worktrees.md)
 - [YOLO Mode](https://docs.cline.bot/features/yolo-mode.md)
 - [Installing Cline](https://docs.cline.bot/getting-started/installing-cline.md): Get Cline up and running in your favorite IDE with these simple installation steps
 - [Selecting Your Model](https://docs.cline.bot/getting-started/selecting-your-model.md): Get started with your first AI model in Cline
