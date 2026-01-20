@@ -15,6 +15,10 @@ Here are all the agent-friendly entrypoints for major LLM clients.
 - https://docs.cline.bot/llms.txt
 - https://docs.windsurf.com/llms.txt
 
+## prompt all skills
+
+https://contextarea.com/rules-httpsrawg-2rmtsz1wbza8d0
+
 ## TODO: (these have no llms.txt and are worth making):
 
 - https://ampcode.com/manual
