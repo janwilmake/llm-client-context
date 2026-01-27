@@ -997,9 +997,6 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 - [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
 - [Create skills](https://developers.openai.com/codex/skills/create-skill.md): Create custom workflows and enforce best practices across projects with Codex
 
-## Codex — Team Config
-- [Team Config](https://developers.openai.com/codex/team-config.md): Share Codex defaults, rules, and skills across a team
-
 ## Codex — Windows
 - [Windows](https://developers.openai.com/codex/windows.md): Tips for running Codex on Windows
 
@@ -1353,6 +1350,7 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 - [Question answering with Langchain, Qdrant and OpenAI](https://developers.openai.com/cookbook/examples/vector_databases/qdrant/qa_with_langchain_qdrant_and_openai.md)
 - [Question answering with Langchain, Tair and OpenAI](https://developers.openai.com/cookbook/examples/vector_databases/tair/qa_with_langchain_tair_and_openai.md)
 - [RAG with a Graph database](https://developers.openai.com/cookbook/examples/rag_with_graph_db.md)
+- [Realtime Eval Guide](https://developers.openai.com/cookbook/examples/realtime_eval_guide.md)
 - [Realtime Prompting Guide](https://developers.openai.com/cookbook/examples/realtime_prompting_guide.md)
 - [Reasoning over Code Quality and Security in GitHub Pull Requests](https://developers.openai.com/cookbook/examples/third_party/code_quality_and_security_scan_with_github_actions.md)
 - [Redis](https://developers.openai.com/cookbook/examples/vector_databases/redis/readme.md)
@@ -1560,9 +1558,6 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 ## Skills
 - [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
 - [Create skills](https://developers.openai.com/codex/skills/create-skill.md): Create custom workflows and enforce best practices across projects with Codex
-
-## Team Config
-- [Team Config](https://developers.openai.com/codex/team-config.md): Share Codex defaults, rules, and skills across a team
 
 ## Windows
 - [Windows](https://developers.openai.com/codex/windows.md): Tips for running Codex on Windows
