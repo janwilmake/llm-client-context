@@ -85,7 +85,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 532 pages - /docs - Content included below
+- English (en) - 533 pages - /docs - Content included below
 - German (Deutsch) (de) - 181 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 181 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 181 pages - /docs/fr - Visit website for content
@@ -178,6 +178,7 @@ The full documentation is available in the following languages on https://platfo
 - [Securely deploying AI agents](https://platform.claude.com/docs/en/agent-sdk/secure-deployment.md)
 - [Session Management](https://platform.claude.com/docs/en/agent-sdk/sessions.md)
 - [Best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices.md) - Skill authoring best practices
+- [Skills for enterprise](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise.md)
 - [Slash Commands in the SDK](https://platform.claude.com/docs/en/agent-sdk/slash-commands.md)
 - [Streaming Input](https://platform.claude.com/docs/en/agent-sdk/streaming-vs-single-mode.md)
 - [Streaming Messages](https://platform.claude.com/docs/en/build-with-claude/streaming.md)
@@ -1609,7 +1610,8 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Automatic Context Summarization](https://docs.cline.bot/features/auto-compact.md)
 - [Background Edit](https://docs.cline.bot/features/background-edit.md)
 - [Checkpoints](https://docs.cline.bot/features/checkpoints.md)
-- [null](https://docs.cline.bot/features/cline-rules.md)
+- [Conditional Rules](https://docs.cline.bot/features/cline-rules/conditional-rules.md): Activate rules automatically based on which files you're working with
+- [Cline Rules](https://docs.cline.bot/features/cline-rules/overview.md): Add persistent instructions and context to guide Cline's behavior
 - [Code Commands](https://docs.cline.bot/features/commands-and-shortcuts/code-commands.md)
 - [Generate Commit Message](https://docs.cline.bot/features/commands-and-shortcuts/git-integration.md)
 - [Keyboard Shortcuts](https://docs.cline.bot/features/commands-and-shortcuts/keyboard-shortcuts.md)
