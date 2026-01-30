@@ -17,7 +17,7 @@
 ## Docs
 
 - [Claude Code on Amazon Bedrock](https://code.claude.com/docs/en/amazon-bedrock.md): Learn about configuring Claude Code through Amazon Bedrock, including setup, IAM configuration, and troubleshooting.
-- [Analytics](https://code.claude.com/docs/en/analytics.md): View detailed usage insights and productivity metrics for your organization's Claude Code deployment.
+- [Track team usage with analytics](https://code.claude.com/docs/en/analytics.md): View Claude Code usage metrics, track adoption, and measure engineering velocity in the analytics dashboard.
 - [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices.md): Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.
 - [Changelog](https://code.claude.com/docs/en/changelog.md)
 - [Checkpointing](https://code.claude.com/docs/en/checkpointing.md): Automatically track and rewind Claude's edits to quickly recover from unwanted changes.
@@ -1426,6 +1426,7 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 - [Session metadata for tool calls & requestModal template switching](https://developers.openai.com/changelog/apps-sdk/2026-01-15.md): Tool calls now include `_meta["openai/session"]`, an anonymized conversation id you can use to correlate requests within a ChatGPT session.
 
 ## Changelog — Codex
+- [Web search is now enabled by default](https://developers.openai.com/changelog/codex/2026-01-28.md)
 - [Team Config for shared configuration](https://developers.openai.com/changelog/codex/2026-01-23.md)
 - [Custom prompts deprecated](https://developers.openai.com/changelog/codex/2026-01-22.md)
 - [GPT-5.2-Codex API availability](https://developers.openai.com/changelog/codex/2026-01-14.md)
@@ -1745,6 +1746,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Welcome to Windsurf Plugins](https://docs.windsurf.com/plugins/getting-started.md): Install and set up Windsurf Plugins for JetBrains, VS Code, Visual Studio, Vim, NeoVim, Jupyter, Chrome, and other IDEs with AI-powered coding assistance.
 - [Guide for Admins](https://docs.windsurf.com/plugins/guide-for-admins.md): Enterprise admin guide for deploying Windsurf at scale. Configure SSO, SCIM, RBAC, analytics, and team management for large organizations.
 - [Reporting Security Concerns](https://docs.windsurf.com/security/reporting.md): Report security vulnerabilities to Windsurf securely via email with GPG encryption. Learn about our coordinated disclosure policy and safe harbor.
+- [FedRAMP Security Admin Guide](https://docs.windsurf.com/security/security-admin-guide.md): Windsurf FedRAMP Security Admin Guide for securely setting up, configuring, operating, and decommissioning top-level administrative accounts. Includes role definitions, account lifecycle procedures, and a reference table of all admin-controlled security settings.
 - [Windsurf Tab](https://docs.windsurf.com/tab/overview.md): Windsurf Tab provides AI-powered code suggestions with Tab to Jump, Tab to Import, and inline suggestions, powered by our custom model.
 - [General Issues](https://docs.windsurf.com/troubleshooting/plugins-common-issues.md): Common Windsurf plugin issues including subscription problems, cancellation, telemetry settings, account deletion, and chat panel troubleshooting.
 - [Eclipse Troubleshooting](https://docs.windsurf.com/troubleshooting/plugins-enterprise/eclipse.md): Troubleshoot Eclipse plugin issues including startup problems, empty chat screen, WebView2, and certificate errors with Java keystore solutions.
