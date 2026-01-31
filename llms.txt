@@ -86,7 +86,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 533 pages - /docs - Content included below
+- English (en) - 534 pages - /docs - Content included below
 - German (Deutsch) (de) - 181 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 181 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 181 pages - /docs/fr - Visit website for content
@@ -181,6 +181,7 @@ The full documentation is available in the following languages on https://platfo
 - [Best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices.md) - Skill authoring best practices
 - [Skills for enterprise](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise.md)
 - [Slash Commands in the SDK](https://platform.claude.com/docs/en/agent-sdk/slash-commands.md)
+- [Stream responses in real-time](https://platform.claude.com/docs/en/agent-sdk/streaming-output.md)
 - [Streaming Input](https://platform.claude.com/docs/en/agent-sdk/streaming-vs-single-mode.md)
 - [Streaming Messages](https://platform.claude.com/docs/en/build-with-claude/streaming.md)
 - [Streaming refusals](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals.md)
@@ -1777,10 +1778,12 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [AI Commit Messages](https://docs.windsurf.com/windsurf/ai-commit-message.md): Generate meaningful git commit messages automatically with AI by analyzing your code changes with a single click in Windsurf.
 - [AGENTS.md](https://docs.windsurf.com/windsurf/cascade/agents-md.md): Create AGENTS.md files to provide directory-scoped instructions to Cascade. Instructions automatically apply based on file location in your project.
 - [App Deploys](https://docs.windsurf.com/windsurf/cascade/app-deploys.md): Deploy web applications directly from Windsurf to Netlify with public URLs, automatic builds, and project claiming for Next.js, React, Vue, and Svelte.
+- [Arena Mode](https://docs.windsurf.com/windsurf/cascade/arena.md): Run multiple Cascade instances in parallel using arena mode to explore different approaches simultaneously.
 - [Cascade Overview](https://docs.windsurf.com/windsurf/cascade/cascade.md): Cascade is Windsurf's agentic AI assistant with Code/Chat modes, tool calling, voice input, checkpoints, real-time awareness, and linter integration.
 - [Cascade Hooks](https://docs.windsurf.com/windsurf/cascade/hooks.md): Execute custom shell commands at key points in Cascade's workflow for logging, security controls, validation, and enterprise governance with pre and post hooks.
 - [Model Context Protocol (MCP)](https://docs.windsurf.com/windsurf/cascade/mcp.md): Integrate MCP servers with Cascade to access custom tools like GitHub, databases, and APIs. Configure stdio, HTTP, and SSE transports with admin controls for Teams.
 - [Memories & Rules](https://docs.windsurf.com/windsurf/cascade/memories.md): Persist context across Cascade conversations with auto-generated memories and user-defined rules at global, workspace, and system levels for enterprise teams.
+- [Cascade Modes](https://docs.windsurf.com/windsurf/cascade/modes.md): Cascade offers multiple distinct modes, each optimized for different types of tasks.
 - [Skills](https://docs.windsurf.com/windsurf/cascade/skills.md): Skills help Cascade handle complex, multi-step tasks.
 - [Web and Docs Search](https://docs.windsurf.com/windsurf/cascade/web-search.md): Search the web and documentation directly from Cascade using @web and @docs mentions, URL parsing, and real-time context from web pages.
 - [Workflows](https://docs.windsurf.com/windsurf/cascade/workflows.md): Automate repetitive tasks in Cascade with reusable workflows defined as markdown files. Create PR review, deployment, testing, and code formatting workflows.
