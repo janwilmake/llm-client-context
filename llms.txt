@@ -18,6 +18,7 @@
 
 - [Claude Code on Amazon Bedrock](https://code.claude.com/docs/en/amazon-bedrock.md): Learn about configuring Claude Code through Amazon Bedrock, including setup, IAM configuration, and troubleshooting.
 - [Track team usage with analytics](https://code.claude.com/docs/en/analytics.md): View Claude Code usage metrics, track adoption, and measure engineering velocity in the analytics dashboard.
+- [Authentication](https://code.claude.com/docs/en/authentication.md): Learn how to configure user authentication and credential management for Claude Code in your organization.
 - [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices.md): Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.
 - [Changelog](https://code.claude.com/docs/en/changelog.md)
 - [Checkpointing](https://code.claude.com/docs/en/checkpointing.md): Automatically track and rewind Claude's edits to quickly recover from unwanted changes.
@@ -38,7 +39,6 @@
 - [Hooks reference](https://code.claude.com/docs/en/hooks.md): Reference for Claude Code hook events, configuration schema, JSON input/output formats, exit codes, async hooks, prompt hooks, and MCP tool hooks.
 - [Automate workflows with hooks](https://code.claude.com/docs/en/hooks-guide.md): Run shell commands automatically when Claude Code edits files, finishes tasks, or needs input. Format code, send notifications, validate commands, and enforce project rules.
 - [How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works.md): Understand the agentic loop, built-in tools, and how Claude Code interacts with your project.
-- [Identity and Access Management](https://code.claude.com/docs/en/iam.md): Learn how to configure user authentication, authorization, and access controls for Claude Code in your organization.
 - [Interactive mode](https://code.claude.com/docs/en/interactive-mode.md): Complete reference for keyboard shortcuts, input modes, and interactive features in Claude Code sessions.
 - [JetBrains IDEs](https://code.claude.com/docs/en/jetbrains.md): Use Claude Code with JetBrains IDEs including IntelliJ, PyCharm, WebStorm, and more
 - [Customize keyboard shortcuts](https://code.claude.com/docs/en/keybindings.md): Customize keyboard shortcuts in Claude Code with a keybindings configuration file.
@@ -52,6 +52,7 @@
 - [Enterprise network configuration](https://code.claude.com/docs/en/network-config.md): Configure Claude Code for enterprise environments with proxy servers, custom Certificate Authorities (CA), and mutual Transport Layer Security (mTLS) authentication.
 - [Output styles](https://code.claude.com/docs/en/output-styles.md): Adapt Claude Code for uses beyond software engineering
 - [Claude Code overview](https://code.claude.com/docs/en/overview.md): Learn about Claude Code, Anthropic's agentic coding tool that lives in your terminal and helps you turn ideas into code faster than ever before.
+- [Configure permissions](https://code.claude.com/docs/en/permissions.md): Control what Claude Code can access and do with fine-grained permission rules, modes, and managed policies.
 - [Create and distribute a plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces.md): Build and host plugin marketplaces to distribute Claude Code extensions across teams and communities.
 - [Create plugins](https://code.claude.com/docs/en/plugins.md): Create custom plugins to extend Claude Code with skills, agents, hooks, and MCP servers.
 - [Plugins reference](https://code.claude.com/docs/en/plugins-reference.md): Complete technical reference for Claude Code plugin system, including schemas, CLI commands, and component specifications.
@@ -86,7 +87,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 534 pages - /docs - Content included below
+- English (en) - 535 pages - /docs - Content included below
 - German (Deutsch) (de) - 181 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 181 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 181 pages - /docs/fr - Visit website for content
@@ -206,6 +207,7 @@ The full documentation is available in the following languages on https://platfo
 - [Web search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool.md)
 - [What's new in Claude 4.5](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-5.md)
 - [Workspaces](https://platform.claude.com/docs/en/build-with-claude/workspaces.md)
+- [Zero Data Retention](https://platform.claude.com/docs/en/build-with-claude/zero-data-retention.md) - Zero Data Retention (ZDR)
 
 ### API Reference
 
@@ -895,6 +897,9 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 - [Optimize Metadata](https://developers.openai.com/apps-sdk/guides/optimize-metadata.md): Improve discovery and behavior with rich metadata.
 - [Security & Privacy](https://developers.openai.com/apps-sdk/guides/security-privacy.md): Security and privacy considerations for Apps SDK.
 
+## Apps SDK — Mcp Apps In Chatgpt
+- [MCP Apps compatibility in ChatGPT](https://developers.openai.com/apps-sdk/mcp-apps-in-chatgpt.md): Build portable MCP Apps UIs that run in ChatGPT
+
 ## Apps SDK — Plan
 - [Define tools](https://developers.openai.com/apps-sdk/plan/tools.md): Plan and define tools for your assistant.
 - [Design components](https://developers.openai.com/apps-sdk/plan/components.md): Plan and design UI components that users can interact with.
@@ -1164,6 +1169,7 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 - [DevDay — optimization breakout](https://developers.openai.com/resources/video/devday-optimization-breakout.md): DevDay session discussing optimization of models and prompts.
 - [DevDay — realtime breakout](https://developers.openai.com/resources/video/devday-realtime-breakout.md): DevDay session focused on realtime agent capabilities.
 - [DevDay — structured outputs breakout](https://developers.openai.com/resources/video/devday-structured-outputs-breakout.md): Session covering structured outputs from DevDay.
+- [Introducing the Codex app](https://developers.openai.com/resources/video/introducing-codex-app-video.md): See the Codex app in action and how it helps you build and ship faster.
 - [Launch apps with evaluations](https://developers.openai.com/resources/video/launching-products-evaluations-video.md): Video on incorporating evals when deploying AI products.
 - [Live Demo Showcase: Tools That 10x Your Codebase](https://developers.openai.com/resources/video/tools-that-10x-your-codebase-video.md): Live walkthrough of Codex-powered tooling that accelerates software delivery.
 - [MCP intro](https://developers.openai.com/resources/video/mcp-intro.md): Introduction video to Model Customization Platform (MCP).
@@ -1332,6 +1338,7 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 - [How to use functions with a knowledge base](https://developers.openai.com/cookbook/examples/how_to_call_functions_for_knowledge_retrieval.md)
 - [How to use the moderation API](https://developers.openai.com/cookbook/examples/how_to_use_moderation.md)
 - [How to use the Usage API and Cost API to monitor your OpenAI usage](https://developers.openai.com/cookbook/examples/completions_usage_api.md): Cookbook to fetch and visualize Completions Usage and cost data via API.
+- [Image Evals for Image Generation and Editing Use Cases](https://developers.openai.com/cookbook/examples/multimodal/image_evals.md): Cookbook to build image evals for image generation and editing use cases.
 - [Image Understanding with RAG](https://developers.openai.com/cookbook/examples/multimodal/image_understanding_with_rag.md)
 - [Introduction to deep research in the OpenAI API](https://developers.openai.com/cookbook/examples/deep_research_api/introduction_to_deep_research_api.md)
 - [Introduction to GPT-4o and GPT-4o mini](https://developers.openai.com/cookbook/examples/gpt4o/introduction_to_gpt4o.md)
@@ -1434,7 +1441,6 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 - [Vector similarity search using Neon Postgres](https://developers.openai.com/cookbook/examples/vector_databases/neon/neon-postgres-vector-search-pgvector.md)
 - [Vision Fine-tuning on GPT-4o for Visual Question Answering](https://developers.openai.com/cookbook/examples/multimodal/vision_fine_tuning_on_gpt4o_for_visual_question_answering.md)
 - [Visualizing embeddings in Atlas](https://developers.openai.com/cookbook/examples/third_party/visualizing_embeddings_with_atlas.md)
-- [Visualizing embeddings in Weights and Biases](https://developers.openai.com/cookbook/examples/third_party/visualizing_embeddings_in_wandb.md)
 - [Visualizing the embeddings in Kangas](https://developers.openai.com/cookbook/examples/third_party/visualizing_embeddings_in_kangas.md)
 - [Voice Translation into Different Languages](https://developers.openai.com/cookbook/examples/voice_solutions/voice_translation_into_different_languages_using_gpt-4o.md)
 - [Weaviate <> OpenAI](https://developers.openai.com/cookbook/examples/vector_databases/weaviate/readme.md)
@@ -1613,13 +1619,19 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 
 ## Docs
 
-- [CLI Reference](https://docs.cline.bot/cline-cli/cli-reference.md): Complete command reference for Cline CLI including configuration, instance management, and task commands
-- [Installation](https://docs.cline.bot/cline-cli/installation.md): Install Cline CLI and authenticate with your account
-- [Overview](https://docs.cline.bot/cline-cli/overview.md): Install the CLI, run your first task, and learn to automate code reviews and integrate AI agents into your development workflow
+- [ACP: Editor Integrations](https://docs.cline.bot/cline-cli/acp-editor-integrations.md): Use Cline in JetBrains, Neovim, Zed, and other editors via the Agent Client Protocol
+- [CLI Reference](https://docs.cline.bot/cline-cli/cli-reference.md): Complete command reference for Cline CLI including all commands, flags, and configuration options
+- [Configuration](https://docs.cline.bot/cline-cli/configuration.md): Manage Cline CLI settings with cline config, environment variables, and configuration files
+- [Installation & Setup](https://docs.cline.bot/cline-cli/installation.md): Install Cline CLI on macOS, Linux, or Windows and configure your AI provider
+- [Interactive Mode](https://docs.cline.bot/cline-cli/interactive-mode.md): Master the interactive CLI with keyboard shortcuts, slash commands, and file mentions
+- [Overview](https://docs.cline.bot/cline-cli/overview.md): Run Cline AI coding agents directly in your terminal with an interactive CLI or automated workflows
 - [GitHub Actions Integration](https://docs.cline.bot/cline-cli/samples/github-integration.md): Automatically respond to GitHub issues by mentioning @cline in comments using Cline CLI in GitHub Actions.
 - [GitHub Issue RCA Sample](https://docs.cline.bot/cline-cli/samples/github-issue-rca.md): Automated GitHub issue analysis using Cline CLI to identify root causes.
+- [GitHub PR Review](https://docs.cline.bot/cline-cli/samples/github-pr-review.md): Automatically review Pull Requests with AI using Cline CLI in GitHub Actions.
+- [Model Orchestration](https://docs.cline.bot/cline-cli/samples/model-orchestration.md): Use multiple AI models strategically: optimize costs, reduce bias, and leverage model-specific strengths in your workflows
 - [Samples Overview](https://docs.cline.bot/cline-cli/samples/overview.md): Example implementations demonstrating Cline CLI capabilities
-- [Three Core Flows](https://docs.cline.bot/cline-cli/three-core-flows.md): Learn the three ways to use Cline CLI: interactive mode, headless automation, and multi-instance parallelization
+- [Worktree Workflows](https://docs.cline.bot/cline-cli/samples/worktree-workflows.md): Use Git worktrees with Cline CLI to run parallel tasks, test different approaches, and pipe context between isolated environments
+- [CLI Workflows](https://docs.cline.bot/cline-cli/three-core-flows.md): Learn the three ways to use Cline CLI: interactive mode, direct task execution, and automation
 - [Model Selection Guide](https://docs.cline.bot/core-features/model-selection-guide.md): Last updated: August 20, 2025.
 - [YOLO Mode](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/yolo-mode.md): Enterprise controls for YOLO Mode autonomous operation
 - [Configure AWS Bedrock Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/aws-bedrock/admin-configuration.md): This guide explains how administrators configure AWS Bedrock as the organization-wide LLM provider for Cline.
