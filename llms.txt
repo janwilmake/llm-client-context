@@ -22,7 +22,7 @@
 - [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices.md): Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.
 - [Changelog](https://code.claude.com/docs/en/changelog.md)
 - [Checkpointing](https://code.claude.com/docs/en/checkpointing.md): Automatically track and rewind Claude's edits to quickly recover from unwanted changes.
-- [Use Claude Code with Chrome (beta)](https://code.claude.com/docs/en/chrome.md): Connect Claude Code to your browser to test web apps, debug with console logs, and automate browser tasks.
+- [Use Claude Code with Chrome (beta)](https://code.claude.com/docs/en/chrome.md): Connect Claude Code to your Chrome browser to test web apps, debug with console logs, automate form filling, and extract data from web pages.
 - [Claude Code on the web](https://code.claude.com/docs/en/claude-code-on-the-web.md): Run Claude Code tasks asynchronously on secure cloud infrastructure
 - [CLI reference](https://code.claude.com/docs/en/cli-reference.md): Complete reference for Claude Code command-line interface, including commands and flags.
 - [Common workflows](https://code.claude.com/docs/en/common-workflows.md): Step-by-step guides for exploring codebases, fixing bugs, refactoring, testing, and other everyday tasks with Claude Code.
@@ -51,7 +51,7 @@
 - [Monitoring](https://code.claude.com/docs/en/monitoring-usage.md): Learn how to enable and configure OpenTelemetry for Claude Code.
 - [Enterprise network configuration](https://code.claude.com/docs/en/network-config.md): Configure Claude Code for enterprise environments with proxy servers, custom Certificate Authorities (CA), and mutual Transport Layer Security (mTLS) authentication.
 - [Output styles](https://code.claude.com/docs/en/output-styles.md): Adapt Claude Code for uses beyond software engineering
-- [Claude Code overview](https://code.claude.com/docs/en/overview.md): Learn about Claude Code, Anthropic's agentic coding tool that lives in your terminal and helps you turn ideas into code faster than ever before.
+- [Claude Code overview](https://code.claude.com/docs/en/overview.md): Learn about Claude Code, Anthropic's agentic coding tool that works in your terminal, IDE, desktop app, and browser to help you turn ideas into code faster than ever before.
 - [Configure permissions](https://code.claude.com/docs/en/permissions.md): Control what Claude Code can access and do with fine-grained permission rules, modes, and managed policies.
 - [Create and distribute a plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces.md): Build and host plugin marketplaces to distribute Claude Code extensions across teams and communities.
 - [Create plugins](https://code.claude.com/docs/en/plugins.md): Create custom plugins to extend Claude Code with skills, agents, hooks, and MCP servers.
@@ -1183,6 +1183,7 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 - [Using OpenAI Codex CLI with GPT-5-Codex](https://developers.openai.com/resources/video/codex-cli-gpt5-video.md): Overview of running the Codex CLI locally with GPT-5-Codex.
 
 ## Blog — Posts
+- [15 lessons learned building ChatGPT Apps](https://developers.openai.com/blog/15-lessons-building-chatgpt-apps.md): And how we incorporated them into a Codex Skill to help you build ChatGPT Apps 10x faster.
 - [Testing Agent Skills Systematically with Evals](https://developers.openai.com/blog/eval-skills.md): A practical guide to turning agent skills into something you can test, score, and improve over time.
 - [Supercharging Codex with JetBrains MCP at Skyscanner](https://developers.openai.com/blog/skyscanner-codex-jetbrains-mcp.md): How Skyscanner integrated Codex CLI with JetBrains IDEs to speed up debugging, testing, and development workflows.
 - [OpenAI for Developers in 2025](https://developers.openai.com/blog/openai-for-developers-2025.md): A year-end roundup of the biggest model, API, and platform shifts for building production-grade agents.
@@ -1478,6 +1479,7 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 - [Codex in the ChatGPT iOS app](https://developers.openai.com/changelog/codex/2025-05-19.md)
 
 ## Changelog — Developers
+- [Added ChatGPT Apps lessons guest post](https://developers.openai.com/changelog/developers/2026-02-03.md): Published the guest post "15 lessons learned building ChatGPT Apps" by Nikolay Rodionov.
 - [Expanded llms.txt coverage](https://developers.openai.com/changelog/developers/2026-01-22.md): Expanded llms.txt coverage to include resources, blog posts, cookbook entries, and the developer changelog, with full exports where available.
 - [Resources updates](https://developers.openai.com/changelog/developers/2025-11-4.md): Published a new [Apps SDK state management](https://developers.openai.com/apps-sdk/build/state-management) guide.
 
