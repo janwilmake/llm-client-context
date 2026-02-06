@@ -16,6 +16,7 @@
 
 ## Docs
 
+- [Orchestrate teams of Claude Code sessions](https://code.claude.com/docs/en/agent-teams.md): Coordinate multiple Claude Code instances working together as a team, with shared tasks, inter-agent messaging, and centralized management.
 - [Claude Code on Amazon Bedrock](https://code.claude.com/docs/en/amazon-bedrock.md): Learn about configuring Claude Code through Amazon Bedrock, including setup, IAM configuration, and troubleshooting.
 - [Track team usage with analytics](https://code.claude.com/docs/en/analytics.md): View Claude Code usage metrics, track adoption, and measure engineering velocity in the analytics dashboard.
 - [Authentication](https://code.claude.com/docs/en/authentication.md): Learn how to configure user authentication and credential management for Claude Code in your organization.
@@ -63,7 +64,7 @@
 - [Set up Claude Code](https://code.claude.com/docs/en/setup.md): Install, authenticate, and start using Claude Code on your development machine.
 - [Extend Claude with skills](https://code.claude.com/docs/en/skills.md): Create, manage, and share skills to extend Claude's capabilities in Claude Code. Includes custom slash commands.
 - [Claude Code in Slack](https://code.claude.com/docs/en/slack.md): Delegate coding tasks directly from your Slack workspace
-- [Status line configuration](https://code.claude.com/docs/en/statusline.md): Create a custom status line for Claude Code to display contextual information
+- [Customize your status line](https://code.claude.com/docs/en/statusline.md): Configure a custom status bar to monitor context window usage, costs, and git status in Claude Code
 - [Create custom subagents](https://code.claude.com/docs/en/sub-agents.md): Create and use specialized AI subagents in Claude Code for task-specific workflows and improved context management.
 - [Optimize your terminal setup](https://code.claude.com/docs/en/terminal-config.md): Claude Code works best when your terminal is properly configured. Follow these guidelines to optimize your experience.
 - [Enterprise deployment overview](https://code.claude.com/docs/en/third-party-integrations.md): Learn how Claude Code can integrate with various third-party services and infrastructure to meet enterprise deployment requirements.
@@ -87,18 +88,18 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 535 pages - /docs - Content included below
-- German (Deutsch) (de) - 181 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 181 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 181 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 181 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 181 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 181 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 181 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 181 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 181 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 181 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 181 pages - /docs/id - Visit website for content
+- English (en) - 539 pages - /docs - Content included below
+- German (Deutsch) (de) - 190 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 190 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 190 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 190 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 190 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 190 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 190 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 190 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 190 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 190 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 190 pages - /docs/id - Visit website for content
 
 ---
 
@@ -116,6 +117,7 @@ The full documentation is available in the following languages on https://platfo
 - [Overview](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview.md) - Prompt engineering overview
 - [Quickstart](https://platform.claude.com/docs/en/agent-sdk/quickstart.md)
 - [Overview](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview.md) - Tool use with Claude
+- [Adaptive thinking](https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking.md)
 - [Admin API overview](https://platform.claude.com/docs/en/build-with-claude/administration-api.md)
 - [Python SDK](https://platform.claude.com/docs/en/agent-sdk/python.md) - Agent SDK reference - Python
 - [TypeScript SDK](https://platform.claude.com/docs/en/agent-sdk/typescript.md) - Agent SDK reference - TypeScript
@@ -133,6 +135,7 @@ The full documentation is available in the following languages on https://platfo
 - [Amazon Bedrock](https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock.md) - Claude on Amazon Bedrock
 - [Vertex AI](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai.md) - Claude on Vertex AI
 - [Code execution tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool.md)
+- [Compaction](https://platform.claude.com/docs/en/build-with-claude/compaction.md)
 - [Computer use tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool.md)
 - [Handling Permissions](https://platform.claude.com/docs/en/agent-sdk/permissions.md) - Configure permissions
 - [MCP in the SDK](https://platform.claude.com/docs/en/agent-sdk/mcp.md) - Connect to external tools with MCP
@@ -140,6 +143,7 @@ The full documentation is available in the following languages on https://platfo
 - [Context windows](https://platform.claude.com/docs/en/build-with-claude/context-windows.md)
 - [Develop test cases](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md) - Create strong empirical evaluations
 - [Custom Tools](https://platform.claude.com/docs/en/agent-sdk/custom-tools.md)
+- [Data residency](https://platform.claude.com/docs/en/build-with-claude/data-residency.md)
 - [Define success criteria](https://platform.claude.com/docs/en/test-and-evaluate/define-success.md) - Define your success criteria
 - [Effort](https://platform.claude.com/docs/en/build-with-claude/effort.md)
 - [Embeddings](https://platform.claude.com/docs/en/build-with-claude/embeddings.md)
@@ -149,6 +153,8 @@ The full documentation is available in the following languages on https://platfo
 - [Structured outputs in the SDK](https://platform.claude.com/docs/en/agent-sdk/structured-outputs.md) - Get structured output from agents
 - [Give Claude a role (system prompts)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/system-prompts.md) - Giving Claude a role with a system prompt
 - [User approvals and input](https://platform.claude.com/docs/en/agent-sdk/user-input.md) - Handle approvals and user input
+- [Handling stop reasons](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md)
+- [Handling stop reasons](https://platform.claude.com/docs/en/agent-sdk/stop-reasons.md)
 - [Hosting the Agent SDK](https://platform.claude.com/docs/en/agent-sdk/hosting.md)
 - [How to implement tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use.md)
 - [Increase output consistency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency.md)
@@ -159,18 +165,17 @@ The full documentation is available in the following languages on https://platfo
 - [MCP connector](https://platform.claude.com/docs/en/agents-and-tools/mcp-connector.md)
 - [Memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool.md)
 - [Migration Guide](https://platform.claude.com/docs/en/agent-sdk/migration-guide.md) - Migrate to Claude Agent SDK
-- [Migrating to Claude 4.5](https://platform.claude.com/docs/en/about-claude/models/migrating-to-claude-4.md)
+- [Migration guide](https://platform.claude.com/docs/en/about-claude/models/migration-guide.md)
 - [Mitigate jailbreaks](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks.md) - Mitigate jailbreaks and prompt injections
 - [Model deprecations](https://platform.claude.com/docs/en/about-claude/model-deprecations.md)
 - [Modifying system prompts](https://platform.claude.com/docs/en/agent-sdk/modifying-system-prompts.md)
 - [Multilingual support](https://platform.claude.com/docs/en/build-with-claude/multilingual-support.md)
 - [PDF support](https://platform.claude.com/docs/en/build-with-claude/pdf-support.md)
 - [Plugins in the SDK](https://platform.claude.com/docs/en/agent-sdk/plugins.md)
-- [Prefill Claude's response](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prefill-claudes-response.md) - Prefill Claude's response for greater output control
 - [Pricing](https://platform.claude.com/docs/en/about-claude/pricing.md)
 - [Programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling.md)
 - [Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching.md)
-- [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices.md)
+- [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices.md)
 - [Reduce hallucinations](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations.md)
 - [Reduce prompt leak](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak.md)
 - [Reducing latency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency.md)
@@ -205,7 +210,7 @@ The full documentation is available in the following languages on https://platfo
 - [Vision](https://platform.claude.com/docs/en/build-with-claude/vision.md)
 - [Web fetch tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool.md)
 - [Web search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool.md)
-- [What's new in Claude 4.5](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-5.md)
+- [What's new in Claude 4.6](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-6.md)
 - [Workspaces](https://platform.claude.com/docs/en/build-with-claude/workspaces.md)
 - [Zero Data Retention](https://platform.claude.com/docs/en/build-with-claude/zero-data-retention.md) - Zero Data Retention (ZDR)
 
@@ -389,7 +394,7 @@ The full documentation is available in the following languages on https://platfo
 - [Get a Model (Python)](https://platform.claude.com/docs/en/api/python/models/retrieve.md)
 - [Get a Model (Ruby)](https://platform.claude.com/docs/en/api/ruby/models/retrieve.md)
 - [Get a Model (TypeScript)](https://platform.claude.com/docs/en/api/typescript/models/retrieve.md)
-- [Get Api Key](https://platform.claude.com/docs/en/api/admin/api_keys/retrieve.md)
+- [Get API Key](https://platform.claude.com/docs/en/api/admin/api_keys/retrieve.md)
 - [Get Claude Code Usage Report](https://platform.claude.com/docs/en/api/admin/usage_report/retrieve_claude_code.md)
 - [Get Cost Report](https://platform.claude.com/docs/en/api/admin/cost_report/retrieve.md)
 - [Get Current Organization](https://platform.claude.com/docs/en/api/admin/organizations/me.md)
@@ -420,7 +425,7 @@ The full documentation is available in the following languages on https://platfo
 - [Get Workspace](https://platform.claude.com/docs/en/api/admin/workspaces/retrieve.md)
 - [Get Workspace Member](https://platform.claude.com/docs/en/api/admin/workspaces/members/retrieve.md)
 - [Invites](https://platform.claude.com/docs/en/api/admin/invites.md)
-- [List Api Keys](https://platform.claude.com/docs/en/api/admin/api_keys/list.md)
+- [List API Keys](https://platform.claude.com/docs/en/api/admin/api_keys/list.md)
 - [List Files (Beta)](https://platform.claude.com/docs/en/api/beta/files/list.md)
 - [List Files (Beta) (Go)](https://platform.claude.com/docs/en/api/go/beta/files/list.md)
 - [List Files (Beta) (Java)](https://platform.claude.com/docs/en/api/java/beta/files/list.md)
@@ -540,7 +545,7 @@ The full documentation is available in the following languages on https://platfo
 - [Skills (Beta) (Python)](https://platform.claude.com/docs/en/api/python/beta/skills.md)
 - [Skills (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/skills.md)
 - [Skills (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills.md)
-- [Update Api Key](https://platform.claude.com/docs/en/api/admin/api_keys/update.md)
+- [Update API Key](https://platform.claude.com/docs/en/api/admin/api_keys/update.md)
 - [Update User](https://platform.claude.com/docs/en/api/admin/users/update.md)
 - [Update Workspace](https://platform.claude.com/docs/en/api/admin/workspaces/update.md)
 - [Update Workspace Member](https://platform.claude.com/docs/en/api/admin/workspaces/members/update.md)
@@ -1453,6 +1458,9 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 - [Session metadata for tool calls & requestModal template switching](https://developers.openai.com/changelog/apps-sdk/2026-01-15.md): Tool calls now include `_meta["openai/session"]`, an anonymized conversation id you can use to correlate requests within a ChatGPT session.
 
 ## Changelog — Codex
+- [Codex app](https://developers.openai.com/changelog/codex/2026-02-05-app.md)
+- [Introducing GPT-5.3-Codex](https://developers.openai.com/changelog/codex/2026-02-05.md)
+- [Codex app](https://developers.openai.com/changelog/codex/2026-02-04-app.md)
 - [Introducing the Codex app](https://developers.openai.com/changelog/codex/2026-02-02.md)
 - [Web search is now enabled by default](https://developers.openai.com/changelog/codex/2026-01-28.md)
 - [Team Config for shared configuration](https://developers.openai.com/changelog/codex/2026-01-23.md)
