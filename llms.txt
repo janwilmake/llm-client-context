@@ -22,7 +22,7 @@
 - [Authentication](https://code.claude.com/docs/en/authentication.md): Learn how to configure user authentication and credential management for Claude Code in your organization.
 - [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices.md): Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.
 - [Changelog](https://code.claude.com/docs/en/changelog.md)
-- [Checkpointing](https://code.claude.com/docs/en/checkpointing.md): Automatically track and rewind Claude's edits to quickly recover from unwanted changes.
+- [Checkpointing](https://code.claude.com/docs/en/checkpointing.md): Track, rewind, and summarize Claude's edits and conversation to manage session state.
 - [Use Claude Code with Chrome (beta)](https://code.claude.com/docs/en/chrome.md): Connect Claude Code to your Chrome browser to test web apps, debug with console logs, automate form filling, and extract data from web pages.
 - [Claude Code on the web](https://code.claude.com/docs/en/claude-code-on-the-web.md): Run Claude Code tasks asynchronously on secure cloud infrastructure
 - [CLI reference](https://code.claude.com/docs/en/cli-reference.md): Complete reference for Claude Code command-line interface, including commands and flags.
@@ -88,7 +88,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 539 pages - /docs - Content included below
+- English (en) - 546 pages - /docs - Content included below
 - German (Deutsch) (de) - 190 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 190 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 190 pages - /docs/fr - Visit website for content
@@ -216,7 +216,7 @@ The full documentation is available in the following languages on https://platfo
 
 ### API Reference
 
-- [Features overview](https://platform.claude.com/docs/en/api/overview.md) - API Overview
+- [API overview](https://platform.claude.com/docs/en/api/overview.md) - API Overview
 - [Admin](https://platform.claude.com/docs/en/api/admin.md)
 - [API Keys](https://platform.claude.com/docs/en/api/admin/api_keys.md)
 - [Archive Workspace](https://platform.claude.com/docs/en/api/admin/workspaces/archive.md)
@@ -567,13 +567,20 @@ The full documentation is available in the following languages on https://platfo
 - [Versions (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/skills/versions.md)
 - [Workspaces](https://platform.claude.com/docs/en/api/admin/workspaces.md)
 - [Beta headers](https://platform.claude.com/docs/en/api/beta-headers.md)
-- [Client SDKs](https://platform.claude.com/docs/en/api/client-sdks.md)
+- [C# SDK](https://platform.claude.com/docs/en/api/sdks/csharp.md)
+- [Client SDKs overview](https://platform.claude.com/docs/en/api/client-sdks.md) - Client SDKs
 - [Errors](https://platform.claude.com/docs/en/api/errors.md)
+- [Go SDK](https://platform.claude.com/docs/en/api/sdks/go.md)
 - [IP addresses](https://platform.claude.com/docs/en/api/ip-addresses.md)
+- [Java SDK](https://platform.claude.com/docs/en/api/sdks/java.md)
 - [OpenAI SDK compatibility](https://platform.claude.com/docs/en/api/openai-sdk.md)
+- [PHP SDK](https://platform.claude.com/docs/en/api/sdks/php.md)
+- [Python SDK](https://platform.claude.com/docs/en/api/sdks/python.md)
 - [Rate limits](https://platform.claude.com/docs/en/api/rate-limits.md)
+- [Ruby SDK](https://platform.claude.com/docs/en/api/sdks/ruby.md)
 - [Service tiers](https://platform.claude.com/docs/en/api/service-tiers.md)
 - [Supported regions](https://platform.claude.com/docs/en/api/supported-regions.md)
+- [TypeScript SDK](https://platform.claude.com/docs/en/api/sdks/typescript.md)
 - [Versions](https://platform.claude.com/docs/en/api/versioning.md)
 
 ### Resources
@@ -1024,7 +1031,6 @@ Resources docs live at `/resources/docs/<slug>.md`, curated resources at `/resou
 
 ## Codex — Skills
 - [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
-- [Create skills](https://developers.openai.com/codex/skills/create-skill.md): Create custom workflows and enforce best practices across projects with Codex
 
 ## Codex — Videos
 - [Videos](https://developers.openai.com/codex/videos.md): Learn how to use Codex with demos, walkthroughs, and talks
@@ -1611,7 +1617,6 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 
 ## Skills
 - [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
-- [Create skills](https://developers.openai.com/codex/skills/create-skill.md): Create custom workflows and enforce best practices across projects with Codex
 
 ## Videos
 - [Videos](https://developers.openai.com/codex/videos.md): Learn how to use Codex with demos, walkthroughs, and talks
@@ -1790,8 +1795,8 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Custom Analytics Query](https://docs.windsurf.com/plugins/accounts/api-reference/custom-analytics.md): Flexible analytics querying with custom selections, filters, and aggregations for autocomplete, chat, command, and PCW data.
 - [Error Handling](https://docs.windsurf.com/plugins/accounts/api-reference/errors.md): Common error messages and debugging tips for the Analytics API including authentication, query structure, and rate limiting errors.
 - [Get Team Credit Balance](https://docs.windsurf.com/plugins/accounts/api-reference/get-team-credit-balance.md): Retrieve the current credit balance for your team, including prompt credits per seat, add-on credits, and billing cycle information.
-- [Get Usage Configuration](https://docs.windsurf.com/plugins/accounts/api-reference/get-usage-config.md): Retrieve add-on credit cap configuration at team, group, or user level for enterprise billing management.
-- [Set Usage Configuration](https://docs.windsurf.com/plugins/accounts/api-reference/usage-config.md): Set or clear add-on credit caps at team, group, or user level for enterprise billing management.
+- [Get Usage Configuration](https://docs.windsurf.com/plugins/accounts/api-reference/get-usage-config.md): Retrieve per-user add-on credit cap configuration, queried by team, group, or individual user scope for enterprise billing management.
+- [Set Usage Configuration](https://docs.windsurf.com/plugins/accounts/api-reference/usage-config.md): Set or clear per-user add-on credit caps, with the ability to apply them across a team, group, or individual user for enterprise billing management.
 - [Get User Page Analytics](https://docs.windsurf.com/plugins/accounts/api-reference/user-page-analytics.md): Retrieve user activity statistics including names, emails, last activity times, and active days from the teams page.
 - [Role Based Access & Management](https://docs.windsurf.com/plugins/accounts/rbac-role-management.md): Configure RBAC permissions, create custom roles, and manage user access for Windsurf Teams and Enterprise plans.
 - [Setting up SSO & SCIM](https://docs.windsurf.com/plugins/accounts/sso-scim.md): Configure Single Sign-On (SSO) and SCIM provisioning for your organization using Google Workspace, Microsoft Azure AD, Okta, or other SAML identity providers.
@@ -1819,7 +1824,6 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Common Windsurf Issues](https://docs.windsurf.com/troubleshooting/windsurf-common-issues.md): Troubleshoot common Windsurf Editor issues including rate limiting, MacOS security warnings, Windows updates, Linux crashes, and terminal problems.
 - [Gathering Windsurf Logs](https://docs.windsurf.com/troubleshooting/windsurf-gathering-logs.md): How to download diagnostic logs from Windsurf Editor using the Command Palette or Cascade panel for troubleshooting support.
 - [Proxy Configuration in Windsurf Editor](https://docs.windsurf.com/troubleshooting/windsurf-proxy-configuration.md): Configure HTTP/HTTPS proxy settings for Windsurf Editor in corporate networks. Includes auto-detect, manual configuration, and SSH remote proxy setup.
-- [Windsurf PR Reviews](https://docs.windsurf.com/windsurf-reviews/windsurf-reviews.md): AI-powered GitHub pull request reviews for Teams and Enterprise. Automatically review PRs, edit titles, and provide feedback as GitHub comments.
 - [Analytics](https://docs.windsurf.com/windsurf/accounts/analytics.md): View individual user analytics, team analytics, usage patterns, and metrics for your Windsurf usage including code completion stats and AI-written code percentage.
 - [Analytics API](https://docs.windsurf.com/windsurf/accounts/api-reference/analytics-api-introduction.md): Enterprise analytics API for querying Windsurf usage data including autocomplete, chat, command, and Cascade metrics.
 - [API Reference](https://docs.windsurf.com/windsurf/accounts/api-reference/api-introduction.md): Enterprise API for querying Windsurf usage data and managing configurations with service key authentication.
@@ -1827,8 +1831,8 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Custom Analytics Query](https://docs.windsurf.com/windsurf/accounts/api-reference/custom-analytics.md): Flexible analytics querying with custom selections, filters, and aggregations for autocomplete, chat, command, and PCW data.
 - [Error Handling](https://docs.windsurf.com/windsurf/accounts/api-reference/errors.md): Common error messages and debugging tips for the Analytics API including authentication, query structure, and rate limiting errors.
 - [Get Team Credit Balance](https://docs.windsurf.com/windsurf/accounts/api-reference/get-team-credit-balance.md): Retrieve the current credit balance for your team, including prompt credits per seat, add-on credits, and billing cycle information.
-- [Get Usage Configuration](https://docs.windsurf.com/windsurf/accounts/api-reference/get-usage-config.md): Retrieve add-on credit cap configuration at team, group, or user level for enterprise billing management.
-- [Set Usage Configuration](https://docs.windsurf.com/windsurf/accounts/api-reference/usage-config.md): Set or clear add-on credit caps at team, group, or user level for enterprise billing management.
+- [Get Usage Configuration](https://docs.windsurf.com/windsurf/accounts/api-reference/get-usage-config.md): Retrieve per-user add-on credit cap configuration, queried by team, group, or individual user scope for enterprise billing management.
+- [Set Usage Configuration](https://docs.windsurf.com/windsurf/accounts/api-reference/usage-config.md): Set or clear per-user add-on credit caps, with the ability to apply them across a team, group, or individual user for enterprise billing management.
 - [Get User Page Analytics](https://docs.windsurf.com/windsurf/accounts/api-reference/user-page-analytics.md): Retrieve user activity statistics including names, emails, last activity times, and active days from the teams page.
 - [Domain Verification](https://docs.windsurf.com/windsurf/accounts/domain-verification.md): Verify your organization's domain ownership with DNS TXT records to enable SSO, user management, and automatic team invitations in Windsurf.
 - [Role Based Access & Management](https://docs.windsurf.com/windsurf/accounts/rbac-role-management.md): Configure RBAC permissions, create custom roles, and manage user access for Windsurf Teams and Enterprise plans.
