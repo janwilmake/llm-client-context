@@ -1614,6 +1614,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Workflows Best Practices](https://docs.cline.bot/features/slash-commands/workflows/best-practices.md): Tips and strategies for creating effective and reliable Cline workflows.
 - [Workflows Overview](https://docs.cline.bot/features/slash-commands/workflows/index.md): Learn what Cline workflows are, why they are useful, and how to structure them.
 - [Workflows Quick Start](https://docs.cline.bot/features/slash-commands/workflows/quickstart.md): A step-by-step guide to creating your first Cline workflow.
+- [Subagents](https://docs.cline.bot/features/subagents.md): Run parallel research agents to explore your codebase without filling the main agent's context window.
 - [Task Management](https://docs.cline.bot/features/tasks/task-management.md): Learn how to organize, search, and manage your task history in Cline.
 - [Understanding Tasks](https://docs.cline.bot/features/tasks/understanding-tasks.md): Learn what tasks are in Cline, how they work, and how to create effective prompts for better results.
 - [Worktrees](https://docs.cline.bot/features/worktrees.md)
@@ -1730,7 +1731,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Gathering Plugin Logs](https://docs.windsurf.com/troubleshooting/plugins-gathering-logs.md): How to collect diagnostic logs from JetBrains, VS Code, Eclipse, Visual Studio, and NeoVim for troubleshooting Windsurf plugin issues.
 - [Common Windsurf Issues](https://docs.windsurf.com/troubleshooting/windsurf-common-issues.md): Troubleshoot common Windsurf Editor issues including rate limiting, MacOS security warnings, Windows updates, Linux crashes, and terminal problems.
 - [Gathering Windsurf Logs](https://docs.windsurf.com/troubleshooting/windsurf-gathering-logs.md): How to download diagnostic logs from Windsurf Editor using the Command Palette or Cascade panel for troubleshooting support.
+- [Language Server Fails with 'No Space Left on Device' on Linux](https://docs.windsurf.com/troubleshooting/windsurf-inotify-limits.md): Resolve Linux language server startup failures caused by exhausted inotify watch/instance limits (ENOSPC). Includes symptoms, diagnosis commands, and sysctl fixes.
 - [Proxy Configuration in Windsurf Editor](https://docs.windsurf.com/troubleshooting/windsurf-proxy-configuration.md): Configure HTTP/HTTPS proxy settings for Windsurf Editor in corporate networks. Includes auto-detect, manual configuration, and SSH remote proxy setup.
+- [TLS / SSL Inspection Issues in Windsurf](https://docs.windsurf.com/troubleshooting/windsurf-ssl-inspection.md): Configure enterprise environments where SSL inspection (e.g., Zscaler) causes TLS certificate validation or protocol negotiation failures. Includes how to capture Console errors and what to request from IT/security.
 - [Analytics](https://docs.windsurf.com/windsurf/accounts/analytics.md): View individual user analytics, team analytics, usage patterns, and metrics for your Windsurf usage including code completion stats and AI-written code percentage.
 - [Analytics API](https://docs.windsurf.com/windsurf/accounts/api-reference/analytics-api-introduction.md): Enterprise analytics API for querying Windsurf usage data including autocomplete, chat, command, and Cascade metrics.
 - [API Reference](https://docs.windsurf.com/windsurf/accounts/api-reference/api-introduction.md): Enterprise API for querying Windsurf usage data and managing configurations with service key authentication.
