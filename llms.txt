@@ -1733,8 +1733,21 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Model Orchestration](https://docs.cline.bot/cline-cli/samples/model-orchestration.md): Use multiple AI models strategically: optimize costs, reduce bias, and leverage model-specific strengths in your workflows
 - [Samples Overview](https://docs.cline.bot/cline-cli/samples/overview.md): Example implementations demonstrating Cline CLI capabilities
 - [Worktree Workflows](https://docs.cline.bot/cline-cli/samples/worktree-workflows.md): Use Git worktrees with Cline CLI to run parallel tasks, test different approaches, and pipe context between isolated environments
-- [CLI Workflows](https://docs.cline.bot/cline-cli/three-core-flows.md): Learn the three ways to use Cline CLI: interactive mode, direct task execution, and automation
-- [Model Selection Guide](https://docs.cline.bot/core-features/model-selection-guide.md): Last updated: August 20, 2025.
+- [Headless Mode](https://docs.cline.bot/cline-cli/three-core-flows.md): Run Cline autonomously in scripts, CI/CD pipelines, and automated workflows
+- [Documentation Templates](https://docs.cline.bot/contributing/doc-templates.md): Templates for different types of Cline documentation
+- [Documentation Guide](https://docs.cline.bot/contributing/documentation-guide.md): How to write and contribute to Cline documentation
+- [Model Selection Guide](https://docs.cline.bot/core-features/model-selection-guide.md): Choose the right AI model for your workflow based on reliability, speed, cost, and context window size.
+- [Checkpoints](https://docs.cline.bot/core-workflows/checkpoints.md): Roll back code changes while keeping your conversation. Experiment freely.
+- [Plan & Act Mode](https://docs.cline.bot/core-workflows/plan-and-act.md): Think first, then build. Cline's dual-mode system for structured development.
+- [Tasks](https://docs.cline.bot/core-workflows/task-management.md): Organize your work with tasks - self-contained sessions that capture your conversations, code changes, and decisions.
+- [Using Commands](https://docs.cline.bot/core-workflows/using-commands.md): Built-in slash commands to manage context, plan implementations, and create reusable workflows.
+- [Adding Context](https://docs.cline.bot/core-workflows/working-with-files.md): Use @ mentions and drag & drop to bring files, terminal output, errors, git changes, and web content into your conversations.
+- [Rules](https://docs.cline.bot/customization/cline-rules.md): Define specific instructions and coding standards for Cline.
+- [.clineignore](https://docs.cline.bot/customization/clineignore.md): Control which files and directories Cline can access in your project.
+- [Hooks](https://docs.cline.bot/customization/hooks.md): Inject custom logic into Cline's workflow to validate operations and shape Cline's decisions.
+- [Overview](https://docs.cline.bot/customization/overview.md): Understand how Rules, Skills, Workflows, Hooks, and .clineignore work together to customize Cline.
+- [Skills](https://docs.cline.bot/customization/skills.md): Modular instruction sets that extend Cline's capabilities for specific tasks.
+- [Workflows](https://docs.cline.bot/customization/workflows.md): Automate repetitive tasks with Markdown-based workflow files.
 - [YOLO Mode](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/yolo-mode.md): Enterprise controls for YOLO Mode autonomous operation
 - [Configure AWS Bedrock Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/aws-bedrock/admin-configuration.md): This guide explains how administrators configure AWS Bedrock as the organization-wide LLM provider for Cline.
 - [Configure AWS Bedrock in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/aws-bedrock/member-configuration.md): Guide for engineers configuring AWS Bedrock credentials in VS Code after admin setup
@@ -1744,80 +1757,39 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Configure LiteLLM in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/litellm/member-configuration.md): Guide for engineers connecting to their organization's LiteLLM proxy through VS Code after admin setup
 - [SaaS Provider Configuration](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/overview.md): Configure inference providers through the Cline hosted admin console for centralized organization management
 - [OpenTelemetry Integration](https://docs.cline.bot/enterprise-solutions/monitoring/opentelemetry.md): Export Cline telemetry to your observability platform using OpenTelemetry Protocol (OTLP)
-- [OpenTelemetry Integration Override](https://docs.cline.bot/enterprise-solutions/monitoring/opentelemetry_override.md): Export Cline telemetry to your observability platform using OpenTelemetry Protocol (OTLP)
 - [Enterprise Monitoring](https://docs.cline.bot/enterprise-solutions/monitoring/overview.md): Optional telemetry and observability for your Cline deployment
 - [Cline Telemetry](https://docs.cline.bot/enterprise-solutions/monitoring/telemetry.md): Configure usage analytics and event tracking
 - [Onboarding](https://docs.cline.bot/enterprise-solutions/onboarding.md): This guide explains how administrators configure SSO provisioning and user management in Cline Enterprise.
 - [Cline Enterprise](https://docs.cline.bot/enterprise-solutions/overview.md): Enterprise security, governance, and observability for the coding agent millions of developers trust
 - [SSO Setup](https://docs.cline.bot/enterprise-solutions/sso-setup.md): Configure Single Sign-On (SSO) for Cline Enterprise via WorkOS AuthKit.
 - [Managing Members](https://docs.cline.bot/enterprise-solutions/team-management/managing-members.md): Complete guide to managing team members, roles, and permissions in your Cline Enterprise organization
-- [Cline Tools Reference Guide](https://docs.cline.bot/exploring-clines-tools/cline-tools-guide.md)
-- [New Task Tool](https://docs.cline.bot/exploring-clines-tools/new-task-tool.md)
-- [Remote Browser Support](https://docs.cline.bot/exploring-clines-tools/remote-browser-support.md): Remote browser support allows Cline to utilize a remote Chrome instance, leveraging authentication tokens and session cookies relevant to certain web development test cases.
-- [File Mentions](https://docs.cline.bot/features/at-mentions/file-mentions.md)
-- [Git Mentions](https://docs.cline.bot/features/at-mentions/git-mentions.md)
-- [@ Mentions Overview](https://docs.cline.bot/features/at-mentions/overview.md)
-- [Problem Mentions](https://docs.cline.bot/features/at-mentions/problem-mentions.md)
-- [Terminal Mentions](https://docs.cline.bot/features/at-mentions/terminal-mentions.md)
-- [URL Mentions](https://docs.cline.bot/features/at-mentions/url-mentions.md)
-- [Auto Approve](https://docs.cline.bot/features/auto-approve.md): Let Cline take specific actions without asking for approval every time.
-- [Automatic Context Summarization](https://docs.cline.bot/features/auto-compact.md)
+- [Auto Approve & YOLO Mode](https://docs.cline.bot/features/auto-approve.md): Control which actions Cline can take without asking for approval.
+- [Auto Compact](https://docs.cline.bot/features/auto-compact.md): Automatic context summarization to keep working when approaching context limits.
 - [Background Edit](https://docs.cline.bot/features/background-edit.md)
-- [Checkpoints](https://docs.cline.bot/features/checkpoints.md)
-- [Conditional Rules](https://docs.cline.bot/features/cline-rules/conditional-rules.md): Activate rules automatically based on which files you're working with
-- [Cline Rules](https://docs.cline.bot/features/cline-rules/overview.md): Add persistent instructions and context to guide Cline's behavior
-- [Code Commands](https://docs.cline.bot/features/commands-and-shortcuts/code-commands.md)
-- [Generate Commit Message](https://docs.cline.bot/features/commands-and-shortcuts/git-integration.md)
-- [Keyboard Shortcuts](https://docs.cline.bot/features/commands-and-shortcuts/keyboard-shortcuts.md)
-- [Commands & Shortcuts Overview](https://docs.cline.bot/features/commands-and-shortcuts/overview.md)
-- [Terminal Integration](https://docs.cline.bot/features/commands-and-shortcuts/terminal-integration.md)
-- [Disable Terminal Pagers During Cline Sessions](https://docs.cline.bot/features/customization/disable-terminal-pagers.md): Make CLI output non-interactive when Cline runs commands by detecting the CLINE_ACTIVE environment variable and disabling pagers like less.
-- [Opening Cline in the Right Sidebar](https://docs.cline.bot/features/customization/opening-cline-in-sidebar.md): Learn how to open Cline in the right sidebar in VS Code and Cursor
-- [Dictation](https://docs.cline.bot/features/dictation.md): Communicate with Cline using your voice for faster, more natural AI collaboration
-- [Drag & Drop](https://docs.cline.bot/features/drag-and-drop.md)
-- [Editing Messages](https://docs.cline.bot/features/editing-messages.md)
-- [Explain Changes](https://docs.cline.bot/features/explain-changes.md)
-- [Focus Chain](https://docs.cline.bot/features/focus-chain.md)
-- [Hook Reference](https://docs.cline.bot/features/hooks/hook-reference.md): Complete API reference for all Cline hook types, JSON schemas, and field documentation
-- [Hooks Overview](https://docs.cline.bot/features/hooks/index.md): Inject custom logic into Cline's workflow to validate operations, monitor tool usage, and shape AI decisions
-- [Samples](https://docs.cline.bot/features/hooks/samples.md): Practical hook examples organized by complexity level - from beginner to advanced patterns
+- [Deep Planning](https://docs.cline.bot/features/deep-planning.md): Transform Cline into a meticulous architect who investigates your codebase and creates comprehensive implementation plans.
+- [Focus Chain](https://docs.cline.bot/features/focus-chain.md): Automatic todo list management with real-time progress tracking for long-running tasks.
 - [Jupyter Notebooks](https://docs.cline.bot/features/jupyter-notebooks.md): AI-assisted editing of Jupyter notebooks with cell-level context awareness
+- [Memory Bank](https://docs.cline.bot/features/memory-bank.md): A structured documentation system that helps Cline maintain context across sessions.
 - [Multi-Root Workspaces](https://docs.cline.bot/features/multiroot-workspace.md)
-- [Plan & Act](https://docs.cline.bot/features/plan-and-act.md)
-- [Skills](https://docs.cline.bot/features/skills.md): Extend Cline with reusable, on-demand instruction sets for specialized tasks
-- [Deep Planning Command](https://docs.cline.bot/features/slash-commands/deep-planning.md)
-- [Explain Changes Command](https://docs.cline.bot/features/slash-commands/explain-changes.md)
-- [New Rule Command](https://docs.cline.bot/features/slash-commands/new-rule.md)
-- [New Task Command](https://docs.cline.bot/features/slash-commands/new-task.md)
-- [Report Bug Command](https://docs.cline.bot/features/slash-commands/report-bug.md)
-- [Smol Command](https://docs.cline.bot/features/slash-commands/smol.md)
-- [Workflows Best Practices](https://docs.cline.bot/features/slash-commands/workflows/best-practices.md): Tips and strategies for creating effective and reliable Cline workflows.
-- [Workflows Overview](https://docs.cline.bot/features/slash-commands/workflows/index.md): Learn what Cline workflows are, why they are useful, and how to structure them.
-- [Workflows Quick Start](https://docs.cline.bot/features/slash-commands/workflows/quickstart.md): A step-by-step guide to creating your first Cline workflow.
 - [Subagents](https://docs.cline.bot/features/subagents.md): Run parallel research agents to explore your codebase without filling the main agent's context window.
-- [Task Management](https://docs.cline.bot/features/tasks/task-management.md): Learn how to organize, search, and manage your task history in Cline.
-- [Understanding Tasks](https://docs.cline.bot/features/tasks/understanding-tasks.md): Learn what tasks are in Cline, how they work, and how to create effective prompts for better results.
+- [Web Tools](https://docs.cline.bot/features/web-tools.md): Search the web and fetch content from URLs directly within Cline
 - [Worktrees](https://docs.cline.bot/features/worktrees.md)
-- [YOLO Mode](https://docs.cline.bot/features/yolo-mode.md)
-- [Installing Cline](https://docs.cline.bot/getting-started/installing-cline.md): Get Cline up and running in your favorite IDE with these simple installation steps
-- [Selecting Your Model](https://docs.cline.bot/getting-started/selecting-your-model.md): Get started with your first AI model in Cline
-- [Build Your First Project](https://docs.cline.bot/getting-started/your-first-project.md): Build your first project with Cline in under a minute.
-- [Overview](https://docs.cline.bot/introduction/overview.md): An introduction to Cline, your AI-powered coding agent for modern development.
-- [Welcome to Cline](https://docs.cline.bot/introduction/welcome.md): Your guide to AI-powered development with complete transparency and control
-- [Adding MCP Servers from GitHub](https://docs.cline.bot/mcp/adding-mcp-servers-from-github.md)
-- [Configuring MCP Servers](https://docs.cline.bot/mcp/configuring-mcp-servers.md)
+- [Authorization & Model Selection](https://docs.cline.bot/getting-started/authorizing-with-cline.md): Authenticate with Cline and choose your first AI model
+- [Installing Cline](https://docs.cline.bot/getting-started/installing-cline.md): Get Cline up and running in your favorite IDE or terminal with these simple installation steps
+- [Quick Start](https://docs.cline.bot/getting-started/quick-start.md): Get Cline running in under 2 minutes.
+- [What is Cline?](https://docs.cline.bot/getting-started/what-is-cline.md): An AI coding agent that lives in your editor. Read files, run commands, and build features through natural language.
+- [Build Your First Project](https://docs.cline.bot/getting-started/your-first-project.md): Build a working todo app with Cline and learn the core workflow.
+- [Cline Documentation](https://docs.cline.bot/home.md): Your AI-powered coding agent for complex work. Read files, write code, run commands, all with your approval.
+- [Adding & Configuring Servers](https://docs.cline.bot/mcp/adding-and-configuring-servers.md): Find MCP servers, add them to Cline, and configure settings.
 - [Connecting to a Remote Server](https://docs.cline.bot/mcp/connecting-to-a-remote-server.md): The Model Context Protocol (MCP) allows Cline to communicate with external servers that provide additional tools and resources to extend its capabilities. This guide explains how to add and connect to remote MCP servers through the MCP Servers interface.
 - [MCP Made Easy](https://docs.cline.bot/mcp/mcp-marketplace.md): Learn how to use the MCP Marketplace to discover, install, and configure MCP servers that enhance Cline's capabilities with additional tools and resources.
 - [MCP Overview](https://docs.cline.bot/mcp/mcp-overview.md): Learn about Model Context Protocol (MCP) servers, their capabilities, and how Cline can help build and use them. MCP standardizes how applications provide context to LLMs, acting like a USB-C port for AI applications.
 - [MCP Server Development Protocol](https://docs.cline.bot/mcp/mcp-server-development-protocol.md): This protocol is designed to streamline the development process of building MCP servers with Cline.
 - [MCP Transport Mechanisms](https://docs.cline.bot/mcp/mcp-transport-mechanisms.md): Learn about the two primary transport mechanisms for communication between Cline and MCP servers: Standard Input/Output (STDIO) and Server-Sent Events (SSE). Each has distinct characteristics, advantages, and use cases.
 - [Context Window Guide](https://docs.cline.bot/model-config/context-windows.md): Understanding and managing AI model context windows
-- [Model Comparison & Pricing](https://docs.cline.bot/model-config/model-comparison.md): Compare AI models by performance, features, and pricing
-- [Telemetry](https://docs.cline.bot/more-info/telemetry.md)
-- [Cline Memory Bank](https://docs.cline.bot/prompting/cline-memory-bank.md)
-- [Prompt Engineering Guide](https://docs.cline.bot/prompting/prompt-engineering-guide.md)
-- [Context Management](https://docs.cline.bot/prompting/understanding-context-management.md): Master context management to unlock Cline's full potential
+- [AIhubmix](https://docs.cline.bot/provider-config/aihubmix.md): Learn how to configure and use AIhubmix with Cline. Access multiple AI models through a unified API aggregator.
 - [Anthropic](https://docs.cline.bot/provider-config/anthropic.md): Learn how to configure and use Anthropic Claude models with Cline. Covers API key setup, model selection, and advanced features like prompt caching.
+- [AskSage](https://docs.cline.bot/provider-config/asksage.md): Learn how to configure and use AskSage with Cline. Access AI models through a government and enterprise-focused platform with FedRAMP compliance.
 - [API Key (Simple Setup)](https://docs.cline.bot/provider-config/aws-bedrock/api-key.md): Set up AWS Bedrock with Cline using Bedrock API Keys. Simplest setup for individual developers to access frontier models.
 - [CLI Profile (SSO)](https://docs.cline.bot/provider-config/aws-bedrock/cli-profile.md): Configure AWS Bedrock to use AWS CLI profiles for authentication with Cline. Best for SSO/federated roles and secure enterprise access.
 - [IAM Credentials](https://docs.cline.bot/provider-config/aws-bedrock/iam-credentials.md): Set up AWS Bedrock with Cline using IAM Access Key and Secret Key credentials. Best for enterprise environments with established IAM policies.
@@ -1825,28 +1797,43 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Cerebras](https://docs.cline.bot/provider-config/cerebras.md): Learn how to configure and use Cerebras's ultra-fast inference with Cline. Experience up to 2,600 tokens per second with wafer-scale chip architecture and real-time reasoning models.
 - [Claude Code](https://docs.cline.bot/provider-config/claude-code.md): Use your Claude Max or Pro subscription with Cline instead of paying per token. Learn how to set up and configure the Claude Code provider.
 - [DeepSeek](https://docs.cline.bot/provider-config/deepseek.md): Learn how to configure and use DeepSeek models like deepseek-chat and deepseek-reasoner with Cline.
+- [Dify.ai](https://docs.cline.bot/provider-config/dify.md): Learn how to configure and use Dify.ai workflows with Cline. Connect to Dify's workflow-based AI platform for custom model orchestration.
 - [Doubao](https://docs.cline.bot/provider-config/doubao.md): Learn how to configure and use ByteDance's Doubao AI models with Cline. Experience advanced reasoning, multimodal capabilities, and cost-effective inference with Chinese language optimization.
 - [Fireworks AI](https://docs.cline.bot/provider-config/fireworks.md): Learn how to configure and use Fireworks AI's lightning-fast inference platform with Cline. Experience up to 4x faster inference speeds with optimized models and competitive pricing.
 - [GCP Vertex AI](https://docs.cline.bot/provider-config/gcp-vertex-ai.md): Configure GCP Vertex AI with Cline to access leading generative AI models like Claude 3.5 Sonnet v2. This guide covers GCP environment setup, authentication, and secure integration for enterprise teams.
+- [Google Gemini](https://docs.cline.bot/provider-config/google-gemini.md): Learn how to configure and use Google Gemini models with Cline. Access Gemini 3, 2.5, and 2.0 series models with large context windows and multimodal capabilities.
 - [Groq](https://docs.cline.bot/provider-config/groq.md): Learn how to configure and use Groq's lightning-fast inference with Cline. Access models from OpenAI, Meta, DeepSeek, and more on Groq's purpose-built LPU architecture.
+- [Hicap](https://docs.cline.bot/provider-config/hicap.md): Learn how to configure and use Hicap with Cline. Access AI models through the Hicap platform.
+- [Huawei Cloud MaaS](https://docs.cline.bot/provider-config/huawei-cloud-maas.md): Learn how to configure and use Huawei Cloud Model-as-a-Service with Cline. Access DeepSeek and Qwen models through Huawei's cloud infrastructure.
+- [Hugging Face](https://docs.cline.bot/provider-config/huggingface.md): Learn how to configure and use Hugging Face Inference Providers with Cline. Access open-source models with free inference through the Hugging Face ecosystem.
 - [LiteLLM & Cline (using Codestral)](https://docs.cline.bot/provider-config/litellm-and-cline-using-codestral.md): Learn how to set up and run LiteLLM with Cline using the Codestral model. This guide covers Docker setup, configuration, and integration with Cline.
+- [MiniMax](https://docs.cline.bot/provider-config/minimax.md): Learn how to configure and use MiniMax models with Cline. Access MiniMax-M2 series models with large context windows and prompt caching.
 - [Mistral](https://docs.cline.bot/provider-config/mistral-ai.md): Learn how to configure and use Mistral AI models, including Codestral, with Cline. Covers API key setup and model selection.
+- [Moonshot](https://docs.cline.bot/provider-config/moonshot.md): Learn how to configure and use Moonshot AI's Kimi K2 models with Cline. Access state-of-the-art MoE models with large context windows.
+- [Nebius AI Studio](https://docs.cline.bot/provider-config/nebius.md): Learn how to configure and use Nebius AI Studio with Cline. Access DeepSeek, Qwen, Llama, and other open-source models with competitive pricing.
+- [NousResearch](https://docs.cline.bot/provider-config/nousresearch.md): Learn how to configure and use NousResearch's Hermes 4 models with Cline. Access advanced reasoning models optimized for creative depth and complex tasks.
 - [OpenAI](https://docs.cline.bot/provider-config/openai.md): Learn how to configure and use official OpenAI models with Cline.
 - [OpenAI Codex](https://docs.cline.bot/provider-config/openai-codex.md): Connect your OpenAI account to Cline via OAuth for seamless access to OpenAI models.
 - [OpenAI Compatible](https://docs.cline.bot/provider-config/openai-compatible.md): Learn how to configure Cline with various AI model providers that offer OpenAI-compatible APIs.
 - [OpenRouter](https://docs.cline.bot/provider-config/openrouter.md): Learn how to use OpenRouter with Cline to access a wide variety of language models through a single API.
+- [Oracle Code Assist](https://docs.cline.bot/provider-config/oracle-code-assist.md): Learn how to configure and use Oracle Code Assist with Cline. Access Oracle's AI coding assistant through OCI Generative AI.
+- [Alibaba Qwen](https://docs.cline.bot/provider-config/qwen.md): Learn how to configure and use Alibaba Cloud's Qwen models with Cline. Access Qwen3 series models with thinking capabilities and extensive model options.
+- [Qwen Code](https://docs.cline.bot/provider-config/qwen-code.md): Learn how to use Qwen Code with Cline. Access free Qwen3 Coder models through the Qwen Code platform for coding tasks.
 - [Requesty](https://docs.cline.bot/provider-config/requesty.md): Learn how to use Requesty with Cline to access and optimize over 150 large language models.
+- [SambaNova](https://docs.cline.bot/provider-config/sambanova.md): Learn how to configure and use SambaNova's fast inference with Cline. Access Meta Llama, DeepSeek, and Qwen models on SambaNova's custom hardware.
 - [SAP AI Core](https://docs.cline.bot/provider-config/sap-aicore.md): Learn how to configure and use LLM models from Generative AI Hub in SAP AI Core with Cline.
+- [Together](https://docs.cline.bot/provider-config/together.md): Learn how to configure and use Together AI with Cline. Access open-source models with fast inference and competitive pricing.
 - [Vercel AI Gateway](https://docs.cline.bot/provider-config/vercel-ai-gateway.md): Use Vercel AI Gateway in Cline to reach 100+ models from one endpoint with routing, retries, and spend observability.
 - [VS Code Language Model API](https://docs.cline.bot/provider-config/vscode-language-model-api.md): Learn how to use Cline with the experimental VS Code Language Model API, enabling access to models from GitHub Copilot and other compatible extensions.
 - [xAI (Grok)](https://docs.cline.bot/provider-config/xai-grok.md): Learn how to configure and use xAI's Grok models with Cline, including API key setup, supported models, and reasoning capabilities.
-- [Z AI (Zhipu AI)](https://docs.cline.bot/provider-config/zai.md): Learn how to configure and use Z AI's GLM-4.5 models with Cline. Experience advanced hybrid reasoning, agentic capabilities, and open-source excellence with regional optimization.
+- [Z AI (Zhipu AI)](https://docs.cline.bot/provider-config/zai.md): Learn how to configure and use Z AI's GLM models with Cline. Experience advanced hybrid reasoning, agentic capabilities, and open-source excellence with regional optimization.
 - [LM Studio](https://docs.cline.bot/running-models-locally/lm-studio.md): A quick guide to setting up LM Studio for local AI model execution with Cline.
 - [Ollama](https://docs.cline.bot/running-models-locally/ollama.md): A quick guide to setting up Ollama for local AI model execution with Cline.
 - [Local Models Overview](https://docs.cline.bot/running-models-locally/overview.md)
+- [All Cline Tools](https://docs.cline.bot/tools-reference/all-cline-tools.md): Complete reference for Cline's built-in tools and capabilities.
+- [Browser Automation](https://docs.cline.bot/tools-reference/browser-automation.md): Interact with websites through Cline's controlled browser instance.
 - [Networking and Proxies](https://docs.cline.bot/troubleshooting/networking-and-proxies.md): Configure Cline to work behind firewalls and proxies
 - [Task History Recovery Guide](https://docs.cline.bot/troubleshooting/task-history-recovery.md): How to recover and reconstruct your Cline task history
-- [Terminal Integration Troubleshooting Guide](https://docs.cline.bot/troubleshooting/terminal-integration-guide.md): Complete guide to resolving terminal integration issues in Cline
 - [Terminal Quick Fixes](https://docs.cline.bot/troubleshooting/terminal-quick-fixes.md): Quick solutions for common terminal issues
 
 
