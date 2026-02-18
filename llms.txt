@@ -888,6 +888,9 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/context/mcp.md
   - https://cursor.com/docs/context/mcp/directory.md
   - https://cursor.com/docs/context/mcp/install-links.md
+- https://cursor.com/docs/plugins.md
+  - https://cursor.com/docs/plugins.md
+  - https://cursor.com/docs/plugins/building.md
 
 ## features
 
@@ -1480,6 +1483,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Agent internet access](https://developers.openai.com/codex/cloud/internet-access.md): Control internet access for Codex cloud tasks
 - [Cloud environments](https://developers.openai.com/codex/cloud/environments.md): Customize dependencies and tools for Codex
 
+## Codex — Concepts
+- [Cyber Safety](https://developers.openai.com/codex/concepts/cyber-safety.md): Cybersecurity safeguards and trusted access for Codex users
+
 ## Codex — Config Advanced
 - [Advanced Configuration](https://developers.openai.com/codex/config-advanced.md): More advanced configuration options for Codex local clients
 
@@ -1623,6 +1629,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Codex web](https://developers.openai.com/codex/cloud.md): Delegate to Codex in the cloud
 - [Agent internet access](https://developers.openai.com/codex/cloud/internet-access.md): Control internet access for Codex cloud tasks
 - [Cloud environments](https://developers.openai.com/codex/cloud/environments.md): Customize dependencies and tools for Codex
+
+## Concepts
+- [Cyber Safety](https://developers.openai.com/codex/concepts/cyber-safety.md): Cybersecurity safeguards and trusted access for Codex users
 
 ## Config Advanced
 - [Advanced Configuration](https://developers.openai.com/codex/config-advanced.md): More advanced configuration options for Codex local clients
