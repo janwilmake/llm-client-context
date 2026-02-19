@@ -92,17 +92,17 @@ https://platform.claude.com
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
 - English (en) - 727 pages - /docs - Content included below
-- German (Deutsch) (de) - 190 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 190 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 190 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 190 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 190 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 190 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 190 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 190 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 190 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 190 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 190 pages - /docs/id - Visit website for content
+- German (Deutsch) (de) - 198 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 198 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 198 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 198 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 198 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 198 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 198 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 198 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 198 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 198 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 198 pages - /docs/id - Visit website for content
 
 ---
 
@@ -205,8 +205,8 @@ The full documentation is available in the following languages on https://platfo
 - [TypeScript V2 (preview)](https://platform.claude.com/docs/en/agent-sdk/typescript-v2-preview.md) - TypeScript SDK V2 interface (preview)
 - [Usage and Cost API](https://platform.claude.com/docs/en/build-with-claude/usage-cost-api.md)
 - [Use examples (multishot prompting)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/multishot-prompting.md) - Use examples (multishot prompting) to guide Claude's behavior
-- [Prompt improver](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-improver.md) - Use our prompt improver to optimize your prompts
 - [Use prompt templates](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-templates-and-variables.md) - Use prompt templates and variables
+- [Prompt improver](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-improver.md) - Use the prompt improver to optimize your prompts
 - [Use XML tags](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/use-xml-tags.md) - Use XML tags to structure your prompts
 - [Using Skills with the API](https://platform.claude.com/docs/en/build-with-claude/skills-guide.md) - Using Agent Skills with the API
 - [Using the Evaluation Tool](https://platform.claude.com/docs/en/test-and-evaluate/eval-tool.md)
@@ -1083,7 +1083,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Audio and speech](https://developers.openai.com/api/docs/guides/audio.md): Learn how to work with audio and speech in the OpenAI API.
 - [Background mode](https://developers.openai.com/api/docs/guides/background.md): Run long running tasks asynchronously in the background.
 - [Batch API](https://developers.openai.com/api/docs/guides/batch.md): Learn how to use OpenAI's Batch API for processing jobs with asynchronous requests, increased rate limits, and cost efficiency.
-- [Building MCP servers for ChatGPT and API integrations](https://developers.openai.com/api/docs/mcp.md): Learn how to build MCP servers for use with ChatGPT connectors, deep research, or API integrations.
+- [Building MCP servers for ChatGPT Apps and API integrations](https://developers.openai.com/api/docs/mcp.md): Learn how to build MCP servers for use with ChatGPT Apps, deep research, or API integrations.
 - [ChatGPT Developer mode](https://developers.openai.com/api/docs/guides/developer-mode.md): Full MCP client access for apps and tools.
 - [ChatKit](https://developers.openai.com/api/docs/guides/chatkit.md): Embed a widget to build your own chat experiences.
 - [ChatKit widgets](https://developers.openai.com/api/docs/guides/chatkit-widgets.md): Learn how to design widgets in your chat experience with ChatKit.
@@ -1537,6 +1537,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Codex — Models
 - [Codex Models](https://developers.openai.com/codex/models.md): Meet the AI models that power Codex
 
+## Codex — Multi Agent
+- [Multi-agents](https://developers.openai.com/codex/multi-agent.md): Use experimental multi-agent collaboration in Codex CLI
+
 ## Codex — Noninteractive
 - [Non-interactive mode](https://developers.openai.com/codex/noninteractive.md): Use `codex exec` to run Codex in scripts and CI
 
@@ -1683,6 +1686,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 
 ## Models
 - [Codex Models](https://developers.openai.com/codex/models.md): Meet the AI models that power Codex
+
+## Multi Agent
+- [Multi-agents](https://developers.openai.com/codex/multi-agent.md): Use experimental multi-agent collaboration in Codex CLI
 
 ## Noninteractive
 - [Non-interactive mode](https://developers.openai.com/codex/noninteractive.md): Use `codex exec` to run Codex in scripts and CI
