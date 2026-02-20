@@ -864,7 +864,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/models.md
 - https://cursor.com/docs/account/pricing.md
 
-## agent
+## Agent
 
 - https://cursor.com/docs/agent/overview.md
 - https://cursor.com/docs/agent/modes.md
@@ -873,7 +873,6 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/agent/browser.md
 - https://cursor.com/docs/agent/security.md
 - https://cursor.com/docs/agent/hooks.md
-  - https://cursor.com/docs/agent/hooks.md
   - https://cursor.com/docs/agent/third-party-hooks.md
 
 ## Context
@@ -885,33 +884,32 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/context/semantic-search.md
 - https://cursor.com/docs/context/mentions.md
 - https://cursor.com/docs/context/mcp.md
-  - https://cursor.com/docs/context/mcp.md
   - https://cursor.com/docs/context/mcp/directory.md
   - https://cursor.com/docs/context/mcp/install-links.md
 - https://cursor.com/docs/plugins.md
-  - https://cursor.com/docs/plugins.md
+  - https://cursor.com/docs/plugins/security.md
   - https://cursor.com/docs/plugins/building.md
 
-## features
+## Features
 
 - https://cursor.com/docs/tab/overview.md
 - https://cursor.com/docs/cloud-agent.md
-  - https://cursor.com/docs/cloud-agent.md
   - https://cursor.com/docs/cloud-agent/web-and-mobile.md
   - https://cursor.com/docs/cloud-agent/egress-ip-ranges.md
   - https://cursor.com/docs/cloud-agent/api/endpoints.md
 - https://cursor.com/docs/cli/overview.md
-  - https://cursor.com/docs/cli/overview.md
   - https://cursor.com/docs/cli/installation.md
   - https://cursor.com/docs/cli/using.md
   - https://cursor.com/docs/cli/shell-mode.md
   - https://cursor.com/docs/cli/mcp.md
   - https://cursor.com/docs/cli/headless.md
-    - https://cursor.com/docs/cli/headless.md
     - https://cursor.com/docs/cli/github-actions.md
     - https://cursor.com/docs/cli/cookbook/code-review.md
+      - https://cursor.com/docs/cli/cookbook/update-docs.md
+      - https://cursor.com/docs/cli/cookbook/fix-ci.md
+      - https://cursor.com/docs/cli/cookbook/secret-audit.md
+      - https://cursor.com/docs/cli/cookbook/translate-keys.md
   - https://cursor.com/docs/cli/reference/slash-commands.md
-    - https://cursor.com/docs/cli/reference/slash-commands.md
     - https://cursor.com/docs/cli/reference/parameters.md
     - https://cursor.com/docs/cli/reference/authentication.md
     - https://cursor.com/docs/cli/reference/permissions.md
@@ -919,7 +917,6 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
     - https://cursor.com/docs/cli/reference/output-format.md
     - https://cursor.com/docs/cli/reference/terminal-setup.md
 - https://cursor.com/docs/inline-edit/overview.md
-  - https://cursor.com/docs/inline-edit/overview.md
   - https://cursor.com/docs/inline-edit/terminal.md
 - https://cursor.com/docs/bugbot.md
 - https://cursor.com/docs/shared-transcripts.md
@@ -942,35 +939,28 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/configuration/shell.md
 - https://cursor.com/docs/configuration/worktrees.md
 - https://cursor.com/docs/settings/api-keys.md
-  - https://cursor.com/docs/settings/api-keys.md
   - https://cursor.com/docs/settings/aws-bedrock.md
-- https://cursor.com/docs/configuration/languages.md
-  - https://cursor.com/docs/configuration/languages/python.md
-  - https://cursor.com/docs/configuration/languages/javascript-typescript.md
-  - https://cursor.com/docs/configuration/languages/ios-macos-swift.md
-  - https://cursor.com/docs/configuration/languages/java.md
-- https://cursor.com/docs/configuration/migrations.md
-  - https://cursor.com/docs/configuration/migrations/vscode.md
-  - https://cursor.com/docs/configuration/migrations/jetbrains.md
+- https://cursor.com/docs/configuration/languages/python.md
+- https://cursor.com/docs/configuration/languages/javascript-typescript.md
+- https://cursor.com/docs/configuration/languages/ios-macos-swift.md
+- https://cursor.com/docs/configuration/languages/java.md
+- https://cursor.com/docs/configuration/migrations/vscode.md
+- https://cursor.com/docs/configuration/migrations/jetbrains.md
 
 ## Account
 
 - https://cursor.com/docs/account/billing.md
-  - https://cursor.com/docs/account/billing.md
   - https://cursor.com/docs/account/billing/spend-alerts.md
   - https://cursor.com/docs/account/billing/spend-limits.md
 - https://cursor.com/docs/account/update-access.md
 - https://cursor.com/docs/account/teams/setup.md
-  - https://cursor.com/docs/account/teams/setup.md
   - https://cursor.com/docs/account/teams/pricing.md
   - https://cursor.com/docs/account/teams/members.md
   - https://cursor.com/docs/account/teams/sso.md
   - https://cursor.com/docs/account/teams/dashboard.md
   - https://cursor.com/docs/account/teams/analytics.md
 - https://cursor.com/docs/enterprise.md
-  - https://cursor.com/docs/enterprise.md
   - https://cursor.com/docs/enterprise/identity-and-access-management.md
-    - https://cursor.com/docs/enterprise/identity-and-access-management.md
     - https://cursor.com/docs/account/teams/scim.md
   - https://cursor.com/docs/enterprise/privacy-and-data-governance.md
   - https://cursor.com/docs/enterprise/network-configuration.md
@@ -982,7 +972,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/account/enterprise/billing-groups.md
   - https://cursor.com/docs/integrations/cursor-blame.md
 
-## cookbook
+## Cookbook
 
 - https://cursor.com/docs/cookbook/agent-workflows.md
 - https://cursor.com/docs/cookbook/building-mcp-server.md
@@ -1014,7 +1004,6 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cli/headless.md
 - https://cursor.com/docs/cli/github-actions.md
 - https://cursor.com/docs/cli/cookbook/code-review.md
-  - https://cursor.com/docs/cli/cookbook/code-review.md
   - https://cursor.com/docs/cli/cookbook/update-docs.md
   - https://cursor.com/docs/cli/cookbook/fix-ci.md
   - https://cursor.com/docs/cli/cookbook/secret-audit.md
@@ -1095,6 +1084,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Connectors and MCP servers](https://developers.openai.com/api/docs/guides/tools-connectors-mcp.md): Use remote MCP servers and OpenAI-maintained connectors for popular services to give models new capabilities.
 - [Conversation state](https://developers.openai.com/api/docs/guides/conversation-state.md): Learn how to manage conversation state during a model interaction with the OpenAI API.
 - [Cost optimization](https://developers.openai.com/api/docs/guides/cost-optimization.md): Lower your OpenAI model costs by trying our tools and strategies.
+- [Counting tokens](https://developers.openai.com/api/docs/guides/token-counting.md): Use the Responses API to count input tokens for text, images, files, tools, and more—without estimation or tiktoken.
 - [Data controls in the OpenAI platform](https://developers.openai.com/api/docs/guides/your-data.md): Your data is your data. An overview of how OpenAI uses your data, including retention and usage policies.
 - [Data retrieval with GPT Actions](https://developers.openai.com/api/docs/actions/data-retrieval.md): Learn about performing data retrieval using APIs, relational databases, and vector databases with GPT Actions.
 - [Deep research](https://developers.openai.com/api/docs/guides/deep-research.md): Use deep research models for complex analysis and research tasks.
