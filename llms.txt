@@ -91,7 +91,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 727 pages - /docs - Content included below
+- English (en) - 725 pages - /docs - Content included below
 - German (Deutsch) (de) - 198 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 198 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 198 pages - /docs/fr - Visit website for content
@@ -144,10 +144,9 @@ The full documentation is available in the following languages on https://platfo
 - [MCP in the SDK](https://platform.claude.com/docs/en/agent-sdk/mcp.md) - Connect to external tools with MCP
 - [Context editing](https://platform.claude.com/docs/en/build-with-claude/context-editing.md)
 - [Context windows](https://platform.claude.com/docs/en/build-with-claude/context-windows.md)
-- [Develop test cases](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md) - Create strong empirical evaluations
 - [Custom Tools](https://platform.claude.com/docs/en/agent-sdk/custom-tools.md)
 - [Data residency](https://platform.claude.com/docs/en/build-with-claude/data-residency.md)
-- [Define success criteria](https://platform.claude.com/docs/en/test-and-evaluate/define-success.md) - Define your success criteria
+- [Define success and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md) - Define success criteria and build evaluations
 - [Effort](https://platform.claude.com/docs/en/build-with-claude/effort.md)
 - [Embeddings](https://platform.claude.com/docs/en/build-with-claude/embeddings.md)
 - [Extended thinking tips](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/extended-thinking-tips.md)
@@ -163,7 +162,6 @@ The full documentation is available in the following languages on https://platfo
 - [How to implement tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use.md)
 - [Increase output consistency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency.md)
 - [Control execution with hooks](https://platform.claude.com/docs/en/agent-sdk/hooks.md) - Intercept and control agent behavior with hooks
-- [Keep Claude in character](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/keep-claude-in-character.md) - Keep Claude in character with role prompting and prefilling
 - [Let Claude think (CoT)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought.md) - Let Claude think (chain of thought prompting) to increase performance
 - [Long context tips](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/long-context-tips.md) - Long context prompting tips
 - [MCP connector](https://platform.claude.com/docs/en/agents-and-tools/mcp-connector.md)
