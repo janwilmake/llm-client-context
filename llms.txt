@@ -91,7 +91,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 725 pages - /docs - Content included below
+- English (en) - 715 pages - /docs - Content included below
 - German (Deutsch) (de) - 198 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 198 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 198 pages - /docs/fr - Visit website for content
@@ -125,12 +125,9 @@ The full documentation is available in the following languages on https://platfo
 - [Python SDK](https://platform.claude.com/docs/en/agent-sdk/python.md) - Agent SDK reference - Python
 - [TypeScript SDK](https://platform.claude.com/docs/en/agent-sdk/typescript.md) - Agent SDK reference - TypeScript
 - [Agent Skills in the SDK](https://platform.claude.com/docs/en/agent-sdk/skills.md)
-- [Prompt generator](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-generator.md) - Automatically generate first draft prompt templates
 - [Bash tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool.md)
 - [Batch processing](https://platform.claude.com/docs/en/build-with-claude/batch-processing.md)
-- [Be clear and direct](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/be-clear-and-direct.md) - Be clear, direct, and detailed
 - [Extended thinking](https://platform.claude.com/docs/en/build-with-claude/extended-thinking.md) - Building with extended thinking
-- [Chain complex prompts](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-prompts.md) - Chain complex prompts for stronger performance
 - [Choosing a model](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model.md) - Choosing the right model
 - [Citations](https://platform.claude.com/docs/en/build-with-claude/citations.md)
 - [Claude Code Analytics API](https://platform.claude.com/docs/en/build-with-claude/claude-code-analytics-api.md)
@@ -142,6 +139,7 @@ The full documentation is available in the following languages on https://platfo
 - [Computer use tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool.md)
 - [Handling Permissions](https://platform.claude.com/docs/en/agent-sdk/permissions.md) - Configure permissions
 - [MCP in the SDK](https://platform.claude.com/docs/en/agent-sdk/mcp.md) - Connect to external tools with MCP
+- [Console prompting tools](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-tools.md)
 - [Context editing](https://platform.claude.com/docs/en/build-with-claude/context-editing.md)
 - [Context windows](https://platform.claude.com/docs/en/build-with-claude/context-windows.md)
 - [Custom Tools](https://platform.claude.com/docs/en/agent-sdk/custom-tools.md)
@@ -149,12 +147,10 @@ The full documentation is available in the following languages on https://platfo
 - [Define success and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md) - Define success criteria and build evaluations
 - [Effort](https://platform.claude.com/docs/en/build-with-claude/effort.md)
 - [Embeddings](https://platform.claude.com/docs/en/build-with-claude/embeddings.md)
-- [Extended thinking tips](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/extended-thinking-tips.md)
 - [Fast mode (research preview)](https://platform.claude.com/docs/en/build-with-claude/fast-mode.md)
 - [Files API](https://platform.claude.com/docs/en/build-with-claude/files.md)
 - [Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md)
 - [Structured outputs in the SDK](https://platform.claude.com/docs/en/agent-sdk/structured-outputs.md) - Get structured output from agents
-- [Give Claude a role (system prompts)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/system-prompts.md) - Giving Claude a role with a system prompt
 - [User approvals and input](https://platform.claude.com/docs/en/agent-sdk/user-input.md) - Handle approvals and user input
 - [Handling stop reasons](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md)
 - [Handling stop reasons](https://platform.claude.com/docs/en/agent-sdk/stop-reasons.md)
@@ -162,8 +158,6 @@ The full documentation is available in the following languages on https://platfo
 - [How to implement tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use.md)
 - [Increase output consistency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency.md)
 - [Control execution with hooks](https://platform.claude.com/docs/en/agent-sdk/hooks.md) - Intercept and control agent behavior with hooks
-- [Let Claude think (CoT)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought.md) - Let Claude think (chain of thought prompting) to increase performance
-- [Long context tips](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/long-context-tips.md) - Long context prompting tips
 - [MCP connector](https://platform.claude.com/docs/en/agents-and-tools/mcp-connector.md)
 - [Memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool.md)
 - [Migration Guide](https://platform.claude.com/docs/en/agent-sdk/migration-guide.md) - Migrate to Claude Agent SDK
@@ -202,10 +196,6 @@ The full documentation is available in the following languages on https://platfo
 - [Tracking Costs and Usage](https://platform.claude.com/docs/en/agent-sdk/cost-tracking.md)
 - [TypeScript V2 (preview)](https://platform.claude.com/docs/en/agent-sdk/typescript-v2-preview.md) - TypeScript SDK V2 interface (preview)
 - [Usage and Cost API](https://platform.claude.com/docs/en/build-with-claude/usage-cost-api.md)
-- [Use examples (multishot prompting)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/multishot-prompting.md) - Use examples (multishot prompting) to guide Claude's behavior
-- [Use prompt templates](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-templates-and-variables.md) - Use prompt templates and variables
-- [Prompt improver](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompt-improver.md) - Use the prompt improver to optimize your prompts
-- [Use XML tags](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/use-xml-tags.md) - Use XML tags to structure your prompts
 - [Using Skills with the API](https://platform.claude.com/docs/en/build-with-claude/skills-guide.md) - Using Agent Skills with the API
 - [Using the Evaluation Tool](https://platform.claude.com/docs/en/test-and-evaluate/eval-tool.md)
 - [Using the Messages API](https://platform.claude.com/docs/en/build-with-claude/working-with-messages.md)
@@ -1172,6 +1162,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Web search](https://developers.openai.com/api/docs/guides/tools-web-search.md): Allow models to search the web the latest information before generating a response.
 - [Webhooks](https://developers.openai.com/api/docs/guides/webhooks.md): Use webhooks to receive real-time updates from the OpenAI API.
 - [Webhooks and server-side controls](https://developers.openai.com/api/docs/guides/realtime-server-controls.md): Learn how to use webhooks and server-side controls with the Realtime API.
+- [WebSocket Mode](https://developers.openai.com/api/docs/guides/websocket-mode.md): Learn how to use Responses API WebSocket mode with response.create and previous_response_id.
 - [Working with evals](https://developers.openai.com/api/docs/guides/evals.md): Learn how to test and improve AI model outputs through evaluations.
 
 ## OpenAI API — Reference
@@ -1421,7 +1412,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Apps SDK — Deploy
 - [Deploy your app](https://developers.openai.com/apps-sdk/deploy.md): Learn how to deploy your MCP server
 - [Connect from ChatGPT](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt.md): Connect your app to ChatGPT clients.
-- [Submit your app](https://developers.openai.com/apps-sdk/deploy/submission.md): Learn how to submit your app to the ChatGPT Apps Directory.
+- [Submit and maintain your app](https://developers.openai.com/apps-sdk/deploy/submission.md): Learn how to submit your app to the ChatGPT Apps Directory and iterate over time.
 - [Test your integration](https://developers.openai.com/apps-sdk/deploy/testing.md): Testing strategies for Apps SDK apps.
 - [Troubleshooting](https://developers.openai.com/apps-sdk/deploy/troubleshooting.md): Troubleshoot issues in Apps SDK apps.
 
@@ -1494,6 +1485,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Codex — Enterprise
 - [Admin Setup](https://developers.openai.com/codex/enterprise/admin-setup.md): Set up Codex for your ChatGPT Enterprise workspace
 - [Governance](https://developers.openai.com/codex/enterprise/governance.md): Governance guidance for managing Codex in your organization
+- [Managed configuration](https://developers.openai.com/codex/enterprise/managed-configuration.md): Configure managed Codex requirements and defaults
 
 ## Codex — Explore
 - [Explore](https://developers.openai.com/codex/explore.md): Get ideas on what you can build with Codex
@@ -1646,6 +1638,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 ## Enterprise
 - [Admin Setup](https://developers.openai.com/codex/enterprise/admin-setup.md): Set up Codex for your ChatGPT Enterprise workspace
 - [Governance](https://developers.openai.com/codex/enterprise/governance.md): Governance guidance for managing Codex in your organization
+- [Managed configuration](https://developers.openai.com/codex/enterprise/managed-configuration.md): Configure managed Codex requirements and defaults
 
 ## Explore
 - [Explore](https://developers.openai.com/codex/explore.md): Get ideas on what you can build with Codex
@@ -1755,6 +1748,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Overview](https://docs.cline.bot/customization/overview.md): Understand how Rules, Skills, Workflows, Hooks, and .clineignore work together to customize Cline.
 - [Skills](https://docs.cline.bot/customization/skills.md): Modular instruction sets that extend Cline's capabilities for specific tasks.
 - [Workflows](https://docs.cline.bot/customization/workflows.md): Automate repetitive tasks with Markdown-based workflow files.
+- [MCP Marketplace](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/mcp-marketplace.md): Enterprise controls for MCP Marketplace access, server allowlisting, and remote MCP server management
 - [YOLO Mode](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/yolo-mode.md): Enterprise controls for YOLO Mode autonomous operation
 - [Configure AWS Bedrock Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/aws-bedrock/admin-configuration.md): This guide explains how administrators configure AWS Bedrock as the organization-wide LLM provider for Cline.
 - [Configure AWS Bedrock in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/aws-bedrock/member-configuration.md): Guide for engineers configuring AWS Bedrock credentials in VS Code after admin setup
