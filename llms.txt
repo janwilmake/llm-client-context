@@ -19,7 +19,7 @@
 - [Orchestrate teams of Claude Code sessions](https://code.claude.com/docs/en/agent-teams.md): Coordinate multiple Claude Code instances working together as a team, with shared tasks, inter-agent messaging, and centralized management.
 - [Claude Code on Amazon Bedrock](https://code.claude.com/docs/en/amazon-bedrock.md): Learn about configuring Claude Code through Amazon Bedrock, including setup, IAM configuration, and troubleshooting.
 - [Track team usage with analytics](https://code.claude.com/docs/en/analytics.md): View Claude Code usage metrics, track adoption, and measure engineering velocity in the analytics dashboard.
-- [Authentication](https://code.claude.com/docs/en/authentication.md): Learn how to configure user authentication and credential management for Claude Code in your organization.
+- [Authentication](https://code.claude.com/docs/en/authentication.md): Log in to Claude Code and configure authentication for individuals, teams, and organizations.
 - [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices.md): Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.
 - [Changelog](https://code.claude.com/docs/en/changelog.md)
 - [Checkpointing](https://code.claude.com/docs/en/checkpointing.md): Track, rewind, and summarize Claude's edits and conversation to manage session state.
@@ -60,11 +60,12 @@
 - [Create plugins](https://code.claude.com/docs/en/plugins.md): Create custom plugins to extend Claude Code with skills, agents, hooks, and MCP servers.
 - [Plugins reference](https://code.claude.com/docs/en/plugins-reference.md): Complete technical reference for Claude Code plugin system, including schemas, CLI commands, and component specifications.
 - [Quickstart](https://code.claude.com/docs/en/quickstart.md): Welcome to Claude Code!
+- [Continue local sessions from any device with Remote Control](https://code.claude.com/docs/en/remote-control.md): Continue a local Claude Code session from your phone, tablet, or any browser using Remote Control. Works with claude.ai/code and the Claude mobile app.
 - [Sandboxing](https://code.claude.com/docs/en/sandboxing.md): Learn how Claude Code's sandboxed bash tool provides filesystem and network isolation for safer, more autonomous agent execution.
 - [Security](https://code.claude.com/docs/en/security.md): Learn about Claude Code's security safeguards and best practices for safe usage.
 - [Configure server-managed settings (public beta)](https://code.claude.com/docs/en/server-managed-settings.md): Centrally configure Claude Code for your organization through server-delivered settings, without requiring device management infrastructure.
 - [Claude Code settings](https://code.claude.com/docs/en/settings.md): Configure Claude Code with global and project-level settings, and environment variables.
-- [Set up Claude Code](https://code.claude.com/docs/en/setup.md): Install, authenticate, and start using Claude Code on your development machine.
+- [Advanced setup](https://code.claude.com/docs/en/setup.md): System requirements, platform-specific installation, version management, and uninstallation for Claude Code.
 - [Extend Claude with skills](https://code.claude.com/docs/en/skills.md): Create, manage, and share skills to extend Claude's capabilities in Claude Code. Includes custom slash commands.
 - [Claude Code in Slack](https://code.claude.com/docs/en/slack.md): Delegate coding tasks directly from your Slack workspace
 - [Customize your status line](https://code.claude.com/docs/en/statusline.md): Configure a custom status bar to monitor context window usage, costs, and git status in Claude Code
@@ -882,8 +883,13 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 
 - https://cursor.com/docs/tab/overview.md
 - https://cursor.com/docs/cloud-agent.md
-  - https://cursor.com/docs/cloud-agent/web-and-mobile.md
+  - https://cursor.com/docs/cloud-agent/setup.md
+  - https://cursor.com/docs/cloud-agent/capabilities.md
+  - https://cursor.com/docs/cloud-agent/best-practices.md
+  - https://cursor.com/docs/cloud-agent/security.md
+  - https://cursor.com/docs/cloud-agent/network-access.md
   - https://cursor.com/docs/cloud-agent/egress-ip-ranges.md
+  - https://cursor.com/docs/cloud-agent/settings.md
   - https://cursor.com/docs/cloud-agent/api/endpoints.md
 - https://cursor.com/docs/cli/overview.md
   - https://cursor.com/docs/cli/installation.md
@@ -1073,6 +1079,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Conversation state](https://developers.openai.com/api/docs/guides/conversation-state.md): Learn how to manage conversation state during a model interaction with the OpenAI API.
 - [Cost optimization](https://developers.openai.com/api/docs/guides/cost-optimization.md): Lower your OpenAI model costs by trying our tools and strategies.
 - [Counting tokens](https://developers.openai.com/api/docs/guides/token-counting.md): Use the Responses API to count input tokens for text, images, files, tools, and more—without estimation or tiktoken.
+- [Cybersecurity checks](https://developers.openai.com/api/docs/guides/safety-checks/cybersecurity.md)
 - [Data controls in the OpenAI platform](https://developers.openai.com/api/docs/guides/your-data.md): Your data is your data. An overview of how OpenAI uses your data, including retention and usage policies.
 - [Data retrieval with GPT Actions](https://developers.openai.com/api/docs/actions/data-retrieval.md): Learn about performing data retrieval using APIs, relational databases, and vector databases with GPT Actions.
 - [Deep research](https://developers.openai.com/api/docs/guides/deep-research.md): Use deep research models for complex analysis and research tasks.
@@ -1082,7 +1089,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Error codes](https://developers.openai.com/api/docs/guides/error-codes.md): An overview of error codes from the OpenAI API and Python library, including solutions and guidance.
 - [Evaluate external models](https://developers.openai.com/api/docs/guides/external-models.md): Learn how to run evals on non-OpenAI models, using the OpenAI platform.
 - [Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices.md): Learn best practices for designing evals to test and improve model performance in production.
-- [File inputs](https://developers.openai.com/api/docs/guides/pdf-files.md): Learn how to use PDF files as inputs to the OpenAI API.
+- [File inputs](https://developers.openai.com/api/docs/guides/file-inputs.md): Learn how to use files as file inputs in the OpenAI API.
 - [File search](https://developers.openai.com/api/docs/guides/tools-file-search.md): Allow models to search your files for relevant information before generating a response.
 - [Fine-tuning best practices](https://developers.openai.com/api/docs/guides/fine-tuning-best-practices.md): Improve results with practical tips for fine-tuning.
 - [Flex processing](https://developers.openai.com/api/docs/guides/flex-processing.md): Learn how to optimize costs for asynchronous tasks with flex processing.
@@ -1808,7 +1815,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Huawei Cloud MaaS](https://docs.cline.bot/provider-config/huawei-cloud-maas.md): Learn how to configure and use Huawei Cloud Model-as-a-Service with Cline. Access DeepSeek and Qwen models through Huawei's cloud infrastructure.
 - [Hugging Face](https://docs.cline.bot/provider-config/huggingface.md): Learn how to configure and use Hugging Face Inference Providers with Cline. Access open-source models with free inference through the Hugging Face ecosystem.
 - [LiteLLM & Cline (using Codestral)](https://docs.cline.bot/provider-config/litellm-and-cline-using-codestral.md): Learn how to set up and run LiteLLM with Cline using the Codestral model. This guide covers Docker setup, configuration, and integration with Cline.
-- [MiniMax](https://docs.cline.bot/provider-config/minimax.md): Learn how to configure and use MiniMax models with Cline. Access MiniMax-M2 series models with large context windows and prompt caching.
+- [MiniMax](https://docs.cline.bot/provider-config/minimax.md): Learn how to configure and use MiniMax models with Cline. Access MiniMax-M2 series models with large context windows, prompt caching, and reasoning support.
 - [Mistral](https://docs.cline.bot/provider-config/mistral-ai.md): Learn how to configure and use Mistral AI models, including Codestral, with Cline. Covers API key setup and model selection.
 - [Moonshot](https://docs.cline.bot/provider-config/moonshot.md): Learn how to configure and use Moonshot AI's Kimi K2 models with Cline. Access state-of-the-art MoE models with large context windows.
 - [Nebius AI Studio](https://docs.cline.bot/provider-config/nebius.md): Learn how to configure and use Nebius AI Studio with Cline. Access DeepSeek, Qwen, Llama, and other open-source models with competitive pricing.
@@ -1837,6 +1844,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Task History Recovery Guide](https://docs.cline.bot/troubleshooting/task-history-recovery.md): How to recover and reconstruct your Cline task history
 - [Terminal Quick Fixes](https://docs.cline.bot/troubleshooting/terminal-quick-fixes.md): Quick solutions for common terminal issues
 
+## OpenAPI Specs
+
+- [openapi](https://docs.cline.bot/api-reference/openapi.json)
 
 ## Optional
 
@@ -1942,7 +1952,6 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Recommended Extensions](https://docs.windsurf.com/windsurf/recommended-extensions.md): Popular Open VSX extensions for Windsurf including Python, Java, C#, GitLens, and more. Replicate familiar IDE experiences from VS Code, Eclipse, or Visual Studio.
 - [Terminal](https://docs.windsurf.com/windsurf/terminal.md): Use Windsurf's enhanced terminal with Command mode, Cascade integration, Turbo mode for auto-execution, and allow/deny lists for command control.
 - [Vibe and Replace](https://docs.windsurf.com/windsurf/vibe-and-replace.md): AI-powered find and replace that applies natural language prompts to each match. Use Smart mode for careful changes or Fast mode for quick transformations.
-
 
 ## Optional
 
