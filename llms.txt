@@ -194,7 +194,7 @@ The full documentation is available in the following languages on https://platfo
 - [Todo Lists](https://platform.claude.com/docs/en/agent-sdk/todo-tracking.md)
 - [Token counting](https://platform.claude.com/docs/en/build-with-claude/token-counting.md)
 - [Tool search](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool.md) - Tool search tool
-- [Tracking Costs and Usage](https://platform.claude.com/docs/en/agent-sdk/cost-tracking.md)
+- [Track cost and usage](https://platform.claude.com/docs/en/agent-sdk/cost-tracking.md)
 - [TypeScript V2 (preview)](https://platform.claude.com/docs/en/agent-sdk/typescript-v2-preview.md) - TypeScript SDK V2 interface (preview)
 - [Usage and Cost API](https://platform.claude.com/docs/en/build-with-claude/usage-cost-api.md)
 - [Using Skills with the API](https://platform.claude.com/docs/en/build-with-claude/skills-guide.md) - Using Agent Skills with the API
