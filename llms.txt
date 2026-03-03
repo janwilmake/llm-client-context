@@ -155,8 +155,8 @@ The full documentation is available in the following languages on https://platfo
 - [Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md)
 - [Structured outputs in the SDK](https://platform.claude.com/docs/en/agent-sdk/structured-outputs.md) - Get structured output from agents
 - [User approvals and input](https://platform.claude.com/docs/en/agent-sdk/user-input.md) - Handle approvals and user input
+- [Handling stop reasons](https://platform.claude.com/docs/en/agent-sdk/stop-reasons.md) - Handle stop reasons
 - [Handling stop reasons](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md)
-- [Handling stop reasons](https://platform.claude.com/docs/en/agent-sdk/stop-reasons.md)
 - [Hosting the Agent SDK](https://platform.claude.com/docs/en/agent-sdk/hosting.md)
 - [How to implement tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use.md)
 - [Increase output consistency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency.md)
@@ -1724,6 +1724,13 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 
 ## Docs
 
+- [Authentication](https://docs.cline.bot/api/authentication.md): How to authenticate with the Cline API using API keys or account tokens.
+- [Chat Completions](https://docs.cline.bot/api/chat-completions.md): Full reference for the POST /chat/completions endpoint including all parameters, streaming, and tool calling.
+- [Errors](https://docs.cline.bot/api/errors.md): Error codes, error formats, mid-stream errors, and retry strategies for the Cline API.
+- [Getting Started](https://docs.cline.bot/api/getting-started.md): Create an API key and make your first request to the Cline API in under a minute.
+- [Models](https://docs.cline.bot/api/models.md): Available models, pricing tiers, free models, and how model IDs work in the Cline API.
+- [Cline API](https://docs.cline.bot/api/overview.md): Programmatic access to AI models through an OpenAI-compatible Chat Completions API.
+- [SDK Examples](https://docs.cline.bot/api/sdk-examples.md): Use the Cline API from Python, Node.js, curl, the Cline CLI, and the VS Code extension.
 - [ACP: Editor Integrations](https://docs.cline.bot/cline-cli/acp-editor-integrations.md): Use Cline in JetBrains, Neovim, Zed, and other editors via the Agent Client Protocol
 - [CLI Reference](https://docs.cline.bot/cline-cli/cli-reference.md): Complete command reference for Cline CLI including all commands, flags, and configuration options
 - [Configuration](https://docs.cline.bot/cline-cli/configuration.md): Manage Cline CLI settings with cline config, environment variables, and configuration files
@@ -1737,6 +1744,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Samples Overview](https://docs.cline.bot/cline-cli/samples/overview.md): Example implementations demonstrating Cline CLI capabilities
 - [Worktree Workflows](https://docs.cline.bot/cline-cli/samples/worktree-workflows.md): Use Git worktrees with Cline CLI to run parallel tasks, test different approaches, and pipe context between isolated environments
 - [Headless Mode](https://docs.cline.bot/cline-cli/three-core-flows.md): Run Cline autonomously in scripts, CI/CD pipelines, and automated workflows
+- [Cline SDK](https://docs.cline.bot/cline-sdk/overview.md): Embed Cline as a programmable coding agent in your Node.js applications using an ACP-compatible TypeScript API.
 - [Documentation Templates](https://docs.cline.bot/contributing/doc-templates.md): Templates for different types of Cline documentation
 - [Documentation Guide](https://docs.cline.bot/contributing/documentation-guide.md): How to write and contribute to Cline documentation
 - [Model Selection Guide](https://docs.cline.bot/core-features/model-selection-guide.md): Choose the right AI model for your workflow based on reliability, speed, cost, and context window size.
@@ -1751,6 +1759,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Overview](https://docs.cline.bot/customization/overview.md): Understand how Rules, Skills, Workflows, Hooks, and .clineignore work together to customize Cline.
 - [Skills](https://docs.cline.bot/customization/skills.md): Modular instruction sets that extend Cline's capabilities for specific tasks.
 - [Workflows](https://docs.cline.bot/customization/workflows.md): Automate repetitive tasks with Markdown-based workflow files.
+- [Enterprise API Reference](https://docs.cline.bot/enterprise-solutions/api-reference.md): REST API endpoints for managing users, organizations, billing, plans, and API keys.
 - [MCP Marketplace](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/mcp-marketplace.md): Enterprise controls for MCP Marketplace access, server allowlisting, and remote MCP server management
 - [YOLO Mode](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/yolo-mode.md): Enterprise controls for YOLO Mode autonomous operation
 - [Configure AWS Bedrock Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/aws-bedrock/admin-configuration.md): This guide explains how administrators configure AWS Bedrock as the organization-wide LLM provider for Cline.
