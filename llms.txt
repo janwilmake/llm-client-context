@@ -788,6 +788,13 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/get-started/quickstart.md
 - https://cursor.com/docs/get-started/concepts.md
 - https://cursor.com/docs/models.md
+  - https://cursor.com/docs/models/claude-4-6-sonnet.md
+  - https://cursor.com/docs/models/claude-opus-4-6.md
+  - https://cursor.com/docs/models/gemini-3-1-pro.md
+  - https://cursor.com/docs/models/gemini-3-flash.md
+  - https://cursor.com/docs/models/gpt-5-3-codex.md
+  - https://cursor.com/docs/models/grok-code.md
+  - https://cursor.com/docs/models/cursor-composer-1-5.md
 - https://cursor.com/docs/account/pricing.md
 
 ## Agent
@@ -861,6 +868,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/integrations/git.md
 - https://cursor.com/docs/integrations/gitlab.md
 - https://cursor.com/docs/integrations/deeplinks.md
+- https://cursor.com/docs/integrations/jetbrains.md
 
 ## Configuration
 
@@ -877,7 +885,6 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/configuration/languages/ios-macos-swift.md
 - https://cursor.com/docs/configuration/languages/java.md
 - https://cursor.com/docs/configuration/migrations/vscode.md
-- https://cursor.com/docs/configuration/migrations/jetbrains.md
 
 ## Account
 
@@ -945,6 +952,90 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cli/reference/configuration.md
 - https://cursor.com/docs/cli/reference/output-format.md
 - https://cursor.com/docs/cli/reference/terminal-setup.md
+
+# Help Center
+
+## Getting started
+
+- https://cursor.com/help/getting-started/install.md
+- https://cursor.com/help/getting-started/first-project.md
+- https://cursor.com/help/getting-started/migrate-vscode.md
+- https://cursor.com/help/getting-started/migrate-jetbrains.md
+
+## AI features
+
+- https://cursor.com/help/ai-features/agent.md
+- https://cursor.com/help/ai-features/plan-mode.md
+- https://cursor.com/help/ai-features/ask-mode.md
+- https://cursor.com/help/ai-features/debug-mode.md
+- https://cursor.com/help/ai-features/tab.md
+- https://cursor.com/help/ai-features/inline-edit.md
+- https://cursor.com/help/ai-features/max-mode.md
+- https://cursor.com/help/ai-features/terminal.md
+- https://cursor.com/help/ai-features/browser.md
+- https://cursor.com/help/ai-features/cloud-agents.md
+- https://cursor.com/help/ai-features/shared-transcripts.md
+- https://cursor.com/help/ai-features/bugbot.md
+
+## Customization
+
+- https://cursor.com/help/customization/rules.md
+- https://cursor.com/help/customization/context.md
+- https://cursor.com/help/customization/mcp.md
+- https://cursor.com/help/customization/skills.md
+- https://cursor.com/help/customization/indexing.md
+- https://cursor.com/help/customization/ignore-files.md
+- https://cursor.com/help/customization/extensions.md
+- https://cursor.com/help/customization/plugins.md
+- https://cursor.com/help/customization/keyboard-shortcuts.md
+- https://cursor.com/help/customization/themes.md
+
+## Models and usage
+
+- https://cursor.com/help/models-and-usage/available-models.md
+- https://cursor.com/help/models-and-usage/api-keys.md
+- https://cursor.com/help/models-and-usage/usage-limits.md
+- https://cursor.com/help/models-and-usage/token-fee.md
+
+## Security and privacy
+
+- https://cursor.com/help/security-and-privacy/privacy.md
+- https://cursor.com/help/security-and-privacy/regions.md
+- https://cursor.com/help/security-and-privacy/compliance.md
+- https://cursor.com/help/security-and-privacy/sso.md
+
+## Account and billing
+
+- https://cursor.com/help/account-and-billing/pricing.md
+- https://cursor.com/help/account-and-billing/billing.md
+- https://cursor.com/help/account-and-billing/teams-setup.md
+- https://cursor.com/help/account-and-billing/teams-management.md
+- https://cursor.com/help/account-and-billing/invoices.md
+- https://cursor.com/help/account-and-billing/overages.md
+- https://cursor.com/help/account-and-billing/spend-alerts.md
+- https://cursor.com/help/account-and-billing/enterprise.md
+- https://cursor.com/help/account-and-billing/change-email.md
+- https://cursor.com/help/account-and-billing/cancel.md
+- https://cursor.com/help/account-and-billing/refunds.md
+- https://cursor.com/help/account-and-billing/delete-account.md
+- https://cursor.com/help/account-and-billing/student-discount.md
+
+## Integrations
+
+- https://cursor.com/help/integrations/git.md
+- https://cursor.com/help/integrations/github-gitlab.md
+- https://cursor.com/help/integrations/cli.md
+- https://cursor.com/help/integrations/third-party.md
+
+## Troubleshooting
+
+- https://cursor.com/help/troubleshooting/agent-issues.md
+- https://cursor.com/help/troubleshooting/tab-issues.md
+- https://cursor.com/help/troubleshooting/install-issues.md
+- https://cursor.com/help/troubleshooting/network.md
+- https://cursor.com/help/troubleshooting/extensions.md
+- https://cursor.com/help/troubleshooting/performance.md
+- https://cursor.com/help/troubleshooting/reporting-bugs.md
 
 ## Internationalization
 
@@ -1383,6 +1474,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Local environments](https://developers.openai.com/codex/app/local-environments.md): Configure common actions and setup scripts for worktrees
 - [Review](https://developers.openai.com/codex/app/review.md): Review and iterate with Codex on changes inside the app
 - [Troubleshooting](https://developers.openai.com/codex/app/troubleshooting.md): FAQ and fixes for common Codex app issues
+- [Windows](https://developers.openai.com/codex/app/windows.md): Use the Codex app on Windows with native sandbox and PowerShell support
 - [Worktrees](https://developers.openai.com/codex/app/worktrees.md): Leverage Git worktrees within the Codex app to let Codex work in parallel
 
 ## Codex — App Server
@@ -1536,6 +1628,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Local environments](https://developers.openai.com/codex/app/local-environments.md): Configure common actions and setup scripts for worktrees
 - [Review](https://developers.openai.com/codex/app/review.md): Review and iterate with Codex on changes inside the app
 - [Troubleshooting](https://developers.openai.com/codex/app/troubleshooting.md): FAQ and fixes for common Codex app issues
+- [Windows](https://developers.openai.com/codex/app/windows.md): Use the Codex app on Windows with native sandbox and PowerShell support
 - [Worktrees](https://developers.openai.com/codex/app/worktrees.md): Leverage Git worktrees within the Codex app to let Codex work in parallel
 
 ## App Server
