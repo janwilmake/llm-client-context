@@ -4,8 +4,9 @@
 
 ## Docs
 
+- [How to add skills support to your agent](https://agentskills.io/client-implementation/adding-skills-support.md): A guide for adding Agent Skills support to an AI agent or development tool.
 - [Overview](https://agentskills.io/home.md): A simple, open format for giving agents new capabilities and expertise.
-- [Integrate skills into your agent](https://agentskills.io/integrate-skills.md): How to add Agent Skills support to your agent or tool.
+- [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills.md): How to test whether your skill produces good outputs using eval-driven iteration.
 - [Using scripts in skills](https://agentskills.io/skill-creation/using-scripts.md): How to run commands and bundle executable scripts in your skills.
 - [Specification](https://agentskills.io/specification.md): The complete format specification for Agent Skills.
 - [What are skills?](https://agentskills.io/what-are-skills.md): Agent Skills are a lightweight, open format for extending AI agent capabilities with specialized knowledge and workflows.
@@ -792,6 +793,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/claude-opus-4-6.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
   - https://cursor.com/docs/models/gemini-3-flash.md
+  - https://cursor.com/docs/models/gpt-5-4.md
   - https://cursor.com/docs/models/gpt-5-3-codex.md
   - https://cursor.com/docs/models/grok-code.md
   - https://cursor.com/docs/models/cursor-composer-1-5.md
@@ -834,6 +836,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/cloud-agent/network-access.md
   - https://cursor.com/docs/cloud-agent/egress-ip-ranges.md
   - https://cursor.com/docs/cloud-agent/settings.md
+  - https://cursor.com/docs/cloud-agent/automations.md
   - https://cursor.com/docs/cloud-agent/api/endpoints.md
 - https://cursor.com/docs/cli/overview.md
   - https://cursor.com/docs/cli/installation.md
@@ -974,6 +977,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/ai-features/terminal.md
 - https://cursor.com/help/ai-features/browser.md
 - https://cursor.com/help/ai-features/cloud-agents.md
+- https://cursor.com/help/ai-features/automations.md
 - https://cursor.com/help/ai-features/shared-transcripts.md
 - https://cursor.com/help/ai-features/bugbot.md
 
@@ -1080,7 +1084,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Agent evals](https://developers.openai.com/api/docs/guides/agent-evals.md): Use agent evals to create datasets, configure graders, and track evaluation runs for your agents.
 - [Agents](https://developers.openai.com/api/docs/guides/agents.md): Learn how to build agents and workflows with OpenAI and AgentKit.
 - [Agents SDK](https://developers.openai.com/api/docs/guides/agents-sdk.md): Learn how to build agents with the OpenAI Agents SDK.
-- [Apply patch](https://developers.openai.com/api/docs/guides/tools-apply-patch.md): Allow models to propose structured diffs that your integration applies.
+- [Apply Patch](https://developers.openai.com/api/docs/guides/tools-apply-patch.md): Allow models to propose structured diffs that your integration applies.
 - [Assistants API deep dive](https://developers.openai.com/api/docs/assistants/deep-dive.md): A detailed guide to creating and managing assistants with the Assistants API on the OpenAI platform.
 - [Assistants API tools](https://developers.openai.com/api/docs/assistants/tools.md): Learn about the tools available for OpenAI Assistants, including file search, code interpreter, and function calling.
 - [Assistants Code Interpreter](https://developers.openai.com/api/docs/assistants/tools/code-interpreter.md): Allow assistants to run Python code with the Code Interpreter tool.
@@ -1094,12 +1098,11 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [ChatGPT Developer mode](https://developers.openai.com/api/docs/guides/developer-mode.md): Full MCP client access for apps and tools.
 - [ChatKit](https://developers.openai.com/api/docs/guides/chatkit.md): Embed a widget to build your own chat experiences.
 - [ChatKit widgets](https://developers.openai.com/api/docs/guides/chatkit-widgets.md): Learn how to design widgets in your chat experience with ChatKit.
-- [Code generation](https://developers.openai.com/api/docs/guides/code-generation.md): Learn how to use OpenAI Codex models to generate code and build coding agents.
+- [Code generation](https://developers.openai.com/api/docs/guides/code-generation.md): Learn how to use GPT-5.4 and Codex to generate code.
 - [Code Interpreter](https://developers.openai.com/api/docs/guides/tools-code-interpreter.md): Allow models to write and run Python to solve problems.
 - [Compaction](https://developers.openai.com/api/docs/guides/compaction.md): Manage long-running conversations with server-side and standalone compaction.
 - [Completions API](https://developers.openai.com/api/docs/guides/completions.md)
-- [Computer use](https://developers.openai.com/api/docs/guides/tools-computer-use.md): Computer-using agent that can perform tasks on your behalf.
-- [Connectors and MCP servers](https://developers.openai.com/api/docs/guides/tools-connectors-mcp.md): Use remote MCP servers and OpenAI-maintained connectors for popular services to give models new capabilities.
+- [Computer use](https://developers.openai.com/api/docs/guides/tools-computer-use.md): Use the Responses API computer tool to click, type, scroll, and inspect screenshots.
 - [Conversation state](https://developers.openai.com/api/docs/guides/conversation-state.md): Learn how to manage conversation state during a model interaction with the OpenAI API.
 - [Cost optimization](https://developers.openai.com/api/docs/guides/cost-optimization.md): Lower your OpenAI model costs by trying our tools and strategies.
 - [Counting tokens](https://developers.openai.com/api/docs/guides/token-counting.md): Use the Responses API to count input tokens for text, images, files, tools, and more—without estimation or tiktoken.
@@ -1134,6 +1137,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Local shell](https://developers.openai.com/api/docs/guides/tools-local-shell.md): Enable agents to run commands in a local shell.
 - [Manage permissions in the OpenAI platform](https://developers.openai.com/api/docs/guides/rbac.md): Learn how to use role-based access control to assign permissions, create custom roles, group users, and scope access across both the OpenAI API and dashboard.
 - [Managing costs](https://developers.openai.com/api/docs/guides/realtime-costs.md): Learn how to monitor and optimize your costs when using the Realtime API.
+- [MCP and Connectors](https://developers.openai.com/api/docs/guides/tools-connectors-mcp.md): Use remote MCP servers and OpenAI-maintained connectors for popular services to give models new capabilities.
 - [Meeting minutes](https://developers.openai.com/api/docs/tutorials/meeting-minutes.md): Create an automated meeting minutes generator with Whisper and GPT-4.
 - [Migrate to the Responses API](https://developers.openai.com/api/docs/guides/migrate-to-responses.md)
 - [Model optimization](https://developers.openai.com/api/docs/guides/model-optimization.md): Ensure quality model outputs with evals and fine-tuning in the OpenAI platform.
@@ -1150,6 +1154,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching.md): Learn how prompt caching reduces latency and cost for long prompts in OpenAI's API.
 - [Prompt engineering](https://developers.openai.com/api/docs/guides/prompt-engineering.md): Learn strategies and tactics for better results using large language models in the OpenAI API.
 - [Prompt generation](https://developers.openai.com/api/docs/guides/prompt-generation.md): Learn how to generate prompts, functions, and schemas in the OpenAI API's Playground.
+- [Prompt guidance for GPT-5.4](https://developers.openai.com/api/docs/guides/prompt-guidance.md): Learn prompt patterns and migration guidance for GPT-5.4, including completeness checks, verification loops, tool persistence, and structured outputs.
 - [Prompt optimizer](https://developers.openai.com/api/docs/guides/prompt-optimizer.md): Learn how to use your dataset to automatically improve your prompts.
 - [Prompting](https://developers.openai.com/api/docs/guides/prompting.md): Learn how to create, optimize, save, and reuse prompts with OpenAI models.
 - [Rate limits](https://developers.openai.com/api/docs/guides/rate-limits.md): Rate limits are restrictions that our API imposes on the number of times a user or client can access our services within a specified period of time.
@@ -1178,10 +1183,11 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Text generation](https://developers.openai.com/api/docs/guides/text.md): Learn how to use the OpenAI API to generate text from a prompt. Learn about message types and available text formats like JSON and Structured Outputs.
 - [Text to speech](https://developers.openai.com/api/docs/guides/text-to-speech.md): Learn how to turn text into lifelike spoken audio with the OpenAI API.
 - [Theming and customization in ChatKit](https://developers.openai.com/api/docs/guides/chatkit-themes.md): Configure colors, typography, density, and component variants in your ChatKit implementation.
+- [Tool search](https://developers.openai.com/api/docs/guides/tools-tool-search.md): Use tool search to defer large tool surfaces, group related tools with namespaces, and load only the relevant functions at runtime.
 - [Trace grading](https://developers.openai.com/api/docs/guides/trace-grading.md): Use trace grading to create datasets, configure graders, and track evaluation runs for your models.
 - [UI Kit Demo](https://developers.openai.com/api/docs/ui-kit-demo.md): Component demos for the platform docs UI kit.
 - [Under 18 API Guidance](https://developers.openai.com/api/docs/guides/safety-checks/under-18-api-guidance.md)
-- [Using GPT-5.2](https://developers.openai.com/api/docs/guides/latest-model.md): Learn about how to use and migrate to GPT-5.2 and the GPT-5 model family, the latest models in the OpenAI API.
+- [Using GPT-5.4](https://developers.openai.com/api/docs/guides/latest-model.md): Learn about how to use and migrate to GPT-5.4 and the GPT-5 model family, the latest models in the OpenAI API.
 - [Using realtime models](https://developers.openai.com/api/docs/guides/realtime-models-prompting.md): Learn how to use OpenAI realtime models and prompting effectively.
 - [Using tools](https://developers.openai.com/api/docs/guides/tools.md): Use powerful tools like remote MCP servers, or built-in tools like web search and file search to extend the model's capabilities.
 - [Vector embeddings](https://developers.openai.com/api/docs/guides/embeddings.md): Learn how to turn text into numbers, unlocking use cases like search, clustering, and more with OpenAI API embeddings.
@@ -1584,6 +1590,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Codex — Skills
 - [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
 
+## Codex — Speed
+- [Speed](https://developers.openai.com/codex/speed.md): Increase speed without sacrificing intelligence
+
 ## Codex — Videos
 - [Videos](https://developers.openai.com/codex/videos.md): Learn how to use Codex with demos, walkthroughs, and talks
 
@@ -1737,6 +1746,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 
 ## Skills
 - [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
+
+## Speed
+- [Speed](https://developers.openai.com/codex/speed.md): Increase speed without sacrificing intelligence
 
 ## Videos
 - [Videos](https://developers.openai.com/codex/videos.md): Learn how to use Codex with demos, walkthroughs, and talks
