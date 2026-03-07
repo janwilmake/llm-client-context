@@ -95,7 +95,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 650 pages - /docs - Content included below
+- English (en) - 651 pages - /docs - Content included below
 - German (Deutsch) (de) - 133 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 133 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 133 pages - /docs/fr - Visit website for content
@@ -156,9 +156,9 @@ The full documentation is available in the following languages on https://platfo
 - [Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md)
 - [Structured outputs in the SDK](https://platform.claude.com/docs/en/agent-sdk/structured-outputs.md) - Get structured output from agents
 - [User approvals and input](https://platform.claude.com/docs/en/agent-sdk/user-input.md) - Handle approvals and user input
-- [Handling stop reasons](https://platform.claude.com/docs/en/agent-sdk/stop-reasons.md) - Handle stop reasons
 - [Handling stop reasons](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md)
 - [Hosting the Agent SDK](https://platform.claude.com/docs/en/agent-sdk/hosting.md)
+- [How the agent loop works](https://platform.claude.com/docs/en/agent-sdk/agent-loop.md)
 - [How to implement tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use.md)
 - [Increase output consistency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency.md)
 - [Control execution with hooks](https://platform.claude.com/docs/en/agent-sdk/hooks.md) - Intercept and control agent behavior with hooks
@@ -183,7 +183,6 @@ The full documentation is available in the following languages on https://platfo
 - [File checkpointing](https://platform.claude.com/docs/en/agent-sdk/file-checkpointing.md) - Rewind file changes with checkpointing
 - [Search results](https://platform.claude.com/docs/en/build-with-claude/search-results.md)
 - [Securely deploying AI agents](https://platform.claude.com/docs/en/agent-sdk/secure-deployment.md)
-- [Session Management](https://platform.claude.com/docs/en/agent-sdk/sessions.md)
 - [Best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices.md) - Skill authoring best practices
 - [Skills for enterprise](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise.md)
 - [Slash Commands in the SDK](https://platform.claude.com/docs/en/agent-sdk/slash-commands.md)
@@ -200,6 +199,7 @@ The full documentation is available in the following languages on https://platfo
 - [Track cost and usage](https://platform.claude.com/docs/en/agent-sdk/cost-tracking.md)
 - [TypeScript V2 (preview)](https://platform.claude.com/docs/en/agent-sdk/typescript-v2-preview.md) - TypeScript SDK V2 interface (preview)
 - [Usage and Cost API](https://platform.claude.com/docs/en/build-with-claude/usage-cost-api.md)
+- [Use Claude Code features](https://platform.claude.com/docs/en/agent-sdk/claude-code-features.md) - Use Claude Code features in the SDK
 - [Using Skills with the API](https://platform.claude.com/docs/en/build-with-claude/skills-guide.md) - Using Agent Skills with the API
 - [Using the Evaluation Tool](https://platform.claude.com/docs/en/test-and-evaluate/eval-tool.md)
 - [Using the Messages API](https://platform.claude.com/docs/en/build-with-claude/working-with-messages.md)
@@ -207,6 +207,7 @@ The full documentation is available in the following languages on https://platfo
 - [Web fetch tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool.md)
 - [Web search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool.md)
 - [What's new in Claude 4.6](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-6.md)
+- [Work with sessions](https://platform.claude.com/docs/en/agent-sdk/sessions.md)
 - [Workspaces](https://platform.claude.com/docs/en/build-with-claude/workspaces.md)
 - [Zero Data Retention](https://platform.claude.com/docs/en/build-with-claude/zero-data-retention.md) - Zero Data Retention (ZDR)
 
@@ -787,8 +788,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 
 - https://cursor.com/docs.md
 - https://cursor.com/docs/get-started/quickstart.md
-- https://cursor.com/docs/get-started/concepts.md
-- https://cursor.com/docs/models.md
+- https://cursor.com/docs/models-and-pricing.md
   - https://cursor.com/docs/models/claude-4-6-sonnet.md
   - https://cursor.com/docs/models/claude-opus-4-6.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
@@ -797,104 +797,63 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/gpt-5-3-codex.md
   - https://cursor.com/docs/models/grok-code.md
   - https://cursor.com/docs/models/cursor-composer-1-5.md
-- https://cursor.com/docs/account/pricing.md
 
 ## Agent
 
 - https://cursor.com/docs/agent/overview.md
-- https://cursor.com/docs/agent/modes.md
-- https://cursor.com/docs/agent/review.md
-- https://cursor.com/docs/agent/terminal.md
-- https://cursor.com/docs/agent/browser.md
+- https://cursor.com/docs/agent/plan-mode.md
+- https://cursor.com/docs/agent/prompting.md
+- https://cursor.com/docs/agent/debug-mode.md
+- https://cursor.com/docs/agent/tools/terminal.md
+  - https://cursor.com/docs/agent/tools/browser.md
+  - https://cursor.com/docs/agent/tools/search.md
+- https://cursor.com/docs/configuration/worktrees.md
 - https://cursor.com/docs/agent/security.md
-- https://cursor.com/docs/agent/hooks.md
-  - https://cursor.com/docs/agent/third-party-hooks.md
 
-## Context
+## customizing
 
-- https://cursor.com/docs/context/rules.md
-- https://cursor.com/docs/context/commands.md
-- https://cursor.com/docs/context/skills.md
-- https://cursor.com/docs/context/subagents.md
-- https://cursor.com/docs/context/semantic-search.md
-- https://cursor.com/docs/context/mentions.md
-- https://cursor.com/docs/context/mcp.md
-  - https://cursor.com/docs/context/mcp/directory.md
-  - https://cursor.com/docs/context/mcp/install-links.md
 - https://cursor.com/docs/plugins.md
-  - https://cursor.com/docs/plugins/security.md
-  - https://cursor.com/docs/plugins/building.md
+- https://cursor.com/docs/rules.md
+- https://cursor.com/docs/skills.md
+- https://cursor.com/docs/subagents.md
+- https://cursor.com/docs/hooks.md
+- https://cursor.com/docs/mcp.md
 
-## Features
+## cloud-agents
 
-- https://cursor.com/docs/tab/overview.md
 - https://cursor.com/docs/cloud-agent.md
-  - https://cursor.com/docs/cloud-agent/setup.md
-  - https://cursor.com/docs/cloud-agent/capabilities.md
-  - https://cursor.com/docs/cloud-agent/best-practices.md
-  - https://cursor.com/docs/cloud-agent/security.md
-  - https://cursor.com/docs/cloud-agent/network-access.md
-  - https://cursor.com/docs/cloud-agent/egress-ip-ranges.md
-  - https://cursor.com/docs/cloud-agent/settings.md
-  - https://cursor.com/docs/cloud-agent/automations.md
-  - https://cursor.com/docs/cloud-agent/api/endpoints.md
-- https://cursor.com/docs/cli/overview.md
-  - https://cursor.com/docs/cli/installation.md
-  - https://cursor.com/docs/cli/using.md
-  - https://cursor.com/docs/cli/shell-mode.md
-  - https://cursor.com/docs/cli/mcp.md
-  - https://cursor.com/docs/cli/acp.md
-  - https://cursor.com/docs/cli/headless.md
-    - https://cursor.com/docs/cli/github-actions.md
-    - https://cursor.com/docs/cli/cookbook/code-review.md
-      - https://cursor.com/docs/cli/cookbook/update-docs.md
-      - https://cursor.com/docs/cli/cookbook/fix-ci.md
-      - https://cursor.com/docs/cli/cookbook/secret-audit.md
-      - https://cursor.com/docs/cli/cookbook/translate-keys.md
-  - https://cursor.com/docs/cli/reference/slash-commands.md
-    - https://cursor.com/docs/cli/reference/parameters.md
-    - https://cursor.com/docs/cli/reference/authentication.md
-    - https://cursor.com/docs/cli/reference/permissions.md
-    - https://cursor.com/docs/cli/reference/configuration.md
-    - https://cursor.com/docs/cli/reference/output-format.md
-    - https://cursor.com/docs/cli/reference/terminal-setup.md
-- https://cursor.com/docs/inline-edit/overview.md
-  - https://cursor.com/docs/inline-edit/terminal.md
+- https://cursor.com/docs/cloud-agent/setup.md
+- https://cursor.com/docs/cloud-agent/capabilities.md
 - https://cursor.com/docs/bugbot.md
-- https://cursor.com/docs/shared-transcripts.md
+- https://cursor.com/docs/cloud-agent/best-practices.md
+- https://cursor.com/docs/cloud-agent/security-network.md
+- https://cursor.com/docs/cloud-agent/settings.md
+- https://cursor.com/docs/cloud-agent/api/endpoints.md
 
 ## Integrations
 
 - https://cursor.com/docs/integrations/slack.md
 - https://cursor.com/docs/integrations/linear.md
 - https://cursor.com/docs/integrations/github.md
-- https://cursor.com/docs/integrations/git.md
 - https://cursor.com/docs/integrations/gitlab.md
-- https://cursor.com/docs/integrations/deeplinks.md
 - https://cursor.com/docs/integrations/jetbrains.md
+- https://cursor.com/docs/reference/deeplinks.md
 
-## Configuration
+## cli
 
-- https://cursor.com/docs/context/ignore-files.md
-- https://cursor.com/docs/configuration/extensions.md
-- https://cursor.com/docs/configuration/kbd.md
-- https://cursor.com/docs/configuration/themes.md
-- https://cursor.com/docs/configuration/shell.md
-- https://cursor.com/docs/configuration/worktrees.md
-- https://cursor.com/docs/settings/api-keys.md
-  - https://cursor.com/docs/settings/aws-bedrock.md
-- https://cursor.com/docs/configuration/languages/python.md
-- https://cursor.com/docs/configuration/languages/javascript-typescript.md
-- https://cursor.com/docs/configuration/languages/ios-macos-swift.md
-- https://cursor.com/docs/configuration/languages/java.md
-- https://cursor.com/docs/configuration/migrations/vscode.md
+- https://cursor.com/docs/cli/overview.md
+- https://cursor.com/docs/cli/installation.md
+- https://cursor.com/docs/cli/using.md
+- https://cursor.com/docs/cli/shell-mode.md
+- https://cursor.com/docs/cli/headless.md
+- https://cursor.com/docs/cli/reference/slash-commands.md
+  - https://cursor.com/docs/cli/reference/parameters.md
+  - https://cursor.com/docs/cli/reference/authentication.md
+  - https://cursor.com/docs/cli/reference/permissions.md
+  - https://cursor.com/docs/cli/reference/configuration.md
 
 ## Account
 
-- https://cursor.com/docs/account/billing.md
-  - https://cursor.com/docs/account/billing/spend-alerts.md
-  - https://cursor.com/docs/account/billing/spend-limits.md
-- https://cursor.com/docs/account/update-access.md
 - https://cursor.com/docs/account/teams/setup.md
   - https://cursor.com/docs/account/teams/pricing.md
   - https://cursor.com/docs/account/teams/members.md
@@ -913,17 +872,6 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/account/enterprise/service-accounts.md
   - https://cursor.com/docs/account/enterprise/billing-groups.md
   - https://cursor.com/docs/integrations/cursor-blame.md
-- https://cursor.com/docs/downloads.md
-
-## Cookbook
-
-- https://cursor.com/docs/cookbook/agent-workflows.md
-- https://cursor.com/docs/cookbook/building-mcp-server.md
-- https://cursor.com/docs/cookbook/web-development.md
-- https://cursor.com/docs/cookbook/data-science.md
-- https://cursor.com/docs/cookbook/large-codebases.md
-- https://cursor.com/docs/cookbook/mermaid-diagrams.md
-- https://cursor.com/docs/cookbook/bugbot-rules.md
 
 # CLI Documentation
 
@@ -933,18 +881,11 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cli/installation.md
 - https://cursor.com/docs/cli/using.md
 - https://cursor.com/docs/cli/shell-mode.md
-- https://cursor.com/docs/cli/mcp.md
-- https://cursor.com/docs/cli/acp.md
 
 ## Headless
 
 - https://cursor.com/docs/cli/headless.md
 - https://cursor.com/docs/cli/github-actions.md
-- https://cursor.com/docs/cli/cookbook/code-review.md
-  - https://cursor.com/docs/cli/cookbook/update-docs.md
-  - https://cursor.com/docs/cli/cookbook/fix-ci.md
-  - https://cursor.com/docs/cli/cookbook/secret-audit.md
-  - https://cursor.com/docs/cli/cookbook/translate-keys.md
 
 ## Reference
 
@@ -1471,6 +1412,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Apps SDK — Reference
 - [Reference](https://developers.openai.com/apps-sdk/reference.md): API and SDK reference for Apps SDK.
 
+## Codex — Agent Approvals Security
+- [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security.md): How to securely operate Codex with sandboxing, approvals, and network controls
+
 ## Codex — App
 - [Codex app](https://developers.openai.com/codex/app.md): Your Codex command center
 - [Automations](https://developers.openai.com/codex/app/automations.md): Schedule recurring Codex tasks
@@ -1499,6 +1443,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Codex web](https://developers.openai.com/codex/cloud.md): Delegate to Codex in the cloud
 - [Agent internet access](https://developers.openai.com/codex/cloud/internet-access.md): Control internet access for Codex cloud tasks
 - [Cloud environments](https://developers.openai.com/codex/cloud/environments.md): Customize dependencies and tools for Codex
+
+## Codex — Community
+- [Codex for Open Source](https://developers.openai.com/codex/community/codex-for-oss.md): Open-source maintainers can apply for API credits, six months of ChatGPT Pro with Codex, and Codex Security.
 
 ## Codex — Concepts
 - [Customization](https://developers.openai.com/codex/concepts/customization.md): How to customize Codex with project guidance, skills, MCP, and multi-agents
@@ -1585,7 +1532,10 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Codex SDK](https://developers.openai.com/codex/sdk.md): Programmatically control local Codex agents
 
 ## Codex — Security
-- [Security](https://developers.openai.com/codex/security.md): How to securely operate and manage Codex agents
+- [Codex Security](https://developers.openai.com/codex/security.md): Find, validate, and remediate security issues with Codex
+- [Codex Security setup](https://developers.openai.com/codex/security/setup.md): Set up Codex Security, wait for initial findings, and improve results with threat model edits
+- [FAQ](https://developers.openai.com/codex/security/faq.md): Common questions about Codex Security
+- [Improving the threat model](https://developers.openai.com/codex/security/threat-model.md): Refine the Codex Security context that ranks findings and helps you review faster
 
 ## Codex — Skills
 - [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
@@ -1628,6 +1578,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 ## Documentation sets
 - [Combined Codex docs](https://developers.openai.com/codex/llms-full.txt): Single-file Markdown export of Codex guides and references.
 
+## Agent Approvals Security
+- [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security.md): How to securely operate Codex with sandboxing, approvals, and network controls
+
 ## App
 - [Codex app](https://developers.openai.com/codex/app.md): Your Codex command center
 - [Automations](https://developers.openai.com/codex/app/automations.md): Schedule recurring Codex tasks
@@ -1656,6 +1609,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Codex web](https://developers.openai.com/codex/cloud.md): Delegate to Codex in the cloud
 - [Agent internet access](https://developers.openai.com/codex/cloud/internet-access.md): Control internet access for Codex cloud tasks
 - [Cloud environments](https://developers.openai.com/codex/cloud/environments.md): Customize dependencies and tools for Codex
+
+## Community
+- [Codex for Open Source](https://developers.openai.com/codex/community/codex-for-oss.md): Open-source maintainers can apply for API credits, six months of ChatGPT Pro with Codex, and Codex Security.
 
 ## Concepts
 - [Customization](https://developers.openai.com/codex/concepts/customization.md): How to customize Codex with project guidance, skills, MCP, and multi-agents
@@ -1742,7 +1698,10 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Codex SDK](https://developers.openai.com/codex/sdk.md): Programmatically control local Codex agents
 
 ## Security
-- [Security](https://developers.openai.com/codex/security.md): How to securely operate and manage Codex agents
+- [Codex Security](https://developers.openai.com/codex/security.md): Find, validate, and remediate security issues with Codex
+- [Codex Security setup](https://developers.openai.com/codex/security/setup.md): Set up Codex Security, wait for initial findings, and improve results with threat model edits
+- [FAQ](https://developers.openai.com/codex/security/faq.md): Common questions about Codex Security
+- [Improving the threat model](https://developers.openai.com/codex/security/threat-model.md): Refine the Codex Security context that ranks findings and helps you review faster
 
 ## Skills
 - [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
