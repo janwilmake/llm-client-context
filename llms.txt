@@ -64,6 +64,7 @@
 - [Quickstart](https://code.claude.com/docs/en/quickstart.md): Welcome to Claude Code!
 - [Continue local sessions from any device with Remote Control](https://code.claude.com/docs/en/remote-control.md): Continue a local Claude Code session from your phone, tablet, or any browser using Remote Control. Works with claude.ai/code and the Claude mobile app.
 - [Sandboxing](https://code.claude.com/docs/en/sandboxing.md): Learn how Claude Code's sandboxed bash tool provides filesystem and network isolation for safer, more autonomous agent execution.
+- [Run prompts on a schedule](https://code.claude.com/docs/en/scheduled-tasks.md): Use /loop and the cron scheduling tools to run prompts repeatedly, poll for status, or set one-time reminders within a Claude Code session.
 - [Security](https://code.claude.com/docs/en/security.md): Learn about Claude Code's security safeguards and best practices for safe usage.
 - [Configure server-managed settings (public beta)](https://code.claude.com/docs/en/server-managed-settings.md): Centrally configure Claude Code for your organization through server-delivered settings, without requiring device management infrastructure.
 - [Claude Code settings](https://code.claude.com/docs/en/settings.md): Configure Claude Code with global and project-level settings, and environment variables.
@@ -845,6 +846,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cli/installation.md
 - https://cursor.com/docs/cli/using.md
 - https://cursor.com/docs/cli/shell-mode.md
+- https://cursor.com/docs/cli/acp.md
 - https://cursor.com/docs/cli/headless.md
 - https://cursor.com/docs/cli/reference/slash-commands.md
   - https://cursor.com/docs/cli/reference/parameters.md
@@ -881,6 +883,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cli/installation.md
 - https://cursor.com/docs/cli/using.md
 - https://cursor.com/docs/cli/shell-mode.md
+- https://cursor.com/docs/cli/acp.md
 
 ## Headless
 
@@ -1451,6 +1454,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Customization](https://developers.openai.com/codex/concepts/customization.md): How to customize Codex with project guidance, skills, MCP, and multi-agents
 - [Cyber Safety](https://developers.openai.com/codex/concepts/cyber-safety.md): Cybersecurity safeguards and trusted access for Codex users
 - [Multi-agents](https://developers.openai.com/codex/concepts/multi-agents.md): How multi-agent workflows keep Codex focused and how to choose models for different agents
+- [Sandboxing](https://developers.openai.com/codex/concepts/sandboxing.md): How Codex uses sandboxes across the Codex app, IDE, and CLI
 
 ## Codex — Config Advanced
 - [Advanced Configuration](https://developers.openai.com/codex/config-advanced.md): More advanced configuration options for Codex local clients
@@ -1617,6 +1621,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Customization](https://developers.openai.com/codex/concepts/customization.md): How to customize Codex with project guidance, skills, MCP, and multi-agents
 - [Cyber Safety](https://developers.openai.com/codex/concepts/cyber-safety.md): Cybersecurity safeguards and trusted access for Codex users
 - [Multi-agents](https://developers.openai.com/codex/concepts/multi-agents.md): How multi-agent workflows keep Codex focused and how to choose models for different agents
+- [Sandboxing](https://developers.openai.com/codex/concepts/sandboxing.md): How Codex uses sandboxes across the Codex app, IDE, and CLI
 
 ## Config Advanced
 - [Advanced Configuration](https://developers.openai.com/codex/config-advanced.md): More advanced configuration options for Codex local clients
