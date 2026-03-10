@@ -7,6 +7,7 @@
 - [How to add skills support to your agent](https://agentskills.io/client-implementation/adding-skills-support.md): A guide for adding Agent Skills support to an AI agent or development tool.
 - [Overview](https://agentskills.io/home.md): A simple, open format for giving agents new capabilities and expertise.
 - [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills.md): How to test whether your skill produces good outputs using eval-driven iteration.
+- [Optimizing skill descriptions](https://agentskills.io/skill-creation/optimizing-descriptions.md): How to improve your skill's description so it triggers reliably on relevant prompts.
 - [Using scripts in skills](https://agentskills.io/skill-creation/using-scripts.md): How to run commands and bundle executable scripts in your skills.
 - [Specification](https://agentskills.io/specification.md): The complete format specification for Agent Skills.
 - [What are skills?](https://agentskills.io/what-are-skills.md): Agent Skills are a lightweight, open format for extending AI agent capabilities with specialized knowledge and workflows.
@@ -28,6 +29,7 @@
 - [Use Claude Code with Chrome (beta)](https://code.claude.com/docs/en/chrome.md): Connect Claude Code to your Chrome browser to test web apps, debug with console logs, automate form filling, and extract data from web pages.
 - [Claude Code on the web](https://code.claude.com/docs/en/claude-code-on-the-web.md): Run Claude Code tasks asynchronously on secure cloud infrastructure
 - [CLI reference](https://code.claude.com/docs/en/cli-reference.md): Complete reference for Claude Code command-line interface, including commands and flags.
+- [Code Review](https://code.claude.com/docs/en/code-review.md): Set up automated PR reviews that catch logic errors, security vulnerabilities, and regressions using multi-agent analysis of your full codebase
 - [Common workflows](https://code.claude.com/docs/en/common-workflows.md): Step-by-step guides for exploring codebases, fixing bugs, refactoring, testing, and other everyday tasks with Claude Code.
 - [Manage costs effectively](https://code.claude.com/docs/en/costs.md): Track token usage, set team spend limits, and reduce Claude Code costs with context management, model selection, extended thinking settings, and preprocessing hooks.
 - [Data usage](https://code.claude.com/docs/en/data-usage.md): Learn about Anthropic's data usage policies for Claude
@@ -798,6 +800,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/gpt-5-3-codex.md
   - https://cursor.com/docs/models/grok-code.md
   - https://cursor.com/docs/models/cursor-composer-1-5.md
+- https://cursor.comhttps://cursor.com/changelog.md
 
 ## Agent
 
@@ -1979,7 +1982,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Windsurf-Blog](https://windsurf.com/blog)
 - [Support](https://windsurf.com/support)
 - [Comunidade no Discord](https://discord.com/invite/3XFf78nAx5)
-- [Blog do Windsurf](https://windsurf.com/blog)
+- [Blog da Windsurf](https://windsurf.com/blog)
 - [Suporte](https://windsurf.com/support)
 - [Discord 社区](https://discord.com/invite/3XFf78nAx5)
 - [Windsurf 博客](https://windsurf.com/blog)
@@ -1987,7 +1990,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Discord コミュニティ](https://discord.com/invite/3XFf78nAx5)
 - [Windsurf ブログ](https://windsurf.com/blog)
 - [サポート](https://windsurf.com/support)
-- [Comunitatea Discord](https://discord.com/invite/3XFf78nAx5)
+- [Comunitatea noastră pe Discord](https://discord.com/invite/3XFf78nAx5)
 - [Blogul Windsurf](https://windsurf.com/blog)
 - [Asistență](https://windsurf.com/support)
 
