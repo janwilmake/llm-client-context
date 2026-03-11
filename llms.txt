@@ -13,6 +13,8 @@
 - [What are skills?](https://agentskills.io/what-are-skills.md): Agent Skills are a lightweight, open format for extending AI agent capabilities with specialized knowledge and workflows.
 
 
+Built with [Mintlify](https://mintlify.com).
+
 # Source: https://code.claude.com/docs/llms.txt
 
 # Claude Code Docs
@@ -1505,6 +1507,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Use Codex in Linear](https://developers.openai.com/codex/integrations/linear.md): Run Codex tasks from Linear issues
 - [Use Codex in Slack](https://developers.openai.com/codex/integrations/slack.md): Ask Codex to run tasks from channels and threads
 
+## Codex — Learn
+- [Best practices](https://developers.openai.com/codex/learn/best-practices.md): Getting started with Codex and proven practices for better results
+
 ## Codex — Mcp
 - [Model Context Protocol](https://developers.openai.com/codex/mcp.md): Give Codex access to third-party tools and context
 
@@ -1671,6 +1676,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Use Codex in GitHub](https://developers.openai.com/codex/integrations/github.md): Run Codex code review in pull requests
 - [Use Codex in Linear](https://developers.openai.com/codex/integrations/linear.md): Run Codex tasks from Linear issues
 - [Use Codex in Slack](https://developers.openai.com/codex/integrations/slack.md): Ask Codex to run tasks from channels and threads
+
+## Learn
+- [Best practices](https://developers.openai.com/codex/learn/best-practices.md): Getting started with Codex and proven practices for better results
 
 ## Mcp
 - [Model Context Protocol](https://developers.openai.com/codex/mcp.md): Give Codex access to third-party tools and context
@@ -1867,6 +1875,8 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Learn](https://cline.bot/learn)
 
 
+Built with [Mintlify](https://mintlify.com).
+
 # Source: https://docs.windsurf.com/llms.txt
 
 # Windsurf Docs
@@ -1994,4 +2004,6 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Blogul Windsurf](https://windsurf.com/blog)
 - [Asistență](https://windsurf.com/support)
 
+
+Built with [Mintlify](https://mintlify.com).
 
