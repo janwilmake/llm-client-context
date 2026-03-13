@@ -26,7 +26,7 @@ Built with [Mintlify](https://mintlify.com).
 - [Track team usage with analytics](https://code.claude.com/docs/en/analytics.md): View Claude Code usage metrics, track adoption, and measure engineering velocity in the analytics dashboard.
 - [Authentication](https://code.claude.com/docs/en/authentication.md): Log in to Claude Code and configure authentication for individuals, teams, and organizations.
 - [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices.md): Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.
-- [Changelog](https://code.claude.com/docs/en/changelog.md)
+- [Changelog](https://code.claude.com/docs/en/changelog.md): Release notes for Claude Code, including new features, improvements, and bug fixes by version.
 - [Checkpointing](https://code.claude.com/docs/en/checkpointing.md): Track, rewind, and summarize Claude's edits and conversation to manage session state.
 - [Use Claude Code with Chrome (beta)](https://code.claude.com/docs/en/chrome.md): Connect Claude Code to your Chrome browser to test web apps, debug with console logs, automate form filling, and extract data from web pages.
 - [Claude Code on the web](https://code.claude.com/docs/en/claude-code-on-the-web.md): Run Claude Code tasks asynchronously on secure cloud infrastructure
@@ -831,6 +831,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/setup.md
 - https://cursor.com/docs/cloud-agent/capabilities.md
 - https://cursor.com/docs/bugbot.md
+- https://cursor.com/docs/cloud-agent/automations.md
 - https://cursor.com/docs/cloud-agent/best-practices.md
 - https://cursor.com/docs/cloud-agent/security-network.md
 - https://cursor.com/docs/cloud-agent/settings.md
@@ -1108,6 +1109,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Prompting](https://developers.openai.com/api/docs/guides/prompting.md): Learn how to create, optimize, save, and reuse prompts with OpenAI models.
 - [Rate limits](https://developers.openai.com/api/docs/guides/rate-limits.md): Rate limits are restrictions that our API imposes on the number of times a user or client can access our services within a specified period of time.
 - [Realtime API](https://developers.openai.com/api/docs/guides/realtime.md): Learn how to build low-latency, multimodal LLM applications with the Realtime API.
+- [Realtime API with MCP](https://developers.openai.com/api/docs/guides/realtime-mcp.md): Learn how to configure MCP tools in the Realtime API and handle the resulting event flow.
 - [Realtime API with SIP](https://developers.openai.com/api/docs/guides/realtime-sip.md): Learn how to connect to the Realtime API using SIP.
 - [Realtime API with WebRTC](https://developers.openai.com/api/docs/guides/realtime-webrtc.md): Learn how to connect to the Realtime API using WebRTC.
 - [Realtime API with WebSocket](https://developers.openai.com/api/docs/guides/realtime-websocket.md): Learn how to connect to the Realtime API using WebSocket in a server-to-server application.
