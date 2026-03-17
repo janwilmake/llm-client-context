@@ -1121,7 +1121,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Realtime conversations](https://developers.openai.com/api/docs/guides/realtime-conversations.md): Learn how to manage Realtime speech-to-speech conversations.
 - [Realtime transcription](https://developers.openai.com/api/docs/guides/realtime-transcription.md): Learn how to transcribe audio in real-time with the Realtime API.
 - [Reasoning best practices](https://developers.openai.com/api/docs/guides/reasoning-best-practices.md): Explore best practices for using o-series reasoning models, like o1 and o3-mini, vs. GPT models—including use cases, how to choose a model, and prompting guidance.
-- [Reasoning models](https://developers.openai.com/api/docs/guides/reasoning.md): Explore the capabilities of OpenAI's o1 series for complex reasoning and problem-solving. Learn about their features and how they compare to GPT-4o models.
+- [Reasoning models](https://developers.openai.com/api/docs/guides/reasoning.md): Learn how to use OpenAI reasoning models in the Responses API, choose a reasoning effort, manage reasoning tokens, and keep reasoning state across turns.
 - [Reinforcement fine-tuning](https://developers.openai.com/api/docs/guides/reinforcement-fine-tuning.md): Fine-tune models for expert-level performance within a domain.
 - [Reinforcement fine-tuning use cases](https://developers.openai.com/api/docs/guides/rft-use-cases.md): Explore best practices and practical use cases for reinforcement fine-tuning (RFT) with OpenAI models.
 - [Retrieval](https://developers.openai.com/api/docs/guides/retrieval.md): Learn how to search your data using semantic similarity with the OpenAI API.
@@ -1463,10 +1463,10 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Codex for Open Source](https://developers.openai.com/codex/community/codex-for-oss.md): Open-source maintainers can apply for API credits, six months of ChatGPT Pro with Codex, and Codex Security.
 
 ## Codex — Concepts
-- [Customization](https://developers.openai.com/codex/concepts/customization.md): How to customize Codex with project guidance, skills, MCP, and multi-agents
+- [Customization](https://developers.openai.com/codex/concepts/customization.md): How to customize Codex with project guidance, skills, MCP, and subagents
 - [Cyber Safety](https://developers.openai.com/codex/concepts/cyber-safety.md): Cybersecurity safeguards and trusted access for Codex users
-- [Multi-agents](https://developers.openai.com/codex/concepts/multi-agents.md): How multi-agent workflows keep Codex focused and how to choose models for different agents
 - [Sandboxing](https://developers.openai.com/codex/concepts/sandboxing.md): How Codex uses sandboxes across the Codex app, IDE, and CLI
+- [Subagents](https://developers.openai.com/codex/concepts/subagents.md): How subagent workflows keep Codex focused and how to choose models for different agents
 
 ## Codex — Config Advanced
 - [Advanced Configuration](https://developers.openai.com/codex/config-advanced.md): More advanced configuration options for Codex local clients
@@ -1523,9 +1523,6 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Codex — Models
 - [Codex Models](https://developers.openai.com/codex/models.md): Meet the AI models that power Codex
 
-## Codex — Multi Agent
-- [Multi-agents](https://developers.openai.com/codex/multi-agent.md): Use experimental multi-agent collaboration in Codex CLI
-
 ## Codex — Noninteractive
 - [Non-interactive mode](https://developers.openai.com/codex/noninteractive.md): Use `codex exec` to run Codex in scripts and CI
 
@@ -1561,6 +1558,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 
 ## Codex — Speed
 - [Speed](https://developers.openai.com/codex/speed.md): Increase speed without sacrificing intelligence
+
+## Codex — Subagents
+- [Subagents](https://developers.openai.com/codex/subagents.md): Use subagents and custom agents in Codex
 
 ## Codex — Videos
 - [Videos](https://developers.openai.com/codex/videos.md): Learn how to use Codex with demos, walkthroughs, and talks
@@ -1633,10 +1633,10 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Codex for Open Source](https://developers.openai.com/codex/community/codex-for-oss.md): Open-source maintainers can apply for API credits, six months of ChatGPT Pro with Codex, and Codex Security.
 
 ## Concepts
-- [Customization](https://developers.openai.com/codex/concepts/customization.md): How to customize Codex with project guidance, skills, MCP, and multi-agents
+- [Customization](https://developers.openai.com/codex/concepts/customization.md): How to customize Codex with project guidance, skills, MCP, and subagents
 - [Cyber Safety](https://developers.openai.com/codex/concepts/cyber-safety.md): Cybersecurity safeguards and trusted access for Codex users
-- [Multi-agents](https://developers.openai.com/codex/concepts/multi-agents.md): How multi-agent workflows keep Codex focused and how to choose models for different agents
 - [Sandboxing](https://developers.openai.com/codex/concepts/sandboxing.md): How Codex uses sandboxes across the Codex app, IDE, and CLI
+- [Subagents](https://developers.openai.com/codex/concepts/subagents.md): How subagent workflows keep Codex focused and how to choose models for different agents
 
 ## Config Advanced
 - [Advanced Configuration](https://developers.openai.com/codex/config-advanced.md): More advanced configuration options for Codex local clients
@@ -1693,9 +1693,6 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 ## Models
 - [Codex Models](https://developers.openai.com/codex/models.md): Meet the AI models that power Codex
 
-## Multi Agent
-- [Multi-agents](https://developers.openai.com/codex/multi-agent.md): Use experimental multi-agent collaboration in Codex CLI
-
 ## Noninteractive
 - [Non-interactive mode](https://developers.openai.com/codex/noninteractive.md): Use `codex exec` to run Codex in scripts and CI
 
@@ -1731,6 +1728,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 
 ## Speed
 - [Speed](https://developers.openai.com/codex/speed.md): Increase speed without sacrificing intelligence
+
+## Subagents
+- [Subagents](https://developers.openai.com/codex/subagents.md): Use subagents and custom agents in Codex
 
 ## Videos
 - [Videos](https://developers.openai.com/codex/videos.md): Learn how to use Codex with demos, walkthroughs, and talks
