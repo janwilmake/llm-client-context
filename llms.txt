@@ -9,6 +9,7 @@
 - [Best practices for skill creators](https://agentskills.io/skill-creation/best-practices.md): How to write skills that are well-scoped and calibrated to the task.
 - [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills.md): How to test whether your skill produces good outputs using eval-driven iteration.
 - [Optimizing skill descriptions](https://agentskills.io/skill-creation/optimizing-descriptions.md): How to improve your skill's description so it triggers reliably on relevant prompts.
+- [Quickstart](https://agentskills.io/skill-creation/quickstart.md): Create your first Agent Skill and see it work in VS Code.
 - [Using scripts in skills](https://agentskills.io/skill-creation/using-scripts.md): How to run commands and bundle executable scripts in your skills.
 - [Specification](https://agentskills.io/specification.md): The complete format specification for Agent Skills.
 - [What are skills?](https://agentskills.io/what-are-skills.md): Agent Skills are a lightweight, open format for extending AI agent capabilities with specialized knowledge and workflows.
@@ -84,6 +85,7 @@ Built with [Mintlify](https://mintlify.com).
 - [Enterprise deployment overview](https://code.claude.com/docs/en/third-party-integrations.md): Learn how Claude Code can integrate with various third-party services and infrastructure to meet enterprise deployment requirements.
 - [Tools reference](https://code.claude.com/docs/en/tools-reference.md): Complete reference for the tools Claude Code can use, including permission requirements.
 - [Troubleshooting](https://code.claude.com/docs/en/troubleshooting.md): Discover solutions to common issues with Claude Code installation and usage.
+- [Voice dictation](https://code.claude.com/docs/en/voice-dictation.md): Use push-to-talk voice dictation to speak your prompts instead of typing them in the Claude Code CLI.
 - [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code.md): Install and configure the Claude Code extension for VS Code. Get AI coding assistance with inline diffs, @-mentions, plan review, and keyboard shortcuts.
 - [Zero data retention](https://code.claude.com/docs/en/zero-data-retention.md): Learn about Zero Data Retention (ZDR) for Claude Code on Claude for Enterprise, including scope, disabled features, and how to request enablement.
 
@@ -782,7 +784,7 @@ The full documentation is available in the following languages on https://platfo
 
 ### Release Notes
 
-- [Claude Developer Platform](https://platform.claude.com/docs/en/release-notes/overview.md)
+- [Claude Platform](https://platform.claude.com/docs/en/release-notes/overview.md)
 
 ---
 
