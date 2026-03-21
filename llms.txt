@@ -920,6 +920,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/security-and-privacy/regions.md
 - https://cursor.com/help/security-and-privacy/compliance.md
 - https://cursor.com/help/security-and-privacy/sso.md
+- https://cursor.com/help/security-and-privacy/marketplace-security.md
 
 ## Account and billing
 
@@ -930,6 +931,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/account-and-billing/invoices.md
 - https://cursor.com/help/account-and-billing/overages.md
 - https://cursor.com/help/account-and-billing/spend-alerts.md
+- https://cursor.com/help/account-and-billing/spend-limits.md
 - https://cursor.com/help/account-and-billing/enterprise.md
 - https://cursor.com/help/account-and-billing/change-email.md
 - https://cursor.com/help/account-and-billing/cancel.md
@@ -1713,7 +1715,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Getting Started](https://docs.cline.bot/api/getting-started.md): Create an API key and make your first request to the Cline API in under a minute.
 - [Models](https://docs.cline.bot/api/models.md): Available models, pricing tiers, free models, and how model IDs work in the Cline API.
 - [Cline API](https://docs.cline.bot/api/overview.md): Programmatic access to AI models through an OpenAI-compatible Chat Completions API.
-- [SDK Examples](https://docs.cline.bot/api/sdk-examples.md): Use the Cline API from Python, Node.js, curl, the Cline CLI, and the VS Code extension.
+- [Code Examples](https://docs.cline.bot/api/sdk-examples.md): Use the Cline API from Python, Node.js, curl, the Cline CLI, and the VS Code extension.
 - [ACP: Editor Integrations](https://docs.cline.bot/cline-cli/acp-editor-integrations.md): Use Cline in JetBrains, Neovim, Zed, and other editors via the Agent Client Protocol
 - [CLI Reference](https://docs.cline.bot/cline-cli/cli-reference.md): Complete command reference for Cline CLI including all commands, flags, and configuration options
 - [Configuration](https://docs.cline.bot/cline-cli/configuration.md): Manage Cline CLI settings with cline config, environment variables, and configuration files
