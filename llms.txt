@@ -40,7 +40,7 @@ Built with [Mintlify](https://mintlify.com).
 - [Common workflows](https://code.claude.com/docs/en/common-workflows.md): Step-by-step guides for exploring codebases, fixing bugs, refactoring, testing, and other everyday tasks with Claude Code.
 - [Manage costs effectively](https://code.claude.com/docs/en/costs.md): Track token usage, set team spend limits, and reduce Claude Code costs with context management, model selection, extended thinking settings, and preprocessing hooks.
 - [Data usage](https://code.claude.com/docs/en/data-usage.md): Learn about Anthropic's data usage policies for Claude
-- [Use Claude Code Desktop](https://code.claude.com/docs/en/desktop.md): Get more out of Claude Code Desktop: parallel sessions with Git isolation, visual diff review, app previews, PR monitoring, permission modes, connectors, and enterprise configuration.
+- [Use Claude Code Desktop](https://code.claude.com/docs/en/desktop.md): Get more out of Claude Code Desktop: computer use, Dispatch sessions from your phone, parallel sessions with Git isolation, visual diff review, app previews, PR monitoring, connectors, and enterprise configuration.
 - [Get started with the desktop app](https://code.claude.com/docs/en/desktop-quickstart.md): Install Claude Code on desktop and start your first coding session
 - [Development containers](https://code.claude.com/docs/en/devcontainer.md): Learn about the Claude Code development container for teams that need consistent, secure environments.
 - [Discover and install prebuilt plugins through marketplaces](https://code.claude.com/docs/en/discover-plugins.md): Find and install plugins from marketplaces to extend Claude Code with new commands, agents, and capabilities.
@@ -68,6 +68,7 @@ Built with [Mintlify](https://mintlify.com).
 - [Output styles](https://code.claude.com/docs/en/output-styles.md): Adapt Claude Code for uses beyond software engineering
 - [Claude Code overview](https://code.claude.com/docs/en/overview.md): Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser.
 - [Configure permissions](https://code.claude.com/docs/en/permissions.md): Control what Claude Code can access and do with fine-grained permission rules, modes, and managed policies.
+- [Platforms and integrations](https://code.claude.com/docs/en/platforms.md): Choose where to run Claude Code and what to connect it to. Compare the CLI, Desktop, VS Code, JetBrains, web, and integrations like Chrome, Slack, and CI/CD.
 - [Create and distribute a plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces.md): Build and host plugin marketplaces to distribute Claude Code extensions across teams and communities.
 - [Create plugins](https://code.claude.com/docs/en/plugins.md): Create custom plugins to extend Claude Code with skills, agents, hooks, and MCP servers.
 - [Plugins reference](https://code.claude.com/docs/en/plugins-reference.md): Complete technical reference for Claude Code plugin system, including schemas, CLI commands, and component specifications.
@@ -89,6 +90,7 @@ Built with [Mintlify](https://mintlify.com).
 - [Troubleshooting](https://code.claude.com/docs/en/troubleshooting.md): Discover solutions to common issues with Claude Code installation and usage.
 - [Voice dictation](https://code.claude.com/docs/en/voice-dictation.md): Use push-to-talk voice dictation to speak your prompts instead of typing them in the Claude Code CLI.
 - [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code.md): Install and configure the Claude Code extension for VS Code. Get AI coding assistance with inline diffs, @-mentions, plan review, and keyboard shortcuts.
+- [Schedule tasks on the web](https://code.claude.com/docs/en/web-scheduled-tasks.md): Automate recurring work with cloud scheduled tasks
 - [Zero data retention](https://code.claude.com/docs/en/zero-data-retention.md): Learn about Zero Data Retention (ZDR) for Claude Code on Claude for Enterprise, including scope, disabled features, and how to request enablement.
 
 
@@ -108,7 +110,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 606 pages - /docs - Content included below
+- English (en) - 607 pages - /docs - Content included below
 - German (Deutsch) (de) - 133 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 133 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 133 pages - /docs/fr - Visit website for content
@@ -155,11 +157,10 @@ The full documentation is available in the following languages on https://platfo
 - [Compaction](https://platform.claude.com/docs/en/build-with-claude/compaction.md)
 - [Computer use tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool.md)
 - [Handling Permissions](https://platform.claude.com/docs/en/agent-sdk/permissions.md) - Configure permissions
-- [MCP in the SDK](https://platform.claude.com/docs/en/agent-sdk/mcp.md) - Connect to external tools with MCP
+- [Connect MCP servers](https://platform.claude.com/docs/en/agent-sdk/mcp.md) - Connect to external tools with MCP
 - [Console prompting tools](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-tools.md)
 - [Context editing](https://platform.claude.com/docs/en/build-with-claude/context-editing.md)
 - [Context windows](https://platform.claude.com/docs/en/build-with-claude/context-windows.md)
-- [Custom Tools](https://platform.claude.com/docs/en/agent-sdk/custom-tools.md)
 - [Data residency](https://platform.claude.com/docs/en/build-with-claude/data-residency.md)
 - [Define success and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md) - Define success criteria and build evaluations
 - [Effort](https://platform.claude.com/docs/en/build-with-claude/effort.md)
@@ -168,6 +169,7 @@ The full documentation is available in the following languages on https://platfo
 - [Files API](https://platform.claude.com/docs/en/build-with-claude/files.md)
 - [Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md)
 - [Structured outputs in the SDK](https://platform.claude.com/docs/en/agent-sdk/structured-outputs.md) - Get structured output from agents
+- [Define custom tools](https://platform.claude.com/docs/en/agent-sdk/custom-tools.md) - Give Claude custom tools
 - [User approvals and input](https://platform.claude.com/docs/en/agent-sdk/user-input.md) - Handle approvals and user input
 - [Handling stop reasons](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md)
 - [Hosting the Agent SDK](https://platform.claude.com/docs/en/agent-sdk/hosting.md)
@@ -194,6 +196,7 @@ The full documentation is available in the following languages on https://platfo
 - [Reducing latency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency.md)
 - [Remote MCP servers](https://platform.claude.com/docs/en/agents-and-tools/remote-mcp-servers.md)
 - [File checkpointing](https://platform.claude.com/docs/en/agent-sdk/file-checkpointing.md) - Rewind file changes with checkpointing
+- [Tool search](https://platform.claude.com/docs/en/agent-sdk/tool-search.md) - Scale to many tools with tool search
 - [Search results](https://platform.claude.com/docs/en/build-with-claude/search-results.md)
 - [Securely deploying AI agents](https://platform.claude.com/docs/en/agent-sdk/secure-deployment.md)
 - [Best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices.md) - Skill authoring best practices
@@ -1916,10 +1919,11 @@ Built with [Mintlify](https://mintlify.com).
 - [Set Usage Configuration](https://docs.windsurf.com/windsurf/accounts/api-reference/usage-config.md): Set or clear per-user add-on credit caps, with the ability to apply them across a team, group, or individual user for enterprise billing management.
 - [Get User Page Analytics](https://docs.windsurf.com/windsurf/accounts/api-reference/user-page-analytics.md): Retrieve user activity statistics including names, emails, last activity times, active days, and prompt credits used from the teams page.
 - [Domain Verification](https://docs.windsurf.com/windsurf/accounts/domain-verification.md): Verify your organization's domain ownership with DNS TXT records to enable SSO, user management, and automatic team invitations in Windsurf.
+- [Quota-Based Usage](https://docs.windsurf.com/windsurf/accounts/quota.md): Learn how Windsurf's quota-based usage system works, including daily and weekly allowances, extra usage, and migration details for existing subscribers.
 - [Role Based Access & Management](https://docs.windsurf.com/windsurf/accounts/rbac-role-management.md): Configure RBAC permissions, create custom roles, and manage user access for Windsurf Teams and Enterprise plans.
 - [Setting up SSO & SCIM](https://docs.windsurf.com/windsurf/accounts/sso-scim.md): Configure Single Sign-On (SSO) and SCIM provisioning for your organization using Google Workspace, Microsoft Azure AD, Okta, or other SAML identity providers.
 - [Getting started with Teams and Enterprise](https://docs.windsurf.com/windsurf/accounts/teams-getting-started.md): Set up Windsurf Teams and Enterprise plans with team management, SSO, analytics, user groups, and priority support for your organization.
-- [Plans and Credit Usage](https://docs.windsurf.com/windsurf/accounts/usage.md): Understand Windsurf pricing plans, prompt credits, usage tracking, automatic refills, and how to upgrade from Free to Pro, Teams, or Enterprise.
+- [Plans and Usage](https://docs.windsurf.com/windsurf/accounts/usage.md): Understand Windsurf pricing plans, usage tracking, and how to upgrade from Free to Pro, Teams, or Enterprise.
 - [Advanced Configuration](https://docs.windsurf.com/windsurf/advanced.md): Advanced Windsurf configurations including SSH support, Dev Containers, WSL, extension marketplace settings, and gitignore access for Cascade.
 - [AI Commit Messages](https://docs.windsurf.com/windsurf/ai-commit-message.md): Generate meaningful git commit messages automatically with AI by analyzing your code changes with a single click in Windsurf.
 - [AGENTS.md](https://docs.windsurf.com/windsurf/cascade/agents-md.md): Create AGENTS.md files to provide directory-scoped instructions to Cascade. Instructions automatically apply based on file location in your project.
