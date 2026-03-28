@@ -34,6 +34,7 @@ Built with [Mintlify](https://mintlify.com).
 - [Checkpointing](https://code.claude.com/docs/en/checkpointing.md): Track, rewind, and summarize Claude's edits and conversation to manage session state.
 - [Use Claude Code with Chrome (beta)](https://code.claude.com/docs/en/chrome.md): Connect Claude Code to your Chrome browser to test web apps, debug with console logs, automate form filling, and extract data from web pages.
 - [Claude Code on the web](https://code.claude.com/docs/en/claude-code-on-the-web.md): Run Claude Code tasks asynchronously on secure cloud infrastructure
+- [Explore the .claude directory](https://code.claude.com/docs/en/claude-directory.md): Where Claude Code reads CLAUDE.md, settings.json, hooks, skills, commands, subagents, rules, and auto memory. Explore the .claude directory in your project and ~/.claude in your home directory.
 - [CLI reference](https://code.claude.com/docs/en/cli-reference.md): Complete reference for Claude Code command-line interface, including commands and flags.
 - [Code Review](https://code.claude.com/docs/en/code-review.md): Set up automated PR reviews that catch logic errors, security vulnerabilities, and regressions using multi-agent analysis of your full codebase
 - [Built-in commands](https://code.claude.com/docs/en/commands.md): Complete reference for built-in commands available in Claude Code.
@@ -1515,7 +1516,8 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Codex](https://developers.openai.com/codex/overview.md): One agent for everywhere you code
 
 ## Codex — Plugins
-- [Plugins](https://developers.openai.com/codex/plugins.md): Package and distribute Codex skills and app integrations as plugins
+- [Plugins](https://developers.openai.com/codex/plugins.md): Use plugins in Codex to add reusable workflows with skills and app integrations
+- [Build plugins](https://developers.openai.com/codex/plugins/build.md): Create, test, and distribute plugins for Codex
 
 ## Codex — Pricing
 - [Codex Pricing](https://developers.openai.com/codex/pricing.md): Codex is included in your ChatGPT Plus, Pro, Business, Edu, or Enterprise plan
@@ -1696,7 +1698,8 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Codex](https://developers.openai.com/codex/overview.md): One agent for everywhere you code
 
 ## Plugins
-- [Plugins](https://developers.openai.com/codex/plugins.md): Package and distribute Codex skills and app integrations as plugins
+- [Plugins](https://developers.openai.com/codex/plugins.md): Use plugins in Codex to add reusable workflows with skills and app integrations
+- [Build plugins](https://developers.openai.com/codex/plugins/build.md): Create, test, and distribute plugins for Codex
 
 ## Pricing
 - [Codex Pricing](https://developers.openai.com/codex/pricing.md): Codex is included in your ChatGPT Plus, Pro, Business, Edu, or Enterprise plan
@@ -1977,6 +1980,7 @@ Built with [Mintlify](https://mintlify.com).
 - [Codemaps](https://docs.windsurf.com/windsurf/codemaps.md): Create shareable hierarchical maps of your codebase to visualize code execution flow and component relationships. Navigate and share with teammates.
 - [C#, .NET, and CPP](https://docs.windsurf.com/windsurf/csharp-cpp.md): Setup guide for C#, .NET Core, .NET Framework (Mono), and C++ development in Windsurf using open-source tooling like OmniSharp, clangd, and LLDB.
 - [DeepWiki](https://docs.windsurf.com/windsurf/deepwiki.md): Get AI-powered explanations of code symbols with DeepWiki. Hover over functions, variables, and classes to understand unfamiliar code in your codebase.
+- [Enterprise Policies](https://docs.windsurf.com/windsurf/enterprise-policies.md): Manage Windsurf settings centrally with enterprise policies. Configure extension allowlists, update modes, and other settings on Windows, macOS, and Linux using group policies, configuration profiles, and JSON policy files.
 - [Welcome to Windsurf](https://docs.windsurf.com/windsurf/getting-started.md): Download and install Windsurf IDE for Mac, Windows, or Linux. Import VS Code or Cursor settings, configure themes, and start coding with AI-powered assistance.
 - [Guide for Admins](https://docs.windsurf.com/windsurf/guide-for-admins.md): Enterprise admin guide for deploying Windsurf at scale. Configure SSO, SCIM, RBAC, analytics, and team management for large organizations.
 - [AI Models](https://docs.windsurf.com/windsurf/models.md): Available AI models in Windsurf Cascade including SWE-1.5, Claude, GPT, and BYOK options. Compare model capabilities, credit costs, and performance.
