@@ -134,6 +134,7 @@ Built with [Mintlify](https://mintlify.com).
 - [Schedule tasks on the web](https://code.claude.com/docs/en/web-scheduled-tasks.md): Schedule recurring Claude Code tasks on a cron-like interval. Automate PR reviews, dependency audits, and CI triage in cloud sessions.
 - [Week 13 · March 23–27, 2026](https://code.claude.com/docs/en/whats-new/2026-w13.md): Auto mode for hands-off permissions, computer use built in, PR auto-fix in the cloud, transcript search, and a PowerShell tool for Windows.
 - [Week 14 · March 30 – April 3, 2026](https://code.claude.com/docs/en/whats-new/2026-w14.md): Computer use in the CLI, interactive in-product lessons, flicker-free rendering, per-tool MCP result-size overrides, and plugin executables on PATH.
+- [Week 15 · April 6–10, 2026](https://code.claude.com/docs/en/whats-new/2026-w15.md): Ultraplan cloud planning, the Monitor tool with self-pacing /loop, /team-onboarding for packaging your setup, and /autofix-pr from your terminal.
 - [What's new](https://code.claude.com/docs/en/whats-new/index.md): A weekly digest of notable Claude Code features, with code snippets, demos, and context on why they matter.
 - [Zero data retention](https://code.claude.com/docs/en/zero-data-retention.md): Learn about Zero Data Retention (ZDR) for Claude Code on Claude for Enterprise, including scope, disabled features, and how to request enablement.
 
@@ -1945,7 +1946,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Codex — Concepts
 - [Customization](https://developers.openai.com/codex/concepts/customization.md): How to customize Codex with project guidance, skills, MCP, and subagents
 - [Cyber Safety](https://developers.openai.com/codex/concepts/cyber-safety.md): Cybersecurity safeguards and trusted access for Codex users
-- [Sandboxing](https://developers.openai.com/codex/concepts/sandboxing.md): How Codex uses sandboxes across the Codex app, IDE, and CLI
+- [Sandbox](https://developers.openai.com/codex/concepts/sandboxing.md): How Codex uses sandboxes across the Codex app, IDE, and CLI
 - [Subagents](https://developers.openai.com/codex/concepts/subagents.md): How subagent workflows keep Codex focused and how to choose models for different agents
 
 ## Codex — Config Advanced
@@ -2127,7 +2128,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 ## Concepts
 - [Customization](https://developers.openai.com/codex/concepts/customization.md): How to customize Codex with project guidance, skills, MCP, and subagents
 - [Cyber Safety](https://developers.openai.com/codex/concepts/cyber-safety.md): Cybersecurity safeguards and trusted access for Codex users
-- [Sandboxing](https://developers.openai.com/codex/concepts/sandboxing.md): How Codex uses sandboxes across the Codex app, IDE, and CLI
+- [Sandbox](https://developers.openai.com/codex/concepts/sandboxing.md): How Codex uses sandboxes across the Codex app, IDE, and CLI
 - [Subagents](https://developers.openai.com/codex/concepts/subagents.md): How subagent workflows keep Codex focused and how to choose models for different agents
 
 ## Config Advanced
