@@ -26,7 +26,7 @@
 
 - [How the agent loop works](https://code.claude.com/docs/en/agent-sdk/agent-loop.md): Understand the message lifecycle, tool execution, context window, and architecture that power your SDK agents.
 - [Use Claude Code features in the SDK](https://code.claude.com/docs/en/agent-sdk/claude-code-features.md): Load project instructions, skills, hooks, and other Claude Code features into your SDK agents.
-- [Track cost and usage](https://code.claude.com/docs/en/agent-sdk/cost-tracking.md): Learn how to track token usage, deduplicate parallel tool calls, and calculate costs with the Claude Agent SDK.
+- [Track cost and usage](https://code.claude.com/docs/en/agent-sdk/cost-tracking.md): Learn how to track token usage, deduplicate parallel tool calls, and estimate costs with the Claude Agent SDK.
 - [Give Claude custom tools](https://code.claude.com/docs/en/agent-sdk/custom-tools.md): Define custom tools with the Claude Agent SDK's in-process MCP server so Claude can call your functions, hit your APIs, and perform domain-specific operations.
 - [Rewind file changes with checkpointing](https://code.claude.com/docs/en/agent-sdk/file-checkpointing.md): Track file changes during agent sessions and restore files to any previous state
 - [Intercept and control agent behavior with hooks](https://code.claude.com/docs/en/agent-sdk/hooks.md): Intercept and customize agent behavior at key execution points with hooks
@@ -1283,6 +1283,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/agent/tools/terminal.md
   - https://cursor.com/docs/agent/tools/browser.md
   - https://cursor.com/docs/agent/tools/search.md
+  - https://cursor.com/docs/agent/tools/canvas.md
   - https://cursor.com/docs/configuration/worktrees.md
 - https://cursor.com/docs/agent/security.md
 
@@ -1509,7 +1510,6 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Agent Builder](https://developers.openai.com/api/docs/guides/agent-builder.md): Use the OpenAI Agent Builder to start from templates, compose nodes, preview runs, and export workflows to code.
 - [Agent definitions](https://developers.openai.com/api/docs/guides/agents/define-agents.md): Learn how to define an agent's instructions, model, tools, and local context in the OpenAI Agents SDK.
 - [Agents SDK](https://developers.openai.com/api/docs/guides/agents.md): Learn how the OpenAI Agents SDK fits together and which docs to read next.
-- [Agents SDK](https://developers.openai.com/api/docs/guides/agents-sdk.md): Learn how to build agents with the OpenAI Agents SDK.
 - [Apply Patch](https://developers.openai.com/api/docs/guides/tools-apply-patch.md): Allow models to propose structured diffs that your integration applies.
 - [Assistants API deep dive](https://developers.openai.com/api/docs/assistants/deep-dive.md): A detailed guide to creating and managing assistants with the Assistants API on the OpenAI platform.
 - [Assistants API tools](https://developers.openai.com/api/docs/assistants/tools.md): Learn about the tools available for OpenAI Assistants, including file search, code interpreter, and function calling.
@@ -1608,6 +1608,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Safety best practices](https://developers.openai.com/api/docs/guides/safety-best-practices.md): Learn how to implement safety measures like moderation, adversarial testing, human oversight, and prompt engineering to ensure responsible AI deployment.
 - [Safety checks](https://developers.openai.com/api/docs/guides/safety-checks.md): Learn how OpenAI assesses for safety, OpenAI classifiers across safety categories, and implementation tips for how to pass safety checks.
 - [Safety in building agents](https://developers.openai.com/api/docs/guides/agent-builder-safety.md): Minimize prompt injections and other risks when building agent workflows with OpenAI Agent Builder.
+- [Sandbox Agents](https://developers.openai.com/api/docs/guides/agents/sandboxes.md): Learn how sandboxes fit into Agents SDK workflows, when to use them, and how orchestration stays separate from execution.
 - [Sending and returning files with GPT Actions](https://developers.openai.com/api/docs/actions/sending-files.md): Learn how to send and return files using GPT Actions in the OpenAI API.
 - [Shell](https://developers.openai.com/api/docs/guides/tools-shell.md): Run shell commands in hosted containers or your own local runtime.
 - [Skills](https://developers.openai.com/api/docs/guides/tools-skills.md): Upload, manage, and attach reusable skills to hosted environments.
@@ -2316,6 +2317,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Features](https://docs.cline.bot/kanban/features.md): Detailed overview of Cline Kanban features: worktrees, auto-commit, task linking, diff viewer, git interface, and more
 - [Getting Started](https://docs.cline.bot/kanban/getting-started.md): Install Cline Kanban and launch your first board
 - [Cline Kanban](https://docs.cline.bot/kanban/overview.md): A kanban board for orchestrating coding agents in parallel using git worktrees
+- [Remote Access](https://docs.cline.bot/kanban/remote-access.md): Access Kanban from other devices on your network or from anywhere using tunnels, VPNs, and cloud services
 - [Adding & Configuring Servers](https://docs.cline.bot/mcp/adding-and-configuring-servers.md): Find MCP servers, add them to Cline, and configure settings.
 - [Connecting to a Remote Server](https://docs.cline.bot/mcp/connecting-to-a-remote-server.md): The Model Context Protocol (MCP) allows Cline to communicate with external servers that provide additional tools and resources to extend its capabilities. This guide explains how to add and connect to remote MCP servers through the MCP Servers interface.
 - [MCP Made Easy](https://docs.cline.bot/mcp/mcp-marketplace.md): Learn how to use the MCP Marketplace to discover, install, and configure MCP servers that enhance Cline's capabilities with additional tools and resources.
@@ -2458,6 +2460,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Getting started with Teams and Enterprise](https://docs.windsurf.com/windsurf/accounts/teams-getting-started.md): Set up Windsurf Teams and Enterprise plans with team management, SSO, analytics, user groups, and priority support for your organization.
 - [Plans and Usage](https://docs.windsurf.com/windsurf/accounts/usage.md): Understand Windsurf pricing plans, usage tracking, and how to upgrade from Free to Pro, Teams, or Enterprise.
 - [Advanced Configuration](https://docs.windsurf.com/windsurf/advanced.md): Advanced Windsurf configurations including SSH support, Dev Containers, WSL, extension marketplace settings, and gitignore access for Cascade.
+- [Agent Command Center](https://docs.windsurf.com/windsurf/agent-command-center.md): Manage all of your Windsurf agents — local and cloud — from a single Kanban-style view inside Windsurf.
 - [AI Commit Messages](https://docs.windsurf.com/windsurf/ai-commit-message.md): Generate meaningful git commit messages automatically with AI by analyzing your code changes with a single click in Windsurf.
 - [AGENTS.md](https://docs.windsurf.com/windsurf/cascade/agents-md.md): Create AGENTS.md files to provide directory-scoped instructions to Cascade. Instructions automatically apply based on file location in your project.
 - [App Deploys](https://docs.windsurf.com/windsurf/cascade/app-deploys.md): Deploy web applications directly from Windsurf to Netlify with public URLs, automatic builds, and project claiming for Next.js, React, Vue, and Svelte.
@@ -2474,12 +2477,14 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Codemaps](https://docs.windsurf.com/windsurf/codemaps.md): Create shareable hierarchical maps of your codebase to visualize code execution flow and component relationships. Navigate and share with teammates.
 - [C#, .NET, and CPP](https://docs.windsurf.com/windsurf/csharp-cpp.md): Setup guide for C#, .NET Core, .NET Framework (Mono), and C++ development in Windsurf using open-source tooling like OmniSharp, clangd, and LLDB.
 - [DeepWiki](https://docs.windsurf.com/windsurf/deepwiki.md): Get AI-powered explanations of code symbols with DeepWiki. Hover over functions, variables, and classes to understand unfamiliar code in your codebase.
+- [Devin in Windsurf](https://docs.windsurf.com/windsurf/devin.md): Delegate work to Devin, an autonomous cloud agent, directly from Windsurf — and review its PRs without leaving your editor.
 - [Enterprise Policies](https://docs.windsurf.com/windsurf/enterprise-policies.md): Manage Windsurf settings centrally with enterprise policies. Configure extension allowlists, update modes, and other settings on Windows, macOS, and Linux using group policies, configuration profiles, and JSON policy files.
 - [Welcome to Windsurf](https://docs.windsurf.com/windsurf/getting-started.md): Download and install Windsurf IDE for Mac, Windows, or Linux. Import VS Code or Cursor settings, configure themes, and start coding with AI-powered assistance.
 - [Guide for Admins](https://docs.windsurf.com/windsurf/guide-for-admins.md): Enterprise admin guide for deploying Windsurf at scale. Configure SSO, SCIM, RBAC, analytics, and team management for large organizations.
 - [AI Models](https://docs.windsurf.com/windsurf/models.md): Available AI models in Windsurf Cascade including SWE-1.5, Claude, GPT, and BYOK options. Compare model capabilities, credit costs, and performance.
 - [Windsurf Previews](https://docs.windsurf.com/windsurf/previews.md): Preview your web app locally in Windsurf IDE or browser with element selection, error capture, and direct integration with Cascade for rapid iteration.
 - [Recommended Extensions](https://docs.windsurf.com/windsurf/recommended-extensions.md): Popular Open VSX extensions for Windsurf including Python, Java, C#, GitLens, and more. Replicate familiar IDE experiences from VS Code, Eclipse, or Visual Studio.
+- [Spaces](https://docs.windsurf.com/windsurf/spaces.md): Spaces group all of the agent sessions, PRs, files, and context for a task or project into a single view in the Agent Command Center.
 - [Terminal](https://docs.windsurf.com/windsurf/terminal.md): Use Windsurf's enhanced terminal with Command mode, Cascade integration, Turbo mode for auto-execution, and allow/deny lists for command control.
 - [Vibe and Replace](https://docs.windsurf.com/windsurf/vibe-and-replace.md): AI-powered find and replace that applies natural language prompts to each match. Use Smart mode for careful changes or Fast mode for quick transformations.
 
