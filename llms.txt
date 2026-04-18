@@ -157,17 +157,17 @@ https://platform.claude.com
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
 - English (en) - 1136 pages - /docs - Content included below
-- German (Deutsch) (de) - 144 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 144 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 144 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 144 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 144 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 144 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 144 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 144 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 144 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 144 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 144 pages - /docs/id - Visit website for content
+- German (Deutsch) (de) - 122 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 122 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 122 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 122 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 122 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 122 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 122 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 122 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 122 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 122 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 122 pages - /docs/id - Visit website for content
 
 ---
 
@@ -264,9 +264,9 @@ The full documentation is available in the following languages on https://platfo
 - [Admin API overview](https://platform.claude.com/docs/en/build-with-claude/administration-api.md)
 - [API and data retention](https://platform.claude.com/docs/en/build-with-claude/api-and-data-retention.md)
 - [Claude Code Analytics API](https://platform.claude.com/docs/en/build-with-claude/claude-code-analytics-api.md)
-- [Amazon Bedrock (research preview)](https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock-research-preview.md) - Claude in Amazon Bedrock (research preview)
+- [Amazon Bedrock](https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock.md) - Claude in Amazon Bedrock
 - [Microsoft Foundry](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry.md) - Claude in Microsoft Foundry
-- [Amazon Bedrock](https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock.md) - Claude on Amazon Bedrock
+- [Amazon Bedrock (legacy)](https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock.md) - Claude on Amazon Bedrock (legacy)
 - [Vertex AI](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai.md) - Claude on Vertex AI
 - [Data residency](https://platform.claude.com/docs/en/build-with-claude/data-residency.md)
 - [Migration](https://platform.claude.com/docs/en/managed-agents/migration.md)
@@ -2373,15 +2373,22 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Enterprise API Reference](https://docs.cline.bot/enterprise-solutions/api-reference.md): REST API endpoints for managing users, organizations, billing, plans, and API keys.
 - [MCP Marketplace](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/mcp-marketplace.md): Enterprise controls for MCP Marketplace access, server allowlisting, and remote MCP server management
 - [YOLO Mode](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/yolo-mode.md): Enterprise controls for YOLO Mode autonomous operation
+- [Configure Anthropic Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/anthropic/admin-configuration.md): This guide explains how administrators configure Anthropic as the organization-wide LLM provider for Cline.
+- [Configure Anthropic in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/anthropic/member-configuration.md): Guide for engineers connecting to their organization's Anthropic provider through VS Code after admin setup
 - [Configure AWS Bedrock Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/aws-bedrock/admin-configuration.md): This guide explains how administrators configure AWS Bedrock as the organization-wide LLM provider for Cline.
 - [Configure AWS Bedrock in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/aws-bedrock/member-configuration.md): Guide for engineers configuring AWS Bedrock credentials in VS Code after admin setup
 - [Configure Google Vertex AI Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/google-vertex/admin-configuration.md): This guide explains how administrators configure Google Vertex AI as the organization-wide LLM provider for Cline.
 - [Configure Google Vertex AI in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/google-vertex/member-configuration.md): Guide for engineers connecting to their organization's Google Vertex AI setup through VS Code after admin setup
 - [Configure LiteLLM Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/litellm/admin-configuration.md): This guide explains how administrators configure LiteLLM as the organization-wide LLM provider for Cline.
 - [Configure LiteLLM in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/litellm/member-configuration.md): Guide for engineers connecting to their organization's LiteLLM proxy through VS Code after admin setup
+- [Configure OpenAI Compatible Provider (Admin)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/openai-compatible/admin-configuration.md): This guide explains how administrators configure an OpenAI-compatible endpoint as the organization-wide LLM provider for Cline.
+- [Configure OpenAI Compatible in VS Code (Members)](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/openai-compatible/member-configuration.md): Guide for engineers connecting to their organization's OpenAI-compatible endpoint through VS Code after admin setup
 - [SaaS Provider Configuration](https://docs.cline.bot/enterprise-solutions/configuration/remote-configuration/overview.md): Configure inference providers through the Cline hosted admin console for centralized organization management
 - [OpenTelemetry Integration](https://docs.cline.bot/enterprise-solutions/monitoring/opentelemetry.md): Export Cline telemetry to your observability platform using OpenTelemetry Protocol (OTLP)
+- [OpenTelemetry Events Reference](https://docs.cline.bot/enterprise-solutions/monitoring/opentelemetry-events.md): Complete reference of OpenTelemetry log events emitted by Cline
+- [OpenTelemetry Environment Variables](https://docs.cline.bot/enterprise-solutions/monitoring/opentelemetry_override.md): Configure OpenTelemetry using environment variables for advanced scenarios
 - [Enterprise Monitoring](https://docs.cline.bot/enterprise-solutions/monitoring/overview.md): Optional telemetry and observability for your Cline deployment
+- [Prompt Storage](https://docs.cline.bot/enterprise-solutions/monitoring/prompt-storage.md): Backup conversation history to S3 or Cloudflare R2 for compliance, audit, and analysis
 - [Cline Telemetry](https://docs.cline.bot/enterprise-solutions/monitoring/telemetry.md): Configure usage analytics and event tracking
 - [Onboarding](https://docs.cline.bot/enterprise-solutions/onboarding.md): This guide explains how administrators configure SSO provisioning and user management in Cline Enterprise.
 - [Cline Enterprise](https://docs.cline.bot/enterprise-solutions/overview.md): Enterprise security, governance, and observability for the coding agent millions of developers trust
