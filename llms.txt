@@ -124,7 +124,7 @@
 - [Claude Code in Slack](https://code.claude.com/docs/en/slack.md): Delegate coding tasks directly from your Slack workspace
 - [Customize your status line](https://code.claude.com/docs/en/statusline.md): Configure a custom status bar to monitor context window usage, costs, and git status in Claude Code
 - [Create custom subagents](https://code.claude.com/docs/en/sub-agents.md): Create and use specialized AI subagents in Claude Code for task-specific workflows and improved context management.
-- [Optimize your terminal setup](https://code.claude.com/docs/en/terminal-config.md): Claude Code works best when your terminal is properly configured. Follow these guidelines to optimize your experience.
+- [Configure your terminal for Claude Code](https://code.claude.com/docs/en/terminal-config.md): Fix Shift+Enter for newlines, get a terminal bell when Claude finishes, configure tmux, match the color theme, and enable Vim mode in the Claude Code CLI.
 - [Enterprise deployment overview](https://code.claude.com/docs/en/third-party-integrations.md): Learn how Claude Code can integrate with various third-party services and infrastructure to meet enterprise deployment requirements.
 - [Tools reference](https://code.claude.com/docs/en/tools-reference.md): Complete reference for the tools Claude Code can use, including permission requirements.
 - [Troubleshooting](https://code.claude.com/docs/en/troubleshooting.md): Discover solutions to common issues with Claude Code installation and usage.
@@ -2080,6 +2080,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 
 ## Codex — Memories
 - [Memories](https://developers.openai.com/codex/memories.md): How Codex carries useful context forward across threads
+- [Chronicle](https://developers.openai.com/codex/memories/chronicle.md): Build Codex memories from recent screen context.
 
 ## Codex — Models
 - [Codex Models](https://developers.openai.com/codex/models.md): Meet the AI models that power Codex
@@ -2267,6 +2268,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 
 ## Memories
 - [Memories](https://developers.openai.com/codex/memories.md): How Codex carries useful context forward across threads
+- [Chronicle](https://developers.openai.com/codex/memories/chronicle.md): Build Codex memories from recent screen context.
 
 ## Models
 - [Codex Models](https://developers.openai.com/codex/models.md): Meet the AI models that power Codex
@@ -2540,7 +2542,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Language Server Fails with 'No Space Left on Device' on Linux](https://docs.windsurf.com/troubleshooting/windsurf-inotify-limits.md): Resolve Linux language server startup failures caused by exhausted inotify watch/instance limits (ENOSPC). Includes symptoms, diagnosis commands, and sysctl fixes.
 - [Proxy Configuration in Windsurf Editor](https://docs.windsurf.com/troubleshooting/windsurf-proxy-configuration.md): Configure HTTP/HTTPS proxy settings for Windsurf Editor in corporate networks. Includes auto-detect, manual configuration, and SSH remote proxy setup.
 - [TLS / SSL Inspection Issues in Windsurf](https://docs.windsurf.com/troubleshooting/windsurf-ssl-inspection.md): Configure enterprise environments where SSL inspection (e.g., Zscaler) causes TLS certificate validation or protocol negotiation failures. Includes how to capture Console errors and what to request from IT/security.
-- [Windsurf Slow or Disconnecting in WSL](https://docs.windsurf.com/troubleshooting/windsurf-wsl-performance.md): Resolve Windsurf performance issues, disconnections, and crashes when running in Windows Subsystem for Linux (WSL). Covers symptoms, root cause, and recommended fixes for Plan 9 (9P) filesystem saturation caused by excessive extension activity.
+- [WSL Known Issues](https://docs.windsurf.com/troubleshooting/windsurf-wsl-performance.md): Troubleshoot known Windsurf issues when running in Windows Subsystem for Linux (WSL), including slow performance from Plan 9 (9P) filesystem saturation and connection failures caused by VPN or zero-trust network software.
 - [Analytics](https://docs.windsurf.com/windsurf/accounts/analytics.md): View individual user analytics, team analytics, usage patterns, and metrics for your Windsurf usage including code completion stats and AI-written code percentage.
 - [Analytics API](https://docs.windsurf.com/windsurf/accounts/api-reference/analytics-api-introduction.md): Enterprise analytics API for querying Windsurf usage data including autocomplete, chat, command, and Cascade metrics.
 - [API Reference](https://docs.windsurf.com/windsurf/accounts/api-reference/api-introduction.md): Enterprise API for querying Windsurf usage data and managing configurations with service key authentication.
@@ -2557,6 +2559,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Setting up SSO & SCIM](https://docs.windsurf.com/windsurf/accounts/sso-scim.md): Configure Single Sign-On (SSO) and SCIM provisioning for your organization using Google Workspace, Microsoft Azure AD, Okta, or other SAML identity providers.
 - [Getting started with Teams and Enterprise](https://docs.windsurf.com/windsurf/accounts/teams-getting-started.md): Set up Windsurf Teams and Enterprise plans with team management, SSO, analytics, user groups, and priority support for your organization.
 - [Plans and Usage](https://docs.windsurf.com/windsurf/accounts/usage.md): Understand Windsurf pricing plans, usage tracking, and how to upgrade from Free to Pro, Teams, or Enterprise.
+- [Adaptive](https://docs.windsurf.com/windsurf/adaptive.md): Adaptive is Cognition's intelligent model router that automatically selects the best AI model for each task.
 - [Advanced Configuration](https://docs.windsurf.com/windsurf/advanced.md): Advanced Windsurf configurations including SSH support, Dev Containers, WSL, extension marketplace settings, and gitignore access for Cascade.
 - [Agent Command Center](https://docs.windsurf.com/windsurf/agent-command-center.md): Manage all of your Windsurf agents — local and cloud — from a single Kanban-style view inside Windsurf.
 - [AI Commit Messages](https://docs.windsurf.com/windsurf/ai-commit-message.md): Generate meaningful git commit messages automatically with AI by analyzing your code changes with a single click in Windsurf.
