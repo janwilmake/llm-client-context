@@ -73,6 +73,7 @@
 - [Explore the context window](https://code.claude.com/docs/en/context-window.md): An interactive simulation of how Claude Code's context window fills during a session. See what loads automatically, what each file read costs, and when rules and hooks fire.
 - [Manage costs effectively](https://code.claude.com/docs/en/costs.md): Track token usage, set team spend limits, and reduce Claude Code costs with context management, model selection, extended thinking settings, and preprocessing hooks.
 - [Data usage](https://code.claude.com/docs/en/data-usage.md): Learn about Anthropic's data usage policies for Claude
+- [Debug your configuration](https://code.claude.com/docs/en/debug-your-config.md): Diagnose why CLAUDE.md, settings, hooks, MCP servers, or skills aren't taking effect. Use /context, /doctor, /hooks, and /mcp to see what actually loaded.
 - [Use Claude Code Desktop](https://code.claude.com/docs/en/desktop.md): Get more out of Claude Code Desktop: parallel sessions with Git isolation, drag-and-drop pane layout, integrated terminal and file editor, side chats, computer use, Dispatch sessions from your phone, visual diff review, app previews, PR monitoring, connectors, and enterprise configuration.
 - [Get started with the desktop app](https://code.claude.com/docs/en/desktop-quickstart.md): Install Claude Code on desktop and start your first coding session
 - [Schedule recurring tasks in Claude Code Desktop](https://code.claude.com/docs/en/desktop-scheduled-tasks.md): Set up scheduled tasks in Claude Code Desktop to run Claude automatically on a recurring basis for daily code reviews, dependency audits, or morning briefings.
@@ -2365,7 +2366,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Plan & Act Mode](https://docs.cline.bot/core-workflows/plan-and-act.md): Think first, then build. Cline's dual-mode system for structured development.
 - [Tasks](https://docs.cline.bot/core-workflows/task-management.md): Organize your work with tasks - self-contained sessions that capture your conversations, code changes, and decisions.
 - [Using Commands](https://docs.cline.bot/core-workflows/using-commands.md): Built-in slash commands to manage context, plan implementations, and create reusable workflows.
-- [Adding Context](https://docs.cline.bot/core-workflows/working-with-files.md): Use @ mentions and drag & drop to bring files, terminal output, errors, git changes, and web content into your conversations.
+- [Adding Context](https://docs.cline.bot/core-workflows/working-with-files.md): Use @ mentions and drag & drop to bring files, errors, git changes, and web content into your conversations.
 - [Rules](https://docs.cline.bot/customization/cline-rules.md): Define specific instructions and coding standards for Cline.
 - [.clineignore](https://docs.cline.bot/customization/clineignore.md): Control which files and directories Cline can access in your project.
 - [Hooks](https://docs.cline.bot/customization/hooks.md): Inject custom logic into Cline's workflow to validate operations and shape Cline's decisions.
