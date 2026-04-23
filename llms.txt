@@ -6,14 +6,13 @@
 
 - [How to add skills support to your agent](https://agentskills.io/client-implementation/adding-skills-support.md): A guide for adding Agent Skills support to an AI agent or development tool.
 - [Client Showcase](https://agentskills.io/clients.md): Agent products that support the Agent Skills format.
-- [Overview](https://agentskills.io/home.md): A simple, open format for giving agents new capabilities and expertise.
+- [Agent Skills Overview](https://agentskills.io/home.md): A standardized way to give AI agents new capabilities and expertise.
 - [Best practices for skill creators](https://agentskills.io/skill-creation/best-practices.md): How to write skills that are well-scoped and calibrated to the task.
 - [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills.md): How to test whether your skill produces good outputs using eval-driven iteration.
 - [Optimizing skill descriptions](https://agentskills.io/skill-creation/optimizing-descriptions.md): How to improve your skill's description so it triggers reliably on relevant prompts.
 - [Quickstart](https://agentskills.io/skill-creation/quickstart.md): Create your first Agent Skill and see it work in VS Code.
 - [Using scripts in skills](https://agentskills.io/skill-creation/using-scripts.md): How to run commands and bundle executable scripts in your skills.
 - [Specification](https://agentskills.io/specification.md): The complete format specification for Agent Skills.
-- [What are skills?](https://agentskills.io/what-are-skills.md): Agent Skills are a lightweight, open format for extending AI agent capabilities with specialized knowledge and workflows.
 
 
 # Source: https://code.claude.com/docs/llms.txt
@@ -57,6 +56,7 @@
 - [Claude Code on Amazon Bedrock](https://code.claude.com/docs/en/amazon-bedrock.md): Learn about configuring Claude Code through Amazon Bedrock, including setup, IAM configuration, and troubleshooting.
 - [Track team usage with analytics](https://code.claude.com/docs/en/analytics.md): View Claude Code usage metrics, track adoption, and measure engineering velocity in the analytics dashboard.
 - [Authentication](https://code.claude.com/docs/en/authentication.md): Log in to Claude Code and configure authentication for individuals, teams, and organizations.
+- [Configure auto mode](https://code.claude.com/docs/en/auto-mode-config.md): Tell the auto mode classifier which repos, buckets, and domains your organization trusts. Set environment context, override the default block and allow rules, and inspect your effective config with the auto-mode CLI subcommands.
 - [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices.md): Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.
 - [Changelog](https://code.claude.com/docs/en/changelog.md): Release notes for Claude Code, including new features, improvements, and bug fixes by version.
 - [Push events into a running session with channels](https://code.claude.com/docs/en/channels.md): Use channels to push messages, alerts, and webhooks into your Claude Code session from an MCP server. Forward CI results, chat messages, and monitoring events so Claude can react while you're away.
@@ -131,7 +131,7 @@
 - [Troubleshooting](https://code.claude.com/docs/en/troubleshooting.md): Discover solutions to common issues with Claude Code installation and usage.
 - [Plan in the cloud with ultraplan](https://code.claude.com/docs/en/ultraplan.md): Start a plan from your CLI, draft it on Claude Code on the web, then execute it remotely or back in your terminal
 - [Find bugs with ultrareview](https://code.claude.com/docs/en/ultrareview.md): Run a deep, multi-agent code review in the cloud with /ultrareview to find and verify bugs before you merge.
-- [Voice dictation](https://code.claude.com/docs/en/voice-dictation.md): Use push-to-talk voice dictation to speak your prompts instead of typing them in the Claude Code CLI.
+- [Voice dictation](https://code.claude.com/docs/en/voice-dictation.md): Speak your prompts in the Claude Code CLI with hold-to-record or tap-to-record voice dictation.
 - [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code.md): Install and configure the Claude Code extension for VS Code. Get AI coding assistance with inline diffs, @-mentions, plan review, and keyboard shortcuts.
 - [Get started with Claude Code on the web](https://code.claude.com/docs/en/web-quickstart.md): Run Claude Code in the cloud from your browser or phone. Connect a GitHub repository, submit a task, and review the PR without local setup.
 - [Week 13 · March 23–27, 2026](https://code.claude.com/docs/en/whats-new/2026-w13.md): Auto mode for hands-off permissions, computer use built in, PR auto-fix in the cloud, transcript search, and a PowerShell tool for Windows.
@@ -1700,6 +1700,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Trace grading](https://developers.openai.com/api/docs/guides/trace-grading.md): Use trace grading to create datasets, configure graders, and track evaluation runs for your models.
 - [UI Kit Demo](https://developers.openai.com/api/docs/ui-kit-demo.md): Component demos for the platform docs UI kit.
 - [Under 18 API Guidance](https://developers.openai.com/api/docs/guides/safety-checks/under-18-api-guidance.md)
+- [Upgrading to GPT-5.4](https://developers.openai.com/api/docs/guides/upgrading-to-gpt-5p4.md): Guidance for upgrading OpenAI API model strings and directly related prompts to GPT-5.4.
 - [Using GPT-5.4](https://developers.openai.com/api/docs/guides/latest-model.md): Learn about how to use and migrate to GPT-5.4 and the GPT-5 model family, the latest models in the OpenAI API.
 - [Using realtime models](https://developers.openai.com/api/docs/guides/realtime-models-prompting.md): Learn how to use OpenAI realtime models and prompting effectively.
 - [Using tools](https://developers.openai.com/api/docs/guides/tools.md): Use powerful tools like remote MCP servers, or built-in tools like web search and file search to extend the model's capabilities.
