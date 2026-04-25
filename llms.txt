@@ -158,18 +158,18 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 1246 pages - /docs - Content included below
-- German (Deutsch) (de) - 122 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 122 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 122 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 122 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 122 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 122 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 122 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 122 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 122 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 122 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 122 pages - /docs/id - Visit website for content
+- English (en) - 1262 pages - /docs - Content included below
+- German (Deutsch) (de) - 133 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 133 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 133 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 133 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 133 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 133 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 133 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 133 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 133 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 133 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 133 pages - /docs/id - Visit website for content
 
 ---
 
@@ -210,6 +210,7 @@ The full documentation is available in the following languages on https://platfo
 - [Customer support agent](https://platform.claude.com/docs/en/about-claude/use-case-guides/customer-support-chat.md)
 - [Define outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes.md)
 - [Define success and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md) - Define success criteria and build evaluations
+- [Define tools](https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools.md)
 - [Agent setup](https://platform.claude.com/docs/en/managed-agents/agent-setup.md) - Define your agent
 - [Effort](https://platform.claude.com/docs/en/build-with-claude/effort.md)
 - [Embeddings](https://platform.claude.com/docs/en/build-with-claude/embeddings.md)
@@ -217,16 +218,19 @@ The full documentation is available in the following languages on https://platfo
 - [Files API](https://platform.claude.com/docs/en/build-with-claude/files.md)
 - [Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md)
 - [Glossary](https://platform.claude.com/docs/en/about-claude/glossary.md)
+- [Handle tool calls](https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls.md)
 - [Handling stop reasons](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md)
 - [How tool use works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works.md)
 - [Increase output consistency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency.md)
 - [Legal summarization](https://platform.claude.com/docs/en/about-claude/use-case-guides/legal-summarization.md)
+- [Manage tool context](https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context.md)
 - [MCP connector](https://platform.claude.com/docs/en/agents-and-tools/mcp-connector.md)
 - [MCP connector](https://platform.claude.com/docs/en/managed-agents/mcp-connector.md)
 - [Memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool.md)
 - [Mitigate jailbreaks](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks.md) - Mitigate jailbreaks and prompt injections
 - [Multiagent sessions](https://platform.claude.com/docs/en/managed-agents/multi-agent.md)
 - [Multilingual support](https://platform.claude.com/docs/en/build-with-claude/multilingual-support.md)
+- [Parallel tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use.md)
 - [PDF support](https://platform.claude.com/docs/en/build-with-claude/pdf-support.md)
 - [Permission policies](https://platform.claude.com/docs/en/managed-agents/permission-policies.md)
 - [Programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling.md)
@@ -238,6 +242,7 @@ The full documentation is available in the following languages on https://platfo
 - [Reducing latency](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency.md)
 - [Remote MCP servers](https://platform.claude.com/docs/en/agents-and-tools/remote-mcp-servers.md)
 - [Search results](https://platform.claude.com/docs/en/build-with-claude/search-results.md)
+- [Server tools](https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools.md)
 - [Session event stream](https://platform.claude.com/docs/en/managed-agents/events-and-streaming.md)
 - [Best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices.md) - Skill authoring best practices
 - [Agent Skills](https://platform.claude.com/docs/en/managed-agents/skills.md) - Skills
@@ -245,14 +250,20 @@ The full documentation is available in the following languages on https://platfo
 - [Start a session](https://platform.claude.com/docs/en/managed-agents/sessions.md)
 - [Streaming Messages](https://platform.claude.com/docs/en/build-with-claude/streaming.md)
 - [Streaming refusals](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals.md)
+- [Strict tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use.md)
 - [Structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs.md)
 - [Task budgets (beta)](https://platform.claude.com/docs/en/build-with-claude/task-budgets.md) - Task budgets
 - [Text editor tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool.md)
 - [Ticket routing](https://platform.claude.com/docs/en/about-claude/use-case-guides/ticket-routing.md)
 - [Token counting](https://platform.claude.com/docs/en/build-with-claude/token-counting.md)
+- [Tool combinations](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-combinations.md)
 - [Tool reference](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-reference.md)
+- [Tool Runner (SDK)](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner.md)
 - [Tool search](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool.md) - Tool search tool
+- [Tool use with prompt caching](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching.md)
 - [Tools](https://platform.claude.com/docs/en/managed-agents/tools.md)
+- [Troubleshooting](https://platform.claude.com/docs/en/agents-and-tools/tool-use/troubleshooting-tool-use.md) - Troubleshooting tool use
+- [Tutorial: Build a tool-using agent](https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent.md)
 - [Using memory](https://platform.claude.com/docs/en/managed-agents/memory.md) - Using agent memory
 - [Skills in the API](https://platform.claude.com/docs/en/build-with-claude/skills-guide.md) - Using Agent Skills with the API
 - [Using the Evaluation Tool in Console](https://platform.claude.com/docs/en/test-and-evaluate/eval-tool.md) - Using the Evaluation Tool
@@ -268,10 +279,11 @@ The full documentation is available in the following languages on https://platfo
 - [Claude Code Analytics API](https://platform.claude.com/docs/en/build-with-claude/claude-code-analytics-api.md)
 - [Amazon Bedrock](https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock.md) - Claude in Amazon Bedrock
 - [Microsoft Foundry](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry.md) - Claude in Microsoft Foundry
-- [Amazon Bedrock (legacy)](https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock.md) - Claude on Amazon Bedrock (legacy)
+- [Amazon Bedrock (legacy)](https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy.md) - Claude on Amazon Bedrock (legacy)
 - [Vertex AI](https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai.md) - Claude on Vertex AI
 - [Data residency](https://platform.claude.com/docs/en/build-with-claude/data-residency.md)
 - [Migration](https://platform.claude.com/docs/en/managed-agents/migration.md)
+- [Rate Limits API](https://platform.claude.com/docs/en/build-with-claude/rate-limits-api.md)
 - [Session tracing](https://platform.claude.com/docs/en/managed-agents/observability.md)
 - [Usage and Cost API](https://platform.claude.com/docs/en/build-with-claude/usage-cost-api.md)
 - [Workspaces](https://platform.claude.com/docs/en/build-with-claude/workspaces.md)
@@ -1044,6 +1056,7 @@ The full documentation is available in the following languages on https://platfo
 - [List Models (Ruby)](https://platform.claude.com/docs/en/api/ruby/models/list.md)
 - [List Models (terraform)](https://platform.claude.com/docs/en/api/terraform/models/list.md)
 - [List Models (TypeScript)](https://platform.claude.com/docs/en/api/typescript/models/list.md)
+- [List Organization Rate Limits](https://platform.claude.com/docs/en/api/admin/rate_limits/list.md)
 - [List Session Resources (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/resources/list.md)
 - [List Session Resources (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/sessions/resources/list.md)
 - [List Session Resources (Beta) (csharp)](https://platform.claude.com/docs/en/api/csharp/beta/sessions/resources/list.md)
@@ -1096,6 +1109,7 @@ The full documentation is available in the following languages on https://platfo
 - [List Vaults (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/vaults/list.md)
 - [List Vaults (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/vaults/list.md)
 - [List Workspace Members](https://platform.claude.com/docs/en/api/admin/workspaces/members/list.md)
+- [List Workspace Rate Limits](https://platform.claude.com/docs/en/api/admin/workspaces/rate_limits/list.md)
 - [List Workspaces](https://platform.claude.com/docs/en/api/admin/workspaces/list.md)
 - [ListMemories (Beta)](https://platform.claude.com/docs/en/api/beta/memory_stores/memories/list.md)
 - [ListMemories (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/memory_stores/memories/list.md)
@@ -1199,6 +1213,8 @@ The full documentation is available in the following languages on https://platfo
 - [Models (terraform)](https://platform.claude.com/docs/en/api/terraform/models.md)
 - [Models (TypeScript)](https://platform.claude.com/docs/en/api/typescript/models.md)
 - [Organizations](https://platform.claude.com/docs/en/api/admin/organizations.md)
+- [Rate Limits](https://platform.claude.com/docs/en/api/admin/workspaces/rate_limits.md)
+- [Rate Limits](https://platform.claude.com/docs/en/api/admin/rate_limits.md)
 - [RedactMemoryVersion (Beta)](https://platform.claude.com/docs/en/api/beta/memory_stores/memory_versions/redact.md)
 - [RedactMemoryVersion (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/memory_stores/memory_versions/redact.md)
 - [RedactMemoryVersion (Beta) (csharp)](https://platform.claude.com/docs/en/api/csharp/beta/memory_stores/memory_versions/redact.md)
@@ -1453,7 +1469,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/claude-4-6-sonnet.md
   - https://cursor.com/docs/models/claude-opus-4-7.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
-  - https://cursor.com/docs/models/gpt-5-4.md
+  - https://cursor.com/docs/models/gpt-5-5.md
   - https://cursor.com/docs/models/gpt-5-3-codex.md
   - https://cursor.com/docs/models/grok-4-20.md
   - https://cursor.com/docs/models/cursor-composer-2.md
@@ -1697,6 +1713,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Agent Builder](https://developers.openai.com/api/docs/guides/agent-builder.md): Use the OpenAI Agent Builder to start from templates, compose nodes, preview runs, and export workflows to code.
 - [Agent definitions](https://developers.openai.com/api/docs/guides/agents/define-agents.md): Learn how to define an agent's instructions, model, tools, and local context in the OpenAI Agents SDK.
 - [Agents SDK](https://developers.openai.com/api/docs/guides/agents.md): Learn how the OpenAI Agents SDK fits together and which docs to read next.
+- [API deployment checklist](https://developers.openai.com/api/docs/guides/deployment-checklist.md): Review commonly underused Responses API design choices that improve deployment quality, speed, cost, and reliability.
 - [Apply Patch](https://developers.openai.com/api/docs/guides/tools-apply-patch.md): Allow models to propose structured diffs that your integration applies.
 - [Assistants API deep dive](https://developers.openai.com/api/docs/assistants/deep-dive.md): A detailed guide to creating and managing assistants with the Assistants API on the OpenAI platform.
 - [Assistants API tools](https://developers.openai.com/api/docs/assistants/tools.md): Learn about the tools available for OpenAI Assistants, including file search, code interpreter, and function calling.
@@ -1735,6 +1752,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [File search](https://developers.openai.com/api/docs/guides/tools-file-search.md): Allow models to search your files for relevant information before generating a response.
 - [Fine-tuning best practices](https://developers.openai.com/api/docs/guides/fine-tuning-best-practices.md): Improve results with practical tips for fine-tuning.
 - [Flex processing](https://developers.openai.com/api/docs/guides/flex-processing.md): Learn how to optimize costs for asynchronous tasks with flex processing.
+- [Frontend prompt instructions](https://developers.openai.com/api/docs/guides/frontend-prompt.md): Example prompt instructions for frontend work, written for GPT-5.5.
 - [Function calling](https://developers.openai.com/api/docs/guides/function-calling.md): Learn how function calling enables large language models to connect to external data and systems.
 - [Getting started with datasets](https://developers.openai.com/api/docs/guides/evaluation-getting-started.md): Learn how to get started with evals using datasets.
 - [Getting started with GPT Actions](https://developers.openai.com/api/docs/actions/getting-started.md): Learn how to set up and test GPT actions from scratch with the OpenAI API.
@@ -1773,7 +1791,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching.md): Learn how prompt caching reduces latency and cost for long prompts in OpenAI's API.
 - [Prompt engineering](https://developers.openai.com/api/docs/guides/prompt-engineering.md): Learn strategies and tactics for better results using large language models in the OpenAI API.
 - [Prompt generation](https://developers.openai.com/api/docs/guides/prompt-generation.md): Learn how to generate prompts, functions, and schemas in the OpenAI API's Playground.
-- [Prompt guidance for GPT-5.4](https://developers.openai.com/api/docs/guides/prompt-guidance.md): Learn prompt patterns and migration guidance for GPT-5.4, including completeness checks, verification loops, tool persistence, and structured outputs.
+- [Prompt guidance](https://developers.openai.com/api/docs/guides/prompt-guidance.md)
 - [Prompt optimizer](https://developers.openai.com/api/docs/guides/prompt-optimizer.md): Learn how to use your dataset to automatically improve your prompts.
 - [Prompting](https://developers.openai.com/api/docs/guides/prompting.md): Learn how to create, optimize, save, and reuse prompts with OpenAI models.
 - [Quickstart](https://developers.openai.com/api/docs/guides/agents/quickstart.md): Build your first agent with the OpenAI Agents SDK, add tools and handoffs, and understand where to go next.
@@ -1812,7 +1830,8 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [UI Kit Demo](https://developers.openai.com/api/docs/ui-kit-demo.md): Component demos for the platform docs UI kit.
 - [Under 18 API Guidance](https://developers.openai.com/api/docs/guides/safety-checks/under-18-api-guidance.md)
 - [Upgrading to GPT-5.4](https://developers.openai.com/api/docs/guides/upgrading-to-gpt-5p4.md): Guidance for upgrading OpenAI API model strings and directly related prompts to GPT-5.4.
-- [Using GPT-5.4](https://developers.openai.com/api/docs/guides/latest-model.md): Learn about how to use and migrate to GPT-5.4 and the GPT-5 model family, the latest models in the OpenAI API.
+- [Upgrading to GPT-5.5](https://developers.openai.com/api/docs/guides/upgrading-to-gpt-5p5.md): Guidance for upgrading OpenAI API model strings and directly related prompts to GPT-5.5.
+- [Using GPT-5.5](https://developers.openai.com/api/docs/guides/latest-model.md): Learn how to use and migrate to GPT-5.5, the latest model in the OpenAI API.
 - [Using realtime models](https://developers.openai.com/api/docs/guides/realtime-models-prompting.md): Learn how to use OpenAI realtime models and prompting effectively.
 - [Using tools](https://developers.openai.com/api/docs/guides/tools.md): Use powerful tools like remote MCP servers, or built-in tools like web search and file search to extend the model's capabilities.
 - [Vector embeddings](https://developers.openai.com/api/docs/guides/embeddings.md): Learn how to turn text into numbers, unlocking use cases like search, clustering, and more with OpenAI API embeddings.
