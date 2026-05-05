@@ -165,7 +165,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 1275 pages - /docs - Content included below
+- English (en) - 1284 pages - /docs - Content included below
 - German (Deutsch) (de) - 132 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 132 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 132 pages - /docs/fr - Visit website for content
@@ -270,12 +270,21 @@ The full documentation is available in the following languages on https://platfo
 
 ### Admin
 
+- [Overview](https://platform.claude.com/docs/en/api/authentication/overview.md) - Authentication
 - [Admin API overview](https://platform.claude.com/docs/en/build-with-claude/administration-api.md)
 - [API and data retention](https://platform.claude.com/docs/en/build-with-claude/api-and-data-retention.md)
 - [Claude Code Analytics API](https://platform.claude.com/docs/en/build-with-claude/claude-code-analytics-api.md)
 - [Data residency](https://platform.claude.com/docs/en/build-with-claude/data-residency.md)
 - [Rate Limits API](https://platform.claude.com/docs/en/build-with-claude/rate-limits-api.md)
 - [Usage and Cost API](https://platform.claude.com/docs/en/build-with-claude/usage-cost-api.md)
+- [AWS](https://platform.claude.com/docs/en/build-with-claude/wif-providers/aws.md) - Use WIF with AWS
+- [GitHub Actions](https://platform.claude.com/docs/en/build-with-claude/wif-providers/github-actions.md) - Use WIF with GitHub Actions
+- [Google Cloud](https://platform.claude.com/docs/en/build-with-claude/wif-providers/gcp.md) - Use WIF with Google Cloud
+- [Kubernetes](https://platform.claude.com/docs/en/build-with-claude/wif-providers/kubernetes.md) - Use WIF with Kubernetes
+- [Microsoft Azure](https://platform.claude.com/docs/en/build-with-claude/wif-providers/azure.md) - Use WIF with Microsoft Azure
+- [Okta](https://platform.claude.com/docs/en/build-with-claude/wif-providers/okta.md) - Use WIF with Okta
+- [WIF reference](https://platform.claude.com/docs/en/api/authentication/wif-reference.md)
+- [Workload Identity Federation](https://platform.claude.com/docs/en/build-with-claude/workload-identity-federation.md)
 - [Workspaces](https://platform.claude.com/docs/en/build-with-claude/workspaces.md)
 
 ### API Reference
@@ -1672,6 +1681,8 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/account-and-billing/spend-limits.md
 - https://cursor.com/help/account-and-billing/enterprise.md
 - https://cursor.com/help/account-and-billing/change-email.md
+- https://cursor.com/help/account-and-billing/payment-issues.md
+- https://cursor.com/help/account-and-billing/payment-not-applied.md
 - https://cursor.com/help/account-and-billing/cancel.md
 - https://cursor.com/help/account-and-billing/refunds.md
 - https://cursor.com/help/account-and-billing/delete-account.md
@@ -1731,6 +1742,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 
 ## OpenAI API — Docs
 - [Actions in ChatKit](https://developers.openai.com/api/docs/guides/chatkit-actions.md): Embed a widget to build your own chat experiences.
+- [Admin APIs](https://developers.openai.com/api/docs/guides/admin-apis.md): Use Admin APIs and Admin API keys to automate organization management tasks such as invitations and audit log retrieval.
 - [Advanced integrations with ChatKit](https://developers.openai.com/api/docs/guides/custom-chatkit.md): Use your own server with ChatKit to integrate agent workflows into your product with more customization.
 - [Advanced usage](https://developers.openai.com/api/docs/guides/advanced-usage.md): Discover advanced usage techniques for OpenAI's API, including reproducible outputs, token management, and parameter settings.
 - [Agent Builder](https://developers.openai.com/api/docs/guides/agent-builder.md): Use the OpenAI Agent Builder to start from templates, compose nodes, preview runs, and export workflows to code.
