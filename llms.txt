@@ -2761,6 +2761,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Local models](https://docs.cline.bot/running-models-locally/overview.md): Run Cline with local models using Ollama or LM Studio.
 - [Hub-Spoke Architecture](https://docs.cline.bot/sdk/architecture/hub-spoke.md): A local daemon coordinates sessions across clients, while spoke workers handle agent execution.
 - [Packages](https://docs.cline.bot/sdk/architecture/overview.md): How SDK packages fit together, what each package exports, and where boundaries are enforced.
+- [ClineCore](https://docs.cline.bot/sdk/clinecore.md): The full Cline harness: built-in tools, sessions, approvals, scheduling, and hub support.
 - [Events](https://docs.cline.bot/sdk/events.md): Subscribe to runtime and session events for UIs, logs, monitoring, and cancellation.
 - [Examples](https://docs.cline.bot/sdk/examples.md): Explore complete, runnable SDK examples organized by difficulty.
 - [Building an Agent](https://docs.cline.bot/sdk/guides/building-an-agent.md): Walk through a complete code review bot that reads diffs, analyzes code, and produces structured feedback.
@@ -2771,7 +2772,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Scheduled Agents](https://docs.cline.bot/sdk/guides/scheduled-agents.md): Run agents on cron schedules for recurring automations like daily summaries, code reviews, and maintenance tasks.
 - [Writing Plugins](https://docs.cline.bot/sdk/guides/writing-plugins.md): Build plugins that add tools, observe execution, and modify agent behavior.
 - [Model Providers](https://docs.cline.bot/sdk/model-providers.md): Configure provider credentials, model IDs, and the LLM gateway.
-- [Cline SDK](https://docs.cline.bot/sdk/overview.md): TypeScript packages for embedding Cline agents, tools, providers, and sessions.
+- [Cline SDK](https://docs.cline.bot/sdk/overview.md): TypeScript packages for embedding Cline's agent runtime in your own applications.
 - [Plugin Examples](https://docs.cline.bot/sdk/plugin-examples.md): Explore ready-to-run plugin examples from the Cline SDK repository.
 - [Installing Plugins](https://docs.cline.bot/sdk/plugin-install.md): Install plugins from npm, git, or local sources using the CLI or programmatically.
 - [Plugins Overview](https://docs.cline.bot/sdk/plugins.md): Learn what plugins are, their benefits, and how they extend agent behavior.
@@ -2781,7 +2782,6 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Gateway](https://docs.cline.bot/sdk/reference/gateway.md): API reference for the LLM provider gateway in @cline/llms.
 - [Tools API](https://docs.cline.bot/sdk/reference/tools-api.md): API reference for creating and configuring tools.
 - [Types](https://docs.cline.bot/sdk/reference/types.md): Common SDK type surfaces.
-- [Agent vs ClineCore](https://docs.cline.bot/sdk/runtime.md): Choose between the stateless AgentRuntime loop and the full ClineCore runtime.
 - [Tools](https://docs.cline.bot/sdk/tools.md): Tools let agents read, write, search, call APIs, and run domain-specific actions.
 - [Tools](https://docs.cline.bot/tools-reference/all-cline-tools.md): Reference for Cline's built-in tool system, aligned with SDK tool architecture.
 - [Networking and Proxies](https://docs.cline.bot/troubleshooting/networking-and-proxies.md): Configure Cline to work behind firewalls and proxies
