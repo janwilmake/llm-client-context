@@ -82,6 +82,7 @@
 - [Debug your configuration](https://code.claude.com/docs/en/debug-your-config.md): Diagnose why CLAUDE.md, settings, hooks, MCP servers, or skills aren't taking effect. Use /context, /doctor, /hooks, and /mcp to see what actually loaded.
 - [Launch sessions from links](https://code.claude.com/docs/en/deep-links.md): Open a Claude Code terminal session from a URL. Embed `claude-cli://` links in runbooks, alerts, and dashboards so a click opens Claude Code in the right repo with the right prompt.
 - [Use Claude Code Desktop](https://code.claude.com/docs/en/desktop.md): Get more out of Claude Code Desktop: parallel sessions with Git isolation, drag-and-drop pane layout, integrated terminal and file editor, side chats, computer use, Dispatch sessions from your phone, visual diff review, app previews, PR monitoring, connectors, and enterprise configuration.
+- [Desktop changelog](https://code.claude.com/docs/en/desktop-changelog.md): Release notes for Claude Code on Desktop, covering new features, improvements, and bug fixes by Desktop app version.
 - [Get started with the desktop app](https://code.claude.com/docs/en/desktop-quickstart.md): Install Claude Code on desktop and start your first coding session
 - [Schedule recurring tasks in Claude Code Desktop](https://code.claude.com/docs/en/desktop-scheduled-tasks.md): Set up scheduled tasks in Claude Code Desktop to run Claude automatically on a recurring basis for daily code reviews, dependency audits, or morning briefings.
 - [Development containers](https://code.claude.com/docs/en/devcontainer.md): Run Claude Code inside a dev container for consistent, isolated environments across your team.
@@ -2381,6 +2382,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Custom Prompts](https://developers.openai.com/codex/custom-prompts.md): Deprecated. Use skills for reusable prompts
 
 ## Codex — Enterprise
+- [Access tokens](https://developers.openai.com/codex/enterprise/access-tokens.md): Create and manage Codex access tokens for programmatic workflows
 - [Admin Setup](https://developers.openai.com/codex/enterprise/admin-setup.md): Set up Codex for your ChatGPT Enterprise workspace
 - [Governance](https://developers.openai.com/codex/enterprise/governance.md): Governance guidance for managing Codex in your organization
 - [Managed configuration](https://developers.openai.com/codex/enterprise/managed-configuration.md): Configure managed Codex requirements and defaults
@@ -2450,7 +2452,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Quickstart](https://developers.openai.com/codex/quickstart.md): Start using Codex in your IDE, CLI, or the cloud
 
 ## Codex — Remote Connections
-- [Remote connections](https://developers.openai.com/codex/remote-connections.md): Use Codex with projects on remote machines over SSH
+- [Remote connections](https://developers.openai.com/codex/remote-connections.md): Connect your phone or another device to a Codex host, or use projects on remote machines over SSH
 
 ## Codex — Rules
 - [Rules](https://developers.openai.com/codex/rules.md): Control which commands Codex can run outside the sandbox
@@ -2574,6 +2576,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Custom Prompts](https://developers.openai.com/codex/custom-prompts.md): Deprecated. Use skills for reusable prompts
 
 ## Enterprise
+- [Access tokens](https://developers.openai.com/codex/enterprise/access-tokens.md): Create and manage Codex access tokens for programmatic workflows
 - [Admin Setup](https://developers.openai.com/codex/enterprise/admin-setup.md): Set up Codex for your ChatGPT Enterprise workspace
 - [Governance](https://developers.openai.com/codex/enterprise/governance.md): Governance guidance for managing Codex in your organization
 - [Managed configuration](https://developers.openai.com/codex/enterprise/managed-configuration.md): Configure managed Codex requirements and defaults
@@ -2643,7 +2646,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Quickstart](https://developers.openai.com/codex/quickstart.md): Start using Codex in your IDE, CLI, or the cloud
 
 ## Remote Connections
-- [Remote connections](https://developers.openai.com/codex/remote-connections.md): Use Codex with projects on remote machines over SSH
+- [Remote connections](https://developers.openai.com/codex/remote-connections.md): Connect your phone or another device to a Codex host, or use projects on remote machines over SSH
 
 ## Rules
 - [Rules](https://developers.openai.com/codex/rules.md): Control which commands Codex can run outside the sandbox
