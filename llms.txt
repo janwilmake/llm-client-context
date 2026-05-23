@@ -1829,6 +1829,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 ## SDK
 
 - https://cursor.com/docs/sdk/typescript.md
+- https://cursor.com/docs/sdk/python.md
 
 ## cli
 
@@ -2929,8 +2930,8 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Writing Plugins](https://docs.cline.bot/sdk/guides/writing-plugins.md): Build plugins that add tools, observe execution, and modify agent behavior.
 - [Model Providers](https://docs.cline.bot/sdk/model-providers.md): Configure provider credentials, model IDs, and the LLM gateway.
 - [Cline SDK](https://docs.cline.bot/sdk/overview.md): TypeScript packages for embedding Cline's agent runtime in your own applications.
-- [Plugin Examples](https://docs.cline.bot/sdk/plugin-examples.md): Explore ready-to-run plugin examples from the Cline SDK repository.
-- [Installing Plugins](https://docs.cline.bot/sdk/plugin-install.md): Install plugins from npm, git, or local sources using the CLI or programmatically.
+- [Plugin Examples](https://docs.cline.bot/sdk/plugin-examples.md): Explore installable plugin examples from the Cline SDK repository.
+- [Installing Plugins](https://docs.cline.bot/sdk/plugin-install.md): Install plugins from file URLs, npm, git, or local sources using the CLI or programmatically.
 - [Plugins Overview](https://docs.cline.bot/sdk/plugins.md): Learn what plugins are, their benefits, and how they extend agent behavior.
 - [Agent](https://docs.cline.bot/sdk/reference/agent.md): API reference for Agent / AgentRuntime from @cline/agents.
 - [ClineCore](https://docs.cline.bot/sdk/reference/cline-core.md): API reference for ClineCore from @cline/core.
