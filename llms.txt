@@ -3048,7 +3048,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [C#, .NET, and CPP](https://docs.windsurf.com/windsurf/csharp-cpp.md): Setup guide for C#, .NET Core, .NET Framework (Mono), and C++ development in Windsurf using open-source tooling like OmniSharp, clangd, and LLDB.
 - [DeepWiki](https://docs.windsurf.com/windsurf/deepwiki.md): Get AI-powered explanations of code symbols with DeepWiki. Hover over functions, variables, and classes to understand unfamiliar code in your codebase.
 - [Devin in Windsurf](https://docs.windsurf.com/windsurf/devin.md): Delegate work to Devin, an autonomous cloud agent, directly from Windsurf — and review its PRs without leaving your editor.
-- [Devin Local Agent](https://docs.windsurf.com/windsurf/devin-local.md): Use the same agent harness as Devin for Terminal directly inside Windsurf.
+- [Devin Local Agent](https://docs.windsurf.com/windsurf/devin-local.md): Use the same agent harness as Devin CLI directly inside Windsurf.
 - [Enterprise Policies](https://docs.windsurf.com/windsurf/enterprise-policies.md): Manage Windsurf settings centrally with enterprise policies. Configure extension allowlists, update modes, and other settings on Windows, macOS, and Linux using group policies, configuration profiles, and JSON policy files.
 - [Welcome to Windsurf](https://docs.windsurf.com/windsurf/getting-started.md): Download and install Windsurf IDE for Mac, Windows, or Linux. Import VS Code or Cursor settings, configure themes, and start coding with AI-powered assistance.
 - [Guide for Admins](https://docs.windsurf.com/windsurf/guide-for-admins.md): Enterprise admin guide for deploying Windsurf at scale. Configure SSO, SCIM, RBAC, analytics, and team management for large organizations.
