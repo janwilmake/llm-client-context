@@ -30,7 +30,7 @@
 - [Give Claude custom tools](https://code.claude.com/docs/en/agent-sdk/custom-tools.md): Define custom tools with the Claude Agent SDK's in-process MCP server so Claude can call your functions, hit your APIs, and perform domain-specific operations.
 - [Rewind file changes with checkpointing](https://code.claude.com/docs/en/agent-sdk/file-checkpointing.md): Track file changes during agent sessions and restore files to any previous state
 - [Intercept and control agent behavior with hooks](https://code.claude.com/docs/en/agent-sdk/hooks.md): Intercept and customize agent behavior at key execution points with hooks
-- [Hosting the Agent SDK](https://code.claude.com/docs/en/agent-sdk/hosting.md): Deploy and host Claude Agent SDK in production environments
+- [Hosting the Agent SDK](https://code.claude.com/docs/en/agent-sdk/hosting.md): Deploy the Agent SDK in production: subprocess architecture, session persistence, scaling, observability, and multi-tenant isolation for Docker, Kubernetes, and sandbox providers.
 - [Connect to external tools with MCP](https://code.claude.com/docs/en/agent-sdk/mcp.md): Configure MCP servers to extend your agent with external tools. Covers transport types, tool search for large tool sets, authentication, and error handling.
 - [Migrate to Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/migration-guide.md): Guide for migrating the Claude Code TypeScript and Python SDKs to the Claude Agent SDK
 - [Modifying system prompts](https://code.claude.com/docs/en/agent-sdk/modifying-system-prompts.md): Choose between the `claude_code` preset and a custom system prompt, and customize behavior with CLAUDE.md, output styles, append, or a fully custom prompt.
@@ -284,8 +284,8 @@ The full documentation is available in the following languages on https://platfo
 - [Access GitHub](https://platform.claude.com/docs/en/managed-agents/github.md) - Accessing GitHub
 - [Attach and download files](https://platform.claude.com/docs/en/managed-agents/files.md) - Adding files
 - [Authenticate with vaults](https://platform.claude.com/docs/en/managed-agents/vaults.md)
-- [Cloud container reference](https://platform.claude.com/docs/en/managed-agents/cloud-containers.md)
 - [Cloud environment setup](https://platform.claude.com/docs/en/managed-agents/environments.md)
+- [Cloud sandbox reference](https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference.md)
 - [Define outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes.md)
 - [Agent setup](https://platform.claude.com/docs/en/managed-agents/agent-setup.md) - Define your agent
 - [Dreams](https://platform.claude.com/docs/en/managed-agents/dreams.md)
@@ -1850,6 +1850,16 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/cli/reference/permissions.md
   - https://cursor.com/docs/cli/reference/configuration.md
 
+## cursor-review
+
+- https://cursor.com/docs/cursor-review/overview.md
+- https://cursor.com/docs/cursor-review/pr-inbox.md
+- https://cursor.com/docs/cursor-review/pr-page.md
+- https://cursor.com/docs/cursor-review/merge-queue.md
+- https://cursor.com/docs/cursor-review/cli/authentication.md
+- https://cursor.com/docs/cursor-review/cli/stacking.md
+- https://cursor.com/docs/cursor-review/cli/parameters.md
+
 ## Account
 
 - https://cursor.com/docs/account/teams/setup.md
@@ -2544,6 +2554,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Governance](https://developers.openai.com/codex/enterprise/governance.md): Governance guidance for managing Codex in your organization
 - [Managed configuration](https://developers.openai.com/codex/enterprise/managed-configuration.md): Configure managed Codex requirements and defaults
 
+## Codex — Environment Variables
+- [Environment variables](https://developers.openai.com/codex/environment-variables.md): Environment variables supported by Codex
+
 ## Codex — Feature Maturity
 - [Feature Maturity](https://developers.openai.com/codex/feature-maturity.md): How to interpret feature maturity levels in Codex docs and releases
 
@@ -2745,6 +2758,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Admin Setup](https://developers.openai.com/codex/enterprise/admin-setup.md): Set up Codex for your ChatGPT Enterprise workspace
 - [Governance](https://developers.openai.com/codex/enterprise/governance.md): Governance guidance for managing Codex in your organization
 - [Managed configuration](https://developers.openai.com/codex/enterprise/managed-configuration.md): Configure managed Codex requirements and defaults
+
+## Environment Variables
+- [Environment variables](https://developers.openai.com/codex/environment-variables.md): Environment variables supported by Codex
 
 ## Feature Maturity
 - [Feature Maturity](https://developers.openai.com/codex/feature-maturity.md): How to interpret feature maturity levels in Codex docs and releases
