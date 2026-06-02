@@ -100,7 +100,7 @@
 - [Claude Code on Google Vertex AI](https://code.claude.com/docs/en/google-vertex-ai.md): Learn about configuring Claude Code through Google Vertex AI, including setup, IAM configuration, and troubleshooting.
 - [Run Claude Code programmatically](https://code.claude.com/docs/en/headless.md): Use the Agent SDK to run Claude Code programmatically from the CLI, Python, or TypeScript.
 - [Hooks reference](https://code.claude.com/docs/en/hooks.md): Reference for Claude Code hook events, configuration schema, JSON input/output formats, exit codes, async hooks, HTTP hooks, prompt hooks, and MCP tool hooks.
-- [Automate workflows with hooks](https://code.claude.com/docs/en/hooks-guide.md): Run shell commands automatically when Claude Code edits files, finishes tasks, or needs input. Format code, send notifications, validate commands, and enforce project rules.
+- [Automate actions with hooks](https://code.claude.com/docs/en/hooks-guide.md): Run shell commands automatically when Claude Code edits files, finishes tasks, or needs input. Format code, send notifications, validate commands, and enforce project rules.
 - [How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works.md): Understand the agentic loop, built-in tools, and how Claude Code interacts with your project.
 - [Interactive mode](https://code.claude.com/docs/en/interactive-mode.md): Complete reference for keyboard shortcuts, input modes, and interactive features in Claude Code sessions.
 - [JetBrains IDEs](https://code.claude.com/docs/en/jetbrains.md): Use Claude Code with JetBrains IDEs including IntelliJ, PyCharm, WebStorm, and more
@@ -110,6 +110,7 @@
 - [LLM gateway configuration](https://code.claude.com/docs/en/llm-gateway.md): Learn how to configure Claude Code to work with LLM gateway solutions. Covers gateway requirements, authentication configuration, model selection, and provider-specific endpoint setup.
 - [Control MCP server access for your organization](https://code.claude.com/docs/en/managed-mcp.md): Restrict which MCP servers users can add or connect to with managed configuration files, allowlists, and denylists.
 - [Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp.md): Learn how to connect Claude Code to your tools with the Model Context Protocol.
+- [Connect to MCP servers](https://code.claude.com/docs/en/mcp-quickstart.md): Add an MCP server to Claude Code, verify the connection, and find the configuration on disk.
 - [How Claude remembers your project](https://code.claude.com/docs/en/memory.md): Give Claude persistent instructions with CLAUDE.md files, and let Claude accumulate learnings automatically with auto memory.
 - [Claude Code on Microsoft Foundry](https://code.claude.com/docs/en/microsoft-foundry.md): Learn about configuring Claude Code through Microsoft Foundry, including setup, configuration, and troubleshooting.
 - [Model configuration](https://code.claude.com/docs/en/model-config.md): Learn about the Claude Code model configuration, including model aliases like `opusplan`
@@ -185,7 +186,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 1543 pages - /docs - Content included below
+- English (en) - 1557 pages - /docs - Content included below
 - German (Deutsch) (de) - 132 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 132 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 132 pages - /docs/fr - Visit website for content
@@ -214,6 +215,7 @@ The full documentation is available in the following languages on https://platfo
 - [Overview](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview.md) - Tool use with Claude
 - [Adaptive thinking](https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking.md)
 - [Advisor tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool.md)
+- [Architecture and components](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/concepts.md)
 - [Bash tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool.md)
 - [Batch processing](https://platform.claude.com/docs/en/build-with-claude/batch-processing.md)
 - [Build an orchestration mode](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example.md)
@@ -295,9 +297,11 @@ The full documentation is available in the following languages on https://platfo
 - [Multiagent sessions](https://platform.claude.com/docs/en/managed-agents/multi-agent.md)
 - [Permission policies](https://platform.claude.com/docs/en/managed-agents/permission-policies.md)
 - [Prototype in Console](https://platform.claude.com/docs/en/managed-agents/onboarding.md)
+- [Managed Agents reference](https://platform.claude.com/docs/en/managed-agents/reference.md) - Reference
 - [Security model](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security.md)
 - [Integration guide](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md) - Self-hosted sandboxes
 - [Session event stream](https://platform.claude.com/docs/en/managed-agents/events-and-streaming.md)
+- [Session operations](https://platform.claude.com/docs/en/managed-agents/session-operations.md)
 - [Agent Skills](https://platform.claude.com/docs/en/managed-agents/skills.md) - Skills
 - [Start a session](https://platform.claude.com/docs/en/managed-agents/sessions.md)
 - [Subscribe to webhooks](https://platform.claude.com/docs/en/managed-agents/webhooks.md)
@@ -312,6 +316,10 @@ The full documentation is available in the following languages on https://platfo
 - [Claude Code Analytics API](https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api.md)
 - [Overview](https://platform.claude.com/docs/en/manage-claude/compliance-api.md) - Compliance API
 - [FAQ](https://platform.claude.com/docs/en/manage-claude/compliance-faq.md) - Compliance API FAQ
+- [AWS KMS](https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms.md) - Configure AWS KMS for CMEK
+- [Azure Key Vault](https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault.md) - Configure Azure Key Vault for CMEK
+- [Google Cloud KMS](https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms.md) - Configure Google Cloud KMS for CMEK
+- [Overview](https://platform.claude.com/docs/en/manage-claude/cmek.md) - Customer-managed encryption keys
 - [Data residency](https://platform.claude.com/docs/en/manage-claude/data-residency.md)
 - [Design your integration](https://platform.claude.com/docs/en/manage-claude/compliance-integration-patterns.md) - Design your compliance integration
 - [Get access](https://platform.claude.com/docs/en/manage-claude/compliance-api-access.md) - Get access to the Compliance API
@@ -636,6 +644,7 @@ The full documentation is available in the following languages on https://platfo
 - [Create Environment (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/environments/create.md)
 - [Create Environment (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/environments/create.md)
 - [Create Environment (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/environments/create.md)
+- [Create External Key](https://platform.claude.com/docs/en/api/admin/external_keys/create.md)
 - [Create Invite](https://platform.claude.com/docs/en/api/admin/invites/create.md)
 - [Create Session (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/create.md)
 - [Create Session (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/sessions/create.md)
@@ -761,6 +770,7 @@ The full documentation is available in the following languages on https://platfo
 - [Delete Environment (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/environments/delete.md)
 - [Delete Environment (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/environments/delete.md)
 - [Delete Environment (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/environments/delete.md)
+- [Delete External Key](https://platform.claude.com/docs/en/api/admin/external_keys/delete.md)
 - [Delete file](https://platform.claude.com/docs/en/api/compliance/apps/chats/files/delete.md)
 - [Delete File (Beta)](https://platform.claude.com/docs/en/api/beta/files/delete.md)
 - [Delete File (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/files/delete.md)
@@ -880,6 +890,7 @@ The full documentation is available in the following languages on https://platfo
 - [Events (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/sessions/threads/events.md)
 - [Events (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/sessions/events.md)
 - [Events (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/sessions/threads/events.md)
+- [External Keys](https://platform.claude.com/docs/en/api/admin/external_keys.md)
 - [Files](https://platform.claude.com/docs/en/api/compliance/apps/chats/files.md)
 - [Files (Beta)](https://platform.claude.com/docs/en/api/beta/files.md)
 - [Files (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/files.md)
@@ -951,6 +962,7 @@ The full documentation is available in the following languages on https://platfo
 - [Get Environment (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/environments/retrieve.md)
 - [Get Environment (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/environments/retrieve.md)
 - [Get Environment (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/environments/retrieve.md)
+- [Get External Key](https://platform.claude.com/docs/en/api/admin/external_keys/retrieve.md)
 - [Get file metadata](https://platform.claude.com/docs/en/api/compliance/apps/chats/files/retrieve.md)
 - [Get File Metadata (Beta)](https://platform.claude.com/docs/en/api/beta/files/retrieve_metadata.md)
 - [Get File Metadata (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/files/retrieve_metadata.md)
@@ -1120,6 +1132,7 @@ The full documentation is available in the following languages on https://platfo
 - [List Events (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/sessions/events/list.md)
 - [List Events (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/sessions/events/list.md)
 - [List Events (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/sessions/events/list.md)
+- [List External Keys](https://platform.claude.com/docs/en/api/admin/external_keys/list.md)
 - [List Files (Beta)](https://platform.claude.com/docs/en/api/beta/files/list.md)
 - [List Files (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/files/list.md)
 - [List Files (Beta) (csharp)](https://platform.claude.com/docs/en/api/csharp/beta/files/list.md)
@@ -1619,6 +1632,7 @@ The full documentation is available in the following languages on https://platfo
 - [Update Environment (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/environments/update.md)
 - [Update Environment (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/environments/update.md)
 - [Update Environment (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/environments/update.md)
+- [Update External Key](https://platform.claude.com/docs/en/api/admin/external_keys/update.md)
 - [Update Session (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/update.md)
 - [Update Session (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/sessions/update.md)
 - [Update Session (Beta) (csharp)](https://platform.claude.com/docs/en/api/csharp/beta/sessions/update.md)
@@ -1705,6 +1719,7 @@ The full documentation is available in the following languages on https://platfo
 - [Validate Credential (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/vaults/credentials/mcp_oauth_validate.md)
 - [Validate Credential (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/vaults/credentials/mcp_oauth_validate.md)
 - [Validate Credential (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/vaults/credentials/mcp_oauth_validate.md)
+- [Validate External Key](https://platform.claude.com/docs/en/api/admin/external_keys/validate.md)
 - [Vaults (Beta)](https://platform.claude.com/docs/en/api/beta/vaults.md)
 - [Vaults (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/vaults.md)
 - [Vaults (Beta) (csharp)](https://platform.claude.com/docs/en/api/csharp/beta/vaults.md)
@@ -2120,6 +2135,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Moderation](https://developers.openai.com/api/docs/guides/moderation.md): Learn how to use OpenAI's moderation endpoint to identify harmful content in text and images.
 - [Node reference](https://developers.openai.com/api/docs/guides/node-reference.md): Explore all available nodes for composing workflows in Agent Builder.
 - [OpenAI CLI](https://developers.openai.com/api/docs/libraries/openai-cli.md): Install and use the generated openai command-line tool for Responses, structured outputs, images, speech, and shell workflows.
+- [OpenAI models in Amazon Bedrock](https://developers.openai.com/api/docs/guides/amazon-bedrock.md): Learn how Amazon Bedrock availability differs from the OpenAI API, including supported capabilities, AWS-managed controls, and pricing considerations.
 - [Optimizing LLM Accuracy](https://developers.openai.com/api/docs/guides/optimizing-llm-accuracy.md): Learn strategies to enhance the accuracy of large language models using techniques like prompt engineering, retrieval-augmented generation, and fine-tuning.
 - [Orchestration and handoffs](https://developers.openai.com/api/docs/guides/agents/orchestration.md): Learn how to orchestrate multiple agents with handoffs and agents-as-tools in the OpenAI Agents SDK.
 - [Overview of OpenAI Crawlers](https://developers.openai.com/api/docs/bots.md)
@@ -2490,6 +2506,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Codex — Agent Approvals Security
 - [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security.md): How to securely operate Codex with sandboxing, approvals, and network controls
 
+## Codex — Amazon Bedrock
+- [Use Codex with Amazon Bedrock](https://developers.openai.com/codex/amazon-bedrock.md): Configure Codex to use OpenAI models available through Amazon Bedrock.
+
 ## Codex — App
 - [Codex app](https://developers.openai.com/codex/app.md): Your Codex command center
 - [Automations](https://developers.openai.com/codex/app/automations.md): Schedule recurring Codex tasks
@@ -2694,6 +2713,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 
 ## Agent Approvals Security
 - [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security.md): How to securely operate Codex with sandboxing, approvals, and network controls
+
+## Amazon Bedrock
+- [Use Codex with Amazon Bedrock](https://developers.openai.com/codex/amazon-bedrock.md): Configure Codex to use OpenAI models available through Amazon Bedrock.
 
 ## App
 - [Codex app](https://developers.openai.com/codex/app.md): Your Codex command center
