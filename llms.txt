@@ -2661,6 +2661,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [FAQ](https://developers.openai.com/codex/security/faq.md): Common questions about Codex Security
 - [Improving the threat model](https://developers.openai.com/codex/security/threat-model.md): Refine the Codex Security context that ranks findings and helps you review faster
 
+## Codex — Sites
+- [Sites](https://developers.openai.com/codex/sites.md): Build and deploy hosted sites from Codex with the Sites plugin
+
 ## Codex — Skills
 - [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
 
@@ -2869,6 +2872,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [FAQ](https://developers.openai.com/codex/security/faq.md): Common questions about Codex Security
 - [Improving the threat model](https://developers.openai.com/codex/security/threat-model.md): Refine the Codex Security context that ranks findings and helps you review faster
 
+## Sites
+- [Sites](https://developers.openai.com/codex/sites.md): Build and deploy hosted sites from Codex with the Sites plugin
+
 ## Skills
 - [Agent Skills](https://developers.openai.com/codex/skills.md): Give Codex new capabilities and expertise
 
@@ -2912,6 +2918,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [GitHub Issue RCA Sample](https://docs.cline.bot/cli/samples/github-issue-rca.md): Automated GitHub issue analysis using Cline CLI to identify root causes.
 - [GitHub PR Review](https://docs.cline.bot/cli/samples/github-pr-review.md): Automatically review Pull Requests with AI using Cline CLI in GitHub Actions.
 - [Model Orchestration](https://docs.cline.bot/cli/samples/model-orchestration.md): Use multiple AI models strategically: optimize costs, reduce bias, and leverage model-specific strengths in your workflows
+- [Supply-Chain Scan Alerts](https://docs.cline.bot/cli/samples/supply-chain-alerts.md): Schedule the Cline CLI to scan your machine for compromised packages with Bumblebee and text you on Telegram when it finds one.
 - [Scheduling](https://docs.cline.bot/cli/scheduling.md): Run agents on cron schedules for recurring automations like daily summaries and code reviews.
 - [Cline Overview](https://docs.cline.bot/cline-overview.md): Your AI-powered coding agent for complex work. Read files, write code, run commands, all with your approval.
 - [Checkpoints](https://docs.cline.bot/core-workflows/checkpoints.md): Roll back code changes while keeping your conversation. Experiment freely.
