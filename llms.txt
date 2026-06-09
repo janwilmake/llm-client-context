@@ -167,7 +167,7 @@
 - [What's new](https://code.claude.com/docs/en/whats-new/index.md): A weekly digest of notable Claude Code features, with code snippets, demos, and context on why they matter.
 - [Orchestrate subagents at scale with dynamic workflows](https://code.claude.com/docs/en/workflows.md): Dynamic workflows orchestrate many subagents from a script Claude writes and you can rerun. Use them for codebase audits, large migrations, and cross-checked research.
 - [Run parallel sessions with worktrees](https://code.claude.com/docs/en/worktrees.md): Isolate parallel Claude Code sessions in separate git worktrees so changes don't collide. Covers the `--worktree` flag, subagent isolation, `.worktreeinclude`, cleanup, and non-git VCS hooks.
-- [Zero data retention](https://code.claude.com/docs/en/zero-data-retention.md): Learn about Zero Data Retention (ZDR) for Claude Code on Claude for Enterprise, including scope, disabled features, and how to request enablement.
+- [Zero data retention](https://code.claude.com/docs/en/zero-data-retention.md): Learn about Zero Data Retention (ZDR) for Claude Code, available to qualified accounts on Claude for Enterprise, including scope, disabled features, and how to request enablement.
 
 
 # Source: https://platform.claude.com/llms.txt
@@ -2098,6 +2098,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Configuring workload identity federation for Google Cloud](https://developers.openai.com/api/docs/guides/workload-identity-federation/google-cloud.md): Configure Google workload identity or GKE as a workload identity federation token provider.
 - [Configuring workload identity federation for Kubernetes](https://developers.openai.com/api/docs/guides/workload-identity-federation/kubernetes.md): Configure Kubernetes as a workload identity federation token provider.
 - [Configuring workload identity federation for Microsoft Azure](https://developers.openai.com/api/docs/guides/workload-identity-federation/microsoft-azure.md): Configure Azure managed identity or AKS as a workload identity federation token provider.
+- [Configuring workload identity federation for SPIFFE](https://developers.openai.com/api/docs/guides/workload-identity-federation/spiffe.md): Configure SPIFFE JWT-SVIDs as workload identity federation subject tokens.
 - [Conversation state](https://developers.openai.com/api/docs/guides/conversation-state.md): Learn how to manage conversation state during a model interaction with the OpenAI API.
 - [Cost optimization](https://developers.openai.com/api/docs/guides/cost-optimization.md): Lower your OpenAI model costs by trying our tools and strategies.
 - [Counting tokens](https://developers.openai.com/api/docs/guides/token-counting.md): Use the Responses API to count input tokens for text, images, files, tools, and more—without estimation or tiktoken.
@@ -2461,6 +2462,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Campaigns](https://developers.openai.com/ads/api-reference/campaigns.md): Create, list, retrieve, update, and change campaign state.
 - [Files](https://developers.openai.com/ads/api-reference/files.md): Upload remote images or binary files and reuse the returned file ID in ad creatives.
 - [Insights](https://developers.openai.com/ads/api-reference/insights.md): Retrieve aggregated insights data across ad account, campaigns, ad groups, and ads.
+
+## Ads — Campaign Targeting
+- [Campaign Targeting](https://developers.openai.com/ads/campaign-targeting.md): Target campaigns by country, region, or DMA.
 
 ## Ads — Conversions Api
 - [Conversions API](https://developers.openai.com/ads/conversions-api.md): Server-to-server conversion events.
