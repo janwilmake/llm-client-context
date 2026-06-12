@@ -187,7 +187,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 1680 pages - /docs - Content included below
+- English (en) - 1697 pages - /docs - Content included below
 - German (Deutsch) (de) - 131 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 131 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 131 pages - /docs/fr - Visit website for content
@@ -314,6 +314,7 @@ The full documentation is available in the following languages on https://platfo
 
 ### Admin
 
+- [Access Transparency](https://platform.claude.com/docs/en/manage-claude/access-transparency.md)
 - [Admin API](https://platform.claude.com/docs/en/manage-claude/admin-api.md)
 - [API and data retention](https://platform.claude.com/docs/en/manage-claude/api-and-data-retention.md)
 - [Overview](https://platform.claude.com/docs/en/manage-claude/authentication.md) - Authentication
@@ -328,7 +329,8 @@ The full documentation is available in the following languages on https://platfo
 - [Design your integration](https://platform.claude.com/docs/en/manage-claude/compliance-integration-patterns.md) - Design your compliance integration
 - [Get access](https://platform.claude.com/docs/en/manage-claude/compliance-api-access.md) - Get access to the Compliance API
 - [Errors](https://platform.claude.com/docs/en/manage-claude/compliance-errors.md) - Handle Compliance API errors
-- [Organizations, users, roles, and groups](https://platform.claude.com/docs/en/manage-claude/compliance-org-data.md) - List organizations, users, roles, and groups
+- [Organizations, users, roles, groups, and settings](https://platform.claude.com/docs/en/manage-claude/compliance-org-data.md) - List organizations, users, roles, groups, and settings
+- [Manage WIF via API](https://platform.claude.com/docs/en/manage-claude/wif-admin-api.md) - Manage WIF with the Admin API
 - [Activity Feed](https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed.md) - Query the Activity Feed
 - [Rate Limits API](https://platform.claude.com/docs/en/manage-claude/rate-limits-api.md)
 - [Chats, files, and projects](https://platform.claude.com/docs/en/manage-claude/compliance-content-data.md) - Retrieve and delete chats, files, and projects
@@ -337,7 +339,7 @@ The full documentation is available in the following languages on https://platfo
 - [GitHub Actions](https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions.md) - Use WIF with GitHub Actions
 - [Google Cloud](https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp.md) - Use WIF with Google Cloud
 - [Kubernetes](https://platform.claude.com/docs/en/manage-claude/wif-providers/kubernetes.md) - Use WIF with Kubernetes
-- [Microsoft Azure](https://platform.claude.com/docs/en/manage-claude/wif-providers/azure.md) - Use WIF with Microsoft Azure
+- [Microsoft Entra ID](https://platform.claude.com/docs/en/manage-claude/wif-providers/azure.md) - Use WIF with Microsoft Entra ID
 - [Okta](https://platform.claude.com/docs/en/manage-claude/wif-providers/okta.md) - Use WIF with Okta
 - [SPIFFE](https://platform.claude.com/docs/en/manage-claude/wif-providers/spiffe.md) - Use WIF with SPIFFE
 - [WIF reference](https://platform.claude.com/docs/en/manage-claude/wif-reference.md)
@@ -464,6 +466,7 @@ The full documentation is available in the following languages on https://platfo
 - [Archive Vault (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/vaults/archive.md)
 - [Archive Workspace](https://platform.claude.com/docs/en/api/admin/workspaces/archive.md)
 - [Artifacts](https://platform.claude.com/docs/en/api/compliance/apps/artifacts.md)
+- [Artifacts](https://platform.claude.com/docs/en/api/compliance/code/artifacts.md)
 - [Attachments](https://platform.claude.com/docs/en/api/compliance/apps/projects/attachments.md)
 - [Batches](https://platform.claude.com/docs/en/api/messages/batches.md)
 - [Batches (Beta)](https://platform.claude.com/docs/en/api/beta/messages/batches.md)
@@ -516,6 +519,8 @@ The full documentation is available in the following languages on https://platfo
 - [Cancel a Message Batch (terraform)](https://platform.claude.com/docs/en/api/terraform/messages/batches/cancel.md)
 - [Cancel a Message Batch (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/batches/cancel.md)
 - [Chats](https://platform.claude.com/docs/en/api/compliance/apps/chats.md)
+- [Code](https://platform.claude.com/docs/en/api/compliance/code.md)
+- [Collaborators](https://platform.claude.com/docs/en/api/compliance/apps/projects/collaborators.md)
 - [Completions](https://platform.claude.com/docs/en/api/completions.md)
 - [Completions (cli)](https://platform.claude.com/docs/en/api/cli/completions.md)
 - [Completions (csharp)](https://platform.claude.com/docs/en/api/csharp/completions.md)
@@ -774,6 +779,7 @@ The full documentation is available in the following languages on https://platfo
 - [Delete a Message Batch (terraform)](https://platform.claude.com/docs/en/api/terraform/messages/batches/delete.md)
 - [Delete a Message Batch (TypeScript)](https://platform.claude.com/docs/en/api/typescript/messages/batches/delete.md)
 - [Delete chat](https://platform.claude.com/docs/en/api/compliance/apps/chats/delete.md)
+- [Delete Code Artifact](https://platform.claude.com/docs/en/api/compliance/code/artifacts/delete.md)
 - [Delete Credential (Beta)](https://platform.claude.com/docs/en/api/beta/vaults/credentials/delete.md)
 - [Delete Credential (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/vaults/credentials/delete.md)
 - [Delete Credential (Beta) (csharp)](https://platform.claude.com/docs/en/api/csharp/beta/vaults/credentials/delete.md)
@@ -883,6 +889,7 @@ The full documentation is available in the following languages on https://platfo
 - [Documents](https://platform.claude.com/docs/en/api/compliance/apps/projects/documents.md)
 - [Download a Claude-generated file](https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files/download.md)
 - [Download artifact content](https://platform.claude.com/docs/en/api/compliance/apps/artifacts/download.md)
+- [Download Code Artifact Version Content](https://platform.claude.com/docs/en/api/compliance/code/artifacts/retrieve_version.md)
 - [Download File (Beta)](https://platform.claude.com/docs/en/api/beta/files/download.md)
 - [Download File (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/files/download.md)
 - [Download File (Beta) (csharp)](https://platform.claude.com/docs/en/api/csharp/beta/files/download.md)
@@ -935,6 +942,8 @@ The full documentation is available in the following languages on https://platfo
 - [Events (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/sessions/events.md)
 - [Events (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/sessions/threads/events.md)
 - [External Keys](https://platform.claude.com/docs/en/api/admin/external_keys.md)
+- [Federation Issuers](https://platform.claude.com/docs/en/api/admin/federation_issuers#admin.federation_issuers.md)
+- [Federation Rules](https://platform.claude.com/docs/en/api/admin/federation_rules#admin.federation_rules.md)
 - [Files](https://platform.claude.com/docs/en/api/compliance/apps/chats/files.md)
 - [Files (Beta)](https://platform.claude.com/docs/en/api/beta/files.md)
 - [Files (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/files.md)
@@ -1016,6 +1025,7 @@ The full documentation is available in the following languages on https://platfo
 - [Get Deployment Run (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/deployment_runs/retrieve.md)
 - [Get Deployment Run (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/deployment_runs/retrieve.md)
 - [Get Deployment Run (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/deployment_runs/retrieve.md)
+- [Get effective organization settings](https://platform.claude.com/docs/en/api/compliance/organizations/settings/retrieve.md)
 - [Get Environment (Beta)](https://platform.claude.com/docs/en/api/beta/environments/retrieve.md)
 - [Get Environment (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/environments/retrieve.md)
 - [Get Environment (Beta) (csharp)](https://platform.claude.com/docs/en/api/csharp/beta/environments/retrieve.md)
@@ -1162,6 +1172,7 @@ The full documentation is available in the following languages on https://platfo
 - [List Agents (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/agents/list.md)
 - [List API Keys](https://platform.claude.com/docs/en/api/admin/api_keys/list.md)
 - [List chats](https://platform.claude.com/docs/en/api/compliance/apps/chats/list.md)
+- [List Code Artifacts](https://platform.claude.com/docs/en/api/compliance/code/artifacts/list.md)
 - [List Compliance Group Members](https://platform.claude.com/docs/en/api/compliance/groups/members/list.md)
 - [List Compliance Groups](https://platform.claude.com/docs/en/api/compliance/groups/list.md)
 - [List Compliance Role Permissions](https://platform.claude.com/docs/en/api/compliance/organizations/roles/permissions/list.md)
@@ -1302,6 +1313,7 @@ The full documentation is available in the following languages on https://platfo
 - [List organization users](https://platform.claude.com/docs/en/api/compliance/organizations/users/list.md)
 - [List organizations](https://platform.claude.com/docs/en/api/compliance/organizations/list.md)
 - [List project attachments](https://platform.claude.com/docs/en/api/compliance/apps/projects/attachments/list.md)
+- [List project collaborators](https://platform.claude.com/docs/en/api/compliance/apps/projects/collaborators/list.md)
 - [List projects](https://platform.claude.com/docs/en/api/compliance/apps/projects/list.md)
 - [List Session Resources (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/resources/list.md)
 - [List Session Resources (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/sessions/resources/list.md)
@@ -1624,6 +1636,8 @@ The full documentation is available in the following languages on https://platfo
 - [Send Events (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/sessions/events/send.md)
 - [Send Events (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/sessions/events/send.md)
 - [Send Events (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/sessions/events/send.md)
+- [Service Accounts](https://platform.claude.com/docs/en/api/admin/workspaces/service_accounts#admin.workspaces.service_accounts.md)
+- [Service Accounts](https://platform.claude.com/docs/en/api/admin/service_accounts#admin.service_accounts.md)
 - [Sessions (Beta)](https://platform.claude.com/docs/en/api/beta/sessions.md)
 - [Sessions (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/sessions.md)
 - [Sessions (Beta) (csharp)](https://platform.claude.com/docs/en/api/csharp/beta/sessions.md)
@@ -1634,6 +1648,7 @@ The full documentation is available in the following languages on https://platfo
 - [Sessions (Beta) (Ruby)](https://platform.claude.com/docs/en/api/ruby/beta/sessions.md)
 - [Sessions (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/sessions.md)
 - [Sessions (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/sessions.md)
+- [Settings](https://platform.claude.com/docs/en/api/compliance/organizations/settings.md)
 - [Skills (Beta)](https://platform.claude.com/docs/en/api/beta/skills.md)
 - [Skills (Beta) (cli)](https://platform.claude.com/docs/en/api/cli/beta/skills.md)
 - [Skills (Beta) (csharp)](https://platform.claude.com/docs/en/api/csharp/beta/skills.md)
@@ -1895,6 +1910,8 @@ The full documentation is available in the following languages on https://platfo
 - [Work (Beta) (terraform)](https://platform.claude.com/docs/en/api/terraform/beta/environments/work.md)
 - [Work (Beta) (TypeScript)](https://platform.claude.com/docs/en/api/typescript/beta/environments/work.md)
 - [Workspaces](https://platform.claude.com/docs/en/api/admin/workspaces.md)
+- [Workspaces](https://platform.claude.com/docs/en/api/admin/service_accounts/workspaces#admin.service_accounts.workspaces.md)
+- [Workspaces](https://platform.claude.com/docs/en/api/admin/federation_rules/workspaces#admin.federation_rules.workspaces.md)
 
 ---
 
@@ -2020,6 +2037,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/enterprise/endpoint-security.md
   - https://cursor.com/docs/enterprise/llm-safety-and-controls.md
   - https://cursor.com/docs/enterprise/model-and-integration-management.md
+  - https://cursor.com/docs/account/enterprise/cyber-safeguards.md
   - https://cursor.com/docs/enterprise/pooled-usage.md
   - https://cursor.com/docs/enterprise/compliance-and-monitoring.md
   - https://cursor.com/docs/enterprise/baa.md
@@ -2168,7 +2186,7 @@ Available languages: cn, ja, zh-Hant, es, fr, pt-BR, ko, ru, tr, id, de, hi
 
 # OpenAI Developers
 
-> Documentation hub for OpenAI API, Ads, Apps SDK, Codex, and Agentic Commerce.
+> Documentation hub for OpenAI API, Ads, Apps SDK, Workspace Agents, Codex, and Agentic Commerce.
 
 Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<slug>.md`).
 
@@ -2179,6 +2197,8 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Ads full docs](https://developers.openai.com/ads/llms-full.txt)
 - [Apps SDK index](https://developers.openai.com/apps-sdk/llms.txt)
 - [Apps SDK full docs](https://developers.openai.com/apps-sdk/llms-full.txt)
+- [Workspace Agents index](https://developers.openai.com/workspace-agents/llms.txt)
+- [Workspace Agents full docs](https://developers.openai.com/workspace-agents/llms-full.txt)
 - [Codex index](https://developers.openai.com/codex/llms.txt)
 - [Codex full docs](https://developers.openai.com/codex/llms-full.txt)
 - [Commerce index](https://developers.openai.com/commerce/llms.txt)
@@ -2644,6 +2664,12 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Apps SDK — Reference
 - [Reference](https://developers.openai.com/apps-sdk/reference.md): API and SDK reference for Apps SDK.
 
+## Workspace Agents — Authentication
+- [Authenticate with Workspace Agent access tokens](https://developers.openai.com/workspace-agents/authentication.md): Provision and use bearer credentials for the Workspace Agents API.
+
+## Workspace Agents — Trigger Runs
+- [Trigger workspace agent runs](https://developers.openai.com/workspace-agents/trigger-runs.md): Kick off ChatGPT workspace agents from backend systems or automations.
+
 ## Codex — Agent Approvals Security
 - [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security.md): How to securely operate Codex with sandboxing, approvals, and network controls
 
@@ -2711,7 +2737,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Custom Prompts](https://developers.openai.com/codex/custom-prompts.md): Deprecated. Use skills for reusable prompts
 
 ## Codex — Enterprise
-- [Access tokens](https://developers.openai.com/codex/enterprise/access-tokens.md): Create and manage Codex access tokens for programmatic workflows
+- [Access tokens](https://developers.openai.com/codex/enterprise/access-tokens.md): Create and manage access tokens for Codex programmatic workflows
 - [Admin Setup](https://developers.openai.com/codex/enterprise/admin-setup.md): Set up Codex for your ChatGPT Enterprise workspace
 - [Governance](https://developers.openai.com/codex/enterprise/governance.md): Governance guidance for managing Codex in your organization
 - [Managed configuration](https://developers.openai.com/codex/enterprise/managed-configuration.md): Configure managed Codex requirements and defaults
@@ -2925,7 +2951,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Custom Prompts](https://developers.openai.com/codex/custom-prompts.md): Deprecated. Use skills for reusable prompts
 
 ## Enterprise
-- [Access tokens](https://developers.openai.com/codex/enterprise/access-tokens.md): Create and manage Codex access tokens for programmatic workflows
+- [Access tokens](https://developers.openai.com/codex/enterprise/access-tokens.md): Create and manage access tokens for Codex programmatic workflows
 - [Admin Setup](https://developers.openai.com/codex/enterprise/admin-setup.md): Set up Codex for your ChatGPT Enterprise workspace
 - [Governance](https://developers.openai.com/codex/enterprise/governance.md): Governance guidance for managing Codex in your organization
 - [Managed configuration](https://developers.openai.com/codex/enterprise/managed-configuration.md): Configure managed Codex requirements and defaults
