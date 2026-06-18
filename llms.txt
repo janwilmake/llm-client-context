@@ -2023,6 +2023,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent.md
 - https://cursor.com/docs/cloud-agent/setup.md
 - https://cursor.com/docs/cloud-agent/capabilities.md
+- https://cursor.com/docs/cloud-agent/choose-runtime.md
 - https://cursor.com/docs/cloud-agent/my-machines.md
 - https://cursor.com/docs/cloud-agent/self-hosted-pool.md
 - https://cursor.com/docs/cloud-agent/self-hosted-cloud-run.md
@@ -2043,6 +2044,8 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/integrations/linear.md
 - https://cursor.com/docs/integrations/github.md
 - https://cursor.com/docs/integrations/gitlab.md
+- https://cursor.com/docs/integrations/azure-devops.md
+- https://cursor.com/docs/integrations/bitbucket.md
 - https://cursor.com/docs/integrations/jetbrains.md
 - https://cursor.com/docs/integrations/xcode.md
 - https://cursor.com/docs/reference/deeplinks.md
@@ -2675,6 +2678,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 
 ## Ads — Measurement Pixel
 - [JavaScript Pixel](https://developers.openai.com/ads/measurement-pixel.md): Send conversion events from web pages.
+
+## Ads — Product Feeds
+- [Product feeds](https://developers.openai.com/ads/product-feeds.md): Use a merchant catalog to create and measure product-feed ads.
 
 ## Ads — Supported Events
 - [Supported events](https://developers.openai.com/ads/supported-events.md): Supported conversion events & data shapes.
