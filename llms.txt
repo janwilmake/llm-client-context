@@ -60,6 +60,7 @@
 - [Run agents in parallel](https://code.claude.com/docs/en/agents.md): Compare the ways Claude Code can take on multiple tasks at once: subagents, agent view, agent teams, and dynamic workflows.
 - [Claude Code on Amazon Bedrock](https://code.claude.com/docs/en/amazon-bedrock.md): Learn about configuring Claude Code through Amazon Bedrock, including setup, IAM configuration, and troubleshooting.
 - [Track team usage with analytics](https://code.claude.com/docs/en/analytics.md): View Claude Code usage metrics, track adoption, and measure engineering velocity in the analytics dashboard.
+- [Share session output as artifacts](https://code.claude.com/docs/en/artifacts.md): Artifacts turn Claude Code's work into live, interactive pages at a private URL you can share inside your organization.
 - [Authentication](https://code.claude.com/docs/en/authentication.md): Log in to Claude Code and configure authentication for individuals, teams, and organizations.
 - [Configure auto mode](https://code.claude.com/docs/en/auto-mode-config.md): Tell the auto mode classifier which repos, buckets, and domains your organization trusts. Set environment context, override the default block and allow rules, and inspect your effective config with the auto-mode CLI subcommands.
 - [Best practices for Claude Code](https://code.claude.com/docs/en/best-practices.md): Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.
@@ -166,7 +167,7 @@
 - [Week 21 · May 18–22, 2026](https://code.claude.com/docs/en/whats-new/2026-w21.md): Use auto mode on the Pro plan and with Sonnet 4.6, see which skills, subagents, and MCP servers drive your plan limits in /usage, and review diffs with the new /code-review command.
 - [Week 22 · May 25–29, 2026](https://code.claude.com/docs/en/whats-new/2026-w22.md): Run Claude Code on Claude Opus 4.8, orchestrate large tasks with dynamic workflows, catch security issues with the security-guidance plugin, and use fast mode on Opus 4.8 at a lower price.
 - [Week 23 · June 1–5, 2026](https://code.claude.com/docs/en/whats-new/2026-w23.md): Run auto mode on Bedrock, Vertex, and Foundry, prompt before writing files that can run code in acceptEdits mode, list installed plugins with /plugin list, and require an approved version range for managed deployments.
-- [Week 24 · June 8–12, 2026](https://code.claude.com/docs/en/whats-new/2026-w24.md): Move a session to a new directory with /cd, let sub-agents spawn their own sub-agents, and troubleshoot a broken configuration with safe mode.
+- [Week 24 · June 8–12, 2026](https://code.claude.com/docs/en/whats-new/2026-w24.md): Move a session to a new directory with /cd, let subagents spawn their own subagents, and troubleshoot a broken configuration with safe mode.
 - [What's new](https://code.claude.com/docs/en/whats-new/index.md): A weekly digest of notable Claude Code features, with code snippets, demos, and context on why they matter.
 - [Orchestrate subagents at scale with dynamic workflows](https://code.claude.com/docs/en/workflows.md): Dynamic workflows orchestrate many subagents from a script Claude writes and you can rerun. Use them for codebase audits, large migrations, and cross-checked research.
 - [Run parallel sessions with worktrees](https://code.claude.com/docs/en/worktrees.md): Isolate parallel Claude Code sessions in separate git worktrees so changes don't collide. Covers the `--worktree` flag, subagent isolation, `.worktreeinclude`, cleanup, and non-git VCS hooks.
@@ -189,7 +190,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 1751 pages - /docs - Content included below
+- English (en) - 1752 pages - /docs - Content included below
 - German (Deutsch) (de) - 133 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 133 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 133 pages - /docs/fr - Visit website for content
@@ -327,6 +328,7 @@ The full documentation is available in the following languages on https://platfo
 - [AWS KMS](https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms.md) - Configure AWS KMS for CMEK
 - [Azure Key Vault](https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault.md) - Configure Azure Key Vault for CMEK
 - [Google Cloud KMS](https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms.md) - Configure Google Cloud KMS for CMEK
+- [Create an Admin API key](https://platform.claude.com/docs/en/manage-claude/admin-api-keys.md)
 - [Overview](https://platform.claude.com/docs/en/manage-claude/cmek.md) - Customer-managed encryption keys
 - [Data residency](https://platform.claude.com/docs/en/manage-claude/data-residency.md)
 - [Design your integration](https://platform.claude.com/docs/en/manage-claude/compliance-integration-patterns.md) - Design your compliance integration
@@ -2880,6 +2882,9 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Codex — Quickstart
 - [Quickstart](https://developers.openai.com/codex/quickstart.md): Start using Codex in your IDE, CLI, or the cloud
 
+## Codex — Record And Replay
+- [Record & Replay](https://developers.openai.com/codex/record-and-replay.md): Show Codex a workflow once and turn it into a reusable skill
+
 ## Codex — Remote Connections
 - [Remote connections](https://developers.openai.com/codex/remote-connections.md): Connect your phone or another device to a Codex host, or use projects on remote machines over SSH
 
@@ -2891,10 +2896,17 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 
 ## Codex — Security
 - [Codex Security](https://developers.openai.com/codex/security.md): Find and remediate vulnerabilities with the Codex Security plugin or Codex Security cloud.
-- [Codex Security plugin](https://developers.openai.com/codex/security/plugin.md): Install the Codex Security plugin to scan code, confirm findings, and prepare reviewed fixes from Codex.
+- [Codex Security plugin changelog](https://developers.openai.com/codex/security/plugin/changelog.md): Notable user-facing changes to the Codex Security plugin.
+- [Codex Security plugin quickstart](https://developers.openai.com/codex/security/plugin.md): Install the Codex Security plugin, run your first read-only scan, and review the result in Codex.
 - [Codex Security setup](https://developers.openai.com/codex/security/setup.md): Set up Codex Security, wait for initial findings, and improve results with threat model edits
+- [Export and track security findings](https://developers.openai.com/codex/security/plugin/export-findings.md): Create portable findings artifacts or prepare approval-gated issues and draft advisories from a completed scan.
 - [FAQ](https://developers.openai.com/codex/security/faq.md): Common questions about Codex Security
+- [Fix and verify security findings](https://developers.openai.com/codex/security/plugin/fix-findings.md): Turn accepted findings into minimal patches with focused regression evidence.
 - [Improving the threat model](https://developers.openai.com/codex/security/threat-model.md): Refine the Codex Security context that ranks findings and helps you review faster
+- [Review code changes for security](https://developers.openai.com/codex/security/plugin/code-changes.md): Review pull requests and local changes for security regressions manually or in CI/CD.
+- [Run a Codex Security scan](https://developers.openai.com/codex/security/plugin/scans.md): Scan an authorized repository or one scoped folder and review findings, coverage, and artifacts.
+- [Run a deep security scan](https://developers.openai.com/codex/security/plugin/deep-scans.md): Run a slower, more thorough review of a repository or scoped folder.
+- [Triage a backlog](https://developers.openai.com/codex/security/plugin/triage-backlog.md): Review existing security findings against a repository and order follow-up work.
 
 ## Codex — Sites
 - [Sites](https://developers.openai.com/codex/sites.md): Build and deploy hosted sites from Codex with the Sites plugin
@@ -3094,6 +3106,9 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 ## Quickstart
 - [Quickstart](https://developers.openai.com/codex/quickstart.md): Start using Codex in your IDE, CLI, or the cloud
 
+## Record And Replay
+- [Record & Replay](https://developers.openai.com/codex/record-and-replay.md): Show Codex a workflow once and turn it into a reusable skill
+
 ## Remote Connections
 - [Remote connections](https://developers.openai.com/codex/remote-connections.md): Connect your phone or another device to a Codex host, or use projects on remote machines over SSH
 
@@ -3105,10 +3120,17 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 
 ## Security
 - [Codex Security](https://developers.openai.com/codex/security.md): Find and remediate vulnerabilities with the Codex Security plugin or Codex Security cloud.
-- [Codex Security plugin](https://developers.openai.com/codex/security/plugin.md): Install the Codex Security plugin to scan code, confirm findings, and prepare reviewed fixes from Codex.
+- [Codex Security plugin changelog](https://developers.openai.com/codex/security/plugin/changelog.md): Notable user-facing changes to the Codex Security plugin.
+- [Codex Security plugin quickstart](https://developers.openai.com/codex/security/plugin.md): Install the Codex Security plugin, run your first read-only scan, and review the result in Codex.
 - [Codex Security setup](https://developers.openai.com/codex/security/setup.md): Set up Codex Security, wait for initial findings, and improve results with threat model edits
+- [Export and track security findings](https://developers.openai.com/codex/security/plugin/export-findings.md): Create portable findings artifacts or prepare approval-gated issues and draft advisories from a completed scan.
 - [FAQ](https://developers.openai.com/codex/security/faq.md): Common questions about Codex Security
+- [Fix and verify security findings](https://developers.openai.com/codex/security/plugin/fix-findings.md): Turn accepted findings into minimal patches with focused regression evidence.
 - [Improving the threat model](https://developers.openai.com/codex/security/threat-model.md): Refine the Codex Security context that ranks findings and helps you review faster
+- [Review code changes for security](https://developers.openai.com/codex/security/plugin/code-changes.md): Review pull requests and local changes for security regressions manually or in CI/CD.
+- [Run a Codex Security scan](https://developers.openai.com/codex/security/plugin/scans.md): Scan an authorized repository or one scoped folder and review findings, coverage, and artifacts.
+- [Run a deep security scan](https://developers.openai.com/codex/security/plugin/deep-scans.md): Run a slower, more thorough review of a repository or scoped folder.
+- [Triage a backlog](https://developers.openai.com/codex/security/plugin/triage-backlog.md): Review existing security findings against a repository and order follow-up work.
 
 ## Sites
 - [Sites](https://developers.openai.com/codex/sites.md): Build and deploy hosted sites from Codex with the Sites plugin
