@@ -126,6 +126,7 @@
 - [Constrain plugin dependency versions](https://code.claude.com/docs/en/plugin-dependencies.md): Declare version constraints on plugin dependencies so your plugin keeps working when an upstream plugin ships a breaking change.
 - [Recommend your plugin from your CLI](https://code.claude.com/docs/en/plugin-hints.md): Emit a one-line marker from your CLI so Claude Code prompts users to install your official plugin.
 - [Create and distribute a plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces.md): Build and host plugin marketplaces to distribute Claude Code extensions across teams and communities.
+- [Recommend plugins for your org](https://code.claude.com/docs/en/plugin-relevance.md): Add a relevance block to marketplace plugin entries so Claude Code suggests them when a user's work matches.
 - [Create plugins](https://code.claude.com/docs/en/plugins.md): Create custom plugins to extend Claude Code with skills, agents, hooks, and MCP servers.
 - [Plugins reference](https://code.claude.com/docs/en/plugins-reference.md): Complete technical reference for Claude Code plugin system, including schemas, CLI commands, and component specifications.
 - [How Claude Code uses prompt caching](https://code.claude.com/docs/en/prompt-caching.md): Claude Code manages prompt caching automatically. See why a model switch triggers a slow uncached turn, what `/compact` costs, why CLAUDE.md edits don't apply mid-session, and how to check your cache hit rate.
@@ -223,7 +224,6 @@ The full documentation is available in the following languages on https://platfo
 - [Bash tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool.md)
 - [Batch processing](https://platform.claude.com/docs/en/build-with-claude/batch-processing.md)
 - [Build an orchestration mode](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example.md)
-- [Extended thinking](https://platform.claude.com/docs/en/build-with-claude/extended-thinking.md) - Building with extended thinking
 - [Cache diagnostics (beta)](https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics.md) - Cache diagnostics
 - [Citations](https://platform.claude.com/docs/en/build-with-claude/citations.md)
 - [Amazon Bedrock](https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock.md) - Claude in Amazon Bedrock
@@ -241,6 +241,7 @@ The full documentation is available in the following languages on https://platfo
 - [Deploy with Helm](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/deploy-helm.md) - Deploy MCP tunnels with Helm
 - [Effort](https://platform.claude.com/docs/en/build-with-claude/effort.md)
 - [Embeddings](https://platform.claude.com/docs/en/build-with-claude/embeddings.md)
+- [Extended thinking](https://platform.claude.com/docs/en/build-with-claude/extended-thinking.md)
 - [Fallback credit](https://platform.claude.com/docs/en/build-with-claude/fallback-credit.md)
 - [Fast mode (research preview)](https://platform.claude.com/docs/en/build-with-claude/fast-mode.md)
 - [Files API](https://platform.claude.com/docs/en/build-with-claude/files.md)
@@ -2004,12 +2005,14 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/agent/plan-mode.md
 - https://cursor.com/docs/agent/prompting.md
 - https://cursor.com/docs/agent/debug-mode.md
+- https://cursor.com/docs/agent/design-mode.md
 - https://cursor.com/docs/agent/tools/terminal.md
   - https://cursor.com/docs/agent/tools/browser.md
   - https://cursor.com/docs/agent/tools/search.md
   - https://cursor.com/docs/agent/tools/canvas.md
   - https://cursor.com/docs/configuration/worktrees.md
 - https://cursor.com/docs/agent/security.md
+  - https://cursor.com/docs/agent/security/run-modes.md
 
 ## customizing
 
@@ -2071,16 +2074,6 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/cli/reference/authentication.md
   - https://cursor.com/docs/cli/reference/permissions.md
   - https://cursor.com/docs/cli/reference/configuration.md
-
-## cursor-review
-
-- https://cursor.com/docs/cursor-review/overview.md
-- https://cursor.com/docs/cursor-review/pr-inbox.md
-- https://cursor.com/docs/cursor-review/pr-page.md
-- https://cursor.com/docs/cursor-review/merge-queue.md
-- https://cursor.com/docs/cursor-review/cli/authentication.md
-- https://cursor.com/docs/cursor-review/cli/stacking.md
-- https://cursor.com/docs/cursor-review/cli/parameters.md
 
 ## Account
 
