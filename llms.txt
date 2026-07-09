@@ -2131,7 +2131,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/gemini-3-5-flash.md
   - https://cursor.com/docs/models/gpt-5-5.md
   - https://cursor.com/docs/models/gpt-5-3-codex.md
-  - https://cursor.com/docs/models/grok-build-0-1.md
+  - https://cursor.com/docs/models/grok-4-5.md
   - https://cursor.com/docs/models/cursor-composer-2-5.md
 - https://cursor.comhttps://cursor.com/changelog.md
 
@@ -2320,6 +2320,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 ## Models and usage
 
 - https://cursor.com/help/models-and-usage/available-models.md
+- https://cursor.com/help/models-and-usage/grok-4-5.md
 - https://cursor.com/help/models-and-usage/api-keys.md
 - https://cursor.com/help/models-and-usage/usage-limits.md
 - https://cursor.com/help/models-and-usage/token-rate.md
@@ -2502,6 +2503,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Predicted Outputs](https://developers.openai.com/api/docs/guides/predicted-outputs.md): Understand how to reduce latency for model responses where much of the response is known ahead of time.
 - [Pricing](https://developers.openai.com/api/docs/pricing.md): Pricing information for the OpenAI platform.
 - [Priority processing](https://developers.openai.com/api/docs/guides/priority-processing.md): Get faster processing in the API while retaining flexible pay-as-you-go pricing.
+- [Private Link](https://developers.openai.com/api/docs/guides/private-link.md): Configure Azure Private Link endpoints, DNS, health checks, and cross-region routing for the OpenAI API.
 - [Production best practices](https://developers.openai.com/api/docs/guides/production-best-practices.md): Explore best practices for transitioning your AI projects from prototype to production, including scaling, security, and cost management.
 - [Production notes on GPT Actions](https://developers.openai.com/api/docs/actions/production.md): Guidelines for deploying GPT Actions in a production environment, including rate limits, timeouts, and security measures.
 - [Prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching.md): Learn how prompt caching reduces latency and cost for long prompts in OpenAI's API.
@@ -3379,7 +3381,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Other 30+ Providers](https://docs.cline.bot/provider-config/other-30-plus-providers.md): Reference list for additional supported providers with shared configuration flow.
 - [Alibaba Qwen](https://docs.cline.bot/provider-config/qwen.md): Learn how to configure and use Alibaba Cloud's Qwen provider with Cline.
 - [Z AI (Zhipu AI)](https://docs.cline.bot/provider-config/zai.md): Learn how to configure and use Z AI's GLM models with Cline. Experience advanced hybrid reasoning, agentic capabilities, and open-source excellence with regional optimization.
-- [Local models](https://docs.cline.bot/running-models-locally/overview.md): Run Cline with local models using Ollama or LM Studio.
+- [Local models](https://docs.cline.bot/running-models-locally/overview.md): Run Cline with local models using Ollama, LM Studio or Atomic Chat.
 - [Hub-Spoke Architecture](https://docs.cline.bot/sdk/architecture/hub-spoke.md): A local daemon coordinates sessions across clients, while spoke workers handle agent execution.
 - [Packages](https://docs.cline.bot/sdk/architecture/overview.md): How SDK packages fit together, what each package exports, and where boundaries are enforced.
 - [ClineCore](https://docs.cline.bot/sdk/clinecore.md): The full Cline harness: built-in tools, sessions, approvals, scheduling, and hub support.
