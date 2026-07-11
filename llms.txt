@@ -2289,6 +2289,8 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/ai-features/agentic-coding.md
 - https://cursor.com/help/ai-features/ai-pair-programming.md
 - https://cursor.com/help/ai-features/multi-agent.md
+- https://cursor.com/help/ai-features/side-chats.md
+- https://cursor.com/help/ai-features/conversation-search.md
 - https://cursor.com/help/ai-features/vibe-coding.md
 - https://cursor.com/help/ai-features/plan-mode.md
 - https://cursor.com/help/ai-features/ask-mode.md
@@ -2495,7 +2497,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Model selection](https://developers.openai.com/api/docs/guides/model-selection.md): Learn how to choose the right model by balancing accuracy, latency, and cost for optimal performance.
 - [Models and providers](https://developers.openai.com/api/docs/guides/agents/models.md): Learn how to choose models, set defaults, and think about providers and transport in the OpenAI Agents SDK.
 - [Moderation](https://developers.openai.com/api/docs/guides/moderation.md): Learn how to identify harmful content in text and images with OpenAI moderation models.
-- [Multi-agent](https://developers.openai.com/api/docs/guides/tools-multi-agent.md): Enable Responses API Multi-agent, handle client-side HTTP and WebSocket flows, and read Multi-agent output items.
+- [Multi-agent](https://developers.openai.com/api/docs/guides/responses-multi-agent.md): Enable Responses API Multi-agent, handle client-side HTTP and WebSocket flows, and read Multi-agent output items.
 - [Node reference](https://developers.openai.com/api/docs/guides/node-reference.md): Explore all available nodes for composing workflows in Agent Builder.
 - [OpenAI CLI](https://developers.openai.com/api/docs/libraries/openai-cli.md): Install and use the generated openai command-line tool for Responses, structured outputs, images, speech, and shell workflows.
 - [OpenAI models in Amazon Bedrock](https://developers.openai.com/api/docs/guides/amazon-bedrock.md): Learn how Amazon Bedrock availability differs from the OpenAI API, including supported capabilities, AWS-managed controls, and pricing considerations.
@@ -2853,8 +2855,8 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Ads — Supported Events
 - [Supported events](https://developers.openai.com/ads/supported-events.md): Supported conversion events & data shapes.
 
-## Apps SDK — App Submission Guidelines
-- [App submission guidelines](https://developers.openai.com/apps-sdk/app-submission-guidelines.md): Guidelines for submitting ChatGPT apps for publishing.
+## Apps SDK — App Guidelines
+- [App guidelines](https://developers.openai.com/apps-sdk/app-guidelines.md): Requirements for ChatGPT apps included in published plugins.
 
 ## Apps SDK — Build
 - [Authentication](https://developers.openai.com/apps-sdk/build/auth.md): Authentication patterns for Apps SDK apps.
@@ -2873,7 +2875,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Apps SDK — Deploy
 - [Deploy your app](https://developers.openai.com/apps-sdk/deploy.md): Learn how to deploy your MCP server
 - [Connect from ChatGPT](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt.md): Connect your app to ChatGPT clients.
-- [Submit and maintain an app in a plugin](https://developers.openai.com/apps-sdk/deploy/submission.md): Prepare an MCP-backed app for public review as part of a plugin.
+- [Prepare and maintain an app for plugin submission](https://developers.openai.com/apps-sdk/deploy/submission.md): Prepare an MCP-backed app for public review as part of a plugin.
 - [Test your integration](https://developers.openai.com/apps-sdk/deploy/testing.md): Testing strategies for Apps SDK apps.
 - [Troubleshooting](https://developers.openai.com/apps-sdk/deploy/troubleshooting.md): Troubleshoot issues in Apps SDK apps.
 
@@ -3107,7 +3109,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Plugins](https://developers.openai.com/codex/plugins.md): Browse, install, and use plugins in ChatGPT and Codex clients
 
 ## Codex — Pricing
-- [Codex Pricing](https://developers.openai.com/codex/pricing.md): Codex is included in your ChatGPT Free, Go, Plus, Pro, Business, Edu, or Enterprise plan
+- [Pricing](https://developers.openai.com/codex/pricing.md): ChatGPT Work and Codex are included in your ChatGPT Free, Go, Plus, Pro, Business, Edu, or Enterprise plan
 
 ## Codex — Projects
 - [Projects, chats, and tasks](https://developers.openai.com/codex/projects.md): Keep related chats, tasks, files, and sources together in ChatGPT
@@ -3421,7 +3423,7 @@ Use this as a compact map of Codex docs. Each page has a Markdown twin at `/code
 - [Plugins](https://developers.openai.com/codex/plugins.md): Browse, install, and use plugins in ChatGPT and Codex clients
 
 ## Pricing
-- [Codex Pricing](https://developers.openai.com/codex/pricing.md): Codex is included in your ChatGPT Free, Go, Plus, Pro, Business, Edu, or Enterprise plan
+- [Pricing](https://developers.openai.com/codex/pricing.md): ChatGPT Work and Codex are included in your ChatGPT Free, Go, Plus, Pro, Business, Edu, or Enterprise plan
 
 ## Projects
 - [Projects, chats, and tasks](https://developers.openai.com/codex/projects.md): Keep related chats, tasks, files, and sources together in ChatGPT
