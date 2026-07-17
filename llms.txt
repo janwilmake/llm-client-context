@@ -86,6 +86,7 @@
 - [Communications kit](https://code.claude.com/docs/en/communications-kit.md): Launch announcements, drip-campaign messages, and FAQ responses for rolling Claude Code out to your engineering organization.
 - [Let Claude use your computer from the CLI](https://code.claude.com/docs/en/computer-use.md): Enable computer use in the Claude Code CLI so Claude can open apps, click, type, and see your screen on macOS. Test native apps, debug visual issues, and automate GUI-only tools without leaving your terminal.
 - [Explore the context window](https://code.claude.com/docs/en/context-window.md): An interactive simulation of how Claude Code's context window fills during a session. See what loads automatically, what each file read costs, and when rules and hooks fire.
+- [Run Claude Code behind a corporate launcher](https://code.claude.com/docs/en/corporate-launcher.md): Route the processes Claude Code starts from its own binary, including the background service and every agent view session, through a required launcher with CLAUDE_CODE_PROCESS_WRAPPER or the processWrapper setting.
 - [Manage costs effectively](https://code.claude.com/docs/en/costs.md): Track token usage, set team spend limits, and reduce Claude Code costs with context management, model selection, extended thinking settings, and preprocessing hooks.
 - [Data usage](https://code.claude.com/docs/en/data-usage.md): Learn about Anthropic's data usage policies for Claude
 - [Debug your configuration](https://code.claude.com/docs/en/debug-your-config.md): Diagnose why CLAUDE.md, settings, hooks, MCP servers, or skills aren't taking effect. Use /context, /doctor, /hooks, and /mcp to see what actually loaded.
@@ -208,7 +209,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 1893 pages - /docs - Content included below
+- English (en) - 1894 pages - /docs - Content included below
 - German (Deutsch) (de) - 137 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 137 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 137 pages - /docs/fr - Visit website for content
@@ -264,6 +265,7 @@ The full documentation is available in the following languages on https://platfo
 - [Fast mode (research preview)](https://platform.claude.com/docs/en/build-with-claude/fast-mode.md)
 - [Files API](https://platform.claude.com/docs/en/build-with-claude/files.md)
 - [Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md)
+- [Streaming refusals](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals.md) - Handle streaming refusals
 - [Handle tool calls](https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls.md)
 - [How tool use works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works.md)
 - [Manage tool context](https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context.md)
@@ -286,7 +288,6 @@ The full documentation is available in the following languages on https://platfo
 - [Skills for enterprise](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise.md)
 - [Stop reasons and fallback](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md)
 - [Streaming Messages](https://platform.claude.com/docs/en/build-with-claude/streaming.md) - Streaming messages
-- [Streaming refusals](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals.md)
 - [Strict tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use.md)
 - [Structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs.md)
 - [Task budgets (beta)](https://platform.claude.com/docs/en/build-with-claude/task-budgets.md) - Task budgets
@@ -319,6 +320,7 @@ The full documentation is available in the following languages on https://platfo
 - [Agent setup](https://platform.claude.com/docs/en/managed-agents/agent-setup.md) - Define your agent
 - [Dreams](https://platform.claude.com/docs/en/managed-agents/dreams.md)
 - [MCP connector](https://platform.claude.com/docs/en/managed-agents/mcp-connector.md)
+- [Migration](https://platform.claude.com/docs/en/managed-agents/migration.md)
 - [Multiagent orchestration](https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration.md)
 - [Permission policies](https://platform.claude.com/docs/en/managed-agents/permission-policies.md)
 - [Prototype in Console](https://platform.claude.com/docs/en/managed-agents/onboarding.md)
@@ -2986,7 +2988,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 
 ## Codex — Cloud
 - [Codex cloud](https://developers.openai.com/codex/cloud.md): Delegate work to Codex in isolated cloud environments.
-- [Agent internet access](https://developers.openai.com/codex/cloud/internet-access.md): Control internet access for Codex cloud tasks
+- [Agent internet access](https://developers.openai.com/codex/cloud/internet-access.md): Control internet access for Codex cloud chats
 
 ## Codex — Code Review
 - [Code review](https://developers.openai.com/codex/code-review.md): Review code changes across ChatGPT and Codex clients
@@ -3016,7 +3018,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Codex — Customization
 - [Chronicle](https://developers.openai.com/codex/customization/chronicle.md): Build Codex memories from recent screen context.
 - [Customization](https://developers.openai.com/codex/customization/overview.md): How to customize Codex with project guidance, skills, MCP, and subagents
-- [Memories](https://developers.openai.com/codex/customization/memories.md): How ChatGPT and Codex carry useful context forward across chats and tasks
+- [Memories](https://developers.openai.com/codex/customization/memories.md): How ChatGPT and Codex carry useful context forward across chats
 
 ## Codex — Cyber Safety
 - [Cyber Safety](https://developers.openai.com/codex/cyber-safety.md): Cybersecurity safeguards and trusted access for Codex users
@@ -3029,7 +3031,6 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Admin rollout guide](https://developers.openai.com/codex/enterprise/admin-setup.md): Plan, configure, and verify a ChatGPT Enterprise rollout across workspace and developer surfaces
 - [Analytics API](https://developers.openai.com/codex/enterprise/analytics-api.md): Understand the purpose and administration boundary of the Codex Analytics API
 - [ChatGPT usage limits and spend controls](https://developers.openai.com/codex/enterprise/usage-limits.md): Understand when ChatGPT workspace credit controls can affect plan-dependent Codex usage
-- [ChatGPT Work Admin FAQ](https://developers.openai.com/codex/enterprise/work-admin-faq.md): Manage access, data, governance, observability, usage, and incident controls for ChatGPT Work
 - [Compliance API and audit events](https://developers.openai.com/codex/enterprise/compliance-api.md): Understand the purpose and administration boundary of the Compliance API
 - [Deploy the Windows app](https://developers.openai.com/codex/enterprise/windows-deployment.md): Choose an enterprise installation and update path for the ChatGPT desktop app on Windows
 - [Governance](https://developers.openai.com/codex/enterprise/governance.md): Choose the appropriate analytics, usage, and audit surface for each administration question
@@ -3038,14 +3039,15 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Plugin controls](https://developers.openai.com/codex/enterprise/apps-and-connectors.md): Understand plugin availability, connector-backed capabilities, actions, and connected-system access
 - [Roles and workspace permissions](https://developers.openai.com/codex/enterprise/roles-and-workspace-permissions.md): Separate ChatGPT workspace access from local runtime, API, plugin, and source-system controls
 - [Skill controls](https://developers.openai.com/codex/enterprise/skills.md): Compare ChatGPT workspace, local filesystem, and plugin skill controls
+- [Work mode admin FAQ](https://developers.openai.com/codex/enterprise/work-admin-faq.md): Manage access, data, governance, observability, usage, and incident controls for Work mode
 - [Workspace analytics](https://developers.openai.com/codex/enterprise/workspace-analytics.md): Compare ChatGPT workspace analytics, Codex analytics, reporting APIs, and audit records
 - [Workspace model availability](https://developers.openai.com/codex/enterprise/workspace-model-availability.md): Separate model access across ChatGPT, Codex in the ChatGPT desktop app, Codex CLI, the IDE extension, Codex cloud, and the OpenAI API Platform
 
 ## Codex — Environments
 - [Cloud environments](https://developers.openai.com/codex/environments/cloud-environment.md): Customize dependencies and tools for Codex
-- [Codex environments](https://developers.openai.com/codex/environments/modes.md): Choose where a Codex task runs and how its files stay isolated
+- [Codex environments](https://developers.openai.com/codex/environments/modes.md): Choose where a Codex chat runs and how its files stay isolated
 - [Local environments](https://developers.openai.com/codex/environments/local-environment.md): Configure common actions and setup scripts for worktrees
-- [Worktrees](https://developers.openai.com/codex/environments/git-worktrees.md): Use Git worktrees in Codex in the ChatGPT desktop app to run tasks in parallel
+- [Worktrees](https://developers.openai.com/codex/environments/git-worktrees.md): Use Git worktrees in Codex in the ChatGPT desktop app to run chats in parallel
 
 ## Codex — Extend
 - [Model Context Protocol](https://developers.openai.com/codex/extend/mcp.md): Give Codex access to third-party tools and context
@@ -3056,10 +3058,10 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 
 ## Codex — Features
 - [Features](https://developers.openai.com/codex/features.md): Explore workflows, capabilities, commands, and settings in ChatGPT
-- [Codex Micro](https://developers.openai.com/codex/features/codex-micro.md): Your command center for Codex tasks.
+- [Codex Micro](https://developers.openai.com/codex/features/codex-micro.md): Your command center for Codex chats.
 
 ## Codex — Get Started With Work
-- [Get started with Work](https://developers.openai.com/codex/get-started-with-work.md): Delegate substantial tasks to ChatGPT Work and get reviewable results.
+- [Get started with Work mode](https://developers.openai.com/codex/get-started-with-work.md): Delegate substantial tasks to ChatGPT in Work mode and get reviewable results.
 
 ## Codex — Github Action
 - [Codex GitHub Action](https://developers.openai.com/codex/github-action.md): Trigger Codex actions from GitHub Events
@@ -3089,7 +3091,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Import from another agent](https://developers.openai.com/codex/import.md): Bring supported setup and recent work from another agent into ChatGPT.
 
 ## Codex — Integrated Terminal
-- [Integrated terminal](https://developers.openai.com/codex/integrated-terminal.md): Run commands and inspect output without leaving your task
+- [Integrated terminal](https://developers.openai.com/codex/integrated-terminal.md): Run commands and inspect output without leaving your chat
 
 ## Codex — Learn
 - [Best practices](https://developers.openai.com/codex/learn/best-practices.md): Getting started with Codex and proven practices for better results
@@ -3101,7 +3103,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Use Codex with the Agents SDK](https://developers.openai.com/codex/mcp-server.md): Invoke Codex as an MCP server to build multi-agent development workflows
 
 ## Codex — Models
-- [Models](https://developers.openai.com/codex/models.md): Meet the AI models that power ChatGPT Work and Codex
+- [Models](https://developers.openai.com/codex/models.md): Meet the AI models that power Work mode and Codex
 
 ## Codex — Non Interactive Mode
 - [Non-interactive mode](https://developers.openai.com/codex/non-interactive-mode.md): Use `codex exec` to run Codex in scripts and CI
@@ -3122,22 +3124,22 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Permissions](https://developers.openai.com/codex/permissions.md): Configure beta Codex permission profiles for filesystem and network access
 
 ## Codex — Personalize
-- [Personalize ChatGPT](https://developers.openai.com/codex/personalize.md): Set preferences and carry useful context across chats and tasks
+- [Personalize ChatGPT](https://developers.openai.com/codex/personalize.md): Set preferences and carry useful context across chats
 
 ## Codex — Pets
-- [Pets](https://developers.openai.com/codex/pets.md): Choose an animated companion and follow task activity across supported interfaces
+- [Pets](https://developers.openai.com/codex/pets.md): Choose an animated companion and follow chat activity across supported interfaces
 
 ## Codex — Plugins
-- [Plugins](https://developers.openai.com/codex/plugins.md): Browse, install, and use plugins in ChatGPT and Codex clients
+- [Plugins](https://developers.openai.com/codex/plugins.md): Browse, install, and use plugins on supported ChatGPT and Codex surfaces
 
 ## Codex — Pricing
-- [Pricing](https://developers.openai.com/codex/pricing.md): ChatGPT Work and Codex are included in your ChatGPT Free, Go, Plus, Pro, Business, Edu, or Enterprise plan
+- [Pricing](https://developers.openai.com/codex/pricing.md): Work mode and Codex are included in your ChatGPT Free, Go, Plus, Pro, Business, Edu, or Enterprise plan
 
 ## Codex — Projects
-- [Projects, chats, and tasks](https://developers.openai.com/codex/projects.md): Keep related chats, tasks, files, and sources together in ChatGPT
+- [Projects and chats](https://developers.openai.com/codex/projects.md): Keep related chats, files, and sources together in ChatGPT
 
 ## Codex — Prompting
-- [Prompting](https://developers.openai.com/codex/prompting.md): Write useful prompts for Chat, ChatGPT Work, and Codex
+- [Prompting](https://developers.openai.com/codex/prompting.md): Write useful prompts for Chat mode, Work mode, and Codex
 
 ## Codex — Quickstart
 - [Quickstart](https://developers.openai.com/codex/quickstart.md): Start using ChatGPT on the web or in the desktop app.
@@ -3183,8 +3185,8 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 
 ## Codex — Third Party
 - [Codex code review in GitHub](https://developers.openai.com/codex/third-party/github.md): Set up Codex code review for GitHub pull requests, request reviews with @codex review, enable automatic reviews, and customize review guidelines.
-- [Use Codex in Linear](https://developers.openai.com/codex/third-party/linear.md): Run Codex tasks from Linear issues
-- [Use Codex in Slack](https://developers.openai.com/codex/third-party/slack.md): Ask Codex to run tasks from channels and threads
+- [Use Codex in Linear](https://developers.openai.com/codex/third-party/linear.md): Run Codex chats from Linear issues
+- [Use Codex in Slack](https://developers.openai.com/codex/third-party/slack.md): Ask Codex to work from Slack channels and threads
 
 ## Codex — Use Chatgpt
 - [Use ChatGPT](https://developers.openai.com/codex/use-chatgpt.md): Learn how to ask for what you need, add useful context, and refine the result.
@@ -3302,7 +3304,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Cloud
 - [Codex cloud](https://developers.openai.com/codex/cloud.md): Delegate work to Codex in isolated cloud environments.
-- [Agent internet access](https://developers.openai.com/codex/cloud/internet-access.md): Control internet access for Codex cloud tasks
+- [Agent internet access](https://developers.openai.com/codex/cloud/internet-access.md): Control internet access for Codex cloud chats
 
 ## Code Review
 - [Code review](https://developers.openai.com/codex/code-review.md): Review code changes across ChatGPT and Codex clients
@@ -3332,7 +3334,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 ## Customization
 - [Chronicle](https://developers.openai.com/codex/customization/chronicle.md): Build Codex memories from recent screen context.
 - [Customization](https://developers.openai.com/codex/customization/overview.md): How to customize Codex with project guidance, skills, MCP, and subagents
-- [Memories](https://developers.openai.com/codex/customization/memories.md): How ChatGPT and Codex carry useful context forward across chats and tasks
+- [Memories](https://developers.openai.com/codex/customization/memories.md): How ChatGPT and Codex carry useful context forward across chats
 
 ## Cyber Safety
 - [Cyber Safety](https://developers.openai.com/codex/cyber-safety.md): Cybersecurity safeguards and trusted access for Codex users
@@ -3345,7 +3347,6 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Admin rollout guide](https://developers.openai.com/codex/enterprise/admin-setup.md): Plan, configure, and verify a ChatGPT Enterprise rollout across workspace and developer surfaces
 - [Analytics API](https://developers.openai.com/codex/enterprise/analytics-api.md): Understand the purpose and administration boundary of the Codex Analytics API
 - [ChatGPT usage limits and spend controls](https://developers.openai.com/codex/enterprise/usage-limits.md): Understand when ChatGPT workspace credit controls can affect plan-dependent Codex usage
-- [ChatGPT Work Admin FAQ](https://developers.openai.com/codex/enterprise/work-admin-faq.md): Manage access, data, governance, observability, usage, and incident controls for ChatGPT Work
 - [Compliance API and audit events](https://developers.openai.com/codex/enterprise/compliance-api.md): Understand the purpose and administration boundary of the Compliance API
 - [Deploy the Windows app](https://developers.openai.com/codex/enterprise/windows-deployment.md): Choose an enterprise installation and update path for the ChatGPT desktop app on Windows
 - [Governance](https://developers.openai.com/codex/enterprise/governance.md): Choose the appropriate analytics, usage, and audit surface for each administration question
@@ -3354,14 +3355,15 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Plugin controls](https://developers.openai.com/codex/enterprise/apps-and-connectors.md): Understand plugin availability, connector-backed capabilities, actions, and connected-system access
 - [Roles and workspace permissions](https://developers.openai.com/codex/enterprise/roles-and-workspace-permissions.md): Separate ChatGPT workspace access from local runtime, API, plugin, and source-system controls
 - [Skill controls](https://developers.openai.com/codex/enterprise/skills.md): Compare ChatGPT workspace, local filesystem, and plugin skill controls
+- [Work mode admin FAQ](https://developers.openai.com/codex/enterprise/work-admin-faq.md): Manage access, data, governance, observability, usage, and incident controls for Work mode
 - [Workspace analytics](https://developers.openai.com/codex/enterprise/workspace-analytics.md): Compare ChatGPT workspace analytics, Codex analytics, reporting APIs, and audit records
 - [Workspace model availability](https://developers.openai.com/codex/enterprise/workspace-model-availability.md): Separate model access across ChatGPT, Codex in the ChatGPT desktop app, Codex CLI, the IDE extension, Codex cloud, and the OpenAI API Platform
 
 ## Environments
 - [Cloud environments](https://developers.openai.com/codex/environments/cloud-environment.md): Customize dependencies and tools for Codex
-- [Codex environments](https://developers.openai.com/codex/environments/modes.md): Choose where a Codex task runs and how its files stay isolated
+- [Codex environments](https://developers.openai.com/codex/environments/modes.md): Choose where a Codex chat runs and how its files stay isolated
 - [Local environments](https://developers.openai.com/codex/environments/local-environment.md): Configure common actions and setup scripts for worktrees
-- [Worktrees](https://developers.openai.com/codex/environments/git-worktrees.md): Use Git worktrees in Codex in the ChatGPT desktop app to run tasks in parallel
+- [Worktrees](https://developers.openai.com/codex/environments/git-worktrees.md): Use Git worktrees in Codex in the ChatGPT desktop app to run chats in parallel
 
 ## Extend
 - [Model Context Protocol](https://developers.openai.com/codex/extend/mcp.md): Give Codex access to third-party tools and context
@@ -3372,10 +3374,10 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Features
 - [Features](https://developers.openai.com/codex/features.md): Explore workflows, capabilities, commands, and settings in ChatGPT
-- [Codex Micro](https://developers.openai.com/codex/features/codex-micro.md): Your command center for Codex tasks.
+- [Codex Micro](https://developers.openai.com/codex/features/codex-micro.md): Your command center for Codex chats.
 
 ## Get Started With Work
-- [Get started with Work](https://developers.openai.com/codex/get-started-with-work.md): Delegate substantial tasks to ChatGPT Work and get reviewable results.
+- [Get started with Work mode](https://developers.openai.com/codex/get-started-with-work.md): Delegate substantial tasks to ChatGPT in Work mode and get reviewable results.
 
 ## Github Action
 - [Codex GitHub Action](https://developers.openai.com/codex/github-action.md): Trigger Codex actions from GitHub Events
@@ -3405,7 +3407,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Import from another agent](https://developers.openai.com/codex/import.md): Bring supported setup and recent work from another agent into ChatGPT.
 
 ## Integrated Terminal
-- [Integrated terminal](https://developers.openai.com/codex/integrated-terminal.md): Run commands and inspect output without leaving your task
+- [Integrated terminal](https://developers.openai.com/codex/integrated-terminal.md): Run commands and inspect output without leaving your chat
 
 ## Learn
 - [Best practices](https://developers.openai.com/codex/learn/best-practices.md): Getting started with Codex and proven practices for better results
@@ -3417,7 +3419,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Use Codex with the Agents SDK](https://developers.openai.com/codex/mcp-server.md): Invoke Codex as an MCP server to build multi-agent development workflows
 
 ## Models
-- [Models](https://developers.openai.com/codex/models.md): Meet the AI models that power ChatGPT Work and Codex
+- [Models](https://developers.openai.com/codex/models.md): Meet the AI models that power Work mode and Codex
 
 ## Non Interactive Mode
 - [Non-interactive mode](https://developers.openai.com/codex/non-interactive-mode.md): Use `codex exec` to run Codex in scripts and CI
@@ -3438,22 +3440,22 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Permissions](https://developers.openai.com/codex/permissions.md): Configure beta Codex permission profiles for filesystem and network access
 
 ## Personalize
-- [Personalize ChatGPT](https://developers.openai.com/codex/personalize.md): Set preferences and carry useful context across chats and tasks
+- [Personalize ChatGPT](https://developers.openai.com/codex/personalize.md): Set preferences and carry useful context across chats
 
 ## Pets
-- [Pets](https://developers.openai.com/codex/pets.md): Choose an animated companion and follow task activity across supported interfaces
+- [Pets](https://developers.openai.com/codex/pets.md): Choose an animated companion and follow chat activity across supported interfaces
 
 ## Plugins
-- [Plugins](https://developers.openai.com/codex/plugins.md): Browse, install, and use plugins in ChatGPT and Codex clients
+- [Plugins](https://developers.openai.com/codex/plugins.md): Browse, install, and use plugins on supported ChatGPT and Codex surfaces
 
 ## Pricing
-- [Pricing](https://developers.openai.com/codex/pricing.md): ChatGPT Work and Codex are included in your ChatGPT Free, Go, Plus, Pro, Business, Edu, or Enterprise plan
+- [Pricing](https://developers.openai.com/codex/pricing.md): Work mode and Codex are included in your ChatGPT Free, Go, Plus, Pro, Business, Edu, or Enterprise plan
 
 ## Projects
-- [Projects, chats, and tasks](https://developers.openai.com/codex/projects.md): Keep related chats, tasks, files, and sources together in ChatGPT
+- [Projects and chats](https://developers.openai.com/codex/projects.md): Keep related chats, files, and sources together in ChatGPT
 
 ## Prompting
-- [Prompting](https://developers.openai.com/codex/prompting.md): Write useful prompts for Chat, ChatGPT Work, and Codex
+- [Prompting](https://developers.openai.com/codex/prompting.md): Write useful prompts for Chat mode, Work mode, and Codex
 
 ## Quickstart
 - [Quickstart](https://developers.openai.com/codex/quickstart.md): Start using ChatGPT on the web or in the desktop app.
@@ -3499,8 +3501,8 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Third Party
 - [Codex code review in GitHub](https://developers.openai.com/codex/third-party/github.md): Set up Codex code review for GitHub pull requests, request reviews with @codex review, enable automatic reviews, and customize review guidelines.
-- [Use Codex in Linear](https://developers.openai.com/codex/third-party/linear.md): Run Codex tasks from Linear issues
-- [Use Codex in Slack](https://developers.openai.com/codex/third-party/slack.md): Ask Codex to run tasks from channels and threads
+- [Use Codex in Linear](https://developers.openai.com/codex/third-party/linear.md): Run Codex chats from Linear issues
+- [Use Codex in Slack](https://developers.openai.com/codex/third-party/slack.md): Ask Codex to work from Slack channels and threads
 
 ## Use Chatgpt
 - [Use ChatGPT](https://developers.openai.com/codex/use-chatgpt.md): Learn how to ask for what you need, add useful context, and refine the result.
