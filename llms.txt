@@ -129,6 +129,7 @@
 - [Connect to MCP servers](https://code.claude.com/docs/en/mcp-quickstart.md): Add an MCP server to Claude Code, verify the connection, and find the configuration on disk.
 - [How Claude remembers your project](https://code.claude.com/docs/en/memory.md): Give Claude persistent instructions with CLAUDE.md files, and let Claude accumulate learnings automatically with auto memory.
 - [Claude Code on Microsoft Foundry](https://code.claude.com/docs/en/microsoft-foundry.md): Learn about configuring Claude Code through Microsoft Foundry, including setup, configuration, and troubleshooting.
+- [Claude Code on mobile](https://code.claude.com/docs/en/mobile.md): Start, monitor, and steer Claude Code tasks from your phone with the Claude app for iOS and Android.
 - [Model configuration](https://code.claude.com/docs/en/model-config.md): Learn about the Claude Code model configuration, including model aliases like `opusplan`
 - [Monitoring](https://code.claude.com/docs/en/monitoring-usage.md): Learn how to enable and configure OpenTelemetry for Claude Code.
 - [Enterprise network configuration](https://code.claude.com/docs/en/network-config.md): Configure Claude Code for enterprise environments with proxy servers, custom Certificate Authorities (CA), and mutual Transport Layer Security (mTLS) authentication.
@@ -187,6 +188,7 @@
 - [Week 26 · June 22–26, 2026](https://code.claude.com/docs/en/whats-new/2026-w26.md): Authenticate MCP servers from your shell with claude mcp login, get a response to shell mode command output with the ! prefix, and resume a conversation from before /clear with /rewind.
 - [Week 27 · June 29 – July 3, 2026](https://code.claude.com/docs/en/whats-new/2026-w27.md): Claude Sonnet 5 becomes the default model, Claude in Chrome reaches general availability, subagents run in the background by default, Claude Desktop arrives on Linux in beta, and /radio tunes into Claude FM.
 - [Week 28 · July 6–10, 2026](https://code.claude.com/docs/en/whats-new/2026-w28.md): Browse external sites from the Desktop app's built-in browser, run a full setup checkup with /doctor, and pick up auto mode transcript protections and agent view upgrades.
+- [Week 29 · July 13–17, 2026](https://code.claude.com/docs/en/whats-new/2026-w29.md): Pull live data into published artifacts through MCP connectors, and use Claude Code with a screen reader in the new screen reader mode.
 - [What's new](https://code.claude.com/docs/en/whats-new/index.md): A weekly digest of notable Claude Code features, with code snippets, demos, and context on why they matter.
 - [Orchestrate subagents at scale with dynamic workflows](https://code.claude.com/docs/en/workflows.md): Dynamic workflows orchestrate many subagents from a script Claude writes and you can rerun. Use them for codebase audits, large migrations, and cross-checked research.
 - [Run parallel sessions with worktrees](https://code.claude.com/docs/en/worktrees.md): Isolate parallel Claude Code sessions in separate git worktrees so changes don't collide. Covers the `--worktree` flag, subagent isolation, `.worktreeinclude`, cleanup, and non-git VCS hooks.
@@ -2190,14 +2192,10 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent.md
 - https://cursor.com/docs/cloud-agent/setup.md
 - https://cursor.com/docs/cloud-agent/capabilities.md
-- https://cursor.com/docs/cloud-agent/mobile.md
-- https://cursor.com/docs/cloud-agent/choose-runtime.md
-- https://cursor.com/docs/cloud-agent/my-machines.md
-- https://cursor.com/docs/cloud-agent/self-hosted-pool.md
-- https://cursor.com/docs/cloud-agent/self-hosted-cloud-run.md
-- https://cursor.com/docs/bugbot.md
-- https://cursor.com/docs/cloud-agent/automations.md
 - https://cursor.com/docs/cloud-agent/best-practices.md
+- https://cursor.com/docs/cloud-agent/automations.md
+- https://cursor.com/docs/cloud-agent/mobile.md
+- https://cursor.com/docs/bugbot.md
 - https://cursor.com/docs/security-agents.md
 - https://cursor.com/docs/approval-agents.md
 - https://cursor.com/docs/cloud-agent/security-network.md
@@ -2847,15 +2845,19 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Ads — Api Overview
 - [Overview](https://developers.openai.com/ads/api-overview.md): Advertiser API endpoints & usage
 
+## Ads — Api Partner Setup
+- [API partner setup](https://developers.openai.com/ads/api-partner-setup.md): Configure client accounts, conversions, and campaigns with the Ads API.
+
 ## Ads — Api Quickstart
 - [Quickstart](https://developers.openai.com/ads/api-quickstart.md): Launch your first Ads API workflow
 
 ## Ads — Api Reference
-- [Ad Account](https://developers.openai.com/ads/api-reference/ad-account.md): Retrieve metadata for the current ad account.
+- [Ad account](https://developers.openai.com/ads/api-reference/ad-account.md): Update and retrieve account metadata.
 - [Ad Groups](https://developers.openai.com/ads/api-reference/ad-groups.md): Create, list, retrieve, update, and change ad group state.
 - [Ads](https://developers.openai.com/ads/api-reference/ads.md): Create, list, retrieve, update, and change ad state.
 - [Authentication](https://developers.openai.com/ads/api-reference/authentication.md): Setting up bearer token authentication.
 - [Campaigns](https://developers.openai.com/ads/api-reference/campaigns.md): Create, list, retrieve, update, and change campaign state.
+- [Conversion setup](https://developers.openai.com/ads/api-reference/conversion-setup.md): Create pixels, Conversions API keys, and event settings.
 - [Files](https://developers.openai.com/ads/api-reference/files.md): Upload remote images or binary files and reuse the returned file ID in ad creatives.
 - [Insights](https://developers.openai.com/ads/api-reference/insights.md): Retrieve aggregated insights data across ad account, campaigns, ad groups, and ads.
 
@@ -2940,7 +2942,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Subagents](https://developers.openai.com/codex/agent-configuration/subagents.md): Use subagents in ChatGPT and Codex, and configure custom Codex agents
 
 ## Codex — Amazon Bedrock
-- [Use Codex with Amazon Bedrock](https://developers.openai.com/codex/amazon-bedrock.md): Configure Codex to use OpenAI models available through Amazon Bedrock.
+- [Use ChatGPT Work and Codex with Amazon Bedrock](https://developers.openai.com/codex/amazon-bedrock.md): Configure local ChatGPT Work and Codex surfaces to use OpenAI models available through Amazon Bedrock.
 
 ## Codex — App
 - [ChatGPT desktop app](https://developers.openai.com/codex/app.md): Use the ChatGPT desktop app for projects, files, and long-running work.
@@ -3159,17 +3161,19 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 
 ## Codex — Security
 - [Codex Security](https://developers.openai.com/codex/security.md): Find and remediate vulnerabilities with the Codex Security plugin or Codex Security cloud.
+- [Codex Security cloud FAQ](https://developers.openai.com/codex/security/faq.md): Common questions about Codex Security cloud.
 - [Codex Security cloud setup](https://developers.openai.com/codex/security/setup.md): Set up Codex Security cloud, wait for initial findings, and improve results with threat model edits
 - [Codex Security plugin changelog](https://developers.openai.com/codex/security/plugin/changelog.md): Notable user-facing changes to the Codex Security plugin.
 - [Codex Security plugin quickstart](https://developers.openai.com/codex/security/plugin.md): Install the Codex Security plugin, run your first read-only scan, and review the result in Codex.
 - [Export and track security findings](https://developers.openai.com/codex/security/plugin/export-findings.md): Create portable findings artifacts or prepare approval-gated issues and draft advisories from a completed scan.
-- [FAQ](https://developers.openai.com/codex/security/faq.md): Common questions about Codex Security
 - [Fix and verify security findings](https://developers.openai.com/codex/security/plugin/fix-findings.md): Turn accepted findings into minimal patches with focused regression evidence.
 - [Improving the threat model](https://developers.openai.com/codex/security/threat-model.md): Refine the Codex Security context that ranks findings and helps you review faster
+- [Propose security hardening](https://developers.openai.com/codex/security/plugin/security-hardening.md): Develop evidence-backed structural security improvements, compare tradeoffs, and prepare an implementation handoff.
 - [Review code changes for security](https://developers.openai.com/codex/security/plugin/code-changes.md): Review pull requests and local changes for security regressions manually or in CI/CD.
 - [Run a Codex Security scan](https://developers.openai.com/codex/security/plugin/scans.md): Scan an authorized repository or one scoped folder and review findings, coverage, and artifacts.
 - [Run a deep security scan](https://developers.openai.com/codex/security/plugin/deep-scans.md): Run a slower, more thorough review of a repository or scoped folder.
 - [Triage a backlog](https://developers.openai.com/codex/security/plugin/triage-backlog.md): Review existing security findings against a repository and order follow-up work.
+- [Write vulnerability reports](https://developers.openai.com/codex/security/plugin/vulnerability-reports.md): Turn findings, disclosure notes, source, and proof-of-concept material into polished, source-backed vulnerability reports.
 
 ## Codex — Security Administration
 - [Security](https://developers.openai.com/codex/security-administration.md): Manage permissions, security, and safety controls for ChatGPT and Codex developer tools
@@ -3256,7 +3260,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Subagents](https://developers.openai.com/codex/agent-configuration/subagents.md): Use subagents in ChatGPT and Codex, and configure custom Codex agents
 
 ## Amazon Bedrock
-- [Use Codex with Amazon Bedrock](https://developers.openai.com/codex/amazon-bedrock.md): Configure Codex to use OpenAI models available through Amazon Bedrock.
+- [Use ChatGPT Work and Codex with Amazon Bedrock](https://developers.openai.com/codex/amazon-bedrock.md): Configure local ChatGPT Work and Codex surfaces to use OpenAI models available through Amazon Bedrock.
 
 ## App
 - [ChatGPT desktop app](https://developers.openai.com/codex/app.md): Use the ChatGPT desktop app for projects, files, and long-running work.
@@ -3475,17 +3479,19 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Security
 - [Codex Security](https://developers.openai.com/codex/security.md): Find and remediate vulnerabilities with the Codex Security plugin or Codex Security cloud.
+- [Codex Security cloud FAQ](https://developers.openai.com/codex/security/faq.md): Common questions about Codex Security cloud.
 - [Codex Security cloud setup](https://developers.openai.com/codex/security/setup.md): Set up Codex Security cloud, wait for initial findings, and improve results with threat model edits
 - [Codex Security plugin changelog](https://developers.openai.com/codex/security/plugin/changelog.md): Notable user-facing changes to the Codex Security plugin.
 - [Codex Security plugin quickstart](https://developers.openai.com/codex/security/plugin.md): Install the Codex Security plugin, run your first read-only scan, and review the result in Codex.
 - [Export and track security findings](https://developers.openai.com/codex/security/plugin/export-findings.md): Create portable findings artifacts or prepare approval-gated issues and draft advisories from a completed scan.
-- [FAQ](https://developers.openai.com/codex/security/faq.md): Common questions about Codex Security
 - [Fix and verify security findings](https://developers.openai.com/codex/security/plugin/fix-findings.md): Turn accepted findings into minimal patches with focused regression evidence.
 - [Improving the threat model](https://developers.openai.com/codex/security/threat-model.md): Refine the Codex Security context that ranks findings and helps you review faster
+- [Propose security hardening](https://developers.openai.com/codex/security/plugin/security-hardening.md): Develop evidence-backed structural security improvements, compare tradeoffs, and prepare an implementation handoff.
 - [Review code changes for security](https://developers.openai.com/codex/security/plugin/code-changes.md): Review pull requests and local changes for security regressions manually or in CI/CD.
 - [Run a Codex Security scan](https://developers.openai.com/codex/security/plugin/scans.md): Scan an authorized repository or one scoped folder and review findings, coverage, and artifacts.
 - [Run a deep security scan](https://developers.openai.com/codex/security/plugin/deep-scans.md): Run a slower, more thorough review of a repository or scoped folder.
 - [Triage a backlog](https://developers.openai.com/codex/security/plugin/triage-backlog.md): Review existing security findings against a repository and order follow-up work.
+- [Write vulnerability reports](https://developers.openai.com/codex/security/plugin/vulnerability-reports.md): Turn findings, disclosure notes, source, and proof-of-concept material into polished, source-backed vulnerability reports.
 
 ## Security Administration
 - [Security](https://developers.openai.com/codex/security-administration.md): Manage permissions, security, and safety controls for ChatGPT and Codex developer tools
