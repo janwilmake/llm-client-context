@@ -213,18 +213,18 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 548 pages - /docs - Content included below
-- German (Deutsch) (de) - 196 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 196 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 196 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 196 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 196 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 196 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 196 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 196 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 196 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 196 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 196 pages - /docs/id - Visit website for content
+- English (en) - 549 pages - /docs - Content included below
+- German (Deutsch) (de) - 201 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 201 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 201 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 201 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 201 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 201 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 201 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 201 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 201 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 201 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 201 pages - /docs/id - Visit website for content
 
 ---
 
@@ -278,7 +278,7 @@ The full documentation is available in the following languages on https://platfo
 - [Reference](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/reference.md) - MCP tunnels reference
 - [Security](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/security.md) - MCP tunnels security
 - [Memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool.md)
-- [Mid-conversation system messages](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages.md)
+- [Mid-conversation system messages and tool changes](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages.md)
 - [Multilingual support](https://platform.claude.com/docs/en/build-with-claude/multilingual-support.md)
 - [Parallel tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use.md)
 - [PDF support](https://platform.claude.com/docs/en/build-with-claude/pdf-support.md)
@@ -396,6 +396,7 @@ The full documentation is available in the following languages on https://platfo
 - [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices.md)
 - [Prompting Claude Fable 5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5.md)
 - [Prompting Claude Opus 4.8](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8.md)
+- [Prompting Claude Opus 5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5.md)
 - [Prompting Claude Sonnet 5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5.md)
 - [Reduce hallucinations](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations.md)
 - [Reduce prompt leak](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak.md)
@@ -413,7 +414,7 @@ The full documentation is available in the following languages on https://platfo
 - [Model IDs and versioning](https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions.md)
 - [Pricing](https://platform.claude.com/docs/en/about-claude/pricing.md)
 - [System prompts](https://platform.claude.com/docs/en/release-notes/system-prompts.md) - System Prompts
-- [What's new in Claude Opus 4.8](https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8.md)
+- [What's new in Claude Opus 5](https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5.md)
 - [What's new in Claude Sonnet 5](https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5.md)
 
 ### CLI, SDKs, and libraries
@@ -827,7 +828,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/models-and-pricing.md
   - https://cursor.com/docs/cursor-router.md
   - https://cursor.com/docs/models/claude-sonnet-5.md
-  - https://cursor.com/docs/models/claude-opus-4-8.md
+  - https://cursor.com/docs/models/claude-opus-5.md
   - https://cursor.com/docs/models/claude-fable-5.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
   - https://cursor.com/docs/models/gemini-3-6-flash.md
@@ -1094,17 +1095,17 @@ Available languages: cn, ja, zh-Hant, es, fr, pt-BR, ko, ru, tr, id, de, hi
 
 # OpenAI Developers
 
-> Documentation hub for OpenAI API, Ads, Apps SDK, Workspace Agents, Codex, and Agentic Commerce.
+> Documentation hub for OpenAI API, Ads, Plugins, Workspace Agents, Codex, and Agentic Commerce.
 
-Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<slug>.md`).
+Each section links to Markdown twins under the product path (e.g., `/plugins/<slug>.md`).
 
 ## Documentation sets
 - [OpenAI API index](https://developers.openai.com/api/llms.txt)
 - [OpenAI API full docs](https://developers.openai.com/api/llms-full.txt)
 - [Ads index](https://developers.openai.com/ads/llms.txt)
 - [Ads full docs](https://developers.openai.com/ads/llms-full.txt)
-- [Apps SDK index](https://developers.openai.com/apps-sdk/llms.txt)
-- [Apps SDK full docs](https://developers.openai.com/apps-sdk/llms-full.txt)
+- [Plugins index](https://developers.openai.com/plugins/llms.txt)
+- [Plugins full docs](https://developers.openai.com/plugins/llms-full.txt)
 - [Workspace Agents index](https://developers.openai.com/workspace-agents/llms.txt)
 - [Workspace Agents full docs](https://developers.openai.com/workspace-agents/llms-full.txt)
 - [Codex index](https://developers.openai.com/codex/llms.txt)
@@ -1115,7 +1116,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [API docs full docs](https://developers.openai.com/api/docs/llms-full.txt)
 - [API reference index](https://developers.openai.com/api/reference/llms.txt)
 - [API reference full docs](https://developers.openai.com/api/reference/llms-full.txt)
-- [Apps SDK reference (Markdown)](https://developers.openai.com/apps-sdk/reference.md): Schema and API fields for tools, resources, and components.
+- [Plugin UI reference (Markdown)](https://developers.openai.com/plugins/reference.md): Schema and API fields for tools, resources, and components.
 
 ## OpenAI API — Docs
 - [Actions in ChatKit](https://developers.openai.com/api/docs/guides/chatkit-actions.md): Embed a widget to build your own chat experiences.
@@ -1136,7 +1137,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Audio and speech](https://developers.openai.com/api/docs/guides/audio.md): Learn core audio and speech concepts for building with the OpenAI API.
 - [Background mode](https://developers.openai.com/api/docs/guides/background.md): Run long running tasks asynchronously in the background.
 - [Batch API](https://developers.openai.com/api/docs/guides/batch.md): Learn how to use OpenAI's Batch API for processing jobs with asynchronous requests, increased rate limits, and cost efficiency.
-- [Building MCP servers for ChatGPT Apps and API integrations](https://developers.openai.com/api/docs/mcp.md): Learn how to build MCP servers for use with ChatGPT Apps, deep research, or API integrations.
+- [Building MCP servers for plugins and API integrations](https://developers.openai.com/api/docs/mcp.md): Learn how to build MCP servers for use with plugins, deep research, or API integrations.
 - [ChatGPT Developer mode](https://developers.openai.com/api/docs/guides/developer-mode.md): Full MCP client access for apps and tools.
 - [ChatKit](https://developers.openai.com/api/docs/guides/chatkit.md): Embed a widget to build your own chat experiences.
 - [ChatKit widgets](https://developers.openai.com/api/docs/guides/chatkit-widgets.md): Learn how to design widgets in your chat experience with ChatKit.
@@ -1568,55 +1569,53 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Ads — Supported Events
 - [Supported events](https://developers.openai.com/ads/supported-events.md): Supported conversion events & data shapes.
 
-## Apps SDK — App Guidelines
-- [App guidelines](https://developers.openai.com/apps-sdk/app-guidelines.md): Requirements for ChatGPT apps included in published plugins.
+## Plugins — App Guidelines
+- [Plugin guidelines](https://developers.openai.com/plugins/app-guidelines.md): Requirements for MCP servers and optional UI in published plugins.
 
-## Apps SDK — Build
-- [Authentication](https://developers.openai.com/apps-sdk/build/auth.md): Authentication patterns for Apps SDK apps.
-- [Build your ChatGPT UI](https://developers.openai.com/apps-sdk/build/chatgpt-ui.md): Build custom UI components for your ChatGPT app.
-- [Build your MCP server](https://developers.openai.com/apps-sdk/build/mcp-server.md): Wire tools, templates, and the widget runtime that powers ChatGPT Apps.
-- [Examples](https://developers.openai.com/apps-sdk/build/examples.md): End-to-end Apps SDK examples.
-- [Managing State](https://developers.openai.com/apps-sdk/build/state-management.md): How to manage business data, UI state, and cross-session state in ChatGPT apps using the Apps SDK and an MCP server.
-- [Monetization](https://developers.openai.com/apps-sdk/build/monetization.md): Monetize your ChatGPT app.
+## Plugins — Build
+- [Add UI to your MCP server](https://developers.openai.com/plugins/build/chatgpt-ui.md): Return optional UI resources from selected MCP tools.
+- [Authentication](https://developers.openai.com/plugins/build/auth.md): Authentication patterns for plugin MCP servers.
+- [Build an MCP server](https://developers.openai.com/plugins/build/mcp-server.md): Add live data and controlled tools to your plugin.
+- [Build skills](https://developers.openai.com/plugins/build/skills.md): Add repeatable instructions and resources to your plugin.
+- [Checkout API reference](https://developers.openai.com/plugins/build/monetization.md): Implement checkout from optional plugin UI.
+- [Examples](https://developers.openai.com/plugins/build/examples.md): End-to-end examples of MCP servers with optional UI.
+- [MCP server and UI quickstart](https://developers.openai.com/plugins/build/app-quickstart.md): Build an MCP server for ChatGPT and Codex, with optional UI in ChatGPT.
+- [Package your plugin](https://developers.openai.com/plugins/build/plugins.md): Assemble skills and MCP server dependencies into a distributable plugin.
 
-## Apps SDK — Concepts
-- [MCP](https://developers.openai.com/apps-sdk/concepts/mcp-server.md): Understand how the Model Context Protocol works with Apps SDK.
-- [UI guidelines](https://developers.openai.com/apps-sdk/concepts/ui-guidelines.md): Guidelines for designing beautiful ChatGPT apps.
-- [User Interaction](https://developers.openai.com/apps-sdk/concepts/user-interaction.md): How users find, engage with, activate, and manage app experiences in ChatGPT.
-- [UX principles](https://developers.openai.com/apps-sdk/concepts/ux-principles.md): Principles for building great ChatGPT apps.
+## Plugins — Concepts
+- [MCP server](https://developers.openai.com/plugins/concepts/mcp-server.md): Understand how an MCP server gives a plugin tools and access to external systems.
+- [Plugin architecture](https://developers.openai.com/plugins/concepts/plugins.md): Understand how plugins combine skills, MCP servers, and optional UI.
+- [Skills](https://developers.openai.com/plugins/concepts/skills.md): Understand how skills add repeatable workflows to a plugin.
+- [UI guidelines](https://developers.openai.com/plugins/concepts/ui-guidelines.md): Guidelines for designing optional plugin UI in ChatGPT.
 
-## Apps SDK — Deploy
-- [Deploy your app](https://developers.openai.com/apps-sdk/deploy.md): Learn how to deploy your MCP server
-- [Connect from ChatGPT](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt.md): Connect your app to ChatGPT clients.
-- [Prepare and maintain an app for plugin submission](https://developers.openai.com/apps-sdk/deploy/submission.md): Prepare an MCP-backed app for public review as part of a plugin.
-- [Test your integration](https://developers.openai.com/apps-sdk/deploy/testing.md): Testing strategies for Apps SDK apps.
-- [Troubleshooting](https://developers.openai.com/apps-sdk/deploy/troubleshooting.md): Troubleshoot issues in Apps SDK apps.
+## Plugins — Deploy
+- [Connect and test your plugin](https://developers.openai.com/plugins/deploy/connect-chatgpt.md): Test an optional MCP server, then package and evaluate the complete plugin.
+- [MCP server review requirements](https://developers.openai.com/plugins/deploy/app-review.md): Prepare a plugin's MCP server and optional UI for public review.
+- [Plugin submission errors](https://developers.openai.com/plugins/deploy/submission-errors.md): Find and fix validation errors for plugins submitted to the public directory
+- [Submit plugins](https://developers.openai.com/plugins/deploy/submission.md): Submit, publish, and maintain a plugin through the OpenAI Platform
+- [Troubleshooting](https://developers.openai.com/plugins/deploy/troubleshooting.md): Troubleshoot plugin tools and optional UI.
 
-## Apps SDK — Guides
-- [Optimize Metadata](https://developers.openai.com/apps-sdk/guides/optimize-metadata.md): Improve discovery and behavior with rich metadata.
-- [Product checkout conversion spec](https://developers.openai.com/apps-sdk/guides/product-checkout-conversion-spec.md): Contract for integrating a product checkout app into ChatGPT's conversion flow.
-- [Restaurant reservation conversion spec](https://developers.openai.com/apps-sdk/guides/restaurant-reservation-conversion-spec.md): Contract for integrating a restaurant reservation app into ChatGPT's Reserve flow.
-- [Security & Privacy](https://developers.openai.com/apps-sdk/guides/security-privacy.md): Security and privacy considerations for Apps SDK.
+## Plugins — Guides
+- [Optimize Metadata](https://developers.openai.com/plugins/guides/optimize-metadata.md): Improve discovery and behavior with rich metadata.
+- [Product checkout conversion spec](https://developers.openai.com/plugins/guides/product-checkout-conversion-spec.md): Contract for integrating a product checkout plugin into ChatGPT's conversion flow.
+- [Restaurant reservation conversion spec](https://developers.openai.com/plugins/guides/restaurant-reservation-conversion-spec.md): Contract for integrating a restaurant reservation plugin into ChatGPT's Reserve flow.
+- [Security & Privacy](https://developers.openai.com/plugins/guides/security-privacy.md): Security and privacy considerations for plugins.
 
-## Apps SDK — Mcp Apps In Chatgpt
-- [MCP Apps compatibility in ChatGPT](https://developers.openai.com/apps-sdk/mcp-apps-in-chatgpt.md): Build portable MCP Apps UIs that run in ChatGPT
+## Plugins — Plan
+- [Brainstorm plugin use cases](https://developers.openai.com/plugins/plan/use-case.md): Decide what people should be able to accomplish with your plugin.
+- [Define tools](https://developers.openai.com/plugins/plan/tools.md): Translate plugin use cases into a focused MCP tool surface.
 
-## Apps SDK — Plan
-- [Define tools](https://developers.openai.com/apps-sdk/plan/tools.md): Plan and define tools for your assistant.
-- [Design components](https://developers.openai.com/apps-sdk/plan/components.md): Plan and design UI components that users can interact with.
-- [Research use cases](https://developers.openai.com/apps-sdk/plan/use-case.md): Identify and prioritize Apps SDK use cases.
+## Plugins — Quickstart
+- [Quickstart](https://developers.openai.com/plugins/quickstart.md): Create and test a plugin with a reusable skill.
 
-## Apps SDK — Quickstart
-- [Quickstart](https://developers.openai.com/apps-sdk/quickstart.md): Build and connect your first app to ChatGPT.
-
-## Apps SDK — Reference
-- [Reference](https://developers.openai.com/apps-sdk/reference.md): API and SDK reference for Apps SDK.
+## Plugins — Reference
+- [Reference](https://developers.openai.com/plugins/reference.md): Reference for ChatGPT-specific UI extensions and metadata.
 
 ## Workspace Agents — Authentication
 - [Authenticate with Workspace Agent access tokens](https://developers.openai.com/workspace-agents/authentication.md): Provision and use bearer credentials for the Workspace Agents API.
 
 ## Workspace Agents — Trigger Runs
-- [Trigger workspace agent runs](https://developers.openai.com/workspace-agents/trigger-runs.md): Kick off ChatGPT workspace agents from backend systems or automations.
+- [Trigger workspace agent runs](https://developers.openai.com/workspace-agents/trigger-runs.md): Kick off ChatGPT workspace agents from server-side systems or automations.
 
 ## Codex — Administration
 - [Administration](https://developers.openai.com/codex/administration.md): Set access and policy boundaries for ChatGPT, Codex developer tools, APIs, plugins, and connected systems
@@ -1657,14 +1656,11 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Codex — Browser
 - [Browser](https://developers.openai.com/codex/browser.md): Let ChatGPT research and interact with websites
 
-## Codex — Build App
-- [Build an app](https://developers.openai.com/codex/build-app.md): Build the MCP-backed app portion of a plugin, with optional UI from the Apps SDK
-
 ## Codex — Build Plugins
-- [Build plugins](https://developers.openai.com/codex/build-plugins.md): Create, test, and distribute plugins for ChatGPT
+- [Build plugins](https://developers.openai.com/codex/build-plugins.md): Create and test reusable capabilities for ChatGPT and Codex
 
 ## Codex — Build Skills
-- [Build skills](https://developers.openai.com/codex/build-skills.md): Give Codex new capabilities and expertise
+- [Build skills](https://developers.openai.com/codex/build-skills.md): Give ChatGPT and Codex new capabilities and expertise
 
 ## Codex — Chrome Extension
 - [Chrome extension](https://developers.openai.com/codex/chrome-extension.md): Use Chrome with ChatGPT while managing browser permissions, website approvals, and browsing data
@@ -1742,7 +1738,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 
 ## Codex — Extend
 - [Model Context Protocol](https://developers.openai.com/codex/extend/mcp.md): Give Codex access to third-party tools and context
-- [Record & Replay](https://developers.openai.com/codex/extend/record-and-replay.md): Show Codex a workflow once and turn it into a reusable skill
+- [Record & Replay](https://developers.openai.com/codex/extend/record-and-replay.md): Show ChatGPT or Codex a workflow once and turn it into a reusable skill
 
 ## Codex — Feature Maturity
 - [Feature Maturity](https://developers.openai.com/codex/feature-maturity.md): How to interpret feature maturity levels in ChatGPT releases
@@ -1821,9 +1817,6 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 ## Codex — Pets
 - [Pets](https://developers.openai.com/codex/pets.md): Choose an animated companion and follow chat activity across supported interfaces
 
-## Codex — Plugin Submission Errors
-- [Plugin submission errors](https://developers.openai.com/codex/plugin-submission-errors.md): Find and fix validation errors for plugins submitted to the public directory
-
 ## Codex — Plugins
 - [Plugins](https://developers.openai.com/codex/plugins.md): Browse, install, and use plugins on supported ChatGPT and Codex surfaces
 
@@ -1875,10 +1868,7 @@ Each section links to Markdown twins under the product path (e.g., `/apps-sdk/<s
 - [Sites](https://developers.openai.com/codex/sites.md): Build and share hosted sites in ChatGPT
 
 ## Codex — Skills And Plugins
-- [Skills & Plugins](https://developers.openai.com/codex/skills-and-plugins.md): Add reusable workflows, expertise, and connected tools to ChatGPT
-
-## Codex — Submit Plugins
-- [Submit plugins](https://developers.openai.com/codex/submit-plugins.md): Submit a plugin for review through the OpenAI Platform
+- [Skills & Plugins](https://developers.openai.com/codex/skills-and-plugins.md): Add reusable workflows, expertise, and connected tools to ChatGPT and Codex
 
 ## Codex — Third Party
 - [Codex code review in GitHub](https://developers.openai.com/codex/third-party/github.md): Set up Codex code review for GitHub pull requests, request reviews with @codex review, enable automatic reviews, and write custom review rules in AGENTS.md.
@@ -1979,14 +1969,11 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 ## Browser
 - [Browser](https://developers.openai.com/codex/browser.md): Let ChatGPT research and interact with websites
 
-## Build App
-- [Build an app](https://developers.openai.com/codex/build-app.md): Build the MCP-backed app portion of a plugin, with optional UI from the Apps SDK
-
 ## Build Plugins
-- [Build plugins](https://developers.openai.com/codex/build-plugins.md): Create, test, and distribute plugins for ChatGPT
+- [Build plugins](https://developers.openai.com/codex/build-plugins.md): Create and test reusable capabilities for ChatGPT and Codex
 
 ## Build Skills
-- [Build skills](https://developers.openai.com/codex/build-skills.md): Give Codex new capabilities and expertise
+- [Build skills](https://developers.openai.com/codex/build-skills.md): Give ChatGPT and Codex new capabilities and expertise
 
 ## Chrome Extension
 - [Chrome extension](https://developers.openai.com/codex/chrome-extension.md): Use Chrome with ChatGPT while managing browser permissions, website approvals, and browsing data
@@ -2064,7 +2051,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Extend
 - [Model Context Protocol](https://developers.openai.com/codex/extend/mcp.md): Give Codex access to third-party tools and context
-- [Record & Replay](https://developers.openai.com/codex/extend/record-and-replay.md): Show Codex a workflow once and turn it into a reusable skill
+- [Record & Replay](https://developers.openai.com/codex/extend/record-and-replay.md): Show ChatGPT or Codex a workflow once and turn it into a reusable skill
 
 ## Feature Maturity
 - [Feature Maturity](https://developers.openai.com/codex/feature-maturity.md): How to interpret feature maturity levels in ChatGPT releases
@@ -2143,9 +2130,6 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 ## Pets
 - [Pets](https://developers.openai.com/codex/pets.md): Choose an animated companion and follow chat activity across supported interfaces
 
-## Plugin Submission Errors
-- [Plugin submission errors](https://developers.openai.com/codex/plugin-submission-errors.md): Find and fix validation errors for plugins submitted to the public directory
-
 ## Plugins
 - [Plugins](https://developers.openai.com/codex/plugins.md): Browse, install, and use plugins on supported ChatGPT and Codex surfaces
 
@@ -2197,10 +2181,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Sites](https://developers.openai.com/codex/sites.md): Build and share hosted sites in ChatGPT
 
 ## Skills And Plugins
-- [Skills & Plugins](https://developers.openai.com/codex/skills-and-plugins.md): Add reusable workflows, expertise, and connected tools to ChatGPT
-
-## Submit Plugins
-- [Submit plugins](https://developers.openai.com/codex/submit-plugins.md): Submit a plugin for review through the OpenAI Platform
+- [Skills & Plugins](https://developers.openai.com/codex/skills-and-plugins.md): Add reusable workflows, expertise, and connected tools to ChatGPT and Codex
 
 ## Third Party
 - [Codex code review in GitHub](https://developers.openai.com/codex/third-party/github.md): Set up Codex code review for GitHub pull requests, request reviews with @codex review, enable automatic reviews, and write custom review rules in AGENTS.md.
