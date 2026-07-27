@@ -2244,7 +2244,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Adding Context](https://docs.cline.bot/core-workflows/working-with-files.md): Use @ mentions and drag & drop to bring files into your conversations.
 - [Rules](https://docs.cline.bot/customization/cline-rules.md): Define specific instructions and coding standards for Cline.
 - [.clineignore (deprecate soon)](https://docs.cline.bot/customization/clineignore.md): Control which files and directories Cline can access in your project. This feature will be deprecated soon.
-- [Hooks](https://docs.cline.bot/customization/hooks.md): See details under SDK Hooks page.
+- [Hooks](https://docs.cline.bot/customization/hooks.md): See details under SDK Plugins page.
 - [Plugins](https://docs.cline.bot/customization/plugins.md): Install and manage plugins that extend Cline with custom tools, hooks, and capabilities.
 - [Skills](https://docs.cline.bot/customization/skills.md): Modular instruction sets that extend Cline's capabilities for specific tasks.
 - [Enterprise API Reference](https://docs.cline.bot/enterprise-solutions/api-reference.md): REST API endpoints for managing users, organizations, billing, plans, and API keys.
@@ -2289,7 +2289,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [IAM Credentials](https://docs.cline.bot/provider-config/aws-bedrock/iam-credentials.md): Set up AWS Bedrock with Cline using IAM Access Key and Secret Key credentials. Best for enterprise environments with established IAM policies.
 - [DeepSeek](https://docs.cline.bot/provider-config/deepseek.md): Learn how to configure and use DeepSeek provider.
 - [Google Gemini](https://docs.cline.bot/provider-config/google-gemini.md): Learn how to configure and use Google Gemini with Cline.
-- [MiniMax](https://docs.cline.bot/provider-config/minimax.md): Learn how to configure and use MiniMax provider with Cline..
+- [MiniMax](https://docs.cline.bot/provider-config/minimax.md): Learn how to configure and use MiniMax provider with Cline.
 - [OpenAI (Codex)](https://docs.cline.bot/provider-config/openai.md): Configure OpenAI with API key or OpenAI Codex OAuth in Cline.
 - [OpenAI Compatible](https://docs.cline.bot/provider-config/openai-compatible.md): Learn how to configure Cline with various AI model providers that offer OpenAI-compatible APIs.
 - [OpenRouter](https://docs.cline.bot/provider-config/openrouter.md): Learn how to use OpenRouter with Cline to access a wide variety of language provider through a single API.
