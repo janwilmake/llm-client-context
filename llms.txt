@@ -1095,7 +1095,7 @@ Available languages: cn, ja, zh-Hant, es, fr, pt-BR, ko, ru, tr, id, de, hi
 
 # OpenAI Developers
 
-> Documentation hub for OpenAI API, Ads, Plugins, Workspace Agents, Codex, and Agentic Commerce.
+> Complete documentation hub for OpenAI API, Ads, Plugins, Workspace Agents, Codex, Agentic Commerce, the developer blog, Cookbook, learning resources, and learning tracks.
 
 Each section links to Markdown twins under the product path (e.g., `/plugins/<slug>.md`).
 
@@ -1112,6 +1112,13 @@ Each section links to Markdown twins under the product path (e.g., `/plugins/<sl
 - [Codex full docs](https://developers.openai.com/codex/llms-full.txt)
 - [Commerce index](https://developers.openai.com/commerce/llms.txt)
 - [Commerce full docs](https://developers.openai.com/commerce/llms-full.txt)
+- [Developer blog index](https://developers.openai.com/blog/llms.txt)
+- [Developer blog full posts](https://developers.openai.com/blog/llms-full.txt)
+- [Cookbook index](https://developers.openai.com/cookbook/llms.txt)
+- [Cookbook full docs](https://developers.openai.com/cookbook/llms-full.txt)
+- [Learning resources index](https://developers.openai.com/learn/llms.txt)
+- [Learning resources full docs](https://developers.openai.com/learn/llms-full.txt)
+- [Learning tracks index (Markdown)](https://developers.openai.com/tracks.md)
 - [API docs index](https://developers.openai.com/api/docs/llms.txt)
 - [API docs full docs](https://developers.openai.com/api/docs/llms-full.txt)
 - [API reference index](https://developers.openai.com/api/reference/llms.txt)
@@ -1152,6 +1159,7 @@ Each section links to Markdown twins under the product path (e.g., `/plugins/<sl
 - [Configuring workload identity federation for Google Cloud](https://developers.openai.com/api/docs/guides/workload-identity-federation/google-cloud.md): Configure Google workload identity or GKE as a workload identity federation token provider.
 - [Configuring workload identity federation for Kubernetes](https://developers.openai.com/api/docs/guides/workload-identity-federation/kubernetes.md): Configure Kubernetes as a workload identity federation token provider.
 - [Configuring workload identity federation for Microsoft Azure](https://developers.openai.com/api/docs/guides/workload-identity-federation/microsoft-azure.md): Configure Azure managed identity or AKS as a workload identity federation token provider.
+- [Configuring workload identity federation for Oracle Cloud Infrastructure](https://developers.openai.com/api/docs/guides/workload-identity-federation/oracle-cloud.md): Configure Oracle Cloud Infrastructure instance principals as a workload identity federation token provider.
 - [Configuring workload identity federation for SPIFFE](https://developers.openai.com/api/docs/guides/workload-identity-federation/spiffe.md): Configure SPIFFE JWT-SVIDs as workload identity federation subject tokens.
 - [Conversation state](https://developers.openai.com/api/docs/guides/conversation-state.md): Learn how to manage conversation state during a model interaction with the OpenAI API.
 - [Cost optimization](https://developers.openai.com/api/docs/guides/cost-optimization.md): Lower your OpenAI model costs by trying our tools and strategies.
@@ -1258,7 +1266,6 @@ Each section links to Markdown twins under the product path (e.g., `/plugins/<sl
 - [Theming and customization in ChatKit](https://developers.openai.com/api/docs/guides/chatkit-themes.md): Configure colors, typography, density, and component variants in your ChatKit implementation.
 - [Tool search](https://developers.openai.com/api/docs/guides/tools-tool-search.md): Use tool search to defer large tool surfaces, group related tools with namespaces, and load only the relevant functions at runtime.
 - [Trace grading](https://developers.openai.com/api/docs/guides/trace-grading.md): Use trace grading to create datasets, configure graders, and track evaluation runs for your models.
-- [UI Kit Demo](https://developers.openai.com/api/docs/ui-kit-demo.md): Component demos for the platform docs UI kit.
 - [Under 18 API Guidance](https://developers.openai.com/api/docs/guides/safety-checks/under-18-api-guidance.md)
 - [Upgrading to GPT-5.4](https://developers.openai.com/api/docs/guides/upgrading-to-gpt-5p4.md): Guidance for upgrading OpenAI API model strings and directly related prompts to GPT-5.4.
 - [Upgrading to GPT-5.5](https://developers.openai.com/api/docs/guides/upgrading-to-gpt-5p5.md): Guidance for upgrading OpenAI API model strings and directly related prompts to GPT-5.5.
@@ -1576,7 +1583,7 @@ Each section links to Markdown twins under the product path (e.g., `/plugins/<sl
 - [Add UI to your MCP server](https://developers.openai.com/plugins/build/chatgpt-ui.md): Return optional UI resources from selected MCP tools.
 - [Authentication](https://developers.openai.com/plugins/build/auth.md): Authentication patterns for plugin MCP servers.
 - [Build an MCP server](https://developers.openai.com/plugins/build/mcp-server.md): Add live data and controlled tools to your plugin.
-- [Build skills](https://developers.openai.com/plugins/build/skills.md): Add repeatable instructions and resources to your plugin.
+- [Build skills](https://developers.openai.com/plugins/build/skills.md): Add repeatable workflows around your plugin's MCP tools.
 - [Checkout API reference](https://developers.openai.com/plugins/build/monetization.md): Implement checkout from optional plugin UI.
 - [Examples](https://developers.openai.com/plugins/build/examples.md): End-to-end examples of MCP servers with optional UI.
 - [MCP server and UI quickstart](https://developers.openai.com/plugins/build/app-quickstart.md): Build an MCP server for ChatGPT and Codex, with optional UI in ChatGPT.
@@ -1585,7 +1592,7 @@ Each section links to Markdown twins under the product path (e.g., `/plugins/<sl
 ## Plugins — Concepts
 - [MCP server](https://developers.openai.com/plugins/concepts/mcp-server.md): Understand how an MCP server gives a plugin tools and access to external systems.
 - [Plugin architecture](https://developers.openai.com/plugins/concepts/plugins.md): Understand how plugins combine skills, MCP servers, and optional UI.
-- [Skills](https://developers.openai.com/plugins/concepts/skills.md): Understand how skills add repeatable workflows to a plugin.
+- [Skills](https://developers.openai.com/plugins/concepts/skills.md): Understand how skills add repeatable workflows around MCP tools.
 - [UI guidelines](https://developers.openai.com/plugins/concepts/ui-guidelines.md): Guidelines for designing optional plugin UI in ChatGPT.
 
 ## Plugins — Deploy
@@ -1606,7 +1613,7 @@ Each section links to Markdown twins under the product path (e.g., `/plugins/<sl
 - [Define tools](https://developers.openai.com/plugins/plan/tools.md): Translate plugin use cases into a focused MCP tool surface.
 
 ## Plugins — Quickstart
-- [Quickstart](https://developers.openai.com/plugins/quickstart.md): Create and test a plugin with a reusable skill.
+- [Quickstart](https://developers.openai.com/plugins/quickstart.md): Connect an MCP server and test the resulting plugin in ChatGPT Work.
 
 ## Plugins — Reference
 - [Reference](https://developers.openai.com/plugins/reference.md): Reference for ChatGPT-specific UI extensions and metadata.
@@ -2294,6 +2301,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [OpenAI Compatible](https://docs.cline.bot/provider-config/openai-compatible.md): Learn how to configure Cline with various AI model providers that offer OpenAI-compatible APIs.
 - [OpenRouter](https://docs.cline.bot/provider-config/openrouter.md): Learn how to use OpenRouter with Cline to access a wide variety of language provider through a single API.
 - [Other 30+ Providers](https://docs.cline.bot/provider-config/other-30-plus-providers.md): Reference list for additional supported providers with shared configuration flow.
+- [Poolside](https://docs.cline.bot/provider-config/poolside.md): Learn how to configure and use Poolside models with Cline.
 - [Alibaba Qwen](https://docs.cline.bot/provider-config/qwen.md): Learn how to configure and use Alibaba Cloud's Qwen provider with Cline.
 - [Z AI (Zhipu AI)](https://docs.cline.bot/provider-config/zai.md): Learn how to configure and use Z AI's GLM models with Cline. Experience advanced hybrid reasoning, agentic capabilities, and open-source excellence with regional optimization.
 - [Local models](https://docs.cline.bot/running-models-locally/overview.md): Run Cline with local models using Ollama, LM Studio or Atomic Chat.
