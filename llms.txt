@@ -137,7 +137,7 @@
 - [Test self-hosted environments end to end](https://code.claude.com/docs/en/self-hosted-environments-testing.md): Verify a self-hosted runner image from CI: dispatch a session with the CLI, read Claude's replies through a Stop hook, and script the full loop.
 - [Self-hosted environments reference](https://code.claude.com/docs/en/self-hosted-environments-reference.md): Complete reference for the self-hosted runner and orchestrator: CLI flags, environment variables, and Prometheus metrics.
 - [Verify session identity in self-hosted environments](https://code.claude.com/docs/en/self-hosted-environments-identity.md): Verify the CLAUDE_CODE_SESSION_ACCESS_TOKEN JWT so services on your network can trust requests from sessions in your self-hosted environment.
-- [Model configuration](https://code.claude.com/docs/en/model-config.md): Learn about the Claude Code model configuration, including model aliases like `opusplan`
+- [Model configuration](https://code.claude.com/docs/en/model-config.md): Configure which model Claude Code uses, effort levels, extended context, and the auto-compact window
 - [Speed up responses with fast mode](https://code.claude.com/docs/en/fast-mode.md): Get faster Opus responses in Claude Code by toggling fast mode.
 - [Escalate hard decisions with the advisor tool](https://code.claude.com/docs/en/advisor.md): Pair your main model with a stronger advisor model that Claude consults at key moments during a task.
 - [Output styles](https://code.claude.com/docs/en/output-styles.md): Adapt Claude Code for uses beyond software engineering
@@ -338,6 +338,7 @@ The full documentation is available in the following languages on https://platfo
 - [Access GitHub](https://platform.claude.com/docs/en/managed-agents/github.md) - Accessing GitHub
 - [Attach and download files](https://platform.claude.com/docs/en/managed-agents/files.md) - Adding files
 - [Authenticate with vaults](https://platform.claude.com/docs/en/managed-agents/vaults.md)
+- [Build in Console](https://platform.claude.com/docs/en/managed-agents/onboarding.md)
 - [Cloud environment setup](https://platform.claude.com/docs/en/managed-agents/environments.md)
 - [Cloud sandbox reference](https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference.md)
 - [Define outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes.md)
@@ -347,7 +348,6 @@ The full documentation is available in the following languages on https://platfo
 - [Migration](https://platform.claude.com/docs/en/managed-agents/migration.md)
 - [Multiagent orchestration](https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration.md)
 - [Permission policies](https://platform.claude.com/docs/en/managed-agents/permission-policies.md)
-- [Prototype in Console](https://platform.claude.com/docs/en/managed-agents/onboarding.md)
 - [Managed Agents reference](https://platform.claude.com/docs/en/managed-agents/reference.md) - Reference
 - [Scheduled deployments](https://platform.claude.com/docs/en/managed-agents/scheduled-deployments.md)
 - [Security model](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security.md)
@@ -1110,10 +1110,9 @@ All documentation is available in multiple languages. To access a specific langu
 
 - Spanish: `https://cursor.com/es/docs/bugbot.md`
 - Japanese: `https://cursor.com/ja/docs/bugbot.md`
-- French: `https://cursor.com/fr/docs/bugbot.md`
-- And more...
+- Simplified Chinese: `https://cursor.com/cn/docs/bugbot.md`
 
-Available languages: cn, ja, zh-Hant, es, fr, pt-BR, ko, ru, tr, id, de, hi
+Available languages: cn, ru, ja, pt-BR, es
 
 
 # Source: https://developers.openai.com/llms.txt
@@ -1274,7 +1273,8 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Memories](https://learn.chatgpt.com/docs/customization/memories.md): How ChatGPT and Codex carry useful context forward across chats
 
 ## Cyber Safety
-- [Cyber Safety](https://learn.chatgpt.com/docs/cyber-safety.md): Use Daybreak for authorized cybersecurity work with scoped access, isolation, and automatic review
+- [Models and Trusted Access](https://learn.chatgpt.com/docs/cyber-safety.md): Understand Daybreak Blue and Daybreak Red access, cyber models, and Trusted Access for Cyber
+- [Recommended configuration](https://learn.chatgpt.com/docs/cyber-safety/recommended-configuration.md): Configure isolation, least-privilege permissions, and guardrails for authorized cybersecurity work
 
 ## Developers
 - [Developers](https://learn.chatgpt.com/docs/developers.md): Configure development workflows, environments, extensions, and integrations
