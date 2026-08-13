@@ -164,7 +164,7 @@
 - [How the agent loop works](https://code.claude.com/docs/en/agent-sdk/agent-loop.md): Understand the message lifecycle, tool execution, context window, and architecture that power your SDK agents.
 - [Use Claude Code features in the SDK](https://code.claude.com/docs/en/agent-sdk/claude-code-features.md): Load project instructions, skills, hooks, and other Claude Code features into your SDK agents.
 - [Work with sessions](https://code.claude.com/docs/en/agent-sdk/sessions.md): How sessions persist agent conversation history, and when to use continue, resume, and fork to return to a prior run.
-- [Persist sessions to external storage](https://code.claude.com/docs/en/agent-sdk/session-storage.md): Mirror session transcripts to S3, Redis, or your own backend so any host can resume them.
+- [Persist sessions to external storage](https://code.claude.com/docs/en/agent-sdk/session-storage.md): Mirror session transcripts to S3, Redis, or your own backend so other hosts can resume your sessions.
 - [Streaming Input](https://code.claude.com/docs/en/agent-sdk/streaming-vs-single-mode.md): Understanding the two input modes for Claude Agent SDK and when to use each
 - [Handle approvals and user input](https://code.claude.com/docs/en/agent-sdk/user-input.md): Surface Claude's approval requests and clarifying questions to users, then return their decisions to the SDK.
 - [Stream responses in real-time](https://code.claude.com/docs/en/agent-sdk/streaming-output.md): Get real-time responses from the Agent SDK as text and tool calls stream in
@@ -228,22 +228,26 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 553 pages - /docs - Content included below
-- German (Deutsch) (de) - 201 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 201 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 201 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 201 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 201 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 201 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 201 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 201 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 201 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 201 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 201 pages - /docs/id - Visit website for content
+- English (en) - 554 pages - /docs - Content included below
+- German (Deutsch) (de) - 206 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 206 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 206 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 206 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 206 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 206 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 206 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 206 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 206 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 206 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 206 pages - /docs/id - Visit website for content
 
 ---
 
 ## English
+
+### Docs home
+
+- [Documentation](https://platform.claude.com/docs/en/home.md)
 
 ### Messages
 
@@ -352,6 +356,7 @@ The full documentation is available in the following languages on https://platfo
 - [Scheduled deployments](https://platform.claude.com/docs/en/managed-agents/scheduled-deployments.md)
 - [Security model](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security.md)
 - [Integration guide](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md) - Self-hosted sandboxes
+- [Session budgets](https://platform.claude.com/docs/en/managed-agents/budgets.md)
 - [Session event stream](https://platform.claude.com/docs/en/managed-agents/events-and-streaming.md)
 - [Session operations](https://platform.claude.com/docs/en/managed-agents/session-operations.md)
 - [Agent Skills](https://platform.claude.com/docs/en/managed-agents/skills.md) - Skills
@@ -385,7 +390,7 @@ The full documentation is available in the following languages on https://platfo
 - [Manage WIF via API](https://platform.claude.com/docs/en/manage-claude/wif-admin-api.md) - Manage WIF with the Admin API
 - [Activity Feed](https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed.md) - Query the Activity Feed
 - [Rate Limits API](https://platform.claude.com/docs/en/manage-claude/rate-limits-api.md)
-- [Chats, files, and projects](https://platform.claude.com/docs/en/manage-claude/compliance-content-data.md) - Retrieve and delete chats, files, and projects
+- [Chats, files, projects, and sessions](https://platform.claude.com/docs/en/manage-claude/compliance-content-data.md) - Retrieve and delete chats, files, projects, and sessions
 - [Set up the Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api-access.md)
 - [Spend Limits API](https://platform.claude.com/docs/en/manage-claude/spend-limits-api.md)
 - [Usage and Cost API](https://platform.claude.com/docs/en/manage-claude/usage-cost-api.md)
@@ -829,7 +834,6 @@ The full documentation is available in the following languages on https://platfo
 ### Other pages
 
 - [API usage primer for Claude](https://platform.claude.com/docs/en/claude_api_primer.md)
-- [Classification](https://platform.claude.com/docs/en/about-claude/use-case-guides/classification.md)
 
 ---
 
@@ -854,6 +858,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/gpt-5-6-sol.md
   - https://cursor.com/docs/models/gpt-5-6-terra.md
   - https://cursor.com/docs/models/gpt-5-6-luna.md
+  - https://cursor.com/docs/models/grok-4-6.md
   - https://cursor.com/docs/models/grok-4-5.md
   - https://cursor.com/docs/models/cursor-composer-2-5.md
 - https://cursor.comhttps://cursor.com/changelog.md
@@ -891,6 +896,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/setup.md
 - https://cursor.com/docs/cloud-agent/builds.md
 - https://cursor.com/docs/cloud-agent/capabilities.md
+  - https://cursor.com/docs/cloud-agent/metadata.md
 - https://cursor.com/docs/cloud-agent/best-practices.md
 - https://cursor.com/docs/cloud-agent/automations.md
 - https://cursor.com/docs/bugbot.md
@@ -1049,6 +1055,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 
 - https://cursor.com/help/models-and-usage/available-models.md
 - https://cursor.com/help/models-and-usage/cursor-router.md
+- https://cursor.com/help/models-and-usage/grok-4-6.md
 - https://cursor.com/help/models-and-usage/grok-4-5.md
 - https://cursor.com/help/models-and-usage/api-keys.md
 - https://cursor.com/help/models-and-usage/usage-limits.md
@@ -1093,6 +1100,18 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/integrations/github-gitlab.md
 - https://cursor.com/help/integrations/cli.md
 - https://cursor.com/help/integrations/third-party.md
+
+## Grok Bot
+
+- https://cursor.com/help/grok-bot/getting-started.md
+- https://cursor.com/help/grok-bot/sign-in.md
+- https://cursor.com/help/grok-bot/mobile.md
+- https://cursor.com/help/grok-bot/plans.md
+- https://cursor.com/help/grok-bot/supergrok-heavy.md
+- https://cursor.com/help/grok-bot/mobile-purchase.md
+- https://cursor.com/help/grok-bot/connect-plugins.md
+- https://cursor.com/help/grok-bot/secrets.md
+- https://cursor.com/help/grok-bot/get-help.md
 
 ## Troubleshooting
 
@@ -1351,6 +1370,9 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Learn
 - [Best practices](https://learn.chatgpt.com/guides/best-practices.md): Getting started with Codex and proven practices for better results
+
+## Linux
+- [ChatGPT desktop app for Linux](https://learn.chatgpt.com/docs/linux/linux-app.md): Install and update ChatGPT on supported Ubuntu, Debian, and Fedora desktop distributions
 
 ## Long Running Work
 - [Long-running work](https://learn.chatgpt.com/docs/long-running-work.md): Keep multi-step work focused with clear outcomes and completion criteria
