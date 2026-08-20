@@ -227,7 +227,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 566 pages - /docs - Content included below
+- English (en) - 567 pages - /docs - Content included below
 - German (Deutsch) (de) - 206 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 206 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 206 pages - /docs/fr - Visit website for content
@@ -410,6 +410,7 @@ The full documentation is available in the following languages on https://platfo
 
 - [Overview](https://platform.claude.com/docs/en/about-claude/use-case-guides/overview.md) - Guides to common use cases
 - [Overview](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview.md) - Prompt engineering overview
+- [Additional resources](https://platform.claude.com/docs/en/about-claude/additional-resources.md)
 - [Content moderation](https://platform.claude.com/docs/en/about-claude/use-case-guides/content-moderation.md)
 - [Customer support agent](https://platform.claude.com/docs/en/about-claude/use-case-guides/customer-support-chat.md)
 - [Define success and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md) - Define success criteria and build evaluations
@@ -430,8 +431,8 @@ The full documentation is available in the following languages on https://platfo
 ### Models & pricing
 
 - [Introducing Claude Fable 5 and Claude Mythos 5](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5.md)
+- [Model cards](https://platform.claude.com/docs/en/resources/overview.md)
 - [Models overview](https://platform.claude.com/docs/en/about-claude/models/overview.md)
-- [Model cards](https://platform.claude.com/docs/en/resources/overview.md) - Resources
 - [Choosing a model](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model.md) - Choosing the right model
 - [Upgrade between model versions](https://platform.claude.com/docs/en/about-claude/models/migration-guide.md) - Migration guide
 - [Model deprecations](https://platform.claude.com/docs/en/about-claude/model-deprecations.md)
@@ -1136,6 +1137,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/grok-bot/supergrok-heavy.md
 - https://cursor.com/help/grok-bot/mobile-purchase.md
 - https://cursor.com/help/grok-bot/connect-plugins.md
+- https://cursor.com/help/grok-bot/computer-recovery.md
 - https://cursor.com/help/grok-bot/secrets.md
 - https://cursor.com/help/grok-bot/get-help.md
 
@@ -1350,7 +1352,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Cloud environments](https://learn.chatgpt.com/docs/environments/cloud-environment.md): Customize dependencies and tools for Codex
 - [Codex environments](https://learn.chatgpt.com/docs/environments/modes.md): Choose where a Codex chat runs and how its files stay isolated
 - [Local environments](https://learn.chatgpt.com/docs/environments/local-environment.md): Configure common actions and setup scripts for worktrees
-- [Worktrees](https://learn.chatgpt.com/docs/environments/git-worktrees.md): Use Git worktrees in Codex in the ChatGPT desktop app to run chats in parallel
+- [Worktrees](https://learn.chatgpt.com/docs/environments/git-worktrees.md): Use Git worktrees in Codex to run chats in parallel
 
 ## Extend
 - [Model Context Protocol](https://learn.chatgpt.com/docs/extend/mcp.md): Give Codex access to third-party tools and context
