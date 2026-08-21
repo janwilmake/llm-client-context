@@ -181,7 +181,7 @@
 - [Rewind file changes with checkpointing](https://code.claude.com/docs/en/agent-sdk/file-checkpointing.md): Track file changes during agent sessions and restore files to any previous state
 - [Track cost and usage](https://code.claude.com/docs/en/agent-sdk/cost-tracking.md): Learn how to track token usage, estimate costs, and configure prompt caching with the Claude Agent SDK.
 - [Observability with OpenTelemetry](https://code.claude.com/docs/en/agent-sdk/observability.md): Export traces, metrics, and events from the Agent SDK to your observability backend using OpenTelemetry.
-- [Todo Lists](https://code.claude.com/docs/en/agent-sdk/todo-tracking.md): Track and display todos using the Claude Agent SDK for organized task management
+- [Track todos](https://code.claude.com/docs/en/agent-sdk/todo-tracking.md): Track todos in Agent SDK sessions and render Claude's progress in your application from structured tool calls
 - [Hosting the Agent SDK](https://code.claude.com/docs/en/agent-sdk/hosting.md): Deploy the Agent SDK in production: subprocess architecture, session persistence, scaling, observability, and multi-tenant isolation for Docker, Kubernetes, and sandbox providers.
 - [Securely deploying AI agents](https://code.claude.com/docs/en/agent-sdk/secure-deployment.md): A guide to securing Claude Code and Agent SDK deployments with isolation, credential management, and network controls
 - [Agent SDK reference - TypeScript](https://code.claude.com/docs/en/agent-sdk/typescript.md): Complete API reference for the TypeScript Agent SDK, including all functions, types, and interfaces.
@@ -227,7 +227,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 567 pages - /docs - Content included below
+- English (en) - 584 pages - /docs - Content included below
 - German (Deutsch) (de) - 206 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 206 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 206 pages - /docs/fr - Visit website for content
@@ -263,6 +263,7 @@ The full documentation is available in the following languages on https://platfo
 - [Authentication](https://platform.claude.com/docs/en/manage-claude/authentication.md)
 - [Bash tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool.md)
 - [Batch processing](https://platform.claude.com/docs/en/build-with-claude/batch-processing.md)
+- [Browser use tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool.md)
 - [Build an orchestration mode](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example.md)
 - [Cache diagnostics (beta)](https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics.md) - Cache diagnostics
 - [Citations](https://platform.claude.com/docs/en/build-with-claude/citations.md)
@@ -401,7 +402,7 @@ The full documentation is available in the following languages on https://platfo
 - [Microsoft Entra ID](https://platform.claude.com/docs/en/manage-claude/wif-providers/azure.md) - Use WIF with Microsoft Entra ID
 - [Okta](https://platform.claude.com/docs/en/manage-claude/wif-providers/okta.md) - Use WIF with Okta
 - [SPIFFE](https://platform.claude.com/docs/en/manage-claude/wif-providers/spiffe.md) - Use WIF with SPIFFE
-- [User management (beta)](https://platform.claude.com/docs/en/manage-claude/user-management.md) - User management
+- [User management](https://platform.claude.com/docs/en/manage-claude/user-management.md)
 - [WIF reference](https://platform.claude.com/docs/en/manage-claude/wif-reference.md)
 - [Workload Identity Federation](https://platform.claude.com/docs/en/manage-claude/workload-identity-federation.md)
 - [Workspaces](https://platform.claude.com/docs/en/manage-claude/workspaces.md)
@@ -556,7 +557,9 @@ The full documentation is available in the following languages on https://platfo
 - [Create Service Account](https://platform.claude.com/docs/en/api/admin/service_accounts/create.md)
 - [Create Service Account Workspace Member](https://platform.claude.com/docs/en/api/admin/workspaces/service_accounts/create.md)
 - [Create Session (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/create.md)
+- [Create Skill](https://platform.claude.com/docs/en/api/skills/create.md)
 - [Create Skill (Beta)](https://platform.claude.com/docs/en/api/beta/skills/create.md)
+- [Create Skill Version](https://platform.claude.com/docs/en/api/skills/versions/create.md)
 - [Create Skill Version (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions/create.md)
 - [Create Tunnel (Beta)](https://platform.claude.com/docs/en/api/beta/tunnels/create.md)
 - [Create Tunnel Certificate](https://platform.claude.com/docs/en/api/admin/mcp_tunnels/tunnel_certificates/create.md)
@@ -576,6 +579,7 @@ The full documentation is available in the following languages on https://platfo
 - [Delete Environment (Beta)](https://platform.claude.com/docs/en/api/beta/environments/delete.md)
 - [Delete External Key](https://platform.claude.com/docs/en/api/admin/external_keys/delete.md)
 - [Delete file](https://platform.claude.com/docs/en/api/compliance/apps/chats/files/delete.md)
+- [Delete File](https://platform.claude.com/docs/en/api/files/delete.md)
 - [Delete File (Beta)](https://platform.claude.com/docs/en/api/beta/files/delete.md)
 - [Delete Invite](https://platform.claude.com/docs/en/api/admin/invites/delete.md)
 - [Delete project](https://platform.claude.com/docs/en/api/compliance/apps/projects/delete.md)
@@ -584,7 +588,9 @@ The full documentation is available in the following languages on https://platfo
 - [Delete Service Account Workspace Member](https://platform.claude.com/docs/en/api/admin/workspaces/service_accounts/delete.md)
 - [Delete Session (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/delete.md)
 - [Delete Session Resource (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/resources/delete.md)
+- [Delete Skill](https://platform.claude.com/docs/en/api/skills/delete.md)
 - [Delete Skill (Beta)](https://platform.claude.com/docs/en/api/beta/skills/delete.md)
+- [Delete Skill Version](https://platform.claude.com/docs/en/api/skills/versions/delete.md)
 - [Delete Skill Version (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions/delete.md)
 - [Delete Spend Limit](https://platform.claude.com/docs/en/api/admin/spend_limits/delete.md)
 - [Delete Vault (Beta)](https://platform.claude.com/docs/en/api/beta/vaults/delete.md)
@@ -596,6 +602,7 @@ The full documentation is available in the following languages on https://platfo
 - [Download a Claude-generated file](https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files/download.md)
 - [Download artifact content](https://platform.claude.com/docs/en/api/compliance/apps/artifacts/download.md)
 - [Download Code Artifact Version Content](https://platform.claude.com/docs/en/api/compliance/code/artifacts/retrieve_version.md)
+- [Download File](https://platform.claude.com/docs/en/api/files/download.md)
 - [Download File (Beta)](https://platform.claude.com/docs/en/api/beta/files/download.md)
 - [Download file content](https://platform.claude.com/docs/en/api/compliance/apps/chats/files/download.md)
 - [Download Skill Version Content (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions/download.md)
@@ -606,6 +613,7 @@ The full documentation is available in the following languages on https://platfo
 - [External Keys](https://platform.claude.com/docs/en/api/admin/external_keys.md)
 - [Federation Issuers](https://platform.claude.com/docs/en/api/admin/federation_issuers.md)
 - [Federation Rules](https://platform.claude.com/docs/en/api/admin/federation_rules.md)
+- [Files](https://platform.claude.com/docs/en/api/files.md)
 - [Files](https://platform.claude.com/docs/en/api/compliance/apps/chats/files.md)
 - [Files (Beta)](https://platform.claude.com/docs/en/api/beta/files.md)
 - [Generated Files](https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files.md)
@@ -635,6 +643,7 @@ The full documentation is available in the following languages on https://platfo
 - [Get Federation Issuer](https://platform.claude.com/docs/en/api/admin/federation_issuers/retrieve.md)
 - [Get Federation Rule](https://platform.claude.com/docs/en/api/admin/federation_rules/retrieve.md)
 - [Get file metadata](https://platform.claude.com/docs/en/api/compliance/apps/chats/files/retrieve.md)
+- [Get File Metadata](https://platform.claude.com/docs/en/api/files/retrieve_metadata.md)
 - [Get File Metadata (Beta)](https://platform.claude.com/docs/en/api/beta/files/retrieve_metadata.md)
 - [Get Invite](https://platform.claude.com/docs/en/api/admin/invites/retrieve.md)
 - [Get Messages Usage Report](https://platform.claude.com/docs/en/api/admin/usage_report/retrieve_messages.md)
@@ -652,8 +661,10 @@ The full documentation is available in the following languages on https://platfo
 - [Get Session (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/retrieve.md)
 - [Get Session Resource (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/resources/retrieve.md)
 - [Get Session Thread (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/threads/retrieve.md)
+- [Get Skill](https://platform.claude.com/docs/en/api/skills/retrieve.md)
 - [Get Skill (Beta)](https://platform.claude.com/docs/en/api/beta/skills/retrieve.md)
 - [Get Skill Usage](https://platform.claude.com/docs/en/api/admin/analytics/skills/list.md)
+- [Get Skill Version](https://platform.claude.com/docs/en/api/skills/versions/retrieve.md)
 - [Get Skill Version (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions/retrieve.md)
 - [Get Spend Limit](https://platform.claude.com/docs/en/api/admin/spend_limits/retrieve.md)
 - [Get Spend Limit Increase Request](https://platform.claude.com/docs/en/api/admin/spend_limits/increase_requests/retrieve.md)
@@ -691,6 +702,7 @@ The full documentation is available in the following languages on https://platfo
 - [List Federation Issuers](https://platform.claude.com/docs/en/api/admin/federation_issuers/list.md)
 - [List Federation Rule Workspaces](https://platform.claude.com/docs/en/api/admin/federation_rules/workspaces/list.md)
 - [List Federation Rules](https://platform.claude.com/docs/en/api/admin/federation_rules/list.md)
+- [List Files](https://platform.claude.com/docs/en/api/files/list.md)
 - [List Files (Beta)](https://platform.claude.com/docs/en/api/beta/files/list.md)
 - [List Invites](https://platform.claude.com/docs/en/api/admin/invites/list.md)
 - [List local sessions](https://platform.claude.com/docs/en/api/compliance/apps/sessions/local/list.md)
@@ -718,7 +730,9 @@ The full documentation is available in the following languages on https://platfo
 - [List Session Thread Events (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/threads/events/list.md)
 - [List Session Threads (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/threads/list.md)
 - [List Sessions (Beta)](https://platform.claude.com/docs/en/api/beta/sessions/list.md)
+- [List Skill Versions](https://platform.claude.com/docs/en/api/skills/versions/list.md)
 - [List Skill Versions (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions/list.md)
+- [List Skills](https://platform.claude.com/docs/en/api/skills/list.md)
 - [List Skills (Beta)](https://platform.claude.com/docs/en/api/beta/skills/list.md)
 - [List Spend Limit Increase Requests](https://platform.claude.com/docs/en/api/admin/spend_limits/increase_requests/list.md)
 - [List Tunnel Certificates](https://platform.claude.com/docs/en/api/admin/mcp_tunnels/tunnel_certificates/list.md)
@@ -794,6 +808,7 @@ The full documentation is available in the following languages on https://platfo
 - [Sessions (Beta)](https://platform.claude.com/docs/en/api/beta/sessions.md)
 - [Set Spend Limit](https://platform.claude.com/docs/en/api/admin/spend_limits/create.md)
 - [Settings](https://platform.claude.com/docs/en/api/compliance/organizations/settings.md)
+- [Skills](https://platform.claude.com/docs/en/api/skills.md)
 - [Skills](https://platform.claude.com/docs/en/api/admin/analytics/skills.md)
 - [Skills (Beta)](https://platform.claude.com/docs/en/api/beta/skills.md)
 - [Spend Limits](https://platform.claude.com/docs/en/api/admin/spend_limits.md)
@@ -825,6 +840,7 @@ The full documentation is available in the following languages on https://platfo
 - [Update Work Item (Beta)](https://platform.claude.com/docs/en/api/beta/environments/work/update.md)
 - [Update Workspace](https://platform.claude.com/docs/en/api/admin/workspaces/update.md)
 - [Update Workspace Member](https://platform.claude.com/docs/en/api/admin/workspaces/members/update.md)
+- [Upload File](https://platform.claude.com/docs/en/api/files/upload.md)
 - [Upload File (Beta)](https://platform.claude.com/docs/en/api/beta/files/upload.md)
 - [Usage](https://platform.claude.com/docs/en/api/admin/analytics/usage.md)
 - [Usage Report](https://platform.claude.com/docs/en/api/admin/usage_report.md)
@@ -835,6 +851,7 @@ The full documentation is available in the following languages on https://platfo
 - [Validate Credential (Beta)](https://platform.claude.com/docs/en/api/beta/vaults/credentials/mcp_oauth_validate.md)
 - [Validate External Key](https://platform.claude.com/docs/en/api/admin/external_keys/validate.md)
 - [Vaults (Beta)](https://platform.claude.com/docs/en/api/beta/vaults.md)
+- [Versions](https://platform.claude.com/docs/en/api/skills/versions.md)
 - [Versions (Beta)](https://platform.claude.com/docs/en/api/beta/agents/versions.md)
 - [Versions (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions.md)
 - [Webhooks (Beta)](https://platform.claude.com/docs/en/api/beta/webhooks.md)
@@ -1345,6 +1362,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Roles and workspace permissions](https://learn.chatgpt.com/docs/enterprise/roles-and-workspace-permissions.md): Separate ChatGPT workspace access from local runtime, API, plugin, and source-system controls
 - [Service accounts](https://learn.chatgpt.com/docs/enterprise/service-accounts.md): Set up and manage service accounts for Codex automation in your ChatGPT workspace
 - [Skill controls](https://learn.chatgpt.com/docs/enterprise/skills.md): Compare ChatGPT workspace, local filesystem, and plugin skill controls
+- [Workload identity federation](https://learn.chatgpt.com/docs/enterprise/workload-identity.md): Configure workload identity federation for Codex with an OIDC token or SPIFFE JWT-SVID stored in a runtime-managed file.
 - [Workspace analytics](https://learn.chatgpt.com/docs/enterprise/workspace-analytics.md): Compare ChatGPT workspace analytics, Codex analytics, reporting APIs, and audit records
 - [Workspace model availability](https://learn.chatgpt.com/docs/enterprise/workspace-model-availability.md): Separate model access across ChatGPT, Codex in the ChatGPT desktop app, Codex CLI, the IDE extension, Codex cloud, and the OpenAI API Platform
 
@@ -1504,6 +1522,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Third Party
 - [Review GitHub pull requests with Codex](https://learn.chatgpt.com/docs/third-party/github.md): Set up Code Review and Security Review for GitHub pull requests, request reviews with @codex review and @codex security review, enable automatic reviews, and write custom review rules in AGENTS.md.
+- [Review GitLab merge requests with Codex](https://learn.chatgpt.com/docs/third-party/gitlab.md): Set up Code Review for GitLab merge requests, request reviews with @codex review, enable automatic reviews, and write custom review rules in AGENTS.md.
 - [Use Codex in Linear](https://learn.chatgpt.com/docs/third-party/linear.md): Run Codex chats from Linear issues
 - [Use Codex in Slack](https://learn.chatgpt.com/docs/third-party/slack.md): Ask Codex to work from Slack channels and threads
 
