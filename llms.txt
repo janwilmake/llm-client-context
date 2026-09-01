@@ -391,17 +391,17 @@ https://platform.claude.com
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
 - English (en) - 688 pages - /docs - Content included below
-- German (Deutsch) (de) - 205 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 205 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 205 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 205 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 205 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 205 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 205 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 205 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 205 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 205 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 205 pages - /docs/id - Visit website for content
+- German (Deutsch) (de) - 206 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 206 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 206 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 206 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 206 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 206 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 206 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 206 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 206 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 206 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 206 pages - /docs/id - Visit website for content
 
 ---
 
@@ -1176,6 +1176,16 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/agent/security.md
   - https://cursor.com/docs/agent/security/run-modes.md
 
+## grok-bot
+
+- https://cursor.com/docs/grok-bot.md
+- https://cursor.com/docs/grok-bot/get-started.md
+- https://cursor.com/docs/grok-bot/use-cases.md
+- https://cursor.com/docs/grok-bot/work.md
+- https://cursor.com/docs/grok-bot/settings.md
+- https://cursor.com/docs/grok-bot/teams.md
+  - https://cursor.com/docs/grok-bot/identity.md
+
 ## customizing
 
 - https://cursor.com/docs/customize-cursor.md
@@ -1203,6 +1213,12 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/cloud-agent/security-network.md
   - https://cursor.com/docs/cloud-agent/private-connectivity.md
   - https://cursor.com/docs/cloud-agent/identity.md
+- https://cursor.com/docs/cloud-agent/self-hosted.md
+  - https://cursor.com/docs/cloud-agent/self-hosted-guides/choose-runtime.md
+  - https://cursor.com/docs/cloud-agent/self-hosted-guides/pool.md
+  - https://cursor.com/docs/cloud-agent/self-hosted-guides/my-machines.md
+  - https://cursor.com/docs/cloud-agent/self-hosted-guides/kubernetes.md
+  - https://cursor.com/docs/cloud-agent/self-hosted-guides/cloud-run.md
 - https://cursor.com/docs/cloud-agent/settings.md
 - https://cursor.com/docs/cloud-agent/api/endpoints.md
 
@@ -1517,7 +1533,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/grok-bot/sign-in.md
 - https://cursor.com/help/grok-bot/mobile.md
 - https://cursor.com/help/grok-bot/plans.md
-- https://cursor.com/help/grok-bot/supergrok-heavy.md
+- https://cursor.com/help/grok-bot/supergrok.md
 - https://cursor.com/help/grok-bot/mobile-purchase.md
 - https://cursor.com/help/grok-bot/delete-account.md
 - https://cursor.com/help/grok-bot/connect-plugins.md
