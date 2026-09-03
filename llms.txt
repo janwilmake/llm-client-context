@@ -1160,7 +1160,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/claude-opus-5.md
   - https://cursor.com/docs/models/claude-fable-5-1.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
-  - https://cursor.com/docs/models/gemini-3-7-flash.md
+  - https://cursor.com/docs/models/gemini-3-8-flash.md
   - https://cursor.com/docs/models/gpt-5-6-sol.md
   - https://cursor.com/docs/models/gpt-5-6-terra.md
   - https://cursor.com/docs/models/gpt-5-6-luna.md
@@ -1196,6 +1196,8 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/grok-bot/teams.md
   - https://cursor.com/docs/grok-bot/identity.md
   - https://cursor.com/docs/grok-bot/private-networks.md
+  - https://cursor.com/docs/grok-bot/security.md
+    - https://cursor.com/docs/grok-bot/security-faq.md
 
 ## customizing
 
@@ -1215,6 +1217,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/capabilities.md
   - https://cursor.com/docs/cloud-agent/metadata.md
 - https://cursor.com/docs/cloud-agent/best-practices.md
+- https://cursor.com/docs/cloud-agent/self-hosted/choose-runtime.md
 - https://cursor.com/docs/cloud-agent/automations.md
 - https://cursor.com/docs/bugbot.md
 - https://cursor.com/docs/security-agents.md
@@ -1225,11 +1228,11 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/cloud-agent/private-connectivity.md
   - https://cursor.com/docs/cloud-agent/identity.md
 - https://cursor.com/docs/cloud-agent/self-hosted.md
-  - https://cursor.com/docs/cloud-agent/self-hosted-guides/choose-runtime.md
-  - https://cursor.com/docs/cloud-agent/self-hosted-guides/pool.md
-  - https://cursor.com/docs/cloud-agent/self-hosted-guides/my-machines.md
-  - https://cursor.com/docs/cloud-agent/self-hosted-guides/kubernetes.md
-  - https://cursor.com/docs/cloud-agent/self-hosted-guides/cloud-run.md
+  - https://cursor.com/docs/cloud-agent/self-hosted/pool.md
+  - https://cursor.com/docs/cloud-agent/self-hosted/my-machines.md
+  - https://cursor.com/docs/cloud-agent/self-hosted/computer-use.md
+  - https://cursor.com/docs/cloud-agent/self-hosted/integrations.md
+  - https://cursor.com/docs/cloud-agent/api/endpoints.md#workers-and-pools
 - https://cursor.com/docs/cloud-agent/settings.md
 - https://cursor.com/docs/cloud-agent/api/endpoints.md
 
@@ -1471,6 +1474,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/ai-features/terminal.md
 - https://cursor.com/help/ai-features/browser.md
 - https://cursor.com/help/ai-features/cloud-agents.md
+- https://cursor.com/help/ai-features/self-hosted-machines.md
 - https://cursor.com/help/ai-features/background-agents.md
 - https://cursor.com/help/ai-features/mobile-app.md
 - https://cursor.com/help/ai-features/automations.md
@@ -2017,6 +2021,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Jupyter Notebooks](https://docs.cline.bot/features/jupyter-notebooks.md): AI-assisted editing of Jupyter notebooks with cell-level context awareness
 - [Multi-Root Workspaces](https://docs.cline.bot/features/multiroot-workspace.md)
 - [Networking and Proxies](https://docs.cline.bot/troubleshooting/networking-and-proxies.md): Configure Cline to work behind firewalls and proxies
+- [Deprecations](https://docs.cline.bot/resources/deprecations.md): Track Cline features that are being phased out and what to use instead.
 - [Cline SDK](https://docs.cline.bot/sdk/overview.md): TypeScript packages for embedding Cline's agent runtime in your own applications.
 - [Examples](https://docs.cline.bot/sdk/examples.md): Explore complete, runnable SDK examples organized by difficulty.
 - [Plugins Overview](https://docs.cline.bot/sdk/plugins.md): Learn what plugins are, their benefits, and how they extend agent behavior.
@@ -2072,10 +2077,6 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Models](https://docs.cline.bot/api/models.md): Available models, pricing tiers, free models, and how model IDs work in the Cline API.
 - [Errors](https://docs.cline.bot/api/errors.md): Error codes, error formats, mid-stream errors, and retry strategies for the Cline API.
 - [Code Examples](https://docs.cline.bot/api/sdk-examples.md): Use the Cline API from Python, Node.js, curl, the Cline CLI, and the VS Code extension.
-
-## OpenAPI Specs
-
-- [openapi](/api-reference/openapi.json)
 
 
 # Source: https://docs.windsurf.com/llms.txt
