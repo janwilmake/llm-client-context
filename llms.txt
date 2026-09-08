@@ -1197,6 +1197,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/grok-bot/teams.md
   - https://cursor.com/docs/grok-bot/identity.md
   - https://cursor.com/docs/grok-bot/private-networks.md
+  - https://cursor.com/docs/grok-bot/proxies.md
   - https://cursor.com/docs/grok-bot/security.md
     - https://cursor.com/docs/grok-bot/security-faq.md
 
