@@ -205,8 +205,8 @@
 
 ### Settings
 
-- [Claude Code settings](https://code.claude.com/docs/en/settings.md): Change Claude Code settings, pick the scope a key belongs in, verify the change, and learn which value Claude Code uses when a key is set in several places.
-- [Claude Code settings reference](https://code.claude.com/docs/en/settings-reference.md): Complete reference for every Claude Code settings.json key: where each one goes, its type and default, and a paste-ready example, with an index of every key.
+- [Settings files and precedence](https://code.claude.com/docs/en/settings.md): Change Claude Code settings, pick the scope a key belongs in, verify the change, and learn which value Claude Code uses when a key is set in several places.
+- [All settings](https://code.claude.com/docs/en/settings-reference.md): Complete reference for every Claude Code settings.json key: where each one goes, its type and default, and a paste-ready example, with an index of every key.
 - [Example settings files](https://code.claude.com/docs/en/settings-example.md): Realistic settings.json files for a developer, a team, and an organization: copy one, keep the keys you want, and change the values.
 
 ### Permissions and sandboxing
@@ -1162,6 +1162,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/claude-fable-5-1.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
   - https://cursor.com/docs/models/gemini-3-8-flash.md
+  - https://cursor.com/docs/models/muse-spark-1-3.md
   - https://cursor.com/docs/models/gpt-5-6-sol.md
   - https://cursor.com/docs/models/gpt-5-6-terra.md
   - https://cursor.com/docs/models/gpt-5-6-luna.md
@@ -1520,6 +1521,8 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/account-and-billing/billing.md
 - https://cursor.com/help/account-and-billing/cursor-start.md
 - https://cursor.com/help/account-and-billing/app-store-subscription.md
+- https://cursor.com/help/account-and-billing/google-play-subscription.md
+- https://cursor.com/help/account-and-billing/on-demand-usage-for-mobile-subscriptions.md
 - https://cursor.com/help/account-and-billing/teams-setup.md
 - https://cursor.com/help/account-and-billing/teams-management.md
 - https://cursor.com/help/account-and-billing/invoices.md
