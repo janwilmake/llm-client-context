@@ -142,7 +142,7 @@
 - [Authentication](https://code.claude.com/docs/en/authentication.md): Log in to Claude Code and configure authentication for individuals, teams, and organizations.
 - [Deploy managed settings](https://code.claude.com/docs/en/managed-settings.md): Deploy managed settings to every developer's machine: delivery mechanisms per OS, how Claude Code combines managed sources, and how to verify enforcement.
 - [Configure server-managed settings](https://code.claude.com/docs/en/server-managed-settings.md): Centrally configure Claude Code for your organization through server-delivered settings, without requiring device management infrastructure.
-- [Control MCP server access for your organization](https://code.claude.com/docs/en/managed-mcp.md): Restrict which MCP servers users can add or connect to with managed configuration files, allowlists, and denylists.
+- [Control MCP server access for your organization](https://code.claude.com/docs/en/managed-mcp.md): Restrict which MCP servers users can add or connect to, or provide servers to every user, with managed configuration files, managed settings, allowlists, and denylists.
 - [Configure auto mode](https://code.claude.com/docs/en/auto-mode-config.md): Tell the auto mode classifier which repos, buckets, and domains your organization trusts. Set environment context, override the default block and allow rules, and inspect your effective config with the auto-mode CLI subcommands.
 
 ### Deployment
@@ -390,7 +390,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 699 pages - /docs - Content included below
+- English (en) - 700 pages - /docs - Content included below
 - German (Deutsch) (de) - 249 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 249 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 249 pages - /docs/fr - Visit website for content
@@ -576,6 +576,7 @@ The full documentation is available in the following languages on https://platfo
 - [Overview](https://platform.claude.com/docs/en/about-claude/use-case-guides/overview.md) - Guides to common use cases
 - [Overview](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview.md) - Prompt engineering overview
 - [Additional resources](https://platform.claude.com/docs/en/about-claude/additional-resources.md)
+- [Commerce agent](https://platform.claude.com/docs/en/about-claude/use-case-guides/commerce-agents.md)
 - [Content moderation](https://platform.claude.com/docs/en/about-claude/use-case-guides/content-moderation.md)
 - [Customer support agent](https://platform.claude.com/docs/en/about-claude/use-case-guides/customer-support-chat.md)
 - [Define success and build evaluations](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md) - Define success criteria and build evaluations
@@ -1764,7 +1765,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [GPTs and Sharing](https://learn.chatgpt.com/docs/enterprise/gpts-and-sharing.md): Manage GPT sharing, ownership, connected apps, and third-party actions across your workspace.
 - [Groups and provisioning](https://learn.chatgpt.com/docs/enterprise/groups-and-provisioning.md): Understand group membership sources and their workspace access boundary
 - [Manage app updates](https://learn.chatgpt.com/docs/enterprise/manage-app-updates.md): Control how your organization updates the ChatGPT desktop app on macOS and Windows
-- [Managed configuration](https://learn.chatgpt.com/docs/enterprise/managed-configuration.md): Enforce runtime requirements across supported local clients and distribute managed defaults
+- [Managed configuration](https://learn.chatgpt.com/docs/enterprise/managed-configuration.md): Distribute configuration defaults and enforce requirements across supported local clients
 - [Plugin controls](https://learn.chatgpt.com/docs/enterprise/apps-and-connectors.md): Choose which plugins your team can use, and manage access to their connected services and actions
 - [Plugin management](https://learn.chatgpt.com/docs/enterprise/plugin-management.md): Import and sync workspace plugins from GitHub
 - [Prisma AIRS](https://learn.chatgpt.com/docs/enterprise/prisma-airs.md): Connect Palo Alto Networks Prisma AIRS to scan Codex prompts
