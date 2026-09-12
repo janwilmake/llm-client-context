@@ -108,6 +108,7 @@
 
 - [Discover and install prebuilt plugins through marketplaces](https://code.claude.com/docs/en/discover-plugins.md): Find and install plugins from marketplaces to extend Claude Code with new skills, agents, and capabilities.
 - [Create plugins](https://code.claude.com/docs/en/plugins.md): Create custom plugins to extend Claude Code with skills, agents, hooks, and MCP servers.
+- [Test plugins with evals](https://code.claude.com/docs/en/plugin-evals.md): Write eval cases for your Claude Code plugin, run them with claude plugin eval, grade the results, compare against a no-plugin baseline, and gate CI on the score.
 
 ### Artifacts
 
@@ -361,17 +362,17 @@
 
 ## Indexes
 
-- [French (166 pages)](https://code.claude.com/docs/_llms/fr.md): Documentation for French.
-- [German (166 pages)](https://code.claude.com/docs/_llms/de.md): Documentation for German.
-- [Italian (166 pages)](https://code.claude.com/docs/_llms/it.md): Documentation for Italian.
-- [Japanese (166 pages)](https://code.claude.com/docs/_llms/jp.md): Documentation for Japanese.
-- [Spanish (166 pages)](https://code.claude.com/docs/_llms/es.md): Documentation for Spanish.
-- [Korean (166 pages)](https://code.claude.com/docs/_llms/ko.md): Documentation for Korean.
-- [Chinese (166 pages)](https://code.claude.com/docs/_llms/cn.md): Documentation for Chinese.
-- [Traditional Chinese (166 pages)](https://code.claude.com/docs/_llms/zh-hant.md): Documentation for Traditional Chinese.
-- [Russian (166 pages)](https://code.claude.com/docs/_llms/ru.md): Documentation for Russian.
-- [Indonesian (166 pages)](https://code.claude.com/docs/_llms/id.md): Documentation for Indonesian.
-- [Brazilian Portuguese (166 pages)](https://code.claude.com/docs/_llms/pt-br.md): Documentation for Brazilian Portuguese.
+- [French (192 pages)](https://code.claude.com/docs/_llms/fr.md): Documentation for French.
+- [German (192 pages)](https://code.claude.com/docs/_llms/de.md): Documentation for German.
+- [Italian (192 pages)](https://code.claude.com/docs/_llms/it.md): Documentation for Italian.
+- [Japanese (191 pages)](https://code.claude.com/docs/_llms/jp.md): Documentation for Japanese.
+- [Spanish (192 pages)](https://code.claude.com/docs/_llms/es.md): Documentation for Spanish.
+- [Korean (191 pages)](https://code.claude.com/docs/_llms/ko.md): Documentation for Korean.
+- [Chinese (192 pages)](https://code.claude.com/docs/_llms/cn.md): Documentation for Chinese.
+- [Traditional Chinese (192 pages)](https://code.claude.com/docs/_llms/zh-hant.md): Documentation for Traditional Chinese.
+- [Russian (192 pages)](https://code.claude.com/docs/_llms/ru.md): Documentation for Russian.
+- [Indonesian (191 pages)](https://code.claude.com/docs/_llms/id.md): Documentation for Indonesian.
+- [Brazilian Portuguese (192 pages)](https://code.claude.com/docs/_llms/pt-br.md): Documentation for Brazilian Portuguese.
 
 
 # Source: https://platform.claude.com/llms.txt
@@ -1128,6 +1129,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/grok-bot/identity.md
   - https://cursor.com/docs/grok-bot/private-networks.md
   - https://cursor.com/docs/grok-bot/proxies.md
+  - https://cursor.com/docs/grok-bot/computers.md
   - https://cursor.com/docs/grok-bot/security.md
     - https://cursor.com/docs/grok-bot/security-faq.md
 
@@ -1377,6 +1379,14 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/account/teams/ai-code-tracking-api.md#get-ai-code-change-metrics-json-paginated
 - https://cursor.com/docs/account/teams/ai-code-tracking-api.md#download-ai-code-change-metrics-csv-streaming
 
+## Origin API
+
+- https://cursor.com/docs/api/origin/llms-full.txt
+- https://cursor.com/docs/api/origin/llms.txt
+- https://cursor.com/docs/api/origin/openapi.yaml
+- https://cursor.com/docs/api/origin/changelog
+- https://cursor.com/docs/api/origin/grants-api
+
 # Help Center
 
 ## Getting started
@@ -1479,7 +1489,8 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 
 ## Grok Bot
 
-- https://cursor.com/help/grok-bot/getting-started.md
+- https://cursor.com/help/grok-bot/onboarding.md
+- https://cursor.com/help/grok-bot/how-to.md
 - https://cursor.com/help/grok-bot/sign-in.md
 - https://cursor.com/help/grok-bot/mobile.md
 - https://cursor.com/help/grok-bot/plans.md
@@ -1606,7 +1617,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Codex App Server](https://learn.chatgpt.com/docs/app-server.md): Embed Codex into your product with the app-server protocol
 
 ## Appshots
-- [Appshots](https://learn.chatgpt.com/docs/appshots.md): Give ChatGPT context from any Mac app
+- [Appshots](https://learn.chatgpt.com/docs/appshots.md): Give ChatGPT context from apps on macOS and Windows
 
 ## Artifacts Viewer
 - [Work with files](https://learn.chatgpt.com/docs/artifacts-viewer.md): Create, preview, and refine documents, presentations, spreadsheets, and PDF files in ChatGPT
@@ -1768,7 +1779,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Long-running work](https://learn.chatgpt.com/docs/long-running-work.md): Keep multi-step work focused with clear outcomes and completion criteria
 
 ## Mcp Server
-- [Use Codex with the Agents SDK](https://learn.chatgpt.com/docs/mcp-server.md): Deprecated. Use the Codex app server or the Codex plugin for Claude Code
+- [Codex MCP server removal](https://learn.chatgpt.com/docs/mcp-server.md): Migrate from the removed Codex MCP server to the app server
 
 ## Models
 - [Models](https://learn.chatgpt.com/docs/models.md): Meet the AI models that power ChatGPT Work and Codex
@@ -1795,7 +1806,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Personalize ChatGPT](https://learn.chatgpt.com/docs/personalize.md): Set preferences and carry useful context across chats
 
 ## Pets
-- [Pets](https://learn.chatgpt.com/docs/pets.md): Choose an animated companion and follow chat activity across supported interfaces
+- [Pets](https://learn.chatgpt.com/docs/pets.md): Choose a companion, start chats from your desktop, and follow activity
 
 ## Plugins
 - [Plugins](https://learn.chatgpt.com/docs/plugins.md): Browse, install, and use plugins on supported ChatGPT and Codex surfaces
