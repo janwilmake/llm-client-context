@@ -330,6 +330,9 @@
 ### What's New
 
 - [What's new](https://code.claude.com/docs/en/whats-new/index.md): A weekly digest of notable Claude Code features, with code snippets, demos, and context on why they matter.
+- [Week 37 · September 7–11, 2026](https://code.claude.com/docs/en/whats-new/2026-w37.md): Test your plugins with claude plugin eval and pop Claude Code Desktop panes out into their own windows.
+- [Week 36 · August 31 – September 4, 2026](https://code.claude.com/docs/en/whats-new/2026-w36.md): Switch to Claude Fable 5.1, let computer use run in the background on Desktop, and watch Claude's edits in a live /diff panel.
+- [Week 35 · August 24–28, 2026](https://code.claude.com/docs/en/whats-new/2026-w35.md): Resume terminal sessions in the Claude Code Desktop app, review feedback reports that Claude drafts for you, and start a session in restricted mode.
 - [Week 34 · August 17–21, 2026](https://code.claude.com/docs/en/whats-new/2026-w34.md): Draft editable UI artboards with the /design skill, set the Concise output style, and start a Claude Code session on your machine from your phone.
 - [Week 33 · August 10–14, 2026](https://code.claude.com/docs/en/whats-new/2026-w33.md): Claude Code Desktop auto-continues after a usage limit resets, fork mode turns on by default, and GitLab merge requests and marketplaces join GitHub.
 - [Week 32 · August 3–7, 2026](https://code.claude.com/docs/en/whats-new/2026-w32.md): Claude Code sessions message each other, self-hosted environments run cloud sessions on your infrastructure, and auto mode becomes the default permission mode.
@@ -365,9 +368,9 @@
 - [French (192 pages)](https://code.claude.com/docs/_llms/fr.md): Documentation for French.
 - [German (192 pages)](https://code.claude.com/docs/_llms/de.md): Documentation for German.
 - [Italian (192 pages)](https://code.claude.com/docs/_llms/it.md): Documentation for Italian.
-- [Japanese (191 pages)](https://code.claude.com/docs/_llms/jp.md): Documentation for Japanese.
+- [Japanese (192 pages)](https://code.claude.com/docs/_llms/jp.md): Documentation for Japanese.
 - [Spanish (192 pages)](https://code.claude.com/docs/_llms/es.md): Documentation for Spanish.
-- [Korean (191 pages)](https://code.claude.com/docs/_llms/ko.md): Documentation for Korean.
+- [Korean (192 pages)](https://code.claude.com/docs/_llms/ko.md): Documentation for Korean.
 - [Chinese (192 pages)](https://code.claude.com/docs/_llms/cn.md): Documentation for Chinese.
 - [Traditional Chinese (192 pages)](https://code.claude.com/docs/_llms/zh-hant.md): Documentation for Traditional Chinese.
 - [Russian (192 pages)](https://code.claude.com/docs/_llms/ru.md): Documentation for Russian.
@@ -1351,6 +1354,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/account/teams/admin-api.md#add-members-to-group
 - https://cursor.com/docs/account/teams/admin-api.md#remove-members-from-group
 - https://cursor.com/docs/account/teams/admin-api.md#model-access
+- https://cursor.com/docs/account/teams/admin-api.md#grok-bot
 
 ## Analytics API
 
@@ -1773,7 +1777,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Best practices](https://learn.chatgpt.com/guides/best-practices.md): Getting started with Codex and proven practices for better results
 
 ## Linux
-- [ChatGPT desktop app for Linux](https://learn.chatgpt.com/docs/linux/linux-app.md): Install and update ChatGPT on supported Ubuntu, Debian, and Fedora desktop distributions
+- [ChatGPT desktop app for Linux](https://learn.chatgpt.com/docs/linux/linux-app.md): Install and update ChatGPT on supported Ubuntu, Debian, Fedora, and Arch Linux desktop distributions
 
 ## Long Running Work
 - [Long-running work](https://learn.chatgpt.com/docs/long-running-work.md): Keep multi-step work focused with clear outcomes and completion criteria
@@ -1934,6 +1938,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Z AI (Zhipu AI)](https://docs.cline.bot/provider-config/zai.md): Learn how to configure and use Z AI's GLM models with Cline. Experience advanced hybrid reasoning, agentic capabilities, and open-source excellence with regional optimization.
 - [Other 30+ Providers](https://docs.cline.bot/provider-config/other-30-plus-providers.md): Reference list for additional supported providers with shared configuration flow.
 - [Config](https://docs.cline.bot/getting-started/config.md): Understand where Cline stores configuration and how global and project config work together.
+- [Cline Desktop](https://docs.cline.bot/usage/cline-desktop.md): An open source app for open weight models, with parallel sessions, scheduled tasks, flexible model choice, and imports from other coding agents.
 - [IDE](https://docs.cline.bot/usage/ide.md): Use Cline in your IDE to build a working todo app and learn the core workflow.
 - [TUI](https://docs.cline.bot/usage/tui.md): Use Cline's terminal UI (TUI) for interactive coding workflows in your terminal.
 - [CLI Overview](https://docs.cline.bot/usage/cli-overview.md): Use Cline CLI for interactive terminal sessions and automated headless workflows.
