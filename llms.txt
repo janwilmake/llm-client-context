@@ -39,7 +39,7 @@
 
 ### Use Claude Code
 
-- [How Claude remembers your project](https://code.claude.com/docs/en/memory.md): Give Claude persistent instructions with CLAUDE.md files, and let Claude accumulate learnings automatically with auto memory.
+- [How Claude remembers your project](https://code.claude.com/docs/en/memory.md): Give Claude persistent instructions with CLAUDE.md or AGENTS.md files, and let Claude accumulate learnings automatically with auto memory.
 - [Manage sessions](https://code.claude.com/docs/en/sessions.md): Name, resume, branch, and switch between Claude Code conversations. Covers `--continue`, `--resume`, `--from-pr`, the `/resume` picker, session naming, exporting transcripts, and where transcripts are stored.
 - [Common workflows](https://code.claude.com/docs/en/common-workflows.md): Step-by-step guides for exploring codebases, fixing bugs, refactoring, testing, and other everyday tasks with Claude Code.
 - [Prompt library](https://code.claude.com/docs/en/prompt-library.md): Copy-paste prompts for Claude Code, tagged by task and role.
@@ -374,7 +374,7 @@
 - [Spanish (197 pages)](https://code.claude.com/docs/_llms/es.md): Documentation for Spanish.
 - [Korean (197 pages)](https://code.claude.com/docs/_llms/ko.md): Documentation for Korean.
 - [Chinese (197 pages)](https://code.claude.com/docs/_llms/cn.md): Documentation for Chinese.
-- [Traditional Chinese (196 pages)](https://code.claude.com/docs/_llms/zh-hant.md): Documentation for Traditional Chinese.
+- [Traditional Chinese (197 pages)](https://code.claude.com/docs/_llms/zh-hant.md): Documentation for Traditional Chinese.
 - [Russian (197 pages)](https://code.claude.com/docs/_llms/ru.md): Documentation for Russian.
 - [Indonesian (197 pages)](https://code.claude.com/docs/_llms/id.md): Documentation for Indonesian.
 - [Brazilian Portuguese (197 pages)](https://code.claude.com/docs/_llms/pt-br.md): Documentation for Brazilian Portuguese.
@@ -1710,7 +1710,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 ## Enterprise
 - [Access tokens](https://learn.chatgpt.com/docs/enterprise/access-tokens.md): Create and manage access tokens for Codex programmatic workflows
 - [Admin rollout guide](https://learn.chatgpt.com/docs/enterprise/admin-setup.md): Plan, configure, and verify a ChatGPT Enterprise rollout across workspace and developer surfaces
-- [Analytics API](https://learn.chatgpt.com/docs/enterprise/analytics-api.md): Understand the purpose and administration boundary of the Codex Analytics API
+- [Analytics API](https://learn.chatgpt.com/docs/enterprise/analytics-api.md): Understand aggregated workspace reporting and Analytics API access
 - [ChatGPT usage limits and spend controls](https://learn.chatgpt.com/docs/enterprise/usage-limits.md): Understand when ChatGPT workspace credit controls can affect plan-dependent Codex usage
 - [ChatGPT Work admin FAQ](https://learn.chatgpt.com/docs/enterprise/work-admin-faq.md): Manage access, data, governance, observability, usage, and incident controls for ChatGPT Work
 - [ChatGPT Work cloud security](https://learn.chatgpt.com/docs/enterprise/chatgpt-work-cloud-security.md): Review cloud execution boundaries, connected accounts, browser and network controls, data retention, and audit visibility for ChatGPT Work
@@ -1733,7 +1733,6 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Usage Insights for ChatGPT Work in Codex](https://learn.chatgpt.com/docs/enterprise/usage-insights.md): Understand usage and credit consumption across ChatGPT Work and Codex, and assess the value of your team's workflows
 - [User lifecycle management](https://learn.chatgpt.com/docs/enterprise/user-lifecycle.md): Provision employees, update group-based permissions, and remove workspace access and Codex tokens
 - [Using the Admin plugin in ChatGPT Work](https://learn.chatgpt.com/docs/enterprise/admin-plugin.md): Manage supported administrative workflows, permissions, and approvals in ChatGPT Work
-- [Workload identity federation](https://learn.chatgpt.com/docs/enterprise/workload-identity.md): Configure workload identity federation for Codex with an OIDC token or SPIFFE JWT-SVID stored in a runtime-managed file.
 - [Workspace analytics](https://learn.chatgpt.com/docs/enterprise/workspace-analytics.md): Compare ChatGPT workspace analytics, Codex analytics, reporting APIs, and audit records
 - [Workspace model availability](https://learn.chatgpt.com/docs/enterprise/workspace-model-availability.md): Separate model access across ChatGPT, Codex in the ChatGPT desktop app, Codex CLI, the IDE extension, Codex cloud, and the OpenAI API Platform
 
