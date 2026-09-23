@@ -237,7 +237,7 @@
 - [Model configuration](https://code.claude.com/docs/en/model-config.md): Configure which model Claude Code uses, effort levels, extended context, and the auto-compact window
 - [Speed up responses with fast mode](https://code.claude.com/docs/en/fast-mode.md): Get faster Opus responses in Claude Code by toggling fast mode.
 - [Escalate hard decisions with the advisor tool](https://code.claude.com/docs/en/advisor.md): Pair your main model with a stronger advisor model that Claude consults at key moments during a task.
-- [Output styles](https://code.claude.com/docs/en/output-styles.md): Adapt Claude Code for uses beyond software engineering
+- [Output styles](https://code.claude.com/docs/en/output-styles.md): Change Claude Code's role, tone, and response format with a built-in output style such as Concise or Explanatory, or write a custom style.
 
 ### Interface
 
@@ -397,17 +397,17 @@ https://platform.claude.com
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
 - English (en) - 634 pages - /docs - Content included below
-- German (Deutsch) (de) - 252 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 252 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 252 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 252 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 252 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 252 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 252 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 252 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 252 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 252 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 252 pages - /docs/id - Visit website for content
+- German (Deutsch) (de) - 257 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 257 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 257 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 257 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 257 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 257 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 257 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 257 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 257 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 257 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 257 pages - /docs/id - Visit website for content
 
 ---
 
@@ -1099,7 +1099,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/models-and-pricing.md
   - https://cursor.com/docs/cursor-router.md
   - https://cursor.com/docs/models/claude-sonnet-5.md
-  - https://cursor.com/docs/models/claude-opus-5.md
+  - https://cursor.com/docs/models/claude-opus-5-5.md
   - https://cursor.com/docs/models/claude-fable-5-1.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
   - https://cursor.com/docs/models/gemini-3-8-flash.md
@@ -1805,6 +1805,9 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Mcp Server
 - [Codex MCP server removal](https://learn.chatgpt.com/docs/mcp-server.md): Migrate from the removed Codex MCP server to the app server
+
+## Model Selection
+- [Model selection](https://learn.chatgpt.com/docs/model-selection.md): Find the right model for your use case
 
 ## Models
 - [Models](https://learn.chatgpt.com/docs/models.md): Meet the AI models that power ChatGPT Work and Codex
