@@ -1444,9 +1444,10 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/api/origin/llms-full.txt
 - https://cursor.com/docs/api/origin/llms.txt
 - https://cursor.com/docs/api/origin/openapi.yaml
-- https://cursor.com/docs/api/origin/changelog
-- https://cursor.com/docs/api/origin/grants-api
-- https://cursor.com/docs/api/origin/acting-as-users
+- https://cursor.com/docs/api/origin/changelog.md
+- https://cursor.com/docs/api/origin/grants-api.md
+- https://cursor.com/docs/api/origin/acting-as-users.md
+- https://cursor.com/docs/api/origin/migrations.md
 
 # Help Center
 
@@ -1985,7 +1986,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 > AI-powered coding agent for complex work
 
-- [Cline Overview](https://docs.cline.bot/cline-overview.md): Your AI-powered coding agent for complex work. Read files, write code, run commands, all with your approval.
+- [Cline Overview](https://docs.cline.bot/cline-overview.md): Your AI-powered agent for complex work. Read files, write code, run commands, all with your approval.
 - [Installing Cline](https://docs.cline.bot/getting-started/installing-cline.md): Choose your installation path: IDE Extension, CLI, SDK, or Kanban
 - [Cline (usage-billing)](https://docs.cline.bot/getting-started/cline-provider.md): Use Cline (usage-billing) for pay-as-you-go model access with built-in authentication and Cline credits.
 - [ClinePass](https://docs.cline.bot/getting-started/clinepass.md): A low-cost monthly subscription that offers 2-5x the usage on popular open coding models compared to standard API rate.
