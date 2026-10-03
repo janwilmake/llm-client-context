@@ -156,7 +156,7 @@
 
 - [Mods overview](https://code.claude.com/docs/en/plugins/mods/overview.md): Add panes, commands, and tool call rules to Claude Code with a mod. See what a mod can do, how to make or install one, and where mods run.
 - [Create a mod](https://code.claude.com/docs/en/plugins/mods/create.md): Have Claude write a Claude Code mod from a description, or write one yourself that counts tool calls and adds a command. Learn the reload and validate loop.
-- [Mods reference](https://code.claude.com/docs/en/plugins/mods/reference.md): Complete reference for Claude Code mods: hooks module layout, every event, every mods API method, render sites, elements by surface, limits, and settings.
+- [Mods reference](https://code.claude.com/docs/en/plugins/mods/reference.md): Complete reference for Claude Code mods: hooks module layout, events, mods API methods, render sites, elements by surface, limits, and settings.
 
 #### Build
 
@@ -167,7 +167,7 @@
 
 #### Test and troubleshoot
 
-- [Test a mod](https://code.claude.com/docs/en/plugins/mods/test.md): Write automated tests for a Claude Code mod that raise events, stub Claude Code's answers, and press buttons, with no session, sign-in, or network.
+- [Test a mod](https://code.claude.com/docs/en/plugins/mods/test.md): Write automated tests for a Claude Code mod that fire events, stub Claude Code's answers, and press buttons, with no session, sign-in, or network.
 - [Troubleshoot a mod](https://code.claude.com/docs/en/plugins/mods/troubleshoot.md): Find out why a Claude Code mod does nothing: match the symptom or message to its cause, look up refusal messages, and read the debug log.
 
 ### Run a marketplace
@@ -416,17 +416,17 @@
 
 ## Indexes
 
-- [French (219 pages)](https://code.claude.com/docs/_llms/fr.md): Documentation for French.
-- [German (219 pages)](https://code.claude.com/docs/_llms/de.md): Documentation for German.
-- [Italian (219 pages)](https://code.claude.com/docs/_llms/it.md): Documentation for Italian.
-- [Japanese (218 pages)](https://code.claude.com/docs/_llms/jp.md): Documentation for Japanese.
-- [Spanish (219 pages)](https://code.claude.com/docs/_llms/es.md): Documentation for Spanish.
-- [Korean (219 pages)](https://code.claude.com/docs/_llms/ko.md): Documentation for Korean.
-- [Simplified Chinese (219 pages)](https://code.claude.com/docs/_llms/zh-cn.md): Documentation for Simplified Chinese.
-- [Traditional Chinese (219 pages)](https://code.claude.com/docs/_llms/zh-tw.md): Documentation for Traditional Chinese.
-- [Russian (219 pages)](https://code.claude.com/docs/_llms/ru.md): Documentation for Russian.
-- [Indonesian (219 pages)](https://code.claude.com/docs/_llms/id.md): Documentation for Indonesian.
-- [Brazilian Portuguese (219 pages)](https://code.claude.com/docs/_llms/pt-br.md): Documentation for Brazilian Portuguese.
+- [French (220 pages)](https://code.claude.com/docs/_llms/fr.md): Documentation for French.
+- [German (220 pages)](https://code.claude.com/docs/_llms/de.md): Documentation for German.
+- [Italian (220 pages)](https://code.claude.com/docs/_llms/it.md): Documentation for Italian.
+- [Japanese (219 pages)](https://code.claude.com/docs/_llms/jp.md): Documentation for Japanese.
+- [Spanish (220 pages)](https://code.claude.com/docs/_llms/es.md): Documentation for Spanish.
+- [Korean (220 pages)](https://code.claude.com/docs/_llms/ko.md): Documentation for Korean.
+- [Simplified Chinese (220 pages)](https://code.claude.com/docs/_llms/zh-cn.md): Documentation for Simplified Chinese.
+- [Traditional Chinese (220 pages)](https://code.claude.com/docs/_llms/zh-tw.md): Documentation for Traditional Chinese.
+- [Russian (220 pages)](https://code.claude.com/docs/_llms/ru.md): Documentation for Russian.
+- [Indonesian (220 pages)](https://code.claude.com/docs/_llms/id.md): Documentation for Indonesian.
+- [Brazilian Portuguese (220 pages)](https://code.claude.com/docs/_llms/pt-br.md): Documentation for Brazilian Portuguese.
 
 
 # Source: https://platform.claude.com/llms.txt
@@ -445,7 +445,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 748 pages - /docs - Content included below
+- English (en) - 753 pages - /docs - Content included below
 - German (Deutsch) (de) - 265 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 265 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 265 pages - /docs/fr - Visit website for content
@@ -569,17 +569,22 @@ The full documentation is available in the following languages on https://platfo
 - [Build in Console](https://platform.claude.com/docs/en/managed-agents/onboarding.md)
 - [Cloud environment setup](https://platform.claude.com/docs/en/managed-agents/environments.md)
 - [Cloud sandbox reference](https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference.md)
+- [Custom tools and MCP servers](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-custom-tools.md) - Custom tools in self-hosted sandboxes
 - [Define outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes.md)
 - [Agent setup](https://platform.claude.com/docs/en/managed-agents/agent-setup.md) - Define your agent
+- [Deploy workers](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-workers.md) - Deploy self-hosted workers
 - [Dreams](https://platform.claude.com/docs/en/managed-agents/dreams.md)
 - [MCP connector](https://platform.claude.com/docs/en/managed-agents/mcp-connector.md)
+- [Memory stores](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-memory.md) - Memory stores in self-hosted sandboxes
 - [Migration](https://platform.claude.com/docs/en/managed-agents/migration.md)
+- [Monitor and troubleshoot](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-operations.md) - Monitor and troubleshoot self-hosted workers
 - [Multiagent orchestration](https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration.md)
 - [Permission policies](https://platform.claude.com/docs/en/managed-agents/permission-policies.md)
 - [Managed Agents reference](https://platform.claude.com/docs/en/managed-agents/reference.md) - Reference
 - [Scheduled deployments](https://platform.claude.com/docs/en/managed-agents/scheduled-deployments.md)
 - [Security model](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security.md)
-- [Integration guide](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md) - Self-hosted sandboxes
+- [Overview and quickstart](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md) - Self-hosted sandboxes
+- [Worker reference](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-reference.md) - Self-hosted worker reference
 - [Session budgets](https://platform.claude.com/docs/en/managed-agents/budgets.md)
 - [Session event stream](https://platform.claude.com/docs/en/managed-agents/events-and-streaming.md)
 - [Session operations](https://platform.claude.com/docs/en/managed-agents/session-operations.md)
