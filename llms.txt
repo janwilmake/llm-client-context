@@ -190,7 +190,7 @@
 
 - [Plugin manifest reference](https://code.claude.com/docs/en/plugins/manifest-reference.md): Complete reference for plugin.json: every field with its type and default, accepted path forms, and the userConfig and environment variable schemas.
 - [Marketplace reference](https://code.claude.com/docs/en/plugins/marketplace-reference.md): Complete reference for marketplace.json fields, plugin entries, and the plugin and marketplace source objects, with where each is valid.
-- [Plugin commands reference](https://code.claude.com/docs/en/plugins/cli-reference.md): Complete reference for the claude plugin shell commands, /plugin and /reload-plugins in a session, and the flags that load a plugin for one session.
+- [Plugin commands reference](https://code.claude.com/docs/en/plugins/cli-reference.md): Reference for the claude plugin shell commands, /plugin and /reload-plugins in a session, and the flags that load a plugin for one session.
 
 ## Administration
 
@@ -446,7 +446,7 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 753 pages - /docs - Content included below
+- English (en) - 754 pages - /docs - Content included below
 - German (Deutsch) (de) - 265 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 265 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 265 pages - /docs/fr - Visit website for content
@@ -582,6 +582,7 @@ The full documentation is available in the following languages on https://platfo
 - [Multiagent orchestration](https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration.md)
 - [Permission policies](https://platform.claude.com/docs/en/managed-agents/permission-policies.md)
 - [Managed Agents reference](https://platform.claude.com/docs/en/managed-agents/reference.md) - Reference
+- [Web tool restrictions](https://platform.claude.com/docs/en/managed-agents/tools-web-restrictions.md) - Restrict web search and web fetch domains
 - [Scheduled deployments](https://platform.claude.com/docs/en/managed-agents/scheduled-deployments.md)
 - [Security model](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security.md)
 - [Overview and quickstart](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md) - Self-hosted sandboxes
@@ -1281,6 +1282,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/grok-4-5.md
   - https://cursor.com/docs/models/cursor-composer-2-5.md
 - https://cursor.comhttps://cursor.com/changelog.md
+- https://cursor.com/docs/release-notes.md
 
 ## Agent
 
@@ -1369,6 +1371,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/origin/settings.md
 - https://cursor.com/docs/origin/codebase-settings.md
 - https://cursor.com/docs/origin/integrations.md
+- https://cursor.com/docs/origin/apps/publish.md
 
 ## Integrations
 
@@ -1390,7 +1393,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/sdk/typescript.md
 - https://cursor.com/docs/sdk/python.md
 - https://cursor.com/docs/sdk/bridge.md
-- https://cursor.com/docs/sdk/changelog.md
+- https://cursor.com/docs/release-notes/sdk.md
 
 ## cli
 
@@ -1492,6 +1495,9 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#create-an-environment
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-an-environment
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#delete-an-environment
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#list-environment-builds
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#get-an-environment-build
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#get-the-active-build
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#worker-tokens
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-workers
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-worker-summary
@@ -2020,6 +2026,9 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 ## Migrate Custom Gpts
 - [Moving your custom GPT workflows to plugins](https://learn.chatgpt.com/docs/migrate-custom-gpts.md): Guidance for Enterprise admins preparing their workspace and GPT creators migrating, testing, and sharing replacement plugins.
 
+## Mobile
+- [Codex on mobile](https://learn.chatgpt.com/docs/mobile.md): Start, guide, approve, and review Codex tasks on a connected computer from your phone.
+
 ## Model Selection
 - [Model selection](https://learn.chatgpt.com/docs/model-selection.md): Find the right model for your use case
 
@@ -2068,11 +2077,8 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 ## Reference
 - [Troubleshooting](https://learn.chatgpt.com/docs/reference/troubleshooting.md): FAQ and fixes for common ChatGPT desktop app issues
 
-## Remote
-- [Codex Remote](https://learn.chatgpt.com/docs/remote.md): Start, guide, approve, and review Codex tasks on a connected computer from your phone.
-
 ## Remote Connections
-- [Remote connections](https://learn.chatgpt.com/docs/remote-connections.md): Use Remote to access work on a connected computer, or connect the ChatGPT desktop app to projects over SSH
+- [Remote connections](https://learn.chatgpt.com/docs/remote-connections.md): Use Codex on mobile to access work on a connected computer, or connect the ChatGPT desktop app to projects over SSH
 
 ## Resources
 - [Resources](https://learn.chatgpt.com/resources.md): Find Codex videos, community programs, and OpenAI resources
@@ -2266,7 +2272,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [YOLO Mode](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/yolo-mode.md): Enterprise controls for YOLO Mode autonomous operation
 - [MCP Server Controls](https://docs.cline.bot/enterprise-solutions/configuration/infrastructure-configuration/control-other-cline-features/mcp-server-controls.md): Enterprise controls for MCP server allowlisting and remote MCP server management
 - [Enterprise Monitoring](https://docs.cline.bot/enterprise-solutions/monitoring/overview.md): Optional telemetry and observability for your Cline deployment
-- [Cline Telemetry](https://docs.cline.bot/enterprise-solutions/monitoring/telemetry.md): Configure usage analytics and event tracking
+- [Cline Telemetry](https://docs.cline.bot/enterprise-solutions/monitoring/telemetry.md): What Cline's usage telemetry collects and how to turn it off
 - [Prompt Storage](https://docs.cline.bot/enterprise-solutions/monitoring/prompt-storage.md): Backup conversation history to S3 or Cloudflare R2 for compliance, audit, and analysis
 - [OpenTelemetry Integration](https://docs.cline.bot/enterprise-solutions/monitoring/opentelemetry.md): Export Cline telemetry to your observability platform using OpenTelemetry Protocol (OTLP)
 - [OpenTelemetry Events Reference](https://docs.cline.bot/enterprise-solutions/monitoring/opentelemetry-events.md): Complete reference of OpenTelemetry log events emitted by Cline
