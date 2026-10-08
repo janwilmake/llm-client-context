@@ -26,7 +26,7 @@
 ### Getting started
 
 - [Overview](https://code.claude.com/docs/en/overview.md): Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser.
-- [Quickstart](https://code.claude.com/docs/en/quickstart.md): Welcome to Claude Code!
+- [Quickstart](https://code.claude.com/docs/en/quickstart.md): Install Claude Code in your terminal, sign in, and use the CLI to explore your codebase and make your first code change.
 - [Claude Code changelog](https://code.claude.com/docs/en/changelog.md): Release notes for Claude Code, including new features, improvements, and bug fixes by version.
 
 ### Core concepts
@@ -446,18 +446,18 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 754 pages - /docs - Content included below
-- German (Deutsch) (de) - 265 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 265 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 265 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 265 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 265 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 265 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 265 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 265 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 265 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 265 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 265 pages - /docs/id - Visit website for content
+- English (en) - 760 pages - /docs - Content included below
+- German (Deutsch) (de) - 276 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 276 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 276 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 276 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 276 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 276 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 276 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 276 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 276 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 276 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 276 pages - /docs/id - Visit website for content
 
 ---
 
@@ -575,12 +575,14 @@ The full documentation is available in the following languages on https://platfo
 - [Agent setup](https://platform.claude.com/docs/en/managed-agents/agent-setup.md) - Define your agent
 - [Deploy workers](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-workers.md) - Deploy self-hosted workers
 - [Dreams](https://platform.claude.com/docs/en/managed-agents/dreams.md)
+- [Inspect and track usage](https://platform.claude.com/docs/en/managed-agents/session-observability.md) - Inspect sessions and track usage
 - [MCP connector](https://platform.claude.com/docs/en/managed-agents/mcp-connector.md)
 - [Memory stores](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-memory.md) - Memory stores in self-hosted sandboxes
 - [Migration](https://platform.claude.com/docs/en/managed-agents/migration.md)
 - [Monitor and troubleshoot](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-operations.md) - Monitor and troubleshoot self-hosted workers
 - [Multiagent orchestration](https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration.md)
 - [Permission policies](https://platform.claude.com/docs/en/managed-agents/permission-policies.md)
+- [Event deltas](https://platform.claude.com/docs/en/managed-agents/event-deltas.md) - Preview responses with event deltas
 - [Managed Agents reference](https://platform.claude.com/docs/en/managed-agents/reference.md) - Reference
 - [Web tool restrictions](https://platform.claude.com/docs/en/managed-agents/tools-web-restrictions.md) - Restrict web search and web fetch domains
 - [Scheduled deployments](https://platform.claude.com/docs/en/managed-agents/scheduled-deployments.md)
@@ -656,6 +658,7 @@ The full documentation is available in the following languages on https://platfo
 - [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices.md)
 - [Prompting Claude Fable 5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5.md)
 - [Prompting Claude Fable 5.1](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1.md)
+- [Prompting Claude Haiku 5.5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5.md)
 - [Prompting Claude Opus 4.8](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8.md)
 - [Prompting Claude Opus 5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5.md)
 - [Prompting Claude Opus 5.5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5.md)
@@ -671,6 +674,7 @@ The full documentation is available in the following languages on https://platfo
 - [Claude Fable 5](https://platform.claude.com/docs/en/models/fable-5/overview.md)
 - [Claude Fable 5.1](https://platform.claude.com/docs/en/models/fable-5-1/overview.md)
 - [Claude Haiku 4.5](https://platform.claude.com/docs/en/models/haiku-4-5/overview.md)
+- [Claude Haiku 5.5](https://platform.claude.com/docs/en/models/haiku-5-5/overview.md)
 - [Claude Mythos 5](https://platform.claude.com/docs/en/models/mythos-5/overview.md)
 - [Claude Mythos 5.1](https://platform.claude.com/docs/en/models/mythos-5-1/overview.md)
 - [Claude Opus 4.5](https://platform.claude.com/docs/en/models/opus-4-5/overview.md)
@@ -688,10 +692,13 @@ The full documentation is available in the following languages on https://platfo
 - [Overview](https://platform.claude.com/docs/en/release-notes/system-prompts/overview.md) - System prompts
 - [Choosing a model](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model.md) - Choosing the right model
 - [Claude Fable 5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5.md) - Claude Fable 5 system prompts
+- [Migration guide](https://platform.claude.com/docs/en/models/fable-5-1/migration-guide.md) - Claude Fable 5.1 and Claude Mythos 5.1 migration guide
 - [Claude Fable 5.1](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-1.md) - Claude Fable 5.1 system prompts
 - [Claude Haiku 3](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3.md) - Claude Haiku 3 system prompts
 - [Claude Haiku 3.5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3-5.md) - Claude Haiku 3.5 system prompts
 - [Claude Haiku 4.5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-4-5.md) - Claude Haiku 4.5 system prompts
+- [Migration guide](https://platform.claude.com/docs/en/models/haiku-5-5/migration-guide.md) - Claude Haiku 5.5 migration guide
+- [Claude Haiku 5.5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-5-5.md) - Claude Haiku 5.5 system prompts
 - [Claude Opus 3](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-3.md) - Claude Opus 3 system prompts
 - [Claude Opus 4](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4.md) - Claude Opus 4 system prompts
 - [Claude Opus 4.1](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-1.md) - Claude Opus 4.1 system prompts
@@ -700,6 +707,7 @@ The full documentation is available in the following languages on https://platfo
 - [Claude Opus 4.7](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-7.md) - Claude Opus 4.7 system prompts
 - [Claude Opus 4.8](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-8.md) - Claude Opus 4.8 system prompts
 - [Claude Opus 5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5.md) - Claude Opus 5 system prompts
+- [Migration guide](https://platform.claude.com/docs/en/models/opus-5-5/migration-guide.md) - Claude Opus 5.5 migration guide
 - [Claude Opus 5.5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-5-5.md) - Claude Opus 5.5 system prompts
 - [Claude Sonnet 3.5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-5.md) - Claude Sonnet 3.5 system prompts
 - [Claude Sonnet 3.7](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-3-7.md) - Claude Sonnet 3.7 system prompts
@@ -707,17 +715,15 @@ The full documentation is available in the following languages on https://platfo
 - [Claude Sonnet 4.5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-5.md) - Claude Sonnet 4.5 system prompts
 - [Claude Sonnet 4.6](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-4-6.md) - Claude Sonnet 4.6 system prompts
 - [Claude Sonnet 5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-5.md) - Claude Sonnet 5 system prompts
+- [Migration guide](https://platform.claude.com/docs/en/models/sonnet-5-5/migration-guide.md) - Claude Sonnet 5.5 migration guide
 - [Claude Sonnet 5.5](https://platform.claude.com/docs/en/release-notes/system-prompts/claude-sonnet-5-5.md) - Claude Sonnet 5.5 system prompts
-- [Migration guide](https://platform.claude.com/docs/en/models/fable-5-1/migration-guide.md) - Migrating to Claude Fable 5.1 and Claude Mythos 5.1
-- [Migration guide](https://platform.claude.com/docs/en/models/haiku-4-5/migration-guide.md) - Migrating to Claude Haiku 4.5
-- [Migration guide](https://platform.claude.com/docs/en/models/opus-5-5/migration-guide.md) - Migrating to Claude Opus 5.5
-- [Migration guide](https://platform.claude.com/docs/en/models/sonnet-5-5/migration-guide.md) - Migrating to Claude Sonnet 5.5
 - [Upgrade between model versions](https://platform.claude.com/docs/en/about-claude/models/migration-guide.md) - Migration guides
 - [Model deprecations](https://platform.claude.com/docs/en/about-claude/model-deprecations.md)
 - [Model IDs and versioning](https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions.md)
 - [Optimizing for cost and intelligence](https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence.md)
 - [Pricing](https://platform.claude.com/docs/en/about-claude/pricing.md)
 - [What's new](https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1.md) - What's new in Claude Fable 5.1
+- [What's new](https://platform.claude.com/docs/en/models/haiku-5-5/whats-new-haiku-5-5.md) - What's new in Claude Haiku 5.5
 - [What's new](https://platform.claude.com/docs/en/models/opus-5-5/whats-new-opus-5-5.md) - What's new in Claude Opus 5.5
 - [What's new](https://platform.claude.com/docs/en/models/sonnet-5-5/whats-new-sonnet-5-5.md) - What's new in Claude Sonnet 5.5
 
@@ -1251,7 +1257,7 @@ The full documentation is available in the following languages on https://platfo
 
 - [Introducing Claude Fable 5 and Claude Mythos 5](https://platform.claude.com/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5.md)
 - [API usage primer for Claude](https://platform.claude.com/docs/en/claude_api_primer.md)
-- [Migrating to Claude Mythos 5 and Claude Fable 5](https://platform.claude.com/docs/en/models/fable-5/migration-guide.md)
+- [Claude Mythos 5 and Claude Fable 5 migration guide](https://platform.claude.com/docs/en/models/fable-5/migration-guide.md)
 
 ---
 
@@ -1271,6 +1277,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/claude-sonnet-5-5.md
   - https://cursor.com/docs/models/claude-opus-5-5.md
   - https://cursor.com/docs/models/claude-fable-5-1.md
+  - https://cursor.com/docs/models/claude-haiku-5-5.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
   - https://cursor.com/docs/models/gemini-3-8-flash.md
   - https://cursor.com/docs/models/muse-spark-1-3.md
@@ -1363,15 +1370,15 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/origin/cli/reference/commands.md
   - https://cursor.com/docs/origin/cli/reference/pull-requests.md
 - https://cursor.com/docs/origin/create-repository.md
+- https://cursor.com/docs/origin/mirror-github.md
 - https://cursor.com/docs/origin/git.md
 - https://cursor.com/docs/origin/clonekit-ci.md
-- https://cursor.com/docs/origin/mirror-github.md
 - https://cursor.com/docs/origin/pull-requests.md
 - https://cursor.com/docs/origin/browse.md
+- https://cursor.com/docs/origin/agents.md
+- https://cursor.com/docs/origin/apps.md
+  - https://cursor.com/docs/origin/apps/build-app.md
 - https://cursor.com/docs/origin/settings.md
-- https://cursor.com/docs/origin/codebase-settings.md
-- https://cursor.com/docs/origin/integrations.md
-- https://cursor.com/docs/origin/apps/publish.md
 
 ## Integrations
 
@@ -1493,12 +1500,16 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#unarchive-an-agent
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#delete-an-agent-permanently
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#create-an-environment
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#list-environments
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-an-environment
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#update-an-environment
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#delete-an-environment
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#list-environment-history
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-environment-builds
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-an-environment-build
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-the-active-build
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#worker-tokens
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#secrets
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-workers
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-worker-summary
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-worker-by-id
@@ -1510,6 +1521,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#claim-a-pending-request
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#create-a-session-token
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#release-a-claim
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#fail-a-claim
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#api-key-info
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-models
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-github-repositories
@@ -1706,6 +1718,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/grok-bot/sign-in.md
 - https://cursor.com/help/grok-bot/mobile.md
 - https://cursor.com/help/grok-bot/plans.md
+- https://cursor.com/help/grok-bot/models.md
 - https://cursor.com/help/grok-bot/supergrok.md
 - https://cursor.com/help/grok-bot/mobile-purchase.md
 - https://cursor.com/help/grok-bot/delete-account.md
@@ -1932,8 +1945,6 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [ChatGPT Work Overview](https://learn.chatgpt.com/docs/enterprise/chatgpt-work-overview.md): Understand local and cloud execution, network access, connected apps, privacy, and data retention for ChatGPT Work in Enterprise and Edu workspaces
 - [ChatGPT Work: usage and cost](https://learn.chatgpt.com/docs/enterprise/chatgpt-work-usage-and-cost.md): Understand shared credit consumption, billing impact, spending controls, and role-based adoption planning for ChatGPT Work
 - [Compliance API and audit events](https://learn.chatgpt.com/docs/enterprise/compliance-api.md): Understand the purpose and administration boundary of the Compliance API
-- [Connect to a gateway](https://learn.chatgpt.com/docs/enterprise/connect-to-a-gateway.md): Connect Codex to an LLM gateway
-- [Deploy Codex through a gateway](https://learn.chatgpt.com/docs/enterprise/roll-out-a-gateway.md): Distribute and verify a Codex gateway connection for your organization
 - [Deploy the Windows app](https://learn.chatgpt.com/docs/enterprise/windows-deployment.md): Install the ChatGPT desktop app with Intune, SCCM, another management tool, or a user installer
 - [Gateway compatibility requirements](https://learn.chatgpt.com/docs/enterprise/gateway-compatibility.md): Check the gateway requirements for Codex
 - [Governance](https://learn.chatgpt.com/docs/enterprise/governance.md): Choose the appropriate analytics, usage, and audit surface for each administration question
@@ -1947,12 +1958,15 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Plugin management](https://learn.chatgpt.com/docs/enterprise/plugin-management.md): Import and sync workspace plugins from GitHub
 - [Prisma AIRS](https://learn.chatgpt.com/docs/enterprise/prisma-airs.md): Connect Palo Alto Networks Prisma AIRS to scan Codex prompts
 - [Roles and workspace permissions](https://learn.chatgpt.com/docs/enterprise/roles-and-workspace-permissions.md): Separate ChatGPT workspace access from local runtime, API, plugin, and source-system controls
+- [Roll out a gateway](https://learn.chatgpt.com/docs/enterprise/roll-out-a-gateway.md): Distribute and verify a Codex gateway connection for your organization
 - [Service accounts](https://learn.chatgpt.com/docs/enterprise/service-accounts.md): Set up and manage service accounts for Codex automation in your ChatGPT workspace
 - [Set up and manage @ChatGPT in Slack and Microsoft Teams](https://learn.chatgpt.com/docs/enterprise/chatgpt-slack-and-teams.md): Install @ChatGPT, configure shared access, and manage your Slack or Microsoft Teams deployment.
 - [Set up and manage teams and Team Tasks](https://learn.chatgpt.com/docs/enterprise/teams.md): Set team and task permissions, configure shared connections, and create and manage recurring Team Tasks.
+- [Sign in with ChatGPT through a gateway](https://learn.chatgpt.com/docs/enterprise/sign-in-with-chatgpt-through-a-gateway.md): Keep your gateway for Codex model requests while users sign in with their ChatGPT workspace.
 - [Sites administration](https://learn.chatgpt.com/docs/enterprise/sites.md): Enable Sites, manage connected plugins, and control sharing and network access
 - [Skill controls](https://learn.chatgpt.com/docs/enterprise/skills.md): Compare ChatGPT workspace, local filesystem, and plugin skill controls
 - [Usage Insights for ChatGPT Work in Codex](https://learn.chatgpt.com/docs/enterprise/usage-insights.md): Understand usage and credit consumption across ChatGPT Work and Codex, and assess the value of your team's workflows
+- [Use API/provider credentials through a gateway](https://learn.chatgpt.com/docs/enterprise/connect-to-a-gateway.md): Connect Codex to an LLM gateway with provider credentials
 - [User lifecycle management](https://learn.chatgpt.com/docs/enterprise/user-lifecycle.md): Provision employees, update group-based permissions, and remove workspace access and Codex tokens
 - [Using the Admin plugin in ChatGPT Work](https://learn.chatgpt.com/docs/enterprise/admin-plugin.md): Manage supported administrative workflows, permissions, and approvals in ChatGPT Work
 - [Workspace analytics](https://learn.chatgpt.com/docs/enterprise/workspace-analytics.md): Compare ChatGPT workspace analytics, Codex analytics, reporting APIs, and audit records
@@ -2196,6 +2210,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Config](https://docs.cline.bot/getting-started/config.md): Understand where Cline stores configuration and how global and project config work together.
 - [Cline Desktop](https://docs.cline.bot/usage/cline-desktop.md): An open source app for open weight models, with parallel sessions, scheduled tasks, flexible model choice, and imports from other coding agents.
 - [Remote Development over SSH](https://docs.cline.bot/usage/cline-desktop-ssh.md): Run Cline Desktop against a dev box, build server, or cloud VM over SSH. The app stays on your computer; the agent, its tools, and your code live on the remote machine.
+- [Cline Cloud Agents](https://docs.cline.bot/usage/cloud-agents.md): Use Cline straight from your browser. Give it a task on one of your GitHub repos and it works in its own secure cloud sandbox, with no IDE, CLI, or app to install.
 - [IDE](https://docs.cline.bot/usage/ide.md): Use Cline in your IDE to build a working todo app and learn the core workflow.
 - [TUI](https://docs.cline.bot/usage/tui.md): Use Cline's terminal UI (TUI) for interactive coding workflows in your terminal.
 - [CLI Overview](https://docs.cline.bot/usage/cli-overview.md): Use Cline CLI for interactive terminal sessions and automated headless workflows.
