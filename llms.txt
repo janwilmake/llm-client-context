@@ -600,18 +600,18 @@ https://platform.claude.com
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 760 pages - /docs - Content included below
-- German (Deutsch) (de) - 278 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 278 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 278 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 278 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 278 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 278 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 278 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 278 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 278 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 278 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 278 pages - /docs/id - Visit website for content
+- English (en) - 762 pages - /docs - Content included below
+- German (Deutsch) (de) - 280 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 280 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 280 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 280 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 280 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 280 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 280 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 280 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 280 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 280 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 280 pages - /docs/id - Visit website for content
 
 ---
 
@@ -746,11 +746,13 @@ The full documentation is available in the following languages on https://platfo
 - [Session budgets](https://platform.claude.com/docs/en/managed-agents/budgets.md)
 - [Session event stream](https://platform.claude.com/docs/en/managed-agents/events-and-streaming.md)
 - [Session operations](https://platform.claude.com/docs/en/managed-agents/session-operations.md)
+- [Session threads](https://platform.claude.com/docs/en/managed-agents/session-threads.md)
 - [Agent Skills](https://platform.claude.com/docs/en/managed-agents/skills.md) - Skills
 - [Start a session](https://platform.claude.com/docs/en/managed-agents/sessions.md)
 - [Subscribe to webhooks](https://platform.claude.com/docs/en/managed-agents/webhooks.md)
 - [Tools](https://platform.claude.com/docs/en/managed-agents/tools.md)
 - [Memory stores](https://platform.claude.com/docs/en/managed-agents/memory.md) - Using agent memory
+- [Workflow runs](https://platform.claude.com/docs/en/managed-agents/workflow-runs.md)
 
 ### Admin
 
@@ -1883,6 +1885,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/grok-bot/mobile-purchase.md
 - https://cursor.com/help/grok-bot/delete-account.md
 - https://cursor.com/help/grok-bot/connect-plugins.md
+- https://cursor.com/help/grok-bot/agent-email.md
 - https://cursor.com/help/grok-bot/routines.md
 - https://cursor.com/help/grok-bot/edit-bot.md
 - https://cursor.com/help/grok-bot/group-chats.md
@@ -2106,6 +2109,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [ChatGPT Work: usage and cost](https://learn.chatgpt.com/docs/enterprise/chatgpt-work-usage-and-cost.md): Understand shared credit consumption, billing impact, spending controls, and role-based adoption planning for ChatGPT Work
 - [Compliance API and audit events](https://learn.chatgpt.com/docs/enterprise/compliance-api.md): Understand the purpose and administration boundary of the Compliance API
 - [Deploy the Windows app](https://learn.chatgpt.com/docs/enterprise/windows-deployment.md): Install the ChatGPT desktop app with Intune, SCCM, another management tool, or a user installer
+- [Dynamic groups](https://learn.chatgpt.com/docs/enterprise/dynamic-groups.md): Automatically manage group membership using SCIM user attributes
 - [Gateway compatibility requirements](https://learn.chatgpt.com/docs/enterprise/gateway-compatibility.md): Check the gateway requirements for Codex
 - [Governance](https://learn.chatgpt.com/docs/enterprise/governance.md): Choose the appropriate analytics, usage, and audit surface for each administration question
 - [GPTs and Sharing](https://learn.chatgpt.com/docs/enterprise/gpts-and-sharing.md): Manage GPT sharing, ownership, connected apps, and third-party actions across your workspace.
@@ -2331,6 +2335,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Whats New
 - [What's new](https://learn.chatgpt.com/docs/whats-new.md): A weekly digest of ChatGPT and Codex features that can change how you work
+- [Create your dot in the ChatGPT mobile app](https://learn.chatgpt.com/docs/whats-new/dots-october-9-2026.md): This week in dots: mobile setup, more context from ChatGPT and Codex, and improvements to browsing, notifications, and everyday use.
 - [DevDay 2026](https://learn.chatgpt.com/docs/whats-new/devday-2026.md): DevDay updates across ChatGPT, Codex, Sites, plugins, the API, and Enterprise.
 - [October 5–9, 2026](https://learn.chatgpt.com/docs/whats-new/october-5-9-2026.md)
 - [September 28–October 2, 2026](https://learn.chatgpt.com/docs/whats-new/september-28-october-2-2026.md)
