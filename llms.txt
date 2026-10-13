@@ -1898,6 +1898,10 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/grok-bot/secrets.md
 - https://cursor.com/help/grok-bot/get-help.md
 
+## The X Subscription
+
+- https://cursor.com/help/the-x-subscription/overview.md
+
 ## Troubleshooting
 
 - https://cursor.com/help/troubleshooting/agent-issues.md
