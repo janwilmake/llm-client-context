@@ -65,7 +65,6 @@
 - [Get started with Claude Code in the cloud](https://code.claude.com/docs/en/web-quickstart.md): Run Claude Code in the cloud from your browser or phone. Connect a GitHub repository, submit a task, and review the PR without local setup.
 - [Use Claude Code in the cloud](https://code.claude.com/docs/en/claude-code-on-the-web.md): Run Claude Code sessions in the cloud from your browser, phone, Desktop app, or terminal, move them with `--cloud` and `--teleport`, and auto-fix pull requests.
 - [Automate work with routines](https://code.claude.com/docs/en/routines.md): Put Claude Code on autopilot. Define routines that run on a schedule, trigger on API calls, or react to GitHub events from cloud infrastructure.
-- [Find bugs with ultrareview](https://code.claude.com/docs/en/ultrareview.md): Run a deep, multi-agent code review in the cloud with /code-review ultra to find and verify bugs before you merge.
 
 ##### Claude Code on desktop
 
@@ -76,14 +75,30 @@
 - [Schedule recurring tasks in Claude Code Desktop](https://code.claude.com/docs/en/desktop-scheduled-tasks.md): Set up scheduled tasks in Claude Code Desktop to run Claude automatically on a recurring basis for daily code reviews, dependency audits, or morning briefings.
 - [Test iOS apps in the simulator](https://code.claude.com/docs/en/desktop-ios-simulator.md): Claude Code Desktop opens your app in the iOS Simulator pane when Claude builds, runs, or checks it, with a separate simulator for each session.
 
-##### Code review & CI/CD
+#### Code review and pull requests
+
+- [Review locally with /code-review](https://code.claude.com/docs/en/code-review-local.md): Run `/code-review` in a Claude Code session to find bugs in your branch's changes, point the review at a pull request or path, and have Claude apply the fixes.
+- [Find bugs with ultrareview](https://code.claude.com/docs/en/ultrareview.md): Run a deep, multi-agent code review in the cloud with /code-review ultra to find and verify bugs before you merge.
+- [Claude Code with GitHub Enterprise Server](https://code.claude.com/docs/en/github-enterprise-server.md): Connect Claude Code to your self-hosted GitHub Enterprise Server instance for cloud sessions, code review, and plugin marketplaces.
+
+##### Code Review
+
+- [Code Review](https://code.claude.com/docs/en/code-review.md): Catch bugs in GitHub pull requests with Code Review: Claude reviews each change, verifies its findings, and comments inline. For Team and Enterprise plans
+- [Set up Code Review](https://code.claude.com/docs/en/code-review-setup.md): Turn on Code Review for your Claude organization: connect GitHub, install the Claude GitHub App, choose repositories, and set when reviews run
+- [Customize Code Review](https://code.claude.com/docs/en/code-review-customize.md): Tune what Code Review flags on your pull requests with REVIEW.md and CLAUDE.md: recalibrate severity, skip paths, add checks, and see which copy applies.
+- [Read and request reviews on a pull request](https://code.claude.com/docs/en/code-review-pull-requests.md): Read Code Review findings on your GitHub pull request, respond to or dismiss them, and request a review with `@claude review`.
+- [Code Review costs and usage](https://code.claude.com/docs/en/code-review-costs.md): Estimate and cap what your organization spends on Claude Code Review: how reviews are billed through usage credits, what drives cost, and where to track usage.
+- [Troubleshoot Code Review](https://code.claude.com/docs/en/code-review-troubleshooting.md): Fix a Code Review that didn't start, failed, or was skipped for budget, find missing findings, and resolve setup and `REVIEW.md` problems.
+
+##### Security scans
 
 - [Catch security issues as Claude writes code](https://code.claude.com/docs/en/security-guidance.md): Install the security-guidance plugin to have Claude review its own code changes for vulnerabilities and fix them in the same session.
 - [Scan your codebase for vulnerabilities](https://code.claude.com/docs/en/claude-security.md): Install the Claude Security plugin to scan your codebase for vulnerabilities in a Claude Code session and turn findings into patches you review and apply.
-- [Code Review](https://code.claude.com/docs/en/code-review.md): Set up automated PR reviews that catch logic errors, security vulnerabilities, and regressions using multi-agent analysis of your full codebase
+
+##### Run Claude in your own CI
+
 - [Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions.md): Run Claude Code in GitHub Actions workflows to respond to @claude mentions, automate tasks, and turn issues into pull requests
 - [Use Claude Code GitHub Actions with cloud providers](https://code.claude.com/docs/en/github-actions-cloud-providers.md): Run Claude Code GitHub Actions through Amazon Bedrock, Google Cloud's Agent Platform, or Microsoft Foundry instead of the Claude API
-- [Claude Code with GitHub Enterprise Server](https://code.claude.com/docs/en/github-enterprise-server.md): Connect Claude Code to your self-hosted GitHub Enterprise Server instance for cloud sessions, code review, and plugin marketplaces.
 - [Claude Code GitLab CI/CD](https://code.claude.com/docs/en/gitlab-ci-cd.md): Learn about integrating Claude Code into your development workflow with GitLab CI/CD
 
 ### Quickstart
@@ -101,6 +116,10 @@
 ### Platforms and integrations
 
 - [Platforms and integrations](https://code.claude.com/docs/en/platforms.md): Choose where to run Claude Code and what to connect it to. Compare the CLI, Desktop, VS Code, JetBrains, web, mobile, and integrations like Chrome, Slack, and CI/CD.
+
+### Code review and pull requests
+
+- [Code Review](https://code.claude.com/docs/en/code-review.md): Catch bugs in GitHub pull requests with Code Review: Claude reviews each change, verifies its findings, and comments inline. For Team and Enterprise plans
 
 ## Build with Claude Code
 
@@ -572,17 +591,17 @@
 
 ## Indexes
 
-- [French (222 pages)](https://code.claude.com/docs/_llms/fr.txt): Documentation for French.
-- [German (222 pages)](https://code.claude.com/docs/_llms/de.txt): Documentation for German.
-- [Italian (222 pages)](https://code.claude.com/docs/_llms/it.txt): Documentation for Italian.
-- [Japanese (222 pages)](https://code.claude.com/docs/_llms/jp.txt): Documentation for Japanese.
-- [Spanish (222 pages)](https://code.claude.com/docs/_llms/es.txt): Documentation for Spanish.
-- [Korean (222 pages)](https://code.claude.com/docs/_llms/ko.txt): Documentation for Korean.
-- [Simplified Chinese (222 pages)](https://code.claude.com/docs/_llms/zh-cn.txt): Documentation for Simplified Chinese.
-- [Traditional Chinese (222 pages)](https://code.claude.com/docs/_llms/zh-tw.txt): Documentation for Traditional Chinese.
-- [Russian (222 pages)](https://code.claude.com/docs/_llms/ru.txt): Documentation for Russian.
-- [Indonesian (222 pages)](https://code.claude.com/docs/_llms/id.txt): Documentation for Indonesian.
-- [Brazilian Portuguese (222 pages)](https://code.claude.com/docs/_llms/pt-br.txt): Documentation for Brazilian Portuguese.
+- [French (228 pages)](https://code.claude.com/docs/_llms/fr.txt): Documentation for French.
+- [German (228 pages)](https://code.claude.com/docs/_llms/de.txt): Documentation for German.
+- [Italian (228 pages)](https://code.claude.com/docs/_llms/it.txt): Documentation for Italian.
+- [Japanese (228 pages)](https://code.claude.com/docs/_llms/jp.txt): Documentation for Japanese.
+- [Spanish (228 pages)](https://code.claude.com/docs/_llms/es.txt): Documentation for Spanish.
+- [Korean (228 pages)](https://code.claude.com/docs/_llms/ko.txt): Documentation for Korean.
+- [Simplified Chinese (228 pages)](https://code.claude.com/docs/_llms/zh-cn.txt): Documentation for Simplified Chinese.
+- [Traditional Chinese (228 pages)](https://code.claude.com/docs/_llms/zh-tw.txt): Documentation for Traditional Chinese.
+- [Russian (228 pages)](https://code.claude.com/docs/_llms/ru.txt): Documentation for Russian.
+- [Indonesian (228 pages)](https://code.claude.com/docs/_llms/id.txt): Documentation for Indonesian.
+- [Brazilian Portuguese (228 pages)](https://code.claude.com/docs/_llms/pt-br.txt): Documentation for Brazilian Portuguese.
 
 
 # Source: https://platform.claude.com/llms.txt
@@ -605,18 +624,18 @@ Connect an MCP client to https://platform.claude.com/docs/mcp (Streamable HTTP t
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 779 pages - /docs - Content included below
-- German (Deutsch) (de) - 283 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 283 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 283 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 283 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 283 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 283 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 283 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 283 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 283 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 283 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 283 pages - /docs/id - Visit website for content
+- English (en) - 782 pages - /docs - Content included below
+- German (Deutsch) (de) - 288 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 288 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 288 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 288 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 288 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 288 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 288 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 288 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 288 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 288 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 288 pages - /docs/id - Visit website for content
 
 ---
 
@@ -641,6 +660,7 @@ The full documentation is available in the following languages on https://platfo
 - [Authentication](https://platform.claude.com/docs/en/manage-claude/authentication.md)
 - [Bash tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool.md)
 - [Batch processing](https://platform.claude.com/docs/en/build-with-claude/batch-processing.md)
+- [Browser and computer use (SDK)](https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-sdk.md) - Browser and computer use with the SDK toolsets
 - [Browser use tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool.md)
 - [Build an orchestration mode](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example.md)
 - [Cache diagnostics](https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics.md)
@@ -668,7 +688,7 @@ The full documentation is available in the following languages on https://platfo
 - [Embeddings](https://platform.claude.com/docs/en/build-with-claude/embeddings.md)
 - [Extended thinking (legacy)](https://platform.claude.com/docs/en/build-with-claude/extended-thinking.md) - Extended thinking
 - [Fallback credit](https://platform.claude.com/docs/en/build-with-claude/fallback-credit.md)
-- [Fast mode (research preview)](https://platform.claude.com/docs/en/build-with-claude/fast-mode.md)
+- [Fast mode](https://platform.claude.com/docs/en/build-with-claude/fast-mode.md)
 - [Files API](https://platform.claude.com/docs/en/build-with-claude/files.md)
 - [Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md)
 - [Get your API key](https://platform.claude.com/docs/en/get-api-key.md) - Get your Claude API key
@@ -727,6 +747,7 @@ The full documentation is available in the following languages on https://platfo
 - [Attach and download files](https://platform.claude.com/docs/en/managed-agents/files.md) - Adding files
 - [Authenticate with vaults](https://platform.claude.com/docs/en/managed-agents/vaults.md)
 - [Build in Console](https://platform.claude.com/docs/en/managed-agents/onboarding.md)
+- [Choose an environment](https://platform.claude.com/docs/en/managed-agents/choosing-an-environment.md) - Choosing an agent environment
 - [Cloud environment setup](https://platform.claude.com/docs/en/managed-agents/environments.md)
 - [Cloud sandbox reference](https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference.md)
 - [Custom tools and MCP servers](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-custom-tools.md) - Custom tools in self-hosted sandboxes
@@ -791,11 +812,11 @@ The full documentation is available in the following languages on https://platfo
 - [Rate Limits API](https://platform.claude.com/docs/en/manage-claude/rate-limits-api.md)
 - [Chats, files, and projects](https://platform.claude.com/docs/en/manage-claude/compliance-content-data.md) - Retrieve and delete chats, files, and projects
 - [Session transcripts](https://platform.claude.com/docs/en/manage-claude/compliance-sessions.md) - Retrieve session transcripts
+- [Get Claude API spans](https://platform.claude.com/docs/en/manage-claude/opentelemetry/api.md) - Set up OpenTelemetry with the Claude API
+- [Get Claude SDK spans](https://platform.claude.com/docs/en/manage-claude/opentelemetry/sdk.md) - Set up OpenTelemetry with the Claude SDK
 - [Set up the Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api-access.md)
 - [Spend Limits API](https://platform.claude.com/docs/en/manage-claude/spend-limits-api.md)
 - [Usage and Cost API](https://platform.claude.com/docs/en/manage-claude/usage-cost-api.md)
-- [Get Claude API spans](https://platform.claude.com/docs/en/manage-claude/opentelemetry/api.md) - Use OpenTelemetry with the Claude API
-- [Get Claude SDK spans](https://platform.claude.com/docs/en/manage-claude/opentelemetry/sdk.md) - Use OpenTelemetry with the Claude SDK
 - [AWS](https://platform.claude.com/docs/en/manage-claude/wif-providers/aws.md) - Use WIF with AWS
 - [GitHub Actions](https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions.md) - Use WIF with GitHub Actions
 - [Google Cloud](https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp.md) - Use WIF with Google Cloud
@@ -977,7 +998,7 @@ The full documentation is available in the following languages on https://platfo
 - [Archive Workspace](https://platform.claude.com/docs/en/api/organization/workspaces/archive.md)
 - [Archive Workspace (Beta)](https://platform.claude.com/docs/en/api/beta/organization/workspaces/archive.md)
 - [Artifacts](https://platform.claude.com/docs/en/api/compliance/apps/artifacts.md)
-- [Artifacts](https://platform.claude.com/docs/en/api/compliance/code/artifacts.md)
+- [Artifacts](https://platform.claude.com/docs/en/api/compliance/apps/code/artifacts.md)
 - [Artifacts (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/artifacts.md)
 - [Attachments](https://platform.claude.com/docs/en/api/compliance/apps/projects/attachments.md)
 - [Batches](https://platform.claude.com/docs/en/api/messages/batches.md)
@@ -989,7 +1010,7 @@ The full documentation is available in the following languages on https://platfo
 - [Certificates (Beta)](https://platform.claude.com/docs/en/api/beta/tunnels/certificates.md)
 - [Chat (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/apps/chat.md)
 - [Chats](https://platform.claude.com/docs/en/api/compliance/apps/chats.md)
-- [Code](https://platform.claude.com/docs/en/api/compliance/code.md)
+- [Code](https://platform.claude.com/docs/en/api/compliance/apps/code.md)
 - [Collaborators](https://platform.claude.com/docs/en/api/compliance/apps/projects/collaborators.md)
 - [Completions](https://platform.claude.com/docs/en/api/completions.md)
 - [Compliance API](https://platform.claude.com/docs/en/api/compliance.md)
@@ -1050,7 +1071,7 @@ The full documentation is available in the following languages on https://platfo
 - [Delete a Message Batch (Beta)](https://platform.claude.com/docs/en/api/beta/messages/batches/delete.md)
 - [Delete a Telemetry Destination (Beta)](https://platform.claude.com/docs/en/api/beta/organization/telemetry_destinations/delete.md)
 - [Delete chat](https://platform.claude.com/docs/en/api/compliance/apps/chats/delete.md)
-- [Delete Code Artifact](https://platform.claude.com/docs/en/api/compliance/code/artifacts/delete.md)
+- [Delete Code Artifact](https://platform.claude.com/docs/en/api/compliance/apps/code/artifacts/delete.md)
 - [Delete Credential (Beta)](https://platform.claude.com/docs/en/api/beta/vaults/credentials/delete.md)
 - [Delete Environment (Beta)](https://platform.claude.com/docs/en/api/beta/environments/delete.md)
 - [Delete External Key](https://platform.claude.com/docs/en/api/organization/external_keys/delete.md)
@@ -1082,7 +1103,8 @@ The full documentation is available in the following languages on https://platfo
 - [Documents](https://platform.claude.com/docs/en/api/compliance/apps/projects/documents.md)
 - [Download a Claude-generated file](https://platform.claude.com/docs/en/api/compliance/apps/chats/generated_files/download.md)
 - [Download artifact content](https://platform.claude.com/docs/en/api/compliance/apps/artifacts/download.md)
-- [Download Code Artifact Version Content](https://platform.claude.com/docs/en/api/compliance/code/artifacts/retrieve_version.md)
+- [Download Code Artifact Content](https://platform.claude.com/docs/en/api/compliance/apps/code/artifacts/download.md)
+- [Download Code Artifact Version Content](https://platform.claude.com/docs/en/api/compliance/apps/code/artifacts/retrieve_version.md)
 - [Download File](https://platform.claude.com/docs/en/api/files/download.md)
 - [Download File (Beta)](https://platform.claude.com/docs/en/api/beta/files/download.md)
 - [Download file content](https://platform.claude.com/docs/en/api/compliance/apps/chats/files/download.md)
@@ -1190,7 +1212,7 @@ The full documentation is available in the following languages on https://platfo
 - [List API Keys](https://platform.claude.com/docs/en/api/organization/api_keys/list.md)
 - [List API Keys (Beta)](https://platform.claude.com/docs/en/api/beta/organization/api_keys/list.md)
 - [List chats](https://platform.claude.com/docs/en/api/compliance/apps/chats/list.md)
-- [List Code Artifacts](https://platform.claude.com/docs/en/api/compliance/code/artifacts/list.md)
+- [List Code Artifacts](https://platform.claude.com/docs/en/api/compliance/apps/code/artifacts/list.md)
 - [List Compliance Group Members](https://platform.claude.com/docs/en/api/compliance/groups/members/list.md)
 - [List Compliance Groups](https://platform.claude.com/docs/en/api/compliance/groups/list.md)
 - [List Compliance Role Permissions](https://platform.claude.com/docs/en/api/compliance/organizations/roles/permissions/list.md)
@@ -1460,7 +1482,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/gemini-4-argon.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
   - https://cursor.com/docs/models/gemini-3-8-flash.md
-  - https://cursor.com/docs/models/muse-spark-1-3.md
+  - https://cursor.com/docs/models/muse-wonder.md
   - https://cursor.com/docs/models/gpt-5-6-sol.md
   - https://cursor.com/docs/models/gpt-5-6-terra.md
   - https://cursor.com/docs/models/gpt-5-6-luna.md
@@ -2156,7 +2178,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Set up and manage @ChatGPT in Slack and Microsoft Teams](https://learn.chatgpt.com/docs/enterprise/chatgpt-slack-and-teams.md): Install @ChatGPT, configure shared access, and manage your Slack or Microsoft Teams deployment.
 - [Set up and manage teams and Team Tasks](https://learn.chatgpt.com/docs/enterprise/teams.md): Set team and task permissions, configure shared connections, and create and manage recurring Team Tasks.
 - [Sign in with ChatGPT through a gateway](https://learn.chatgpt.com/docs/enterprise/sign-in-with-chatgpt-through-a-gateway.md): Keep your gateway for Codex model requests while users sign in with their ChatGPT workspace.
-- [Sites administration](https://learn.chatgpt.com/docs/enterprise/sites.md): Enable Sites, manage connected plugins, and control sharing and network access
+- [Sites administration](https://learn.chatgpt.com/docs/enterprise/sites.md): Plan site access, review publishing decisions, and maintain sites in your workspace
 - [Skill controls](https://learn.chatgpt.com/docs/enterprise/skills.md): Compare ChatGPT workspace, local filesystem, and plugin skill controls
 - [Usage Insights for ChatGPT Work in Codex](https://learn.chatgpt.com/docs/enterprise/usage-insights.md): Understand usage and credit consumption across ChatGPT Work and Codex, and assess the value of your team's workflows
 - [Use API/provider credentials through a gateway](https://learn.chatgpt.com/docs/enterprise/connect-to-a-gateway.md): Connect Codex to an LLM gateway with provider credentials
@@ -2174,7 +2196,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Worktrees](https://learn.chatgpt.com/docs/environments/git-worktrees.md): Use Git worktrees in Codex to run chats in parallel
 
 ## Extend
-- [Model Context Protocol](https://learn.chatgpt.com/docs/extend/mcp.md): Give Codex access to third-party tools and context
+- [Model Context Protocol](https://learn.chatgpt.com/docs/extend/mcp.md): Connect ChatGPT and Codex to your tools and information.
 - [Record & Replay](https://learn.chatgpt.com/docs/extend/record-and-replay.md): Show ChatGPT or Codex a workflow once and turn it into a reusable skill
 
 ## Feature Maturity
@@ -2296,29 +2318,29 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Auto-review](https://learn.chatgpt.com/docs/sandboxing/auto-review.md): How Codex routes sandbox-boundary approvals through a reviewer agent
 
 ## Security
-- [Codex Security](https://learn.chatgpt.com/docs/security.md): Find and remediate vulnerabilities with the Codex Security plugin, CLI, TypeScript SDK, or Codex Security Cloud.
+- [Codex Security](https://learn.chatgpt.com/docs/security.md): Scan code, investigate findings, and review fixes with Codex Security.
 - [Codex Security CLI FAQ](https://learn.chatgpt.com/docs/security/cli/faq.md): Answers about Codex Security scans, findings, false positives, coverage, cost, and CI.
-- [Codex Security CLI quickstart](https://learn.chatgpt.com/docs/security/cli.md): Set up Codex Security, run a local scan, and review the report, findings, and coverage.
+- [Codex Security CLI quickstart](https://learn.chatgpt.com/docs/security/cli.md): Sign in, scan a local repository, and review the findings and coverage.
 - [Codex Security CLI reference](https://learn.chatgpt.com/docs/security/cli/reference.md): Arguments, output formats, scan artifacts, and exit codes for the Codex Security CLI.
-- [Codex Security Cloud FAQ](https://learn.chatgpt.com/docs/security/faq.md): Common questions about Codex Security Cloud.
+- [Codex Security Cloud FAQ](https://learn.chatgpt.com/docs/security/faq.md): Understand Cloud scan results, validation, patches, and commit monitoring.
 - [Codex Security Cloud setup](https://learn.chatgpt.com/docs/security/setup.md): Install Codex Security Cloud, scan a GitHub repository, and review findings.
 - [Codex Security plugin changelog](https://learn.chatgpt.com/docs/security/plugin/changelog.md): Notable user-facing changes to the Codex Security plugin.
 - [Codex Security plugin quickstart](https://learn.chatgpt.com/docs/security/plugin.md): Install the Codex Security plugin, run your first read-only scan, and review the result in Codex.
 - [Codex Security TypeScript SDK](https://learn.chatgpt.com/docs/security/sdk.md): Run Codex Security scans from TypeScript, select targets, inspect results, and manage scan lifecycle.
-- [Export and track security findings](https://learn.chatgpt.com/docs/security/plugin/export-findings.md): Create portable findings artifacts or prepare approval-gated issues and draft advisories from a completed scan.
-- [Fix and verify security findings](https://learn.chatgpt.com/docs/security/plugin/fix-findings.md): Turn accepted findings into minimal patches with focused regression evidence.
-- [Improving the threat model](https://learn.chatgpt.com/docs/security/threat-model.md): Refine the Codex Security context that ranks findings and helps you review faster
-- [Propose security hardening](https://learn.chatgpt.com/docs/security/plugin/security-hardening.md): Develop evidence-backed structural security improvements, compare tradeoffs, and prepare an implementation handoff.
+- [Export and track security findings](https://learn.chatgpt.com/docs/security/plugin/export-findings.md): Export scan results or create issues and draft advisories.
+- [Fix and verify security findings](https://learn.chatgpt.com/docs/security/plugin/fix-findings.md): Generate a patch for a finding and verify that it fixes the issue.
+- [Improve the Cloud threat model](https://learn.chatgpt.com/docs/security/threat-model.md): Add deployment context and security assumptions to a monitored repository's threat model.
+- [Propose security hardening](https://learn.chatgpt.com/docs/security/plugin/security-hardening.md): Compare architectural changes and their security and engineering tradeoffs.
 - [Review code changes for security](https://learn.chatgpt.com/docs/security/plugin/code-changes.md): Review pull requests and local changes for security regressions manually or in CI/CD.
-- [Run a Codex Security scan](https://learn.chatgpt.com/docs/security/plugin/scans.md): Scan an authorized repository or one scoped folder and review findings, coverage, and artifacts.
-- [Run a deep security scan](https://learn.chatgpt.com/docs/security/plugin/deep-scans.md): Run a slower, more thorough review of a repository or scoped folder.
+- [Run a Codex Security scan](https://learn.chatgpt.com/docs/security/plugin/scans.md): Scan a repository.
+- [Run a deep security scan](https://learn.chatgpt.com/docs/security/plugin/deep-scans.md): Run repeated security reviews of a repository or folder and set limits on concurrency and duration.
 - [Run bulk security scans](https://learn.chatgpt.com/docs/security/cli/bulk-scans.md): Discover GitHub repositories or run resumable security scans from a CSV inventory.
 - [Run Codex Security in CI](https://learn.chatgpt.com/docs/security/cli/ci.md): Scan pull-request and merge-request changes, preserve structured results, upload SARIF, and set a severity policy.
 - [Run Codex Security in GitLab CI/CD](https://learn.chatgpt.com/docs/security/cli/ci/gitlab.md): Scan GitLab merge requests and branches, publish SARIF findings, and optionally open draft merge requests with verified fixes.
 - [Security Review](https://learn.chatgpt.com/docs/security/security-review.md): Configure and run in-depth security reviews for GitHub pull requests.
 - [Triage a backlog](https://learn.chatgpt.com/docs/security/plugin/triage-backlog.md): Review existing security findings against a repository and order follow-up work.
 - [Use the Codex Security workbench](https://learn.chatgpt.com/docs/security/plugin/workbench.md): Start security scans, review findings, and inspect repository history in the Codex desktop app.
-- [Write vulnerability reports](https://learn.chatgpt.com/docs/security/plugin/vulnerability-reports.md): Turn findings, disclosure notes, source, and proof-of-concept material into polished, source-backed vulnerability reports.
+- [Write vulnerability reports](https://learn.chatgpt.com/docs/security/plugin/vulnerability-reports.md): Turn findings, disclosure notes, source, and proof-of-concept material into vulnerability reports with supporting evidence.
 
 ## Security Administration
 - [Security](https://learn.chatgpt.com/docs/security-administration.md): Manage permissions, security, and safety controls for ChatGPT and Codex developer tools
@@ -2327,7 +2349,11 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Sign in with ChatGPT](https://learn.chatgpt.com/docs/sign-in-with-chatgpt.md): Use your ChatGPT account in other apps, with usage limits that keep you in control.
 
 ## Sites
-- [Sites](https://learn.chatgpt.com/docs/sites.md): Build and share hosted sites in ChatGPT
+- [Sites](https://learn.chatgpt.com/docs/sites.md): Build and share a website by describing it in ChatGPT or Codex
+- [Create a site](https://learn.chatgpt.com/docs/sites/creating-a-site.md): Describe, build, and refine a website in ChatGPT or Codex
+- [Data and connections](https://learn.chatgpt.com/docs/sites/data-and-connections.md): Save records, connect apps, and add sign-in to your site
+- [Manage a site](https://learn.chatgpt.com/docs/sites/managing-a-site.md): Review analytics, change domains and settings, and manage site versions
+- [Publish and share](https://learn.chatgpt.com/docs/sites/publishing-and-sharing.md): Review your site, choose its audience, and collaborate with editors
 
 ## Skills And Plugins
 - [Skills & Plugins](https://learn.chatgpt.com/docs/skills-and-plugins.md): Add reusable workflows, expertise, and connected tools to ChatGPT and Codex
