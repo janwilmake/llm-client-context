@@ -624,7 +624,7 @@ Connect an MCP client to https://platform.claude.com/docs/mcp (Streamable HTTP t
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 782 pages - /docs - Content included below
+- English (en) - 783 pages - /docs - Content included below
 - German (Deutsch) (de) - 288 pages - /docs/de - Visit website for content
 - Spanish (Español) (es) - 288 pages - /docs/es - Visit website for content
 - French (Français) (fr) - 288 pages - /docs/fr - Visit website for content
@@ -812,6 +812,7 @@ The full documentation is available in the following languages on https://platfo
 - [Rate Limits API](https://platform.claude.com/docs/en/manage-claude/rate-limits-api.md)
 - [Chats, files, and projects](https://platform.claude.com/docs/en/manage-claude/compliance-content-data.md) - Retrieve and delete chats, files, and projects
 - [Session transcripts](https://platform.claude.com/docs/en/manage-claude/compliance-sessions.md) - Retrieve session transcripts
+- [Claude Platform on AWS](https://platform.claude.com/docs/en/manage-claude/cmek-claude-platform-on-aws.md) - Set up CMEK on Claude Platform on AWS
 - [Get Claude API spans](https://platform.claude.com/docs/en/manage-claude/opentelemetry/api.md) - Set up OpenTelemetry with the Claude API
 - [Get Claude SDK spans](https://platform.claude.com/docs/en/manage-claude/opentelemetry/sdk.md) - Set up OpenTelemetry with the Claude SDK
 - [Set up the Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api-access.md)
@@ -2158,8 +2159,9 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [ChatGPT Work local security](https://learn.chatgpt.com/docs/enterprise/chatgpt-work-local-security.md): Review local execution, device and browser access, managed policies, data handling, and audit limitations for ChatGPT Work
 - [ChatGPT Work Overview](https://learn.chatgpt.com/docs/enterprise/chatgpt-work-overview.md): Understand local and cloud execution, network access, connected apps, privacy, and data retention for ChatGPT Work in Enterprise and Edu workspaces
 - [ChatGPT Work: usage and cost](https://learn.chatgpt.com/docs/enterprise/chatgpt-work-usage-and-cost.md): Understand shared credit consumption, billing impact, spending controls, and role-based adoption planning for ChatGPT Work
+- [Codex security cookbook](https://learn.chatgpt.com/docs/enterprise/security-cookbook.md): Configure, verify, and combine enterprise controls for Codex access, files, services, and actions
 - [Compliance API and audit events](https://learn.chatgpt.com/docs/enterprise/compliance-api.md): Understand the purpose and administration boundary of the Compliance API
-- [Deploy the Windows app](https://learn.chatgpt.com/docs/enterprise/windows-deployment.md): Install the ChatGPT desktop app with Intune, SCCM, another management tool, or a user installer
+- [Deploy the Windows app and Codex CLI](https://learn.chatgpt.com/docs/enterprise/windows-deployment.md): Deploy the Windows desktop app and Codex CLI with Intune, SCCM, or another enterprise management tool
 - [Dynamic groups](https://learn.chatgpt.com/docs/enterprise/dynamic-groups.md): Automatically manage group membership using SCIM user attributes
 - [Gateway compatibility requirements](https://learn.chatgpt.com/docs/enterprise/gateway-compatibility.md): Check the gateway requirements for Codex
 - [Governance](https://learn.chatgpt.com/docs/enterprise/governance.md): Choose the appropriate analytics, usage, and audit surface for each administration question
@@ -2167,7 +2169,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Groups and provisioning](https://learn.chatgpt.com/docs/enterprise/groups-and-provisioning.md): Understand group membership sources and their workspace access boundary
 - [Local computer access for Work Cloud and dots](https://learn.chatgpt.com/docs/enterprise/cloud-local-access.md): Review shared policies and compatibility, then enable local computer access separately for Work and dots
 - [Manage app updates](https://learn.chatgpt.com/docs/enterprise/manage-app-updates.md): Control how your organization updates the ChatGPT desktop app on macOS and Windows
-- [Manage ChatGPT Space and shared pages](https://learn.chatgpt.com/docs/enterprise/chatgpt-space.md): Manage Library sharing permissions in Space, understand existing-access limits, and help members share pages.
+- [Manage ChatGPT Space, pages, and slides](https://learn.chatgpt.com/docs/enterprise/chatgpt-space.md): Manage Library sharing permissions in Space, understand existing-access limits, and help members share pages and slide decks.
 - [Managed configuration](https://learn.chatgpt.com/docs/enterprise/managed-configuration.md): Distribute configuration defaults and enforce requirements across supported local clients
 - [Plugin controls](https://learn.chatgpt.com/docs/enterprise/apps-and-connectors.md): Choose which plugins your team can use, and manage access to their connected services and actions
 - [Plugin management](https://learn.chatgpt.com/docs/enterprise/plugin-management.md): Import and sync workspace plugins from GitHub
@@ -2359,9 +2361,9 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Skills & Plugins](https://learn.chatgpt.com/docs/skills-and-plugins.md): Add reusable workflows, expertise, and connected tools to ChatGPT and Codex
 
 ## Space
-- [ChatGPT Space](https://learn.chatgpt.com/docs/space.md): A home for your pages, files, and shared work with ChatGPT
-- [Collaborate in Space](https://learn.chatgpt.com/docs/space/collaboration.md): Share pages and Spaces with the right people and permissions
-- [Get started with ChatGPT Space](https://learn.chatgpt.com/docs/space/getting-started.md): Create a page, add your context, and work on it with ChatGPT
+- [ChatGPT Space](https://learn.chatgpt.com/docs/space.md): A home for your pages, slides, files, and shared work with ChatGPT
+- [Collaborate in Space](https://learn.chatgpt.com/docs/space/collaboration.md): Share pages, slides, and Spaces with the right people and permissions
+- [Get started with ChatGPT Space](https://learn.chatgpt.com/docs/space/getting-started.md): Create a page or slide deck, add your context, and work with ChatGPT
 - [Work with agents in Space](https://learn.chatgpt.com/docs/space/agents.md): Ask ChatGPT or a dot to draft, research, and revise a page
 - [Work with pages](https://learn.chatgpt.com/docs/space/pages.md): Create, organize, and edit pages with ChatGPT and collaborators
 
