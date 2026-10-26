@@ -2493,6 +2493,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Config](https://docs.cline.bot/getting-started/config.md): Understand where Cline stores configuration and how global and project config work together.
 - [Cline Desktop](https://docs.cline.bot/usage/cline-desktop.md): An open source app for open weight models, with parallel sessions, scheduled tasks, flexible model choice, and imports from other coding agents.
 - [Remote Development over SSH](https://docs.cline.bot/usage/cline-desktop-ssh.md): Run Cline Desktop against a dev box, build server, or cloud VM over SSH. The app stays on your computer; the agent, its tools, and your code live on the remote machine.
+- [Local Models in Cline Desktop](https://docs.cline.bot/usage/cline-desktop-local-models.md): Set up Ollama or LM Studio, download, load, and switch between local models, check their memory use, and manage disk space from Cline Desktop.
 - [Cline Cloud Agents](https://docs.cline.bot/usage/cloud-agents.md): Use Cline straight from your browser. Give it a task on one of your GitHub repos and it works in its own secure cloud sandbox, with no IDE, CLI, or app to install.
 - [IDE](https://docs.cline.bot/usage/ide.md): Use Cline in your IDE to build a working todo app and learn the core workflow.
 - [TUI](https://docs.cline.bot/usage/tui.md): Use Cline's terminal UI (TUI) for interactive coding workflows in your terminal.
