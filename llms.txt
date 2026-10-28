@@ -1615,6 +1615,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/origin/cli.md
   - https://cursor.com/docs/origin/cli/reference/commands.md
   - https://cursor.com/docs/origin/cli/reference/pull-requests.md
+  - https://cursor.com/docs/origin/cli/reference/stacks.md
 - https://cursor.com/docs/origin/create-repository.md
 - https://cursor.com/docs/origin/mirror-github.md
 - https://cursor.com/docs/origin/git.md
@@ -1641,6 +1642,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/integrations/bitbucket.md
 - https://cursor.com/docs/integrations/jetbrains.md
 - https://cursor.com/docs/integrations/xcode.md
+- https://cursor.com/docs/integrations/tailscale.md
 - https://cursor.com/docs/reference/deeplinks.md
 
 ## SDK
@@ -2036,7 +2038,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/grok-bot/edit-bot.md
 - https://cursor.com/help/grok-bot/memory.md
 - https://cursor.com/help/grok-bot/group-chats.md
-- https://cursor.com/help/grok-bot/team-bots.md
+- https://cursor.com/help/grok-bot/shared-bots.md
 - https://cursor.com/help/grok-bot/voice-chat.md
 - https://cursor.com/help/grok-bot/computer-recovery.md
 - https://cursor.com/help/grok-bot/secrets.md
@@ -2262,6 +2264,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [ChatGPT Work: usage and cost](https://learn.chatgpt.com/docs/enterprise/chatgpt-work-usage-and-cost.md): Understand shared credit consumption, billing impact, spending controls, and role-based adoption planning for ChatGPT Work
 - [Codex security cookbook](https://learn.chatgpt.com/docs/enterprise/security-cookbook.md): Configure, verify, and combine enterprise controls for Codex access, files, services, and actions
 - [Compliance API and audit events](https://learn.chatgpt.com/docs/enterprise/compliance-api.md): Understand the purpose and administration boundary of the Compliance API
+- [Connect to a gateway](https://learn.chatgpt.com/docs/enterprise/connect-to-a-gateway.md): Configure a model gateway and authenticate with native gateway OAuth, an API key, or a credential helper.
 - [Deploy the Windows app and Codex CLI](https://learn.chatgpt.com/docs/enterprise/windows-deployment.md): Deploy the Windows desktop app and Codex CLI with Intune, SCCM, or another enterprise management tool
 - [Dynamic groups](https://learn.chatgpt.com/docs/enterprise/dynamic-groups.md): Automatically manage group membership using SCIM user attributes
 - [Gateway compatibility requirements](https://learn.chatgpt.com/docs/enterprise/gateway-compatibility.md): Check the gateway requirements for Codex
@@ -2281,12 +2284,10 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Service accounts](https://learn.chatgpt.com/docs/enterprise/service-accounts.md): Set up and manage service accounts for Codex automation in your ChatGPT workspace
 - [Set up and manage @ChatGPT in Slack and Microsoft Teams](https://learn.chatgpt.com/docs/enterprise/chatgpt-slack-and-teams.md): Install @ChatGPT, configure shared access, and manage your Slack or Microsoft Teams deployment.
 - [Set up and manage teams and Team Tasks](https://learn.chatgpt.com/docs/enterprise/teams.md): Set team and task permissions, configure shared connections, and create and manage recurring Team Tasks.
-- [Sign in with ChatGPT through a gateway](https://learn.chatgpt.com/docs/enterprise/sign-in-with-chatgpt-through-a-gateway.md): Keep your gateway for Codex model requests while users sign in with their ChatGPT workspace.
 - [Sites administration](https://learn.chatgpt.com/docs/enterprise/sites.md): Plan site access, review publishing decisions, and maintain sites in your workspace
 - [Skill controls](https://learn.chatgpt.com/docs/enterprise/skills.md): Compare ChatGPT workspace, local filesystem, and plugin skill controls
 - [Understand ChatGPT education plans](https://learn.chatgpt.com/docs/enterprise/education-plans.md): Compare education plans, help members get access, and manage work across multiple workspaces.
 - [Usage Insights for ChatGPT Work in Codex](https://learn.chatgpt.com/docs/enterprise/usage-insights.md): Understand usage and credit consumption across ChatGPT Work and Codex, and assess the value of your team's workflows
-- [Use API/provider credentials through a gateway](https://learn.chatgpt.com/docs/enterprise/connect-to-a-gateway.md): Connect Codex to an LLM gateway with provider credentials
 - [User lifecycle management](https://learn.chatgpt.com/docs/enterprise/user-lifecycle.md): Provision employees, update group-based permissions, and remove workspace access and Codex tokens
 - [Using the Admin plugin in ChatGPT Work](https://learn.chatgpt.com/docs/enterprise/admin-plugin.md): Manage supported administrative workflows, permissions, and approvals in ChatGPT Work
 - [Workspace analytics](https://learn.chatgpt.com/docs/enterprise/workspace-analytics.md): Compare ChatGPT workspace analytics, Codex analytics, reporting APIs, and audit records
