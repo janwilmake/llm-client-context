@@ -203,7 +203,7 @@
 #### Use plugins
 
 - [Install and manage plugins](https://code.claude.com/docs/en/plugins/install.md): Install Claude Code plugins from a marketplace on any surface you use, choose an install scope, and update or remove them later.
-- [Anthropic's marketplaces](https://code.claude.com/docs/en/plugins/anthropic-marketplaces.md): Anthropic's official, community, and demo plugin marketplaces for Claude Code: their names, repositories, how you add each, and where to browse their plugins.
+- [Anthropic's marketplaces](https://code.claude.com/docs/en/plugins/anthropic-marketplaces.md): Anthropic's official and community plugin marketplaces for Claude Code: their names, repositories, how you add each, and where to browse their plugins.
 - [Code intelligence plugins](https://code.claude.com/docs/en/plugins/code-intelligence.md): Install a language server plugin so Claude sees type errors after edits and navigates code by symbol, and answer the LSP plugin recommendation dialog.
 - [Plugin security and trust](https://code.claude.com/docs/en/plugins/security.md): Decide whether to trust a plugin before you install it, from what a plugin can do on your machine to how to review one and remove it.
 
@@ -2506,6 +2506,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [October 26–30, 2026](https://learn.chatgpt.com/docs/whats-new/october-26-30-2026.md)
 - [October 5–9, 2026](https://learn.chatgpt.com/docs/whats-new/october-5-9-2026.md)
 - [September 28–October 2, 2026](https://learn.chatgpt.com/docs/whats-new/september-28-october-2-2026.md)
+- [Text your dot](https://learn.chatgpt.com/docs/whats-new/dots-october-28-2026.md): Reach your dot through iMessage or RCS on Android.
 
 ## Windows
 - [ChatGPT desktop app for Windows](https://learn.chatgpt.com/docs/windows/windows-app.md): Use the ChatGPT desktop app on Windows with native sandbox and PowerShell support
