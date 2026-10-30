@@ -628,18 +628,18 @@ The latest version of each Claude Platform SDK and of the ant CLI is at https://
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 821 pages - /docs - Content included below
-- German (Deutsch) (de) - 305 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 305 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 305 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 305 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 305 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 305 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 305 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 305 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 305 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 305 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 305 pages - /docs/id - Visit website for content
+- English (en) - 826 pages - /docs - Content included below
+- German (Deutsch) (de) - 306 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 306 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 306 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 306 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 306 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 306 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 306 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 306 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 306 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 306 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 306 pages - /docs/id - Visit website for content
 
 ---
 
@@ -831,7 +831,8 @@ The full documentation is available in the following languages on https://platfo
 - [Set up the Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api-access.md)
 - [Spend Limits API](https://platform.claude.com/docs/en/manage-claude/spend-limits-api.md)
 - [Troubleshooting](https://platform.claude.com/docs/en/manage-claude/cmek-troubleshooting.md) - Troubleshoot CMEK
-- [Usage and Cost API](https://platform.claude.com/docs/en/manage-claude/usage-cost-api.md)
+- [Usage and Cost Analytics API](https://platform.claude.com/docs/en/manage-claude/usage-cost-analytics-api.md)
+- [Usage and Cost API (legacy)](https://platform.claude.com/docs/en/manage-claude/usage-cost-api.md) - Usage and Cost API
 - [AWS](https://platform.claude.com/docs/en/manage-claude/wif-providers/aws.md) - Use WIF with AWS
 - [GitHub Actions](https://platform.claude.com/docs/en/manage-claude/wif-providers/github-actions.md) - Use WIF with GitHub Actions
 - [Google Cloud](https://platform.claude.com/docs/en/manage-claude/wif-providers/gcp.md) - Use WIF with Google Cloud
@@ -1040,6 +1041,7 @@ The full documentation is available in the following languages on https://platfo
 - [Compliance Settings](https://platform.claude.com/docs/en/api/organization/compliance_settings.md)
 - [Compliance Settings (Beta)](https://platform.claude.com/docs/en/api/beta/organization/compliance_settings.md)
 - [Connectors (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/connectors.md)
+- [Cost (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/cost.md)
 - [Cost Report (Beta)](https://platform.claude.com/docs/en/api/beta/organization/cost_report.md)
 - [Cost Report (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/cost_report.md)
 - [Count tokens in a Message](https://platform.claude.com/docs/en/api/messages/count_tokens.md)
@@ -1169,6 +1171,7 @@ The full documentation is available in the following languages on https://platfo
 - [Get Compliance Settings](https://platform.claude.com/docs/en/api/organization/compliance_settings/retrieve.md)
 - [Get Compliance Settings (Beta)](https://platform.claude.com/docs/en/api/beta/organization/compliance_settings/retrieve.md)
 - [Get Connector Usage (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/connectors/list.md)
+- [Get Cost By Dimension (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/cost/list.md)
 - [Get Cost Over Time (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/cost_report/list.md)
 - [Get Cost Report (Beta)](https://platform.claude.com/docs/en/api/beta/organization/cost_report/retrieve.md)
 - [Get Current Organization](https://platform.claude.com/docs/en/api/organization/retrieve.md)
@@ -1216,6 +1219,7 @@ The full documentation is available in the following languages on https://platfo
 - [Get Skill Version (Beta)](https://platform.claude.com/docs/en/api/beta/skills/versions/retrieve.md)
 - [Get Spend Limit (Beta)](https://platform.claude.com/docs/en/api/beta/organization/spend_limits/retrieve.md)
 - [Get Spend Limit Increase Request (Beta)](https://platform.claude.com/docs/en/api/beta/organization/spend_limits/increase_requests/retrieve.md)
+- [Get Token Usage By Dimension (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/usage/list.md)
 - [Get Token Usage Over Time (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/usage_report/list.md)
 - [Get Tunnel (Beta)](https://platform.claude.com/docs/en/api/beta/tunnels/retrieve.md)
 - [Get Tunnel (Beta)](https://platform.claude.com/docs/en/api/beta/organization/mcp_tunnels/retrieve.md)
@@ -1466,6 +1470,7 @@ The full documentation is available in the following languages on https://platfo
 - [Update Workspace Member (Beta)](https://platform.claude.com/docs/en/api/beta/organization/workspaces/members/update.md)
 - [Upload File](https://platform.claude.com/docs/en/api/files/upload.md)
 - [Upload File (Beta)](https://platform.claude.com/docs/en/api/beta/files/upload.md)
+- [Usage (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/usage.md)
 - [Usage Report (Beta)](https://platform.claude.com/docs/en/api/beta/organization/usage_report.md)
 - [Usage Report (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/usage_report.md)
 - [User Cost Report (Beta)](https://platform.claude.com/docs/en/api/beta/organization/analytics/user_cost_report.md)
@@ -2271,13 +2276,13 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Governance](https://learn.chatgpt.com/docs/enterprise/governance.md): Choose the appropriate analytics, usage, and audit surface for each administration question
 - [GPTs and Sharing](https://learn.chatgpt.com/docs/enterprise/gpts-and-sharing.md): Manage GPT sharing, ownership, connected apps, and third-party actions across your workspace.
 - [Groups and provisioning](https://learn.chatgpt.com/docs/enterprise/groups-and-provisioning.md): Understand group membership sources and their workspace access boundary
+- [Import and sync plugins from GitHub](https://learn.chatgpt.com/docs/enterprise/plugin-management.md): Import and sync workspace plugins from GitHub
 - [Local computer access for Work Cloud and dots](https://learn.chatgpt.com/docs/enterprise/cloud-local-access.md): Review shared policies and compatibility, then enable local computer access separately for Work and dots
 - [Manage app updates](https://learn.chatgpt.com/docs/enterprise/manage-app-updates.md): Control how your organization updates the ChatGPT desktop app on macOS and Windows
 - [Manage ChatGPT Space, pages, and slides](https://learn.chatgpt.com/docs/enterprise/chatgpt-space.md): Manage Library sharing permissions in Space, understand existing-access limits, and help members share pages and slide decks.
 - [Manage dots permissions and capabilities](https://learn.chatgpt.com/docs/enterprise/dots-admin-guide.md): Set up dots access, apps, and Slack for your Enterprise workspace.
 - [Managed configuration](https://learn.chatgpt.com/docs/enterprise/managed-configuration.md): Configure requirements and defaults in Agent security and manage advanced or device-local settings
-- [Plugin controls](https://learn.chatgpt.com/docs/enterprise/apps-and-connectors.md): Choose which plugins your team can use, and manage access to their connected services and actions
-- [Plugin management](https://learn.chatgpt.com/docs/enterprise/plugin-management.md): Import and sync workspace plugins from GitHub
+- [Plugin controls](https://learn.chatgpt.com/docs/enterprise/apps-and-connectors.md): Choose plugins for your team's work and manage who can install them, use connected apps, and take actions
 - [Prisma AIRS](https://learn.chatgpt.com/docs/enterprise/prisma-airs.md): Connect Palo Alto Networks Prisma AIRS to scan Codex prompts
 - [Roles and workspace permissions](https://learn.chatgpt.com/docs/enterprise/roles-and-workspace-permissions.md): Separate ChatGPT workspace access from local runtime, API, plugin, and source-system controls
 - [Roll out a gateway](https://learn.chatgpt.com/docs/enterprise/roll-out-a-gateway.md): Distribute and verify a Codex gateway connection for your organization
@@ -2523,7 +2528,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Cline Overview](https://docs.cline.bot/cline-overview.md): Your AI-powered agent for complex work. Read files, write code, run commands, all with your approval.
 - [Installing Cline](https://docs.cline.bot/getting-started/installing-cline.md): Choose your installation path: IDE Extension, CLI, SDK, or Kanban
 - [Cline (usage-billing)](https://docs.cline.bot/getting-started/cline-provider.md): Use Cline (usage-billing) for pay-as-you-go model access with built-in authentication and Cline credits.
-- [ClinePass](https://docs.cline.bot/getting-started/clinepass.md): A low-cost monthly subscription that offers 2-5x the usage on popular open coding models compared to standard API rate.
+- [ClinePass](https://docs.cline.bot/getting-started/clinepass.md): Low-cost monthly subscription to access popular open coding models
 - [Cline Free Models](https://docs.cline.bot/getting-started/free-models.md): Limited-time free model promotions for users with a Cline account.
 - [Authorization](https://docs.cline.bot/getting-started/authorizing-with-cline.md): Authenticate with Cline and choose your first AI model
 - [Local models](https://docs.cline.bot/running-models-locally/overview.md): Run Cline with local models using Ollama, LM Studio or Atomic Chat.
