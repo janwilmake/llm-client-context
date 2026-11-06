@@ -71,7 +71,7 @@
 - [Claude Desktop on Linux (beta)](https://code.claude.com/docs/en/desktop-linux.md): Install and update the Claude desktop app on Ubuntu and Debian
 - [Claude Code Desktop in WSL](https://code.claude.com/docs/en/desktop-wsl.md): Run Code sessions inside a WSL 2 distribution on Windows
 - [Schedule recurring tasks in Claude Code Desktop](https://code.claude.com/docs/en/desktop-scheduled-tasks.md): Set up scheduled tasks in Claude Code Desktop to run Claude automatically on a recurring basis for daily code reviews, dependency audits, or morning briefings.
-- [Test iOS apps in the simulator](https://code.claude.com/docs/en/desktop-ios-simulator.md): Claude Code Desktop opens your app in the iOS Simulator pane when Claude builds, runs, or checks it, with a separate simulator for each session.
+- [Test iOS apps in the simulator](https://code.claude.com/docs/en/desktop-ios-simulator.md): Claude Code Desktop opens your app in the iOS Simulator pane when Claude builds, runs, or checks it.
 
 #### Code review and pull requests
 
@@ -626,18 +626,18 @@ The latest version of each Claude Platform SDK and of the ant CLI is at https://
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 885 pages - /docs - Content included below
-- German (Deutsch) (de) - 308 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 308 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 308 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 308 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 308 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 308 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 308 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 308 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 308 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 308 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 308 pages - /docs/id - Visit website for content
+- English (en) - 886 pages - /docs - Content included below
+- German (Deutsch) (de) - 309 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 309 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 309 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 309 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 309 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 309 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 309 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 309 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 309 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 309 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 309 pages - /docs/id - Visit website for content
 
 ---
 
@@ -811,6 +811,7 @@ The full documentation is available in the following languages on https://platfo
 - [Errors](https://platform.claude.com/docs/en/manage-claude/compliance-errors.md) - Handle Compliance API errors
 - [How it works](https://platform.claude.com/docs/en/manage-claude/cmek-how-it-works.md) - How CMEK works
 - [Overview](https://platform.claude.com/docs/en/manage-claude/inference-hooks.md) - Inference hooks
+- [IP allowlisting (beta)](https://platform.claude.com/docs/en/manage-claude/ip-allowlist.md) - IP allowlisting
 - [Limit key to workspaces](https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms-workspaces.md) - Limit an AWS KMS key to specific workspaces
 - [Organizations, users, roles, groups, and settings](https://platform.claude.com/docs/en/manage-claude/compliance-org-data.md) - List organizations, users, roles, groups, and settings
 - [Manage WIF with the Admin API](https://platform.claude.com/docs/en/manage-claude/wif-admin-api.md)
@@ -1855,6 +1856,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-a-run
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#stream-a-run
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#cancel-a-run
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#get-agent-usage
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-artifacts
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#download-an-artifact
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#archive-an-agent
@@ -1879,7 +1881,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#delete-a-team-secret
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#set-a-personal-secret
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#delete-a-personal-secret
-- https://cursor.com/docs/cloud-agent/api/endpoints.md#worker-tokens
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#create-a-user-scoped-worker-token
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-workers
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-worker-summary
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-worker-by-id
@@ -2317,7 +2319,6 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Admin rollout guide](https://learn.chatgpt.com/docs/enterprise/admin-setup.md): Plan, configure, and verify a ChatGPT Enterprise rollout across workspace and developer surfaces
 - [Agent Security](https://learn.chatgpt.com/docs/enterprise/agent-security.md): Manage Global policies and environment settings for ChatGPT Work and Codex
 - [Analytics API](https://learn.chatgpt.com/docs/enterprise/analytics-api.md): Understand aggregated workspace reporting and Analytics API access
-- [Bedrock through LiteLLM](https://learn.chatgpt.com/docs/enterprise/bedrock-through-litellm.md): Connect Codex to Amazon Bedrock through a LiteLLM gateway
 - [Best practices for ChatGPT Edu workspace configuration in higher education](https://learn.chatgpt.com/docs/enterprise/higher-education-roles-and-permissions.md): Configure higher education permissions with recommended roles, role matrices, and Admin plugin prompts
 - [ChatGPT usage limits and spend controls](https://learn.chatgpt.com/docs/enterprise/usage-limits.md): Understand when ChatGPT workspace credit controls can affect plan-dependent Codex usage
 - [ChatGPT Work admin FAQ](https://learn.chatgpt.com/docs/enterprise/work-admin-faq.md): Manage access, data, governance, observability, usage, and incident controls for ChatGPT Work
@@ -2430,9 +2431,6 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Mobile
 - [Codex on mobile](https://learn.chatgpt.com/docs/mobile.md): Start, guide, approve, and review Codex tasks on a connected computer from your phone.
-
-## Model Catalogs
-- [Implementing model catalogs for gateways and clouds](https://learn.chatgpt.com/docs/model-catalogs.md): Fetch version-specific Codex defaults, apply provider overrides, and serve a model catalog
 
 ## Model Selection
 - [Model selection](https://learn.chatgpt.com/docs/model-selection.md): Find the right model for your use case
@@ -2569,6 +2567,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [What's new](https://learn.chatgpt.com/docs/whats-new.md): A weekly digest of ChatGPT and Codex features that can change how you work
 - [Create your dot in the ChatGPT mobile app](https://learn.chatgpt.com/docs/whats-new/dots-october-9-2026.md): This week in dots: mobile setup, more context from ChatGPT and Codex, and improvements to browsing, notifications, and everyday use.
 - [DevDay 2026](https://learn.chatgpt.com/docs/whats-new/devday-2026.md): DevDay updates across ChatGPT, Codex, Sites, plugins, the API, and Enterprise.
+- [November 2–6, 2026](https://learn.chatgpt.com/docs/whats-new/november-2-6-2026.md): Reply and share on iOS, give feedback in conversation, and continue tasks more reliably on Windows.
 - [October 26–30, 2026](https://learn.chatgpt.com/docs/whats-new/october-26-30-2026.md)
 - [October 5–9, 2026](https://learn.chatgpt.com/docs/whats-new/october-5-9-2026.md)
 - [September 28–October 2, 2026](https://learn.chatgpt.com/docs/whats-new/september-28-october-2-2026.md)
