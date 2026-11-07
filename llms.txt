@@ -706,7 +706,7 @@ The full documentation is available in the following languages on https://platfo
 - [Security](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/security.md) - MCP tunnels security
 - [Memory tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool.md)
 - [Message threads](https://platform.claude.com/docs/en/build-with-claude/message-threads.md)
-- [Mid-conversation system messages and tool changes](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages.md)
+- [Mid-conversation messages](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages.md) - Mid-conversation system messages and tool changes
 - [Multilingual support](https://platform.claude.com/docs/en/build-with-claude/multilingual-support.md)
 - [Parallel tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use.md)
 - [PDF support](https://platform.claude.com/docs/en/build-with-claude/pdf-support.md)
@@ -1607,6 +1607,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/agent/agent-review.md
 - https://cursor.com/docs/agent/plan-mode.md
 - https://cursor.com/docs/agent/prompting.md
+- https://cursor.com/docs/agent/voice-chat.md
 - https://cursor.com/docs/agent/debug-mode.md
 - https://cursor.com/docs/agent/design-mode.md
 - https://cursor.com/docs/agent/tools/terminal.md
@@ -2488,7 +2489,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Sandboxing
 - [Sandbox](https://learn.chatgpt.com/docs/sandboxing.md): How sandboxing works across ChatGPT and Codex clients
-- [Auto-review](https://learn.chatgpt.com/docs/sandboxing/auto-review.md): How Codex routes sandbox-boundary approvals through a reviewer agent
+- [Auto-review](https://learn.chatgpt.com/docs/sandboxing/auto-review.md): How Codex reviews approval requests and how to configure the reviewer's policy
 
 ## Security
 - [Codex Security](https://learn.chatgpt.com/docs/security.md): Scan code, investigate findings, and review fixes with Codex Security.
