@@ -208,7 +208,7 @@
 #### Create plugins
 
 - [Create a Claude Code plugin](https://code.claude.com/docs/en/plugins/create.md): Build your first Claude Code plugin from an empty directory, test it without a marketplace, and convert an existing .claude/ setup.
-- [Add components to a plugin](https://code.claude.com/docs/en/plugins/components.md): Add skills, hooks, MCP servers, and every other component type to a Claude Code plugin, with an example that validates for each.
+- [Add components to a plugin](https://code.claude.com/docs/en/plugins/components.md): Add skills, hooks, MCP servers, and other component types to a Claude Code plugin, with an example that validates for each.
 - [Plugin dependencies](https://code.claude.com/docs/en/plugins/dependencies.md): Declare the plugins your plugin depends on, with version ranges such as ^1.2, and see how Claude Code installs, resolves, and prunes them.
 - [Test plugins with evals](https://code.claude.com/docs/en/plugin-evals.md): Write eval cases for your Claude Code plugin, run them with claude plugin eval, grade the results, compare against a no-plugin baseline, and gate CI on the score.
 - [Publish and distribute a plugin](https://code.claude.com/docs/en/plugins/publish.md): Publish a Claude Code plugin through your own marketplace or Anthropic's directory, with a pre-release checklist and how users get updates.
@@ -251,7 +251,7 @@
 
 #### Reference
 
-- [Plugin manifest reference](https://code.claude.com/docs/en/plugins/manifest-reference.md): Complete reference for plugin.json: every field with its type and default, accepted path forms, and the userConfig and environment variable schemas.
+- [Plugin manifest reference](https://code.claude.com/docs/en/plugins/manifest-reference.md): Complete reference for plugin.json: fields with types and defaults, accepted path forms, and the userConfig and environment variable schemas.
 - [Marketplace reference](https://code.claude.com/docs/en/plugins/marketplace-reference.md): Complete reference for marketplace.json fields, plugin entries, and the plugin and marketplace source objects, with where each is valid.
 - [Plugin commands reference](https://code.claude.com/docs/en/plugins/cli-reference.md): Reference for the claude plugin shell commands, /plugin and /reload-plugins in a session, and the flags that load a plugin for one session.
 
@@ -281,7 +281,7 @@
 
 ### Reference
 
-- [Plugin manifest reference](https://code.claude.com/docs/en/plugins/manifest-reference.md): Complete reference for plugin.json: every field with its type and default, accepted path forms, and the userConfig and environment variable schemas.
+- [Plugin manifest reference](https://code.claude.com/docs/en/plugins/manifest-reference.md): Complete reference for plugin.json: fields with types and defaults, accepted path forms, and the userConfig and environment variable schemas.
 
 ## Administration
 
@@ -596,18 +596,18 @@ The latest version of each Anthropic SDK and of the ant CLI is at https://platfo
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 901 pages - /docs - Content included below
-- German (Deutsch) (de) - 321 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 321 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 321 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 321 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 321 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 321 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 321 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 321 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 321 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 321 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 321 pages - /docs/id - Visit website for content
+- English (en) - 916 pages - /docs - Content included below
+- German (Deutsch) (de) - 336 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 336 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 336 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 336 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 336 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 336 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 336 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 336 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 336 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 336 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 336 pages - /docs/id - Visit website for content
 
 ---
 
@@ -637,6 +637,7 @@ The full documentation is available in the following languages on https://platfo
 - [Browser use tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool.md)
 - [Build an orchestration mode](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example.md)
 - [Cache diagnostics](https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics.md)
+- [Change tools or instructions](https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/change-tools-or-instructions.md) - Change tools or instructions without failing the prefix check
 - [Citations](https://platform.claude.com/docs/en/build-with-claude/citations.md)
 - [Amazon Bedrock (mantle)](https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock.md) - Claude in Amazon Bedrock (bedrock-mantle)
 - [Microsoft Foundry](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry.md) - Claude in Microsoft Foundry
@@ -665,6 +666,7 @@ The full documentation is available in the following languages on https://platfo
 - [Fast mode](https://platform.claude.com/docs/en/build-with-claude/fast-mode.md)
 - [Files API](https://platform.claude.com/docs/en/build-with-claude/files.md)
 - [Fine-grained tool streaming](https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md)
+- [Fix the 400 error](https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/fix-bound-to-a-different-conversation.md) - Fix a thinking block bound to a different conversation
 - [Get your API key](https://platform.claude.com/docs/en/get-api-key.md) - Get your Claude API key
 - [Streaming refusals](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals.md) - Handle streaming refusals
 - [Handle tool calls](https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls.md)
@@ -681,7 +683,8 @@ The full documentation is available in the following languages on https://platfo
 - [Parallel tool use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use.md)
 - [PDF support](https://platform.claude.com/docs/en/build-with-claude/pdf-support.md)
 - [Per-message effort (beta)](https://platform.claude.com/docs/en/build-with-claude/effort-per-message.md) - Per-message effort
-- [Preserved thinking](https://platform.claude.com/docs/en/build-with-claude/preserved-thinking.md)
+- [Prefix checks](https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/prefix-checks.md) - Prefix checks on thinking blocks
+- [Overview](https://platform.claude.com/docs/en/build-with-claude/preserved-thinking.md) - Preserved thinking
 - [Programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling.md)
 - [Prompt caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching.md)
 - [Refusals and fallback](https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback.md)
@@ -720,18 +723,26 @@ The full documentation is available in the following languages on https://platfo
 
 - [Overview](https://platform.claude.com/docs/en/managed-agents/overview.md) - Claude Managed Agents overview
 - [Quickstart](https://platform.claude.com/docs/en/managed-agents/quickstart.md) - Get started with Claude Managed Agents
+- [Quickstart](https://platform.claude.com/docs/en/managed-agents/self-hosted/quickstart.md) - Get started with self-hosted Claude Managed Agents
 - [Access GitHub](https://platform.claude.com/docs/en/managed-agents/github.md) - Accessing GitHub
 - [Attach and download files](https://platform.claude.com/docs/en/managed-agents/files.md) - Adding files
+- [Agent identity and credentials](https://platform.claude.com/docs/en/managed-agents/self-hosted/agent-identity.md)
 - [Authenticate with vaults](https://platform.claude.com/docs/en/managed-agents/vaults.md)
 - [Build in Console](https://platform.claude.com/docs/en/managed-agents/onboarding.md)
+- [Call the API](https://platform.claude.com/docs/en/managed-agents/self-hosted/call-the-api.md) - Call the API on a self-hosted server
 - [Choose an environment](https://platform.claude.com/docs/en/managed-agents/choosing-an-environment.md) - Choosing an agent environment
 - [Cloud environment setup](https://platform.claude.com/docs/en/managed-agents/environments.md)
 - [Cloud sandbox reference](https://platform.claude.com/docs/en/managed-agents/cloud-sandboxes-reference.md)
+- [Configuration reference](https://platform.claude.com/docs/en/managed-agents/self-hosted/configuration-reference.md)
 - [Custom tools and MCP servers](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-custom-tools.md) - Custom tools in self-hosted sandboxes
+- [Data and access](https://platform.claude.com/docs/en/managed-agents/self-hosted-data-and-access.md) - Data and access in self-hosted Claude Managed Agents
 - [Define outcomes](https://platform.claude.com/docs/en/managed-agents/define-outcomes.md)
 - [Agent setup](https://platform.claude.com/docs/en/managed-agents/agent-setup.md) - Define your agent
+- [Deploy on Kubernetes](https://platform.claude.com/docs/en/managed-agents/self-hosted/kubernetes.md)
 - [Deploy workers](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-workers.md) - Deploy self-hosted workers
+- [Differences from hosted](https://platform.claude.com/docs/en/managed-agents/self-hosted/differences.md) - Differences from the hosted service
 - [Dreams](https://platform.claude.com/docs/en/managed-agents/dreams.md)
+- [Inference provider](https://platform.claude.com/docs/en/managed-agents/self-hosted/inference-provider.md)
 - [Inspect and track usage](https://platform.claude.com/docs/en/managed-agents/session-observability.md) - Inspect sessions and track usage
 - [MCP connector](https://platform.claude.com/docs/en/managed-agents/mcp-connector.md)
 - [Memory stores](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-memory.md) - Memory stores in self-hosted sandboxes
@@ -747,16 +758,20 @@ The full documentation is available in the following languages on https://platfo
 - [Secure your deployment](https://platform.claude.com/docs/en/managed-agents/secure-deployment.md) - Secure your Managed Agents deployment
 - [Security model](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security.md)
 - [Risks and boundaries](https://platform.claude.com/docs/en/managed-agents/secure-deployment-risks.md) - Security risks and sandbox boundaries
+- [Overview](https://platform.claude.com/docs/en/managed-agents/self-hosted.md) - Self-hosted Claude Managed Agents
 - [Overview and quickstart](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes.md) - Self-hosted sandboxes
 - [Worker reference](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-reference.md) - Self-hosted worker reference
 - [Session budgets](https://platform.claude.com/docs/en/managed-agents/budgets.md)
 - [Session event stream](https://platform.claude.com/docs/en/managed-agents/events-and-streaming.md)
 - [Session operations](https://platform.claude.com/docs/en/managed-agents/session-operations.md)
 - [Session threads](https://platform.claude.com/docs/en/managed-agents/session-threads.md)
+- [Single sign-on](https://platform.claude.com/docs/en/managed-agents/self-hosted/configure.md)
 - [Agent Skills](https://platform.claude.com/docs/en/managed-agents/skills.md) - Skills
 - [Start a session](https://platform.claude.com/docs/en/managed-agents/sessions.md)
 - [Subscribe to webhooks](https://platform.claude.com/docs/en/managed-agents/webhooks.md)
 - [Tools](https://platform.claude.com/docs/en/managed-agents/tools.md)
+- [Upgrade](https://platform.claude.com/docs/en/managed-agents/self-hosted/upgrade.md) - Upgrade self-hosted Claude Managed Agents
+- [Console](https://platform.claude.com/docs/en/managed-agents/self-hosted/console.md) - Use the console on your server
 - [Memory stores](https://platform.claude.com/docs/en/managed-agents/memory.md) - Using agent memory
 - [Workflow runs](https://platform.claude.com/docs/en/managed-agents/workflow-runs.md)
 
@@ -1571,6 +1586,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
   - https://cursor.com/docs/models/claude-fable-5-2.md
   - https://cursor.com/docs/models/claude-haiku-5-5.md
   - https://cursor.com/docs/models/gemini-4-carbon.md
+  - https://cursor.com/docs/models/gemini-4-hydrogen.md
   - https://cursor.com/docs/models/gemini-4-argon.md
   - https://cursor.com/docs/models/gemini-3-1-pro.md
   - https://cursor.com/docs/models/gemini-3-8-flash.md
@@ -1604,24 +1620,6 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/agent/security.md
   - https://cursor.com/docs/agent/security/run-modes.md
 
-## grok-bot
-
-- https://cursor.com/docs/grok-bot.md
-- https://cursor.com/docs/grok-bot/get-started.md
-- https://cursor.com/docs/grok-bot/use-cases.md
-- https://cursor.com/docs/grok-bot/work.md
-- https://cursor.com/docs/grok-bot/settings.md
-- https://cursor.com/docs/grok-bot/teams.md
-  - https://cursor.com/docs/grok-bot/deployment.md
-  - https://cursor.com/docs/grok-bot/identity.md
-    - https://cursor.com/docs/grok-bot/okta-fastpass.md
-  - https://cursor.com/docs/grok-bot/private-networks.md
-  - https://cursor.com/docs/grok-bot/proxies.md
-  - https://cursor.com/docs/grok-bot/computers.md
-  - https://cursor.com/docs/grok-bot/security.md
-    - https://cursor.com/docs/grok-bot/security-faq.md
-  - https://cursor.com/docs/grok-bot/inference-hooks.md
-
 ## customizing
 
 - https://cursor.com/docs/customize-cursor.md
@@ -1644,7 +1642,8 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/self-hosted/choose-runtime.md
 - https://cursor.com/docs/cloud-agent/automations.md
 - https://cursor.com/docs/bugbot.md
-- https://cursor.com/docs/security-agents.md
+- https://cursor.com/docs/security-review.md
+- https://cursor.com/docs/vulnerability-remediation.md
 - https://cursor.com/docs/approval-agents.md
 - https://cursor.com/docs/rollouts.md
 - https://cursor.com/docs/cloud-agent/mobile.md
@@ -1869,6 +1868,9 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#delete-a-team-secret
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#set-a-personal-secret
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#delete-a-personal-secret
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#list-automations
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#get-an-automation
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#change-an-automations-model
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#create-a-user-scoped-worker-token
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-workers
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-worker-summary
@@ -1904,6 +1906,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/account/teams/admin-api.md#get-daily-usage-data
 - https://cursor.com/docs/account/teams/admin-api.md#get-spending-data
 - https://cursor.com/docs/account/teams/admin-api.md#get-usage-events-data
+- https://cursor.com/docs/account/teams/admin-api.md#get-billing-items
 - https://cursor.com/docs/account/teams/admin-api.md#set-user-spend-limit
 - https://cursor.com/docs/account/teams/admin-api.md#set-user-spend-limits-in-bulk-preview
 - https://cursor.com/docs/account/teams/admin-api.md#remove-team-member
@@ -2069,34 +2072,6 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/help/integrations/github-gitlab.md
 - https://cursor.com/help/integrations/cli.md
 - https://cursor.com/help/integrations/third-party.md
-
-## Grok Bot
-
-- https://cursor.com/help/grok-bot/onboarding.md
-- https://cursor.com/help/grok-bot/how-to.md
-- https://cursor.com/help/grok-bot/faqs.md
-- https://cursor.com/help/grok-bot/sign-in.md
-- https://cursor.com/help/grok-bot/mobile.md
-- https://cursor.com/help/grok-bot/x-chat.md
-- https://cursor.com/help/grok-bot/plans.md
-- https://cursor.com/help/grok-bot/models.md
-- https://cursor.com/help/grok-bot/supergrok.md
-- https://cursor.com/help/grok-bot/mobile-purchase.md
-- https://cursor.com/help/grok-bot/delete-account.md
-- https://cursor.com/help/grok-bot/connect-apps.md
-- https://cursor.com/help/grok-bot/agent-email.md
-- https://cursor.com/help/grok-bot/routines.md
-- https://cursor.com/help/grok-bot/approvals.md
-- https://cursor.com/help/grok-bot/pages.md
-- https://cursor.com/help/grok-bot/create-media.md
-- https://cursor.com/help/grok-bot/edit-bot.md
-- https://cursor.com/help/grok-bot/memory.md
-- https://cursor.com/help/grok-bot/group-chats.md
-- https://cursor.com/help/grok-bot/team-bots.md
-- https://cursor.com/help/grok-bot/voice-chat.md
-- https://cursor.com/help/grok-bot/computer-recovery.md
-- https://cursor.com/help/grok-bot/secrets.md
-- https://cursor.com/help/grok-bot/get-help.md
 
 ## The X Subscription
 
@@ -2319,6 +2294,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Compliance API and audit events](https://learn.chatgpt.com/docs/enterprise/compliance-api.md): Understand the purpose and administration boundary of the Compliance API
 - [Connect to a gateway](https://learn.chatgpt.com/docs/enterprise/connect-to-a-gateway.md): Configure a model gateway and authenticate with native gateway OAuth, an API key, or a credential helper.
 - [Deploy the Windows app and Codex CLI](https://learn.chatgpt.com/docs/enterprise/windows-deployment.md): Deploy the Windows desktop app and Codex CLI with Intune, SCCM, or another enterprise management tool
+- [Desktop browser policies](https://learn.chatgpt.com/docs/enterprise/desktop-browser-policies.md): Deploy and verify supported Chrome policies for the built-in desktop browser
 - [Dynamic groups](https://learn.chatgpt.com/docs/enterprise/dynamic-groups.md): Automatically manage group membership using SCIM user attributes
 - [Gateway compatibility requirements](https://learn.chatgpt.com/docs/enterprise/gateway-compatibility.md): Check the gateway requirements for Codex
 - [Governance](https://learn.chatgpt.com/docs/enterprise/governance.md): Choose the appropriate analytics, usage, and audit surface for each administration question
@@ -2489,18 +2465,21 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [Codex Security plugin quickstart](https://learn.chatgpt.com/docs/security/plugin.md): Install the Codex Security plugin, run your first read-only scan, and review the result in Codex.
 - [Codex Security TypeScript SDK](https://learn.chatgpt.com/docs/security/sdk.md): Run Codex Security scans from TypeScript, select targets, inspect results, and manage scan lifecycle.
 - [Daybreak Defense Factory FAQ](https://learn.chatgpt.com/docs/security/faq.md): Understand cloud scan results, validation, patches, and commit monitoring.
-- [Daybreak Defense Factory setup](https://learn.chatgpt.com/docs/security/setup.md): Install Daybreak Defense Factory, scan a GitHub repository, and review findings.
+- [Daybreak notifications](https://learn.chatgpt.com/docs/security/notifications.md): Send Daybreak scan events to a workspace webhook.
 - [Export and track security findings](https://learn.chatgpt.com/docs/security/plugin/export-findings.md): Export scan results or create issues and draft advisories.
 - [Fix and verify security findings](https://learn.chatgpt.com/docs/security/plugin/fix-findings.md): Generate a patch for a finding and verify that it fixes the issue.
-- [Improve the Daybreak threat model](https://learn.chatgpt.com/docs/security/threat-model.md): Add deployment context and security assumptions to a monitored repository's threat model.
+- [Import scanner findings into Daybreak](https://learn.chatgpt.com/docs/security/scanner-imports.md): Connect Wiz, Snyk Open Source, or Endor Labs, upload a scanner report, and choose which assessed findings to share.
+- [Improve the repository threat model](https://learn.chatgpt.com/docs/security/threat-model.md): Add deployment context and security assumptions to a monitored repository's threat model.
 - [Propose security hardening](https://learn.chatgpt.com/docs/security/plugin/security-hardening.md): Compare architectural changes and their security and engineering tradeoffs.
 - [Review code changes for security](https://learn.chatgpt.com/docs/security/plugin/code-changes.md): Review pull requests and local changes for security regressions manually or in CI/CD.
+- [Review findings and fixes in Daybreak](https://learn.chatgpt.com/docs/security/findings-and-fixes.md): Triage a finding, compare evidence from different scanners, and review a patch before opening a pull request.
 - [Run a Codex Security scan](https://learn.chatgpt.com/docs/security/plugin/scans.md): Scan a repository.
 - [Run a deep security scan](https://learn.chatgpt.com/docs/security/plugin/deep-scans.md): Run repeated security reviews of a repository or folder and set limits on concurrency and duration.
 - [Run bulk security scans](https://learn.chatgpt.com/docs/security/cli/bulk-scans.md): Discover GitHub repositories or run resumable security scans from a CSV inventory.
 - [Run Codex Security in GitHub Actions](https://learn.chatgpt.com/docs/security/cli/ci/github.md): Scan pull requests and repositories with the Codex Security Action, save reports, upload SARIF, and configure enforcement.
 - [Run Codex Security in GitLab CI/CD](https://learn.chatgpt.com/docs/security/cli/ci/gitlab.md): Scan GitLab merge requests and branches, publish SARIF findings, and optionally open draft merge requests with verified fixes.
 - [Security Review](https://learn.chatgpt.com/docs/security/security-review.md): Configure and run in-depth security reviews for GitHub pull requests.
+- [Set up Daybreak Defense Factory](https://learn.chatgpt.com/docs/security/setup.md): Connect GitHub, run your first security scan, and choose how to check future changes.
 - [Triage a backlog](https://learn.chatgpt.com/docs/security/plugin/triage-backlog.md): Review existing security findings against a repository and order follow-up work.
 - [Use the Codex Security workbench](https://learn.chatgpt.com/docs/security/plugin/workbench.md): Start security scans, review findings, and inspect repository history in the Codex desktop app.
 - [Write vulnerability reports](https://learn.chatgpt.com/docs/security/plugin/vulnerability-reports.md): Turn findings, disclosure notes, source, and proof-of-concept material into vulnerability reports with supporting evidence.
