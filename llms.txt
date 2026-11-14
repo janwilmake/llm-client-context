@@ -404,6 +404,7 @@
 - [Model configuration](https://code.claude.com/docs/en/model-config.md): Configure which model Claude Code uses, effort levels, extended context, and the auto-compact window
 - [Speed up responses with fast mode](https://code.claude.com/docs/en/fast-mode.md): Get faster Opus and Fable responses in Claude Code by toggling fast mode with `/fast`.
 - [Escalate hard decisions with the advisor tool](https://code.claude.com/docs/en/advisor.md): Pair your main model with a stronger advisor model that Claude consults at key moments during a task.
+- [Run tool calls from code with Code Mode](https://code.claude.com/docs/en/code-mode.md): Try Code Mode, an experimental feature in which Claude writes JavaScript that makes several tool calls in one step.
 - [Output styles](https://code.claude.com/docs/en/output-styles.md): Change Claude Code's role, tone, and response format with a built-in output style such as Concise or Explanatory, or write a custom style.
 
 #### Interface
@@ -559,17 +560,17 @@
 
 ## Indexes
 
-- [French (203 pages)](https://code.claude.com/docs/_llms/fr.txt): Premiers pas, Développer avec Claude Code, Plugins, Administration, Configuration, Référence, SDK Agent, Ressources.
-- [German (203 pages)](https://code.claude.com/docs/_llms/de.txt): Erste Schritte, Mit Claude Code entwickeln, Plugins, Administration, Konfiguration, Referenz, Agent SDK, Ressourcen.
-- [Italian (203 pages)](https://code.claude.com/docs/_llms/it.txt): Per iniziare, Crea con Claude Code, Plugin, Amministrazione, Configurazione, Riferimento, Agent SDK, Risorse.
-- [Japanese (203 pages)](https://code.claude.com/docs/_llms/jp.txt): はじめに, Claude Code で構築, プラグイン, 管理, 設定, リファレンス, Agent SDK, リソース.
-- [Spanish (203 pages)](https://code.claude.com/docs/_llms/es.txt): Primeros pasos, Crea con Claude Code, Plugins, Administración, Configuración, Referencia, Agent SDK, Recursos.
-- [Korean (203 pages)](https://code.claude.com/docs/_llms/ko.txt): 시작하기, Claude Code로 만들기, 플러그인, 관리, 구성, 레퍼런스, Agent SDK, 리소스.
-- [Simplified Chinese (203 pages)](https://code.claude.com/docs/_llms/zh-cn.txt): 快速入门, 使用 Claude Code 构建, 插件, 管理, 配置, 参考, Agent SDK, 资源.
-- [Traditional Chinese (203 pages)](https://code.claude.com/docs/_llms/zh-tw.txt): 快速入門, 使用 Claude Code 打造, 外掛, 管理, 設定, 參考資料, Agent SDK, 資源.
-- [Russian (203 pages)](https://code.claude.com/docs/_llms/ru.txt): Начало работы, Разработка с Claude Code, Плагины, Администрирование, Конфигурация, Справочник, Agent SDK, Ресурсы.
-- [Indonesian (203 pages)](https://code.claude.com/docs/_llms/id.txt): Memulai, Membangun dengan Claude Code, Plugin, Administrasi, Konfigurasi, Referensi, Agent SDK, Sumber Daya.
-- [Brazilian Portuguese (203 pages)](https://code.claude.com/docs/_llms/pt-br.txt): Primeiros passos, Desenvolva com Claude Code, Plugins, Administração, Configuração, Referência, Agent SDK, Recursos.
+- [French (204 pages)](https://code.claude.com/docs/_llms/fr.txt): Premiers pas, Développer avec Claude Code, Plugins, Administration, Configuration, Référence, SDK Agent, Ressources.
+- [German (204 pages)](https://code.claude.com/docs/_llms/de.txt): Erste Schritte, Mit Claude Code entwickeln, Plugins, Administration, Konfiguration, Referenz, Agent SDK, Ressourcen.
+- [Italian (204 pages)](https://code.claude.com/docs/_llms/it.txt): Per iniziare, Crea con Claude Code, Plugin, Amministrazione, Configurazione, Riferimento, Agent SDK, Risorse.
+- [Japanese (204 pages)](https://code.claude.com/docs/_llms/jp.txt): はじめに, Claude Code で構築, プラグイン, 管理, 設定, リファレンス, Agent SDK, リソース.
+- [Spanish (204 pages)](https://code.claude.com/docs/_llms/es.txt): Primeros pasos, Crea con Claude Code, Plugins, Administración, Configuración, Referencia, Agent SDK, Recursos.
+- [Korean (204 pages)](https://code.claude.com/docs/_llms/ko.txt): 시작하기, Claude Code로 만들기, 플러그인, 관리, 구성, 레퍼런스, Agent SDK, 리소스.
+- [Simplified Chinese (204 pages)](https://code.claude.com/docs/_llms/zh-cn.txt): 快速入门, 使用 Claude Code 构建, 插件, 管理, 配置, 参考, Agent SDK, 资源.
+- [Traditional Chinese (204 pages)](https://code.claude.com/docs/_llms/zh-tw.txt): 快速入門, 使用 Claude Code 打造, 外掛, 管理, 設定, 參考資料, Agent SDK, 資源.
+- [Russian (204 pages)](https://code.claude.com/docs/_llms/ru.txt): Начало работы, Разработка с Claude Code, Плагины, Администрирование, Конфигурация, Справочник, Agent SDK, Ресурсы.
+- [Indonesian (204 pages)](https://code.claude.com/docs/_llms/id.txt): Memulai, Membangun dengan Claude Code, Plugin, Administrasi, Konfigurasi, Referensi, Agent SDK, Sumber Daya.
+- [Brazilian Portuguese (204 pages)](https://code.claude.com/docs/_llms/pt-br.txt): Primeiros passos, Desenvolva com Claude Code, Plugins, Administração, Configuração, Referência, Agent SDK, Recursos.
 
 
 # Source: https://platform.claude.com/llms.txt
@@ -1842,6 +1843,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-runs
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-a-run
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#stream-a-run
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#stream-an-agent
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#cancel-a-run
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-agent-usage
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-artifacts
@@ -1849,6 +1851,13 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#archive-an-agent
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#unarchive-an-agent
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#delete-an-agent-permanently
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#create-a-project
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#list-projects
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#get-a-project
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#list-project-agents
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#update-a-project
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#archive-a-project
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#unarchive-a-project
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#create-an-environment
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-environments
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-an-environment
@@ -2116,6 +2125,7 @@ Start with the product index that matches your task. Product indexes route to de
 - [Workspace Agents API](https://developers.openai.com/workspace-agents/llms.txt): Authenticate API calls, trigger published workspace agent runs, and inspect run results.
 - [Codex developer tools](https://developers.openai.com/codex/llms.txt): Codex CLI, IDE, cloud, config.toml, authentication, customization, automation, and security.
 - [ChatGPT product documentation](https://learn.chatgpt.com/llms.txt): ChatGPT Work, administration, collaboration, and product guidance.
+- [Agent Access](https://developers.openai.com/commerce/agent-access.md): Allow verified ChatGPT browser visits with CDN and firewall configuration.
 - [Agentic Commerce Protocol](https://developers.openai.com/commerce/llms.txt): Merchant onboarding, product feeds, checkout sessions, delegated payments, and production guidance.
 - [OpenAI developer blog](https://developers.openai.com/blog/llms.txt): Engineering articles, product launches, technical deep dives, and developer announcements.
 - [OpenAI Cookbook examples](https://developers.openai.com/cookbook/llms.txt): Practical code examples and patterns for APIs, agents, evals, multimodal applications, and integrations.
@@ -2135,7 +2145,7 @@ Start with the product index that matches your task. Product indexes route to de
 - [Plugins and Apps SDK quickstart](https://developers.openai.com/plugins/build/app-quickstart.md): Build an MCP server with tools and an optional ChatGPT interface.
 - [Trigger workspace agent runs](https://developers.openai.com/workspace-agents/trigger-runs.md): Start ChatGPT workspace agents from backend systems and automations.
 - [Ads API quickstart](https://developers.openai.com/ads/api-quickstart.md): Launch your first Ads API workflow.
-- [Agentic checkout specification](https://developers.openai.com/commerce/specs/checkout.md): Implement the Agentic Commerce checkout flow.
+- [Accept payments](https://developers.openai.com/commerce/guides/accept-payments.md): Accept ChatGPT wallet payments on your website.
 - [Codex configuration reference](https://developers.openai.com/codex/config-file/config-reference.md): Look up Codex config.toml and requirements.toml settings.
 - [Codex CLI customization](https://developers.openai.com/codex/cli-customization.md): Customize the terminal interface, editor, completions, and shortcuts.
 
