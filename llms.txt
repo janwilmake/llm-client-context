@@ -99,26 +99,6 @@
 - [Use Claude Code GitHub Actions with cloud providers](https://code.claude.com/docs/en/github-actions-cloud-providers.md): Run Claude Code GitHub Actions through Amazon Bedrock, Google Cloud's Agent Platform, or Microsoft Foundry instead of the Claude API
 - [Claude Code GitLab CI/CD](https://code.claude.com/docs/en/gitlab-ci-cd.md): Learn about integrating Claude Code into your development workflow with GitLab CI/CD
 
-### Quickstart
-
-- [Quickstart](https://code.claude.com/docs/en/quickstart.md): Install Claude Code in your terminal, sign in, and use the CLI to explore your codebase and make your first code change.
-
-### Core concepts
-
-- [How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works.md): Understand the agentic loop, built-in tools, and how Claude Code interacts with your project.
-
-### Use Claude Code
-
-- [How Claude remembers your project](https://code.claude.com/docs/en/memory.md): Give Claude persistent instructions with CLAUDE.md or AGENTS.md files, and let Claude accumulate learnings automatically with auto memory.
-
-### Platforms and integrations
-
-- [Platforms and integrations](https://code.claude.com/docs/en/platforms.md): Choose where to run Claude Code and what to connect it to. Compare the CLI, Desktop, VS Code, JetBrains, web, mobile, and integrations like Chrome, Slack, and CI/CD.
-
-### Code review and pull requests
-
-- [Code Review](https://code.claude.com/docs/en/code-review.md): Catch bugs in GitHub pull requests with Code Review: Claude reviews each change, verifies its findings, and comments inline. For Team and Enterprise plans
-
 ## Build with Claude Code
 
 ### Agents and parallel work
@@ -165,30 +145,6 @@
 - [Troubleshooting](https://code.claude.com/docs/en/troubleshooting.md): Fix high CPU or memory usage, hangs, auto-compact thrashing, and search problems in Claude Code, and find the right page for other issues.
 - [Debug your configuration](https://code.claude.com/docs/en/debug-your-config.md): Diagnose why CLAUDE.md, settings, hooks, MCP servers, or skills aren't taking effect. Use /context, /doctor, /hooks, and /mcp to see what actually loaded.
 - [Error reference](https://code.claude.com/docs/en/errors.md): Look up Claude Code runtime error messages with what each one means and how to fix it.
-
-### MCP
-
-- [Connect to MCP servers](https://code.claude.com/docs/en/mcp-quickstart.md): Add an MCP server to Claude Code, verify the connection, and find the configuration on disk.
-
-### Skills
-
-- [Extend Claude with skills](https://code.claude.com/docs/en/skills.md): Create, manage, and share skills to extend Claude's capabilities in Claude Code. Includes custom commands and bundled skills.
-
-### Artifacts
-
-- [Share session output as artifacts](https://code.claude.com/docs/en/artifacts.md): Artifacts turn Claude Code's work into live, interactive pages on claude.ai that you can keep private, share with your organization, or publish to a public link.
-
-### Automation
-
-- [Automate actions with hooks](https://code.claude.com/docs/en/hooks-guide.md): Run shell commands automatically when Claude Code edits files, finishes tasks, or needs input. Format code, send notifications, validate commands, and enforce project rules.
-
-### Guides
-
-- [Set up Claude Code in a monorepo or large codebase](https://code.claude.com/docs/en/large-codebases.md): Configure Claude Code for monorepos and large single-tree codebases with nested CLAUDE.md files, sparse worktrees, code intelligence, and per-package skills so Claude stays focused on the code you're working in.
-
-### Troubleshooting
-
-- [Troubleshoot installation and login](https://code.claude.com/docs/en/troubleshoot-install.md): Fix command not found, PATH, permission, network, and authentication errors when installing or signing in to Claude Code.
 
 ## Plugins
 
@@ -255,34 +211,6 @@
 - [Marketplace reference](https://code.claude.com/docs/en/plugins/marketplace-reference.md): Complete reference for marketplace.json fields, plugin entries, and the plugin and marketplace source objects, with where each is valid.
 - [Plugin commands reference](https://code.claude.com/docs/en/plugins/cli-reference.md): Reference for the claude plugin shell commands, /plugin and /reload-plugins in a session, and the flags that load a plugin for one session.
 
-### Use plugins
-
-- [Install and manage plugins](https://code.claude.com/docs/en/plugins/install.md): Install Claude Code plugins from a marketplace on any surface you use, choose an install scope, and update or remove them later.
-
-### Create plugins
-
-- [Create a Claude Code plugin](https://code.claude.com/docs/en/plugins/create.md): Build your first Claude Code plugin from an empty directory, test it without a marketplace, and convert an existing .claude/ setup.
-
-### Mods
-
-- [Mods overview](https://code.claude.com/docs/en/plugins/mods/overview.md): Add panes, commands, and tool call rules to Claude Code with a mod. See what a mod can do, how to make or install one, and where mods run.
-
-### Run a marketplace
-
-- [Create a marketplace](https://code.claude.com/docs/en/plugins/create-marketplace.md): Build a plugin marketplace from a marketplace.json file and test it locally before you host it.
-
-### Manage plugins for your organization
-
-- [Manage Claude Code plugins for your organization](https://code.claude.com/docs/en/plugins/org.md): Control which plugins Claude Code installs and allows across your organization through managed settings.
-
-### Troubleshooting
-
-- [Troubleshoot plugins](https://code.claude.com/docs/en/plugins/troubleshooting.md): Fix plugin errors in Claude Code. Find the exact message you saw, grouped by stage from where /plugin runs through install and org policy.
-
-### Reference
-
-- [Plugin manifest reference](https://code.claude.com/docs/en/plugins/manifest-reference.md): Complete reference for plugin.json: fields with types and defaults, accepted path forms, and the userConfig and environment variable schemas.
-
 ## Administration
 
 ### Setup and access
@@ -295,7 +223,7 @@
 - [Deploy managed settings](https://code.claude.com/docs/en/managed-settings.md): Deploy managed settings to every developer's machine: delivery mechanisms per OS, how Claude Code combines managed sources, and how to verify enforcement.
 - [Configure server-managed settings](https://code.claude.com/docs/en/server-managed-settings.md): Centrally configure Claude Code for your organization through server-delivered settings, without requiring device management infrastructure.
 - [Control MCP server access for your organization](https://code.claude.com/docs/en/managed-mcp.md): Restrict which MCP servers users can add or connect to, or provide servers to every user, with managed configuration files, managed settings, allowlists, and denylists.
-- [Configure auto mode](https://code.claude.com/docs/en/auto-mode-config.md): Tell the auto mode classifier which repos, buckets, and domains your organization trusts. Set environment context, override the default block and allow rules, and inspect your effective config with the auto-mode CLI subcommands.
+- [Configure auto mode](https://code.claude.com/docs/en/auto-mode-config.md): Tell the auto mode classifier which repos, buckets, and domains your organization trusts, set your own block and allow rules, and inspect your config.
 
 #### Deployment
 
@@ -348,26 +276,6 @@
 - [Communications kit](https://code.claude.com/docs/en/communications-kit.md): Launch announcements, drip-campaign messages, and FAQ responses for rolling Claude Code out to your engineering organization.
 - [Champion kit](https://code.claude.com/docs/en/champion-kit.md): A playbook for engineers advocating Claude Code internally: what to share, how to answer questions, and how to grow adoption on your team.
 
-### Deployment
-
-- [Enterprise deployment overview](https://code.claude.com/docs/en/third-party-integrations.md): Learn how Claude Code can integrate with various third-party services and infrastructure to meet enterprise deployment requirements.
-
-### Gateways
-
-- [Run Claude Code through a gateway](https://code.claude.com/docs/en/gateways.md): Route Claude Code through a self-hosted gateway for centralized credentials, usage tracking, and cost controls. Covers the architecture, Anthropic's Claude apps gateway, and using other gateway products.
-
-### Usage and costs
-
-- [Monitoring](https://code.claude.com/docs/en/monitoring-usage.md): Learn how to enable and configure OpenTelemetry for Claude Code.
-
-### Security and data
-
-- [Security](https://code.claude.com/docs/en/security.md): Learn about Claude Code's security safeguards and best practices for safe usage.
-
-### Adoption
-
-- [Communications kit](https://code.claude.com/docs/en/communications-kit.md): Launch announcements, drip-campaign messages, and FAQ responses for rolling Claude Code out to your engineering organization.
-
 ## Configuration
 
 ### Settings
@@ -417,22 +325,6 @@
 - [Customize your status line](https://code.claude.com/docs/en/statusline.md): Configure a custom status bar to monitor context window usage, costs, and git status in Claude Code
 - [Customize keyboard shortcuts](https://code.claude.com/docs/en/keybindings.md): Customize keyboard shortcuts in Claude Code with a keybindings configuration file.
 
-### Permissions and sandboxing
-
-- [Configure permissions](https://code.claude.com/docs/en/permissions.md): Control what Claude Code can access and do with fine-grained permission rules, modes, and managed policies.
-
-### Environments
-
-- [Configure cloud environments](https://code.claude.com/docs/en/cloud-environments.md): Configure cloud environments for Claude Code cloud sessions: network access levels, environment variables, setup scripts, and environment caching.
-
-### Model and responses
-
-- [Model configuration](https://code.claude.com/docs/en/model-config.md): Configure which model Claude Code uses, effort levels, extended context, and the auto-compact window
-
-### Interface
-
-- [Configure your terminal for Claude Code](https://code.claude.com/docs/en/terminal-config.md): Fix Shift+Enter for newlines, get a terminal bell when Claude finishes, configure tmux, match the color theme, and enable Vim mode in the Claude Code CLI.
-
 ## Reference
 
 ### Reference
@@ -449,10 +341,6 @@
 - [Channels reference](https://code.claude.com/docs/en/channels-reference.md): Build an MCP server that pushes webhooks, alerts, and chat messages into a Claude Code session. Reference for the channel contract: capability declaration, notification events, reply tools, sender gating, and permission relay.
 
 #### Glossary
-
-- [Glossary](https://code.claude.com/docs/en/glossary.md): Definitions for Claude Code terminology. Learn what agentic loop, compaction, CLAUDE.md, hooks, subagents, MCP, and other core concepts mean.
-
-### Glossary
 
 - [Glossary](https://code.claude.com/docs/en/glossary.md): Definitions for Claude Code terminology. Learn what agentic loop, compaction, CLAUDE.md, hooks, subagents, MCP, and other core concepts mean.
 
@@ -519,38 +407,6 @@
 - [TypeScript SDK V2 session API (removed)](https://code.claude.com/docs/en/agent-sdk/typescript-v2-preview.md): Reference for the removed V2 TypeScript Agent SDK session API, with session-based send/stream patterns for multi-turn conversations.
 - [Agent SDK reference - Python](https://code.claude.com/docs/en/agent-sdk/python.md): Complete API reference for the Python Agent SDK, including all functions, types, and classes.
 
-### Build agents
-
-- [Configure your agent](https://code.claude.com/docs/en/agent-sdk/configuration.md): Configure Agent SDK sessions: compose the options object, set the model, environment, and limits, and find each feature option's page.
-
-### Core concepts
-
-- [How the agent loop works](https://code.claude.com/docs/en/agent-sdk/agent-loop.md): Understand the message lifecycle, tool execution, context window, and architecture that power your SDK agents.
-
-### Input and output
-
-- [Send messages to a running agent](https://code.claude.com/docs/en/agent-sdk/streaming-vs-single-mode.md): Send follow-up messages and images to one Agent SDK session with streaming input, read each response, and interrupt a response to redirect Claude.
-
-### Extend with tools
-
-- [Give Claude custom tools](https://code.claude.com/docs/en/agent-sdk/custom-tools.md): Define custom tools with the Claude Agent SDK's in-process MCP server so Claude can call your functions, hit your APIs, and perform domain-specific operations.
-
-### Customize behavior
-
-- [Modifying system prompts](https://code.claude.com/docs/en/agent-sdk/modifying-system-prompts.md): Choose between the `claude_code` preset and a custom system prompt, and customize behavior with CLAUDE.md, output styles, append, or a fully custom prompt.
-
-### Control and observability
-
-- [Configure permissions](https://code.claude.com/docs/en/agent-sdk/permissions.md): Control how your agent uses tools with permission modes, hooks, and declarative allow/deny rules.
-
-### Deployment
-
-- [Hosting the Agent SDK](https://code.claude.com/docs/en/agent-sdk/hosting.md): Deploy the Agent SDK in production: subprocess architecture, session persistence, scaling, observability, and multi-tenant isolation for Docker, Kubernetes, and sandbox providers.
-
-### SDK references
-
-- [Agent SDK reference - TypeScript](https://code.claude.com/docs/en/agent-sdk/typescript.md): Complete API reference for the TypeScript Agent SDK, including all functions, types, and interfaces.
-
 ## Resources
 
 ### Resources
@@ -598,18 +454,18 @@ The latest version of each Anthropic SDK and of the ant CLI is at https://platfo
 
 The full documentation is available in the following languages on https://platform.claude.com/docs:
 
-- English (en) - 916 pages - /docs - Content included below
-- German (Deutsch) (de) - 336 pages - /docs/de - Visit website for content
-- Spanish (Español) (es) - 336 pages - /docs/es - Visit website for content
-- French (Français) (fr) - 336 pages - /docs/fr - Visit website for content
-- Italian (Italiano) (it) - 336 pages - /docs/it - Visit website for content
-- Japanese (日本語) (ja) - 336 pages - /docs/ja - Visit website for content
-- Korean (한국어) (ko) - 336 pages - /docs/ko - Visit website for content
-- Portuguese (Português) (pt-BR) - 336 pages - /docs/pt-BR - Visit website for content
-- Russian (Русский) (ru) - 336 pages - /docs/ru - Visit website for content
-- Chinese Simplified (简体中文) (zh-CN) - 336 pages - /docs/zh-CN - Visit website for content
-- Chinese Traditional (繁體中文) (zh-TW) - 336 pages - /docs/zh-TW - Visit website for content
-- Indonesian (Bahasa Indonesia) (id) - 336 pages - /docs/id - Visit website for content
+- English (en) - 922 pages - /docs - Content included below
+- German (Deutsch) (de) - 341 pages - /docs/de - Visit website for content
+- Spanish (Español) (es) - 341 pages - /docs/es - Visit website for content
+- French (Français) (fr) - 341 pages - /docs/fr - Visit website for content
+- Italian (Italiano) (it) - 341 pages - /docs/it - Visit website for content
+- Japanese (日本語) (ja) - 341 pages - /docs/ja - Visit website for content
+- Korean (한국어) (ko) - 341 pages - /docs/ko - Visit website for content
+- Portuguese (Português) (pt-BR) - 341 pages - /docs/pt-BR - Visit website for content
+- Russian (Русский) (ru) - 341 pages - /docs/ru - Visit website for content
+- Chinese Simplified (简体中文) (zh-CN) - 341 pages - /docs/zh-CN - Visit website for content
+- Chinese Traditional (繁體中文) (zh-TW) - 341 pages - /docs/zh-TW - Visit website for content
+- Indonesian (Bahasa Indonesia) (id) - 341 pages - /docs/id - Visit website for content
 
 ---
 
@@ -779,6 +635,7 @@ The full documentation is available in the following languages on https://platfo
 
 ### Admin
 
+- [Overview](https://platform.claude.com/docs/en/manage-claude/oauth-apps/overview.md) - Claude Platform OAuth (EAP)
 - [Overview](https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/overview.md) - Security posture in the Compliance API
 - [Overview](https://platform.claude.com/docs/en/manage-claude/access-transparency.md) - Access Transparency
 - [Admin API](https://platform.claude.com/docs/en/manage-claude/cmek-admin-api.md) - Add and attach an encryption key with the Admin API
@@ -786,6 +643,8 @@ The full documentation is available in the following languages on https://platfo
 - [Analytics APIs](https://platform.claude.com/docs/en/manage-claude/analytics-api.md)
 - [API and data retention](https://platform.claude.com/docs/en/manage-claude/api-and-data-retention.md)
 - [App Attest](https://platform.claude.com/docs/en/manage-claude/app-attest.md) - App Attest for iOS and macOS apps
+- [App testing and review](https://platform.claude.com/docs/en/manage-claude/oauth-apps/app-review.md) - App testing and review (EAP)
+- [Branding samples](https://platform.claude.com/docs/en/manage-claude/oauth-apps/branding-samples.md) - Branding samples (EAP)
 - [Check events against results](https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/check-events-against-results.md) - Check stored Security posture events against current results
 - [Claude Code Analytics API](https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api.md)
 - [Claude Tag API](https://platform.claude.com/docs/en/manage-claude/claude-tag-api.md)
@@ -804,9 +663,11 @@ The full documentation is available in the following languages on https://platfo
 - [Overview](https://platform.claude.com/docs/en/manage-claude/inference-hooks.md) - Inference hooks
 - [IP allowlisting (beta)](https://platform.claude.com/docs/en/manage-claude/ip-allowlist.md) - IP allowlisting
 - [Limit key to workspaces](https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms-workspaces.md) - Limit an AWS KMS key to specific workspaces
+- [Linked billing](https://platform.claude.com/docs/en/manage-claude/oauth-apps/organization-billing-connections.md) - Linked billing (EAP)
 - [Organizations, users, roles, groups, and settings](https://platform.claude.com/docs/en/manage-claude/compliance-org-data.md) - List organizations, users, roles, groups, and settings
 - [Manage WIF with the Admin API](https://platform.claude.com/docs/en/manage-claude/wif-admin-api.md)
 - [Map events to OCSF](https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/ocsf-mapping.md) - Map Security posture events to OCSF
+- [OAuth reference](https://platform.claude.com/docs/en/manage-claude/oauth-apps/oauth-reference.md) - OAuth reference (EAP)
 - [Overview](https://platform.claude.com/docs/en/manage-claude/opentelemetry.md) - OpenTelemetry tracing for the Claude API
 - [Organization webhooks (beta)](https://platform.claude.com/docs/en/manage-claude/organization-webhooks.md) - Organization webhooks
 - [Plugins API](https://platform.claude.com/docs/en/manage-claude/plugins-api.md)
@@ -1495,6 +1356,7 @@ The full documentation is available in the following languages on https://platfo
 - [Update Agent (Beta)](https://platform.claude.com/docs/en/api/beta/agents/update.md)
 - [Update API Key](https://platform.claude.com/docs/en/api/organization/api_keys/update.md)
 - [Update API Key (Beta)](https://platform.claude.com/docs/en/api/beta/organization/api_keys/update.md)
+- [Update Bundle (Beta)](https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/update.md)
 - [Update Compliance Settings](https://platform.claude.com/docs/en/api/organization/compliance_settings/update.md)
 - [Update Compliance Settings (Beta)](https://platform.claude.com/docs/en/api/beta/organization/compliance_settings/update.md)
 - [Update Deployment (Beta)](https://platform.claude.com/docs/en/api/beta/deployments/update.md)
@@ -1886,6 +1748,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-workers
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-worker-summary
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#get-worker-by-id
+- https://cursor.com/docs/cloud-agent/api/endpoints.md#list-workers-by-id
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#list-pools
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#register-a-pool
 - https://cursor.com/docs/cloud-agent/api/endpoints.md#deregister-a-pool
@@ -2190,8 +2053,8 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Agent Configuration
 - [Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md.md): Give Codex extra instructions and context for your project
+- [Fast and Ultrafast modes](https://learn.chatgpt.com/docs/agent-configuration/speed.md): Choose a speed in the ChatGPT Work or Codex composer and check which models and plans support Ultrafast.
 - [Rules](https://learn.chatgpt.com/docs/agent-configuration/rules.md): Control which commands Codex can run outside the sandbox
-- [Speed](https://learn.chatgpt.com/docs/agent-configuration/speed.md): Increase speed without sacrificing intelligence
 - [Subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents.md): Use subagents in ChatGPT and Codex, and configure custom Codex agents
 
 ## Amazon Bedrock
@@ -2304,6 +2167,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [ChatGPT Work: usage and cost](https://learn.chatgpt.com/docs/enterprise/chatgpt-work-usage-and-cost.md): Understand shared credit consumption, billing impact, spending controls, and role-based adoption planning for ChatGPT Work
 - [Codex security cookbook](https://learn.chatgpt.com/docs/enterprise/security-cookbook.md): Configure, verify, and combine enterprise controls for Codex access, files, services, and actions
 - [Compliance API and audit events](https://learn.chatgpt.com/docs/enterprise/compliance-api.md): Understand the purpose and administration boundary of the Compliance API
+- [Connect Codex to Google Cloud Vertex AI](https://learn.chatgpt.com/docs/enterprise/connect-to-vertex-ai.md): Configure Codex to send model requests through your Google Cloud project.
 - [Connect to a gateway](https://learn.chatgpt.com/docs/enterprise/connect-to-a-gateway.md): Configure a model gateway and authenticate with native gateway OAuth, an API key, or a credential helper.
 - [Deploy the Windows app and Codex CLI](https://learn.chatgpt.com/docs/enterprise/windows-deployment.md): Deploy the Windows desktop app and Codex CLI with Intune, SCCM, or another enterprise management tool
 - [Desktop browser policies](https://learn.chatgpt.com/docs/enterprise/desktop-browser-policies.md): Deploy and verify supported Chrome policies for the built-in desktop browser
@@ -2393,6 +2257,8 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 
 ## Learn
 - [Best practices](https://learn.chatgpt.com/guides/best-practices.md): Getting started with Codex and proven practices for better results
+- [From concept art to editable SVGs and 3D scenes](https://learn.chatgpt.com/guides/svg-3d-design.md): Use GPT Image references and Astra to design editable icons, animate SVG illustrations with JavaScript, and art direct 3D scenes.
+- [Prompting GPT-6.2 in Codex](https://learn.chatgpt.com/guides/prompting-gpt-6-2-astra.md): Choose reasoning effort, delegate parallel work, and refine visual assets with the GPT-6.2 model family in Codex.
 
 ## Linux
 - [ChatGPT desktop app for Linux](https://learn.chatgpt.com/docs/linux/linux-app.md): Install and update ChatGPT on supported Ubuntu, Debian, Fedora, and Arch Linux desktop distributions
@@ -2547,6 +2413,7 @@ Use this as a compact map of ChatGPT docs for Codex. Each page has a Markdown tw
 - [What's new](https://learn.chatgpt.com/docs/whats-new.md): A weekly digest of ChatGPT and Codex features that can change how you work
 - [Create your dot in the ChatGPT mobile app](https://learn.chatgpt.com/docs/whats-new/dots-october-9-2026.md): This week in dots: mobile setup, more context from ChatGPT and Codex, and improvements to browsing, notifications, and everyday use.
 - [DevDay 2026](https://learn.chatgpt.com/docs/whats-new/devday-2026.md): DevDay updates across ChatGPT, Codex, Sites, plugins, the API, and Enterprise.
+- [GPT-6.2](https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol.md): See what GPT-6.2 brings to the Responses API, Codex, and ChatGPT Work, including conversation settings, speed options, and model availability.
 - [November 2–6, 2026](https://learn.chatgpt.com/docs/whats-new/november-2-6-2026.md): Reply and share on iOS, give feedback in conversation, and continue tasks more reliably on Windows.
 - [October 26–30, 2026](https://learn.chatgpt.com/docs/whats-new/october-26-30-2026.md)
 - [October 5–9, 2026](https://learn.chatgpt.com/docs/whats-new/october-5-9-2026.md)
