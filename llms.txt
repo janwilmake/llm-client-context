@@ -1713,6 +1713,7 @@ For more comprehensive documentation, see [llms-full.txt](https://platform.claud
 - https://cursor.com/docs/security/sessions.md
 - https://cursor.com/docs/security/network-controls.md
 - https://cursor.com/docs/security/oauth-applications.md
+- https://cursor.com/docs/security/trusted-issuers.md
 
 ## Account
 
